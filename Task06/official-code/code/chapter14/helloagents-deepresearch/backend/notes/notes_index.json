@@ -1,0 +1,328 @@
+{
+  "notes": [
+    {
+      "id": "note_20251226_144812_0",
+      "title": "任务 4: 专家观点",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_4"
+      ],
+      "created_at": "2025-12-26T14:48:12.741527"
+    },
+    {
+      "id": "note_20251226_171140_1",
+      "title": "研究报告：多模态发展",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-26T17:11:40.030652"
+    },
+    {
+      "id": "note_20251226_171230_2",
+      "title": "研究报告：agent最新发展",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-26T17:12:30.988766"
+    },
+    {
+      "id": "note_20251227_133446_3",
+      "title": "研究报告：大语言模型 Agent 的发展趋势",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T13:34:46.381747"
+    },
+    {
+      "id": "note_20251227_133618_4",
+      "title": "研究报告：多模态进展",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T13:36:18.798581"
+    },
+    {
+      "id": "note_20251227_133703_5",
+      "title": "研究报告：2025年人工智能的最新突破",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T13:37:03.513102"
+    },
+    {
+      "id": "note_20251227_133709_6",
+      "title": "研究报告：2025年人工智能的最新突破",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T13:37:09.096766"
+    },
+    {
+      "id": "note_20251227_134500_7",
+      "title": "研究报告：大语言模型 Agent 的发展趋势",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T13:45:00.903516"
+    },
+    {
+      "id": "note_20251227_134503_8",
+      "title": "研究报告：大语言模型 Agent 的发展趋势",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T13:45:03.996607"
+    },
+    {
+      "id": "note_20251227_134703_9",
+      "title": "任务 3: 应用领域",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_3"
+      ],
+      "created_at": "2025-12-27T13:47:03.678949"
+    },
+    {
+      "id": "note_20251227_134703_10",
+      "title": "任务 3: 应用领域",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_3"
+      ],
+      "created_at": "2025-12-27T13:47:03.685142"
+    },
+    {
+      "id": "note_20251227_134734_11",
+      "title": "任务 3: 应用领域",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_3"
+      ],
+      "created_at": "2025-12-27T13:47:34.358413"
+    },
+    {
+      "id": "note_20251227_134735_12",
+      "title": "任务 1: 背景梳理",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_1"
+      ],
+      "created_at": "2025-12-27T13:47:35.143200"
+    },
+    {
+      "id": "note_20251227_134902_13",
+      "title": "研究报告：大语言模型 Agent 的发展趋势",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T13:49:02.298440"
+    },
+    {
+      "id": "note_20251227_135953_14",
+      "title": "研究报告：Python 3.12 新特性",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T13:59:53.539984"
+    },
+    {
+      "id": "note_20251227_140000_15",
+      "title": "研究报告：Python 3.12 新特性",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T14:00:00.895543"
+    },
+    {
+      "id": "note_20251227_140011_16",
+      "title": "研究报告：多模态模型在2025年最新发展情况",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T14:00:11.578725"
+    },
+    {
+      "id": "note_20251227_140120_17",
+      "title": "研究报告：Python 3.12 新特性",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T14:01:20.572420"
+    },
+    {
+      "id": "note_20251227_140324_18",
+      "title": "研究报告：Python 3.12 新特性",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T14:03:24.839614"
+    },
+    {
+      "id": "note_20251227_140430_19",
+      "title": "任务 3: 市场调研",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_3"
+      ],
+      "created_at": "2025-12-27T14:04:30.746775"
+    },
+    {
+      "id": "note_20251227_140533_20",
+      "title": "研究报告：AI编程助手的最新进展",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T14:05:33.126102"
+    },
+    {
+      "id": "note_20251227_140859_21",
+      "title": "研究报告：python技术最新的排名情况",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T14:08:59.537789"
+    },
+    {
+      "id": "note_20251227_140915_22",
+      "title": "任务 1: 梳理背景",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_1"
+      ],
+      "created_at": "2025-12-27T14:09:15.550719"
+    },
+    {
+      "id": "note_20251227_140917_23",
+      "title": "任务 2: 技术趋势",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_2"
+      ],
+      "created_at": "2025-12-27T14:09:17.945568"
+    },
+    {
+      "id": "note_20251227_141004_24",
+      "title": "研究报告：多模态技术最新的发展进展",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T14:10:04.208631"
+    },
+    {
+      "id": "note_20251227_141046_25",
+      "title": "任务 4: 关键技术探索",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_4"
+      ],
+      "created_at": "2025-12-27T14:10:46.341344"
+    },
+    {
+      "id": "note_20251227_141047_26",
+      "title": "任务 1: 背景梳理",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_1"
+      ],
+      "created_at": "2025-12-27T14:10:47.376067"
+    },
+    {
+      "id": "note_20251227_141122_27",
+      "title": "研究报告：agent技术2025年的分支和技术进展",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T14:11:22.641525"
+    },
+    {
+      "id": "note_20251227_141253_28",
+      "title": "任务 2: 技术进展",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_2"
+      ],
+      "created_at": "2025-12-27T14:12:53.771495"
+    },
+    {
+      "id": "note_20251227_143737_29",
+      "title": "任务 3: 行业应用",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_3"
+      ],
+      "created_at": "2025-12-27T14:37:37.174292"
+    },
+    {
+      "id": "note_20251227_143741_30",
+      "title": "任务 2: 技术进展",
+      "type": "task_state",
+      "tags": [
+        "deep_research",
+        "task_2"
+      ],
+      "created_at": "2025-12-27T14:37:41.347883"
+    },
+    {
+      "id": "note_20251227_143854_31",
+      "title": "研究报告：具身智能的2025年发展情况和未来趋势",
+      "type": "conclusion",
+      "tags": [
+        "deep_research",
+        "report"
+      ],
+      "created_at": "2025-12-27T14:38:54.432241"
+    }
+  ],
+  "metadata": {
+    "created_at": "2025-12-26T14:47:37.053475",
+    "total_notes": 32
+  }
+}

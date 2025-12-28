@@ -1,0 +1,54 @@
+# Task06 .gitignore
+# 排除敏感信息和临时文件
+
+# 环境变量文件（可能包含 API Key）
+.env
+.env.local
+.env.*.local
+*.env
+
+# 包含 API Key 的启动脚本（已替换为安全版本）
+启动后端-带Tavily.ps1
+official-code/code/chapter14/helloagents-deepresearch/启动服务-Tavily.ps1
+official-code/code/chapter14/helloagents-deepresearch/backend/start_with_tavily.py
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+
+# 虚拟环境
+venv/
+.venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 构建产物
+dist/
+build/
+*.egg-info/

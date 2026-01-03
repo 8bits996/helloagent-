@@ -2,8 +2,10 @@
 
 ## 1. 方案概述
 
-本项目提供一个完整的、端到端的合同评审AI系统。系统采用微服务架构，前端使用Streamlit提供用户交互界面，后端基于FastAPI构建，核心评审逻辑由多Agent协作系统驱动�?
-本方案已移除对本�?`codebuddy cli` 的依赖，转而使用标准的OpenAI兼容API（支持接入OpenAI、DeepSeek、Qwen等模型服务）或内置的Mock模式进行独立运行�?
+本项目提供一个完整的、端到端的合同评审AI系统。系统采用微服务架构，前端使用Streamlit提供用户交互界面，后端基于FastAPI构建，核心评审逻辑由多Agent协作系统驱动。
+
+本方案支持标准的OpenAI兼容API（支持接入OpenAI、DeepSeek、Qwen等模型服务）或内置的Mock模式进行独立运行。
+
 ## 2. 系统架构
 
 ```mermaid
@@ -13,107 +15,93 @@ graph TD
     
     subgraph "后端服务 (app/)"
         Backend --> Orchestrator[Agent编排器]
-        Backend --> DocParser[文档解析服务 (MarkItDown)]
+        Backend --> DocParser[文档解析服务 MarkItDown]
         Backend --> ReportGen[报告生成服务]
         Backend --> KBManager[知识库管理]
     end
     
-    subgraph "Agent协作网络 (app/agents/)"
-        Orchestrator --> ClauseAgent[条款分析专家]
-        Orchestrator --> RiskAgent[风险评估专家]
-        Orchestrator --> CompAgent[合规检查专家]
-        Orchestrator --> ReportAgent[首席评审官]
+    subgraph "AI Agent团队"
+        Orchestrator --> ClauseAgent[条款分析Agent]
+        Orchestrator --> RiskAgent[风险评估Agent]
+        Orchestrator --> ComplianceAgent[合规检查Agent]
+        Orchestrator --> ReportAgent[报告生成Agent]
     end
     
-    subgraph "基础设施"
-        LLMProvider[LLM接入�?(OpenAI兼容)] --> ExternalLLM[外部LLM服务 (DeepSeek/Qwen)]
-        KBManager --> KBStorage[本地知识�?(CSV/Excel)]
+    subgraph "外部服务"
+        ClauseAgent --> LLM[LLM API]
+        RiskAgent --> LLM
+        ComplianceAgent --> LLM
+        ReportAgent --> LLM
     end
+    
+    KBManager --> KB[(知识库)]
+    ReportGen --> Output[评审报告]
 ```
 
-### 2.1 核心组件
+## 3. 核心功能
 
-1.  **Frontend (Streamlit)**: 提供文件上传、任务监控、结果展示和报告下载功能�?2.  **Backend (FastAPI)**: 处理API请求，管理任务生命周期�?3.  **Orchestrator (Agent编排�?**: 协调多个Agent按顺�?并行执行任务�?4.  **LLM Provider**: 封装LLM调用，支持OpenAI兼容接口，内置Mock回退机制�?5.  **Agents**:
-    *   **条款分析专家**: 提取信息，检查完整性�?    *   **风险评估专家**: 识别并量化风险�?    *   **合规检查专�?*: 对照SOP进行合规审查�?    *   **首席评审�?*: 汇总意见，生成最终报告�?
-## 3. 部署与运�?
-### 3.1 环境要求
+### 3.1 文档解析
+- 支持 PDF、Word、Excel、PowerPoint 等多种格式
+- 使用 MarkItDown 进行结构化解析
+- 自动提取合同关键信息
 
-*   Python 3.10+
-*   Windows/Linux/MacOS
+### 3.2 多Agent协作评审
+- **条款分析Agent**: 解析合同结构，提取关键条款
+- **风险评估Agent**: 基于风险矩阵识别风险点
+- **合规检查Agent**: 对照Checklist检查合规性
+- **报告生成Agent**: 整合各Agent输出，生成专业报告
 
-### 3.2 安装依赖
+### 3.3 知识库驱动
+- Checklist: 评审检查清单
+- 风险矩阵: 风险等级评估标准
+- SOP: 标准操作流程
+
+### 3.4 报告生成
+- Markdown 决策摘要
+- HTML 交互式报告
+- Excel 综合报表
+
+## 4. 部署方式
+
+### 4.1 本地部署
 
 ```bash
-cd /path/to/contract-review-ai
+# 安装依赖
 pip install -r requirements.txt
+
+# 配置环境变量
+cp .env.example .env
+# 编辑 .env 配置 LLM API
+
+# 启动服务
+start_services.bat  # Windows
+# 或手动启动
+python -m uvicorn app.main:app --port 8000
+python -m streamlit run app/frontend.py --server.port 8501
 ```
 
-### 3.3 配置
-
-修改 `.env` 文件或直接在 `app/config.py` 中配置LLM参数�?
-```python
-# app/config.py
-LLM_API_KEY = "sk-xxxxxxxx"  # 您的API Key
-LLM_BASE_URL = "https://api.deepseek.com/v1"  # 或其他兼容地址
-LLM_MODEL = "deepseek-chat"
-```
-
-### 3.4 启动服务
-
-**方式 1: 使用启动脚本 (推荐)**
+### 4.2 Docker 部署（待实现）
 
 ```bash
-# 启动后端和前�?python run_services.py
+docker-compose up -d
 ```
 
-**方式 2: 分别启动**
+## 5. 使用流程
 
-启动后端:
-```bash
-python -m uvicorn app.main:app --reload --port 8000
-```
+1. 访问 http://localhost:8501
+2. 上传合同文件
+3. 选择知识库
+4. 点击"开始评审"
+5. 查看实时进度
+6. 下载评审报告
 
-启动前端:
-```bash
-streamlit run app/frontend.py --server.port 8501
-```
+## 6. 技术栈
 
-## 4. 关键代码说明
-
-### 4.1 LLM接入�?(`app/agents/llm_provider.py`)
-
-移除了对 `codebuddy cli` 的依赖，使用 `httpx` 实现标准�?`chat/completions` 调用�?
-```python
-class LLMProvider:
-    def __init__(self, api_key, base_url, model, use_mock=False):
-        # ... 初始�?httpx client ...
-        pass
-
-    async def generate(self, prompt, ...):
-        # ... 调用 API ...
-        # 如果失败，自动回退�?_generate_mock
-        pass
-```
-
-### 4.2 Agent编排 (`app/services/agent_orchestrator.py`)
-
-负责加载配置并执行Review Workflow�?
-1.  **Clause Analysis** (串行)
-2.  **Risk Assessment** + **Compliance Check** (并行)
-3.  **Report Generation** (汇�?
-
-### 4.3 任务入口 (`app/main.py`)
-
-`start_review` 接口现在直接初始�?`AgentOrchestrator` 并执行，不再通过CLI子进程调用�?
-## 5. 测试验证
-
-系统包含完整的测试脚�?`test_agents.py`，用于验证端到端流程�?
-运行测试:
-```bash
-python test_agents.py
-```
-
-测试将模拟一个合同文本，通过Orchestrator调用各个Agent（如果没有配置有效API Key，会自动回退到Mock模式），并输出最终的JSON报告�?
-## 6. 总结
-
-本方案实现了一个解耦、轻量化且易于扩展的智能合同评审系统。通过移除专有CLI依赖，系统可以轻松部署到任何支持Python的环境，并灵活对接各种大模型服务�?
+| 组件 | 技术 |
+|------|------|
+| 后端框架 | FastAPI |
+| 前端框架 | Streamlit |
+| 文档解析 | MarkItDown |
+| LLM | OpenAI 兼容 API |
+| 数据库 | SQLite |
+| 语言 | Python 3.10+ |

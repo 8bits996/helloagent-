@@ -1,0 +1,10 @@
+C:\Users\frankechen\CFP-Study\Task06\official-code\code\chapter16\UnivesalAgent\app_enhanced.py:129: UserWarning: The parameters have been moved from the Blocks constructor to the launch() method in Gradio 6.0: theme. Please pass these parameters to launch() instead.
+  with gr.Blocks(title="ÔöÇ¿°æUniversalAgent", theme=gr.themes.Soft()) as demo:
+Traceback (most recent call last):
+  File "C:\Users\frankechen\CFP-Study\Task06\official-code\code\chapter16\UnivesalAgent\app_enhanced.py", line 141, in <module>
+    chatbot = gr.ChatInterface(
+        fn=chat,
+    ...<10 lines>...
+        clear_btn="\U0001f5d1\ufe0f Çå¿Õ",
+    )
+TypeError: ChatInterface.__init__() got an unexpected keyword argument 'retry_btn'

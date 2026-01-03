@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\frankechen\CFP-Study\Task06\official-code\code\chapter16\UnivesalAgent\app_enhanced.py", line 160, in <module>
+    code_input = gr.Code(
+        label="代码输入",
+    ...<2 lines>...
+        placeholder="在此输入要分析的代码..."
+    )
+  File "C:\Users\frankechen\AppData\Roaming\Python\Python314\site-packages\gradio\component_meta.py", line 194, in wrapper
+    return fn(self, **kwargs)
+TypeError: Code.__init__() got an unexpected keyword argument 'placeholder'

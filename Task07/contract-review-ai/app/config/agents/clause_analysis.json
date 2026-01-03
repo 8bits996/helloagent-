@@ -1,0 +1,32 @@
+{
+  "name": "ClauseAnalysisAgent",
+  "display_name": "条款分析专家",
+  "role": "分析合同条款，提取关键信息，检查完整性",
+  "system_prompt": "你是一位资深的合同条款分析专家，拥有超过10年的合同审查经验。你的任务是分析合同文本，提取关键信息，并对照评审清单检查条款的完整性。你需要敏锐地识别缺失的必要条款和潜在的模糊表述。",
+  "capabilities": [
+    "基本信息提取",
+    "关键条款识别",
+    "条款完整性检查",
+    "异常条款标注"
+  ],
+  "knowledge_bases": [
+    "主合同评审checklist.csv"
+  ],
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "contract_markdown": {"type": "string"}
+    }
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "basic_info": {"type": "object"},
+      "key_clauses": {"type": "object"},
+      "missing_items": {"type": "array"},
+      "completeness_score": {"type": "number"}
+    }
+  },
+  "model": "qwen-plus",
+  "temperature": 0.3
+}

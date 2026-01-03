@@ -1,0 +1,68 @@
+﻿序号,项目名称,项目材料,"*综合打分（0-100分）
+打分建议不要出现相同分数",评委建议,如需项目答疑，问题可写在这里（每日更新）,特点,访问链接,技术方案,Unnamed: 9
+1,客成通,https://teko.woa.com/event/ai-agent/1309,20,"1、成熟度不足，企微bot能力，回答问题不精准后缺乏调优手段
+2、主要技术：企微bot+腾讯文档+iwiki",,企微bot,,,
+2,昆仑自动化发布助手,https://teko.woa.com/event/ai-agent/209,80,1、aotogen框架停止演进，整体用了较多新技术,,"1，见文档：昆仑 2.0 功能设计的第5部分功能使用说明
+2，前端使用了vue，后端使用了springboot，数据库使用了mysql，AI能力使用了autogen，mcp，fastapi，a2a-sdk，venus（公司内托管mcp的地方）
+3，值班、转TAPD、汇总分析的这个框架，对其他业务也是有价值的",https://test.unimap.woa.com/#/ai/chat,昆仑 2.0 功能设计,https://git.woa.com/data-engine/kunlun/multi-mcp-autogen
+3,TDesign AI Chat,https://teko.woa.com/event/ai-agent/403,75,"1、建议增加基于完整视角，后端集成指导书和样例demo、集成所需先导知识
+2、为agent开发提供支撑，但本身缺乏AI和agent能力",,,"TDesign AI Chat体验地址
+• TDesign AI Chat 官方网站(React)：https://tdesign.woa.com/react-chat/getting-started 
+• TDesign AI Chat 官方网站(Vue3)：https://tdesign.woa.com/chat/getting-started 
+• TDesign AI Chat 官方网站(微信小程序)：https://tdesign.woa.com/miniprogram-chat/getting-started 
+",,
+4,Doc-X 智能文档审查系统,https://teko.woa.com/event/ai-agent/1079,60,"未明确技术方案，但整体完成度较低
+1、支持文档类型较少，只支持md，整体完成度低，市面类似产品和开源产品较多
+2、处理速度慢，进度提示不丰富，只有整体进度
+3、支持的文档长度较短，提示报错：The input (84802 tokens) is longer than the model's context length (40960 tokens).",文档准确性检查,开发的系统，steamlit？,,http://9.135.182.156:8003/static/tasks.html,http://9.135.182.156:8003/static/tasks.html
+5,"COS迁移AI工作流
+评委用户名密码登陆
+用户：leonardo0720@gmail.com
+密码： Tencent2025
+注：使用需点击产品页面中的使用文档，需要阿里云与腾讯云的AK SK。 如不便取得云账号，可以观看demo视频。",https://teko.woa.com/event/ai-agent/148,85,"1、实用性强
+2、技术创新性：采用工作流技术，报告生成部分采用混元，其余都是传统的工作流
+3、技术实现性暂无环境可验证",云迁移,n8n,https://test-mt.yunnative.com/n8n/8b59a505-76e4-4b1c-8259-eb8c1108cbe6-ez3c2r/workflow/WhBxSvKFxEn02sph,https://techmap-product-1258344706.file.myqcloud.com/file/6ae4317c-7e87-4029-900e-898d17892a0f.mp4,COS迁移AI工作流是一款面向对象存储迁移项目的智能化工具，可实现从友商云（如阿里云OSS）到腾讯云COS的一站式自动迁移。涵盖项目信息收集、方案生成、环境部署、全量与增量迁移、数据一致性校验、割接及生命周期配置等环节，全流程自动化执行。相比传统人工方式，整体迁移效率提升约90%，大幅降低人力投入。
+6,CPS商品营销智能体,https://teko.woa.com/event/ai-agent/693,40,"1、TOC的回复更类似广告，更有效提供推荐链接和方案。
+2、意图识别/连续对话能力不足
+3、从方案文档看，B端方案采用了较多新技术，但当前C端产品缺乏思维链展现，过程黑盒
+4、商品链接正确，但是价格多次不对。","营销推送
+购物决策和咨询",太极平台,,,https://taiji.woa.com/web-llm/web/llm_task_dialogue?id=19839&type=normal&redirectUrl=%2Fweb-llm%2Fweb%2Fllm_task%3FwsId%3D11331%26pageIndex%3D1&wsId=11331
+7,EGA智能起量系统,https://teko.woa.com/event/ai-agent/973,95,"1、采用了langgraph和反馈进化技术
+2、针对ToC业务有推广意义，整体框架可借鉴性强
+[计算广告新进展]​广告端到端学习框架​EGA-V1
+2025年8月14日 — 序列建模在用户兴趣捕捉​和物品表征中起着关键作用。 ... 假设m=10、mc​=2、N= 10^5 、L= 10^3 、 N_c ​=100，MIF仅需早期融合1/10^4 的计算量（FLOPs）和延迟 ...","Dify+langGraph,","2、是否有采用开源框架，具体框架和技术是什么
+有采用开源框架, 业务上使用了dify和langGraph, 通过dify做了诊断助手, 通过LangGraph执行业务系统的操作和反馈Agent进化. 评委能体验的只有前半部分","可以查看：https://dify-ai.woa.com/chat/ckKwnIzrDjrOzaji
+
+",基于Agent的营销对象冷启策略框架设计,
+8,腾讯公益AI搜索bot,https://teko.woa.com/event/ai-agent/947,95,"1、系统已在小程序上线
+2、技术先进：采用agent、sft等",,太极平台,https://hunyuanaide.taiji.woa.com/web/match_tryModel?id=19663&wsId=10144,https://techmap-product-1258344706.file.myqcloud.com/file/6d76aca1-b80c-44ee-bdda-48b333b9f6c0.pdf,
+9,用户动线分析与需求洞察助手,https://teko.woa.com/event/ai-agent/921,97,"1、SFT训练、langgragh、codebuddy，采用数据精调、训练模型
+2、尚在内部测试中，效果待实际验证","智能用户洞察Agent 是一款基于大语言模型的智能数据分析产品，通过AI Agent自动化执行""数据查询→清洗→分析→洞察→建议""的完整工作流，将传统需要数周的用户分析工作压缩到分钟级完成。",SFT训练、langgragh、codebuddy,http://9.135.101.171.devcloud.woa.com:8080/data_agent_v3/,https://km.woa.com/articles/show/638221,http://9.135.101.171.devcloud.woa.com:8080//nl2sql%E6%BC%94%E7%A4%BA4-codebuddy.mp4
+10,游戏多模态AI翻译及应用,https://teko.woa.com/event/ai-agent/149,95,"1、微调、向量检索、多模态
+2、完成度高",,,https://ai.ilcweloc.com/chat,,
+11,王者共创投稿AI审核,https://teko.woa.com/event/ai-agent/1081,40,"1、缺乏指导，体验链接和体验不显著
+2、缺技术架构说明",,,,https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Ftechmap-product-1258344706.file.myqcloud.com%2Ffile%2Fd2c11fda-b305-4039-8b8e-51f975a90b66.xlsx&wdOrigin=BROWSELINK,
+12,鹅博士知识管家,https://teko.woa.com/event/ai-agent/960,95,"1、插件机制、总结
+2、完成度高，可推广且便利",,"1、插件、划词问。侧边栏常驻。打造成知识库对接，体验很好。
+2、总结文档",,,
+13,合规检测GUI Agent,https://teko.woa.com/event/ai-agent/1169,90,"1、手机端检测，小模型
+2、场景可推广型强
+3、缺乏操作指南和使用手册",,"1、是否有采用开源框架，具体框架和技术是什么
+目前ocr使用了百度的paddler，图标是yolo做的小模型
+2、框架后续是否可开放用于推广复用
+会将手机操作的mcp层独立出来复用，整个框架也会公开出来方便大家自己定义检测项目",https://agent.t.meow5.cc/,副本-GUI Agent QECon2025北京站,
+14,QBoost智能平台,https://teko.woa.com/event/ai-agent/1110,90,"1、类似于coze和dify的平台，缺乏详细指导书
+2、集成了触发器和企微机器人",,,https://qboost.woa.com/,"https://qboost.woa.com
+https://iwiki.woa.com/p/4009606573",
+15,自动化预测智能体,https://teko.woa.com/event/ai-agent/1284,90,"1、技术先进，集成了预测算法
+2、完成度，缺乏指导书和实际案例分析",提供时序预测AML,,https://agent.t.meow5.cc/,http://auto-forecast.devcloud.woa.com/,
+16,DDoS攻防提效AI助手,https://teko.woa.com/event/ai-agent/896,95,"1、技术先进性：LLM+agent+MCP+DIFY
+2、功能实用。后续继续迭代自主工具调用功能",,"基于DeepSeek-V3模型的AI助手，通过MCP（Model Context Protocol）框架与各种DDoS防护工具集成
+速度很快",https://chat.zsd.woa.com/#/chat,https://km.woa.com/articles/show/629843,
+17,Midas问题异常分析,https://teko.woa.com/event/ai-agent/1313,40,缺乏使用指导，不知道怎么用,,,,,
+18,TencentOS智能诊断助手,https://teko.woa.com/event/ai-agent/182,90,"1、技术先进性：LLM+agent+MCP
+2、本身OS诊断可推广性强，技术框架可推广性待观察",,,https://tmanager.woa.com/#/ipDetail?ip=21.91.168.209&tab=0,https://km.woa.com/articles/show/636629,
+19,设计稿转界面代码的Agent,https://teko.woa.com/event/ai-agent/1025,50,"1、无法打开
+2、设计稿转界面的技术和agent较多，以及开源实现",,,,,
+DDoS攻防提效AI助手,微信游戏 - AI游戏战报,https://teko.woa.com/event/ai-agent/1235,90,动态Prompt、Reward System、模型推理,生成每日复盘、日报,,https://kalm.woa.com/workflow/jWf9dmU7AtiFFtwV,https://techmap-product-1258344706.file.myqcloud.com/file/96b68205-eb81-4e80-8e1c-6fa7caeda9fb.pdf,"https://github.com/volcengine/verl/pull/2854
+https://mp.weixin.qq.com/s/ggLadYXIyOkgtavfkRWcQA?mpshare=1&scene=1&srcid=1023tzO8RIAVEvtYaTzCnDY0&sharer_shareinfo=a64d1d1c293bd14c7a3dc38515f20803&sharer_shareinfo_first=a64d1d1c293bd14c7a3dc38515f20803&version=5.0.0.99730&platform=mac#rd"

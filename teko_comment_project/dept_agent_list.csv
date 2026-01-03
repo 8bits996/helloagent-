@@ -1,0 +1,432 @@
+﻿id,agent名,体验链接,主导部门,涉及部门,项目经理,项目成员
+105,AIGC影视后期制作agent,,PCG-在线视频BU-智能创作与内容平台部,PCG-PCG技术与内容平台-内容服务部,xinlongsun,
+131,微信广告ai机器人zaker,企业微信机器人搜索Zaker,CDG-广告营销服务线-微信广告部,,zakkzhang,
+143,腾讯卫士举报智能助手,,TEG-客户服务部,,soorenzhang,"tenrronelli, lainzhang, jasonnhuang, aeroli, finleyshen"
+153,腾讯反诈助手,,TEG-客户服务部,"WXG-运营平台部,PCG-社交平台与应用线-社交安全中心",aaronke,"bertonzhou, darrenzhai, lavaliu, davigao, ervinyang, joezhzhou, tangentchen, captainwei, tingtingliu, birdhua, eddyhe, paulxie, superxiao, avazypeng, newzhao, kyoyaxu, trekzhang, miselzhang, rickzqyou, jayycai, harrisonlu, maisieluo, elonqi, jackliang, layneyu, aaronke, tiangao, adelinehu, wiillwang, qiangqiu, alisdonwang, shihaizhang, thewang, yukkiyuan, malayu, carlwen, andreewli, zerobai, opheliafeng, zhiyuanlin, forrestmao, sarahhxie, nokiawu, angelan, mingxiao, lainzhang, tenrronelli, dangedan"
+165,智享AI提效工具,https://zhixiang.fn.qq.com/partner/demo,CSIG-产业生态合作部,,alexeliu,"ziweiiyang, leqingli, terrazhang, kevinxjjia"
+184,DeepTest AI后台测试,,CSIG-CSIG质量部,CSIG-云产品一部,erweiwang,"dakeliu, yudoyu, plingjiang, kamzhang, hgersun, bobotao, allenyue, shawndyang, peterxiong, kerwinpeng, barrymbxu, hanslwang"
+204,证券-问 AI,自选股&微证券的“问 AI”入口（产品搜索框右侧“问 AI” 按钮）,CDG-支付基础平台与金融应用线-证券产品部,"CDG-支付基础平台与金融应用线-证券产品部,CDG-支付基础平台与金融应用线-支付金融平台与数据部",macxin,"amyminxu, caitlinchen, carvinli, clarachen, fengbincao, gradyhuang, hunterliang, ikunwang, jensonli, johnyfzhong, kaishi, kenjksong, kikochen, lavenderxie, lucasguoli, macxin, mandyding, moovyyang, noswang, rubenwang, sashalysu, silenchen, sophyang, stockzheng, weiqikang, westhu, yaelliu, yulinqiu, zenoscai, zheliang, arhatliu, benshwu, brookhe, daidaiwu, deniellelin, dockerliu, elanlin, hongyunge, jecklin, jorywang, leontong, lobbyluo, lucaslxu, maplelin, saintwen, sukeychao, tracehuang, wishliu, zeguslu, zhihuasu"
+219,理财通编码与测试提效Agent,,CDG-支付基础平台与金融应用线-财富管理部,CDG-支付基础平台与金融应用线-财富管理部,churongliu,"churongliu, funnyren, jasonpeng, kimsu, walkeryang, remyzhang"
+240,更懂你的助手-轻量云AI助手,https://console.cloud.tencent.com/lighthouse/instance/index,CSIG-云产品一部,,ceylancao,"beginning, burnellliu, dannykong, kevinchou, pablozhong, verayqwang, yiyyli"
+27,AI 全链路智能测试引擎​,,CSIG-CSIG质量部,,zichaohu,"riskli, autumnhe, fxinchen, joycehong, changllliu, huginma, zzlongzhang, maybelchen"
+270,广告工程智能助理Cyber,https://versa.woa.com/strategy/cyberbot,CDG-广告营销服务线-广告工程部,,yvanwang,"biyuefan, chaseyye, dereklzhang, finchen, huyanazhang, joeyzyli, lijingwang, mikaelchen, poseidonxu, sevenzheng, xiaoheiluo, muskma"
+287,智研服务洞察助手,,CDG-广告营销服务线-商业平台部,,nichotang,"felixwwang, gatesma"
+299,AiSee日志分析小助手,https://aisee.woa.com/admin/p-a6ae25e3-fca6-3ad9-8b46-04148c919e1e/b-af298735-17c9-31e6-b0a6-2a05843aff16/32a2a0e053/overview?ref=agent&ref_type=rizhi,PCG-PCG技术与内容平台-工程效能平台部,,jiyuanliu,"anasiazhang, hangwinlin, jiyuanliu, jrluo, lucalai, miphazhang, rekylli"
+320,BrandTalking,,PCG-PCG技术与内容平台-工程效能平台部,,miphazhang,runpenzhang
+347,视频结构化理解联合项目,,PCG-PCG技术与内容平台-应用研究中心,"CSIG-搜索应用部,CSIG-元宝产品部,PCG-PCG技术与内容平台-大数据平台部,TEG-机器学习平台部,TEG-多模态模型部",wybertwang,
+357,合规智能助手,https://ag.woa.com/?agentId=980,CSIG-安全产品二部,,ivyrxie,"andrewxxie, harleeyyli, ivyrxie, michaelnie, ooliviazhou, xiaolinglin, yaroyi, zhouppeng, neloliu"
+367,历史代码工程的wiki实践,,CDG-支付基础平台与金融应用线-支付金融平台与数据部,,haruntian,"rockyqiu, hongjiechen, lucameng"
+396,Feedback Hawk,,WXG-企业微信应用部,,derekliao,"ivanxfjiang, steephenliu"
+411,视觉创作Agent,,TEG-多模态模型部,,angelqlin,"keizu, alexqchen, angelqlin, carsonzhao, conglianxie, harryshan, ikeedeng, jackerli, jinxianglai, jonnyguo, lebronhe, origamiwang, qinyuqyyang, rongweiquan, selenecyli, yangqiniu, zexinlu, xiaowenyin"
+431,广告业务大盘助手,,CDG-广告营销服务线-商业运管部,CDG-广告营销服务线-商业运管部,hermanzeng,"joymanhuang, alanzhren, sidneychen, leslieelin"
+451,AI迁云工具,,CSIG-政企客户成功中心,,graceyliu,vurtyan
+460,AI智能专题,https://hot.woa.com/big-event-thing,PCG-PCG技术与内容平台-内容服务部,,kaiyuancui,"v_hlqhe, yuyjin, samtihuang, plunckpeng, shirleylai, maggiedu, allenzhwli, bonnieryli, axiezheng, jasonxchen"
+49,王者营地大模型助手,https://camp.qq.com/h5/webdist/redirect-app/index.html,IEG-天美工作室群-天美L1工作室,,pepeli,"dougliu, wyattwdwang, estang, rivercai, leojacklu, alcaidhuang, supeli"
+496,安全问答助手,,PCG-社交平台与应用线-社交安全中心,,alanpfhu,"jinghaoyan, janetpwang, shaunbian, aydentang, whalechen"
+526,网络报文智能分析,https://pcapagent.woa.com,TEG-网络平台部,"TEG-网络平台部,CSIG-云技术运营服务部",claudexie,"brucecli, claudyuan, maozhou, nobugliu, vincentbbli, zachzzhou"
+571,腾讯频道问问Agent,,PCG-社交平台与应用线-社区产品部,,nickxiao,
+595,X5灵析助手,,CSIG-信息平台与服务线-平台产品部,,normanchen,"wanggao, perryuwang, dafuyao"
+619,PM数智人,,CSIG-政企客户成功中心,,feizhuang,aleexjiang
+68,Anknow安知道智能分身平台,https://ag.woa.com,CSIG-云产品技术支持部,,keyiding,"brucellu, centonhuang, davidyiwang, divewang, garrizhang, jiaweizdeng, keyiding, kylehuang, tinyyue, titochen, tracyfyzhou, xyxiaohuang"
+698,DcData数据分析助手,"xxxx,数据敏感",TEG-IDC平台部,,yinggan,"ukieeeyi, lynnlong, xincili"
+726,草场地智能客服agent,https://mall.video.qq.com/ecommerce/ai-chat?hidetitlebar=1&immersive=2&entranceType=1,PCG-在线视频BU-在线视频商业化部,,kacychen,"alicezou, runhaolu, kathyzhou"
+754,FinAIEval金模判官,,CDG-支付基础平台与金融应用线-支付金融平台与数据部,TEG-数据平台部,elizaliang,"benshwu, mtyytang, suminhe, yaxinxu, alinasyylu, dylannlu, jakkzhang"
+778,linda测试,,TEG-运营管理部,,lindaluan,
+789,和平赛场智能助手,,IEG-IEG品牌与数字生态营销部,,gertrudezou,"guowangyang, dixonwang"
+796,设计稿转代码D2C,https://mobile.woa.com/d2c-front/,IEG-IEG品牌与数字生态营销部,,junshao,"wellhuang, vonnieli, lauheeliu, janfzhao, guowangyang, bruceren, alvinxu, alltasxiao, yuiqin"
+809,新闻内容质量AI,,PCG-腾讯新闻-新闻工程研发部,PCG-腾讯新闻-新闻平台业务部,kufazhang,"joesonqiao, djeozhang, xuejinghou, robinhzhang, maxba, masonjhchen, wanlicheng, felixmu, mosun, thomasdu, tomqian, bobzhao"
+817,大模型自动化红队 Agent,,WXG-运营平台部,,bengiojiang,"bojiehu, vigorshen"
+831,​​易链灵构,https://test.woa.com/,TEG-客户服务部,,chaseliu,"chaycao, paultaowang, rockpeng, jianboduan, dickzhou, linklin, holgerhuang, maoxiangwei, phantommlin, shiliwang, sawadajiang, yinghaozhu, markfang, smileshang"
+84,如影DS智能助手,https://zp.woa.com/ruying-chat,PCG-在线视频BU-智能创作与内容平台部,,luciferxu,"darielhuang, emmaguo, gedoyliu, howardhfliu, jasonxchen, leowhzhang, loucasli, luciferxu, peidongliu, qinqlei, vincihuang, xiaohuizhou, yujiazhang, yvanli, yyjyu"
+861,Agent Memory,,CSIG-云产品一部,,jimmydai,"feiwu, lynzou, kentyhuang, junfengyu"
+883,文旅行业agent,,CSIG-地图平台部,,maggieylye,
+926,智能AI营销图生成,,CDG-支付基础平台与金融应用线-跨境支付业务部,,leonwhliu,"xmagicwu, dddzhang"
+950,TencentOS内核漏洞修复,,TEG-安全平台部,TEG-云架构平台部,levonyang,"louisllv, scottzhguo, deltazhang, loywang, rongzhencao, kanshanxu"
+973,EGA智能起量系统,,CDG-广告营销服务线-商业推荐部,,jeremydong,"bridgetchen, alanjftong, arthurhzhu"
+995,智能问数智能体,,"CSIG-通途数据中心,CSIG-CSIG质量部","CSIG-通途数据中心,CSIG-CSIG质量部",ljmengliu,"zyongzhao, ptingli, jevonguo, jensenwei, georgeliao, carlxyzhang, magyang, adnanchen"
+1012,数据库知识Agent,,CSIG-云产品一部,,dirkjin,"kiwixiong, yeeechen, lawrencexie, averiewang, aleronwang, wlleiiwang, lynzou"
+108,云产品优化研究分析Agent,,CSIG-云产品四部,,atomzhong,"selinaywu, atomzhong, bairdcheng, danaawu, yuzhangdu"
+117,DataBrain Agent,https://databrain.woa.com/agent,IEG-IEG Global-Data&AI Group,,miamgao,"murphyzhao, zhaofeng, zhaofengliu, asherzhou, boyudi, casseyhan, chandwang, clzhu, deferzhou, donxhuang, evansong, georgefang, haonanli, ivyyfchen, jackysjiang, jasonzxyin, jeffuryzhu, lawsonlv, libearxiong, miamgao, ndzhang, shiweitong, sophiaxwxu, wayneyyyang, wendyyqi, wenyema, xiuyuanxlu, zaitianwang"
+134,电销运营提效,,CSIG-产业生态合作部,CSIG-政企业务运营中心,coffeeguo,
+146,影视素材智能剪辑agent,,PCG-在线视频BU-智能创作与内容平台部,PCG-在线视频BU-智能创作与内容平台部,chanzhou,"haydenzhao, skipperji, jakehuang, xiaohuizhou, karlindliu, esmezhang, weizhaohe, jasonxchen"
+156,商户平台智能开发,,WXG-微信支付线-商户产品部,,donaldcen,
+166,悟空AI自动化智能测试平台,https://wwwukong.woa.com/Laboratory,WXG-企业微信产品部,,likunhuang,"allysali, janetjiang, raymondfu, vincentwei, melissalu"
+175,智瞳-客户商机分析,【模板】智瞳-新客拓展-样例,CSIG-产业生态合作部,CSIG-产业生态合作部,kevinxjjia,"alexeliu, kevinxjjia, leqingli, terrazhang"
+187,OCNET智能运营助手,https://knot.woa.com/chat?web_key=bb3fe7dfdd1b4200b3dc3d492f441695,TEG-云架构平台部,,kawsguan,"masonbma, mendeswang, tensorwang"
+209,数据自动化发布助手agent,,CSIG-地图平台部,,nicoyanli,"jaymoli, chengjijiao, tarshdong, xiaoyiliao, ruixuezhao"
+220,OlaSQL,,PCG-PCG技术与内容平台-大数据平台部,,lizqin,"ceschen, xinyuxyliu, boomhuo, yaweizhao"
+248,AI战报,,"WXG-增值业务部,WXG-技术架构部",,reggiezhong,
+275,PLAN小助手-查询GPU,http://21.91.21.135:5000/,TEG-运营管理部,,risehuang,ramirezhang
+29,腾讯开悟平台,,"IEG-天美工作室群-天美L1工作室,S1-腾讯西南总部","TEG-AI平台部,子公司-实娱商管",rikkiliu,"andrewjjlin, fengjunyang, jackiehuang, jamesonwang, konthigali, lincliu, linlai, ozpintang, promengmeng, rikkiliu, yuanqinwang, yufeikuang, zhenbinye, danierdeng, frankshen, hongyangqin, jerrywzhou, jianyuheng, johnycao, jujuuhuang, linhangcai, luistao, staryding, willyang, greyjiang, hugolin, jillffli, kangwkang, phylliszhao, snailcai"
+290,业务安全AI蓝军Agent,,TEG-安全平台部,,jiashihe,"ruisun, tigerhu"
+302,Lumos AI,,PCG-PCG技术与内容平台-大数据平台部,,lidanxu,
+330,小北助手*北东区助销agent,,CSIG-北区业务部,"CSIG-云产品三部,CSIG-政企业务运营中心",rollsliu,"majorli, qqqqqianli, canglorcang, ryanjxie, tutujwang, vailwang, viviweiwang, waynefang, xuecancheng"
+351,大禹营销创意素材生成Agent,,PCG-PCG技术与内容平台-公共数据科学部,,samscai,samscai
+362,在线图文纠错,https://video-llm.woa.com/online-check,PCG-在线视频BU-在线视频会员业务部,,pomelocai,"colynchen, frankcao, pomelocai"
+369,安全攻击智能分析助手,https://adp.cloud.tencent.com/webim/#/chat/BaDPRj,CSIG-云产品三部,,visongu,"nikotong, dixonding"
+400,AiX,,IEG-光子工作室群-光子综合业务中心,,jinyjguo,xingzheng
+415,EplusChat AI助手,,TEG-运营管理部,,susiessli,"jiajingtang, hotzhang, jungleliu, hankerlin, andsonfeng"
+437,灵鹅点睛,https://ai-query-assistant-j1tj141h.app.with.woa.com/,CDG-广告营销服务线-商业数据部,CDG-广告营销服务线-商业数据部,xuezhangli,"andrewjnxia, spasonxiong"
+453,云镜台,,"IEG-互动科技创新部,IEG-技术运营部","IEG-互动科技创新部,IEG-技术运营部",zhihaoochen,"liamzqtan, minhuaxu, munchshao, parkeryao, zhihaoochen, ziniali, wuweijia"
+463,tapd需求分析助手,https://xd.woa.com/itrpc.xd.aim/#/chat/index?agent_id=oSEpUNPQS2ya,IEG-IEG品牌与数字生态营销部,,lucienpeng,
+52,云手机 AI Agent项目,https://autoglm.zhipuai.cn/htdocs/download.html,CSIG-云产品五部,CSIG-云产品五部,hayesli,"hallyang, transcai, johnxwzhang, hayesli"
+542,AgentHub智能体路由服务,http://test.nops.woa.com/agenthub/ui/group/sre,TEG-网络平台部,,jagerzhang,"breakhuang, destinyli, eliozhang, findzyxu, ivinli, monaji, phoenixliu, pristshao, zeyuanwang, zoenli"
+577,PCAD数询助手,,CDG-广告营销服务线-平台与内容广告部,,ziffzhuo,"bingduochen, isacczhang, maxjxu, ericjwluo"
+596,供应商咨询应答机器人,https://yuanqi.tencent.com/webim/#/chat/smWTKM?appid=1957276228185850496&experience=true,S1-集团采购管理部,,johnlli,"belindaliu, tommyxia, marshallxu, jetzhong"
+608,微信客服线索获客会话智能体,,CDG-广告营销服务线-微信广告部,TEG-大语言模型部,qinghuzhang,"dimitriyu, jessedeng, kennyxblin, renojing, denisbaoma, breterchen, dongqilin, gavingzhang, fawnwang, duranzheng"
+664,企微智能机器人,,WXG-企业微信产品部,,dylanlv,"hanrycai, xuekaili"
+701,秒剪广告制作 agent,,WXG-读书产品部,,cecilelu,"rightyonghu, zwllli"
+739,鹰眼·AI智审,http://21.6.93.247:5002/,CSIG-政企客户成功中心,,frankechen,"samanthama, ethanpzhao, crismwang, barryzhang, muskxlsong"
+766,视频号智能合集,,WXG-视频产品部,,taoklin,
+779,赛宝对局问题定位agent,,IEG-IEG品牌与数字生态营销部,,kirinpeng,huaguanma
+790,游戏人生自动化配置助手,https://igame-mo-test.woa.com/coecology.pmd-oa.pmd-oa-admin.feature.ai/convert/act/list?product=jf-party,IEG-IEG品牌与数字生态营销部,,alviswang,"lucienpeng, zkinhuang, radejdong"
+797,智研全链路可观测 Agent,,TEG-研发管理部,TEG-云架构平台部,shinnyhuang,"boydzheng, carlcui, elricchen, ginshu, gumpgan, jephiesu, jingboma, lovevili, maplehfzhou, montionye, posyjiang, raymeng, samongzhang, tinatinghu, vignywang, yanniswang, yueuezhang, yuhaozhou, yumengwang, zhaopan, andyerhuang, jackieyuan, jeddylin, kanglingxu"
+810,赛事邀请码agent,https://xd.woa.com/itrpc.xd.aim/#/chat/index?agent_id=SaZ5gYd1KtZW,IEG-IEG品牌与数字生态营销部,,hectorchen,
+820,运营小助手,,IEG-IEG品牌与数字生态营销部,IEG-IEG品牌与数字生态营销部,juliandong,
+832,单测生成Agent,,TEG-研发管理部,,dollyyang,"ajunhuang, cyberwang, davidning, edenzou, edonliu, erikyang, hardyxu, janetsong, jemerychen, rachellu, robertyang, sunsonliu, anyechen"
+85,无极智能开发,,PCG-PCG技术与内容平台-应用架构平台部,,vicyao,"dekuliu, iceliang, kanjian, katecjzheng, kiteuwang, luminhuang, lyonlv, maoyiluo, vicyao, vvdenniswu"
+871,大客户转售Agent,https://test-andon.woa.com/mobile/ai-assist/chat,CSIG-云技术运营服务部,,mianmfu,"greenyzhang, arthuzhang, camelliawei, hunterhtli, jingzhenhe, kelseymwang, lukeqqin, nealchangli, cynthiaddai"
+885,小途工艺制作专家,https://tmind.woa.com/showShare?code=15S5V37UWX,"CSIG-通途数据中心,CSIG-CSIG质量部","CSIG-通途数据中心,CSIG-CSIG质量部",yttingzhang,"adnanchen, yanzhezhu, carlxyzhang, magyang"
+913,AI抽奖配置师,,IEG-IEG品牌与数字生态营销部,,alviswang,
+928,免广告券Helper,,CDG-广告营销服务线-微信广告部,,irisshi,"zhikanglei, zakkzhang"
+941,tRPC项目级AI代码生成,,PCG-PCG技术与内容平台-应用架构平台部,,suziliu,"adenshen, bochenchen, martianliu, minchangwei, kaynzhang"
+952,支付平台AI研发助手,,CDG-支付基础平台与金融应用线-支付平台研发部,CDG-支付基础平台与金融应用线-支付平台研发部,skyenwu,"gongkezhang, hyshen, jakehu, junjianhe, karlyzhang, parkyu, sharali, shawnshi, tenfyguo, thinkzhao, tigerlan, toonychen, utensilsong, wenlongxia, witerzheng"
+982,webAssistant,,IEG-内容生态部,,boltzou,
+999,特征检索agent,,CDG-广告营销服务线-商业数据部,,cocoxyyang,"leilaxu, nealcai, markzbgong, kylenjwang, juliasong"
+1006,PUBGM WOW 智能助手,https://www.pubgmobile.com/HK/home.shtml,"IEG-光子工作室群-量子工作室,IEG-IEG Global-Data&AI Group",,zimoding,"felixqi, alanliang, brucewu, trevorjiang, grissomshen, linacatchen, yintaoxu, v_hyuywang, alexjlzhang, lilyliguo, masonqliu, edenlei, nearyan, andreihuang, cloudxiong, caligozhang, hanssheng"
+110,Talos智能测试,,PCG-社交平台与应用线-社区产品部,,edzhou,"nickxiao, scarlettsun, yuecongxie, edzhou, kaijiawang"
+129,旅鹅HotelGPT,pages/chatbot/index.html,CSIG-智慧零售战略合作部,,feliciazhu,"greenzou, hazelzizihe, jonyqin, lunraymou, manddoxli, nalajiang, saullli, shafferwang, sterottwang, terryychen, alphacai"
+138,QQ浏览器小说AI-Agent,https://tool.browser.qq.com/ai-tools/h5/share?subRobotType=4&shareId=1509a0024ef743a2997ce59e06248c34&useNewInstance=1&uiType=5&nickname=Base&isNovelAgent=1,CSIG-信息平台与服务线-应用技术部,"CSIG-信息平台与服务线-搜索及内容产品中心,CSIG-信息平台与服务线-用户体验设计部,CSIG-搜索应用部,CSIG-信息平台与服务线-平台产品部",basezhang,"ahuxiao, amosjin, arvenwang, basezhang, bokeyqi, brollanli, cammypeng, chelseadu, conorzhang, curychen, daisychen, danieljfeng, ellaxie, fbhuizhao, garrycai, howu, jamsluo, leontiliu, lindongguo, peijiqiu, perryli, ponyli, saallywang, serenashen, stevylu, vickiywchen, vinnyhou, v_jttjiang, v_mxymo, v_zhenlong, whohu, wickchen, willemjiang, xiangkunwu, xingyuliu, xylonzuo, yecoirzhao, yuezhouli, yuxingui, zhefengchen, zhenfujiang"
+148,COS迁移AI工作流,,CSIG-智慧行业一部,,leohaosun,"huiye, zehuayang, frankewang, leandu, douglasduan, sekiroguo"
+161,AI智享提效工具,,CSIG-产业生态合作部,,leqingli,"ziweiiyang, alexeliu, terrazhang, kevinxjjia"
+168,LangData-ChatBI,https://wedata.woa.com/do;https://llmapp.woa.com/,TEG-机器学习平台部,"WXG-技术架构部,CSIG-云产品二部,CDG-支付基础平台与金融应用线-支付金融平台与数据部,CDG-广告营销服务线-商业运管部,WXG-微信支付线-研发部",daisyqhuang,
+177,智投广告投放 AIM+,,"CDG-广告营销服务线-商业推荐部,CDG-广告营销服务线-商业平台部",,xinruchen,"allene, dennisyang, nickyhe, rayrzwang, shiyaoxu, sissixwang, stellashyli, xinruchen, yuxuandai, goldenyu"
+21,智绘AI设计工作台,https://zha.woa.com/home,CSIG-信息平台与服务线-用户体验设计部,,jundabei,"samjinli, hermanzhang, javinzhong, psychewang"
+215,伽利略Agent项目,https://j.woa.com/?orgId=tencent&aiAgentOpen=true,PCG-PCG技术与内容平台-应用架构平台部,,petermeng,"alanwzliang, andyning, arfuewu, cheneyhu, daomingwang, dianalin, dragonhe, edwinlan, evilluo, handongliu, huaiyizhao, jaimeyang, javanzhang, jeffjfhe, jeffjhe, jenniezong, jiyvliu, linkswei, luaruan, newtsun, nicklou, paladinhu, petermeng, phoonshen, poppylili, qiyyang, remonxiao, rjxu, ryoji, shangfeding, shawnche, taydai, toraxie, v_ccjunchen, v_xilliu, v_xuejowang, v_xxxuxu, v_yingxqin, yonglijia, zhxinhuang"
+231,小O数智员工-经营管理助手,,CSIG-业务经营管理部,CSIG-云产品四部,lucazyli,
+253,智能API助手,,CDG-支付基础平台与金融应用线-跨境支付业务部,,zicowu,"qxingwang, stevezhuang, ayanshen, simonsmqin, nickzhuang"
+278,卡证鉴伪智能体,https://adp.cloud.tencent.com/webim_exp/#/chat/AumYCw,CSIG-优图实验室,CSIG-优图实验室,wyitwang,"kobeschen, taipingyao, wyitwang, zhongxichen"
+295,和平精英绿洲开发AI助手,,IEG-光子工作室群-S工作室,,jimmyzmwu,"elitang, lokilian, fuminglai, xiaohanhou, johnmhuang"
+311,Dola：数据知识库AI助手,https://dola.woa.com/ai-chat?repo=market-51b9fa0c-d413-46ef-8aef-7ae82667c5cd&question=%E8%85%BE%E8%AE%AF%E8%82%A1%E7%A5%A8%E4%BB%B7%E6%A0%BC%E5%88%86%E6%9E%90%EF%BC%8C%E6%9C%AA%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%9C%88%E8%B5%B0%E5%8A%BF%E9%A2%84%E6%B5%8B&autoSend=true,PCG-PCG技术与内容平台-大数据平台部,PCG-PCG技术与内容平台-大数据平台部,karolinaliu,"answerzhong, anthonyguo, ashexie, boristan, bridgetefan, devintxie, fransli, harryyfhu, houstonliu, hunterkong, ivenkjyang, jasonmliu, karolinaliu, mochigao, wenmingyang, wymanwei, yeziliu, v_bywbie, v_kewuwu"
+341,智能测试 Agent 系统,http://testai.woa.com/,PCG-PCG技术与内容平台-工程效能平台部,PCG-PCG技术与内容平台-工程效能平台部,kaelyezhang,"burgerluo, catheyzhou, dannielchen, doriswu, johnhjzhong, jolynjiang, lambdazhang, rhinoliu, tabjzhang"
+353,云手机+ AI agent,,CSIG-云产品五部,,hayesli,hayesli
+365,英雄联盟手游-智能化AI指导,,IEG-光子工作室群-逍遥游工作室,IEG-光子工作室群-光子技术发展部,dillyli,"chainli, rickywchen, fayewei, jackeyliu, elementli, yukesun, benliu, rymanguo"
+385,AI Agent开户审核,,CDG-广告营销服务线-商业运管部,,kxingzhang,
+408,研发预算智能问数,,TEG-运营管理部,,terrydai,"lillylli, evaneqchen, ellieyhe, arizawan, kimmyliu, yuhaodu"
+419,企鹅教师创意教学Agent,,CDG-可持续社会价值事业部-数字教育实验室,CDG-可持续社会价值事业部-技术生态部,onlychen,"sammiexu, vvickyzhang, p_noraynli, gongyusun, elsahe"
+43,智能运维平台,,CSIG-云技术运营服务部,,dinglimao,"usherdong, zelaszang, jennyjshi, summyzhao, jayyxxiong, williahuang, dinglimao, zorayyji"
+441,AI销售助手,https://yuanqi.tencent.com/webim/#/chat/aoWJFW?appid=1981336041303259072&experience=true,CSIG-智慧出行事业部,,sandrazhang,"andynni, aslinwang, astarliu, emmalliang, ethanqqin, jackykchen, sevenzhu, shinyxusun, shouxusun, zoerslin"
+457,QQ AI+DS,,PCG-社交平台与应用线-社交平台架构中心,,fiosong,
+474,QQ浏览器AI学术助理,,CSIG-搜索应用部,"CSIG-信息平台与服务线-应用技术部,CSIG-信息平台与服务线-用户体验设计部,CSIG-CSIG质量部",galenqin,"bensoncao, galenqin, kantzhang, lilyyangluo, miaytchen, deliaadchen, snowyxie, tevenxu, melodymtang, tedliangli, tsingcwang, jundabei, alekshen, yannizhang, adamlong, ahuxiao, fbhuizhao, howieyhuang, hughzhu, lightyao, talbotniu, xdshang, elevenzyli, yitinghuang, yutengbian, hodgeliang, fansonchen, cosmoszhao, brollanli"
+505,安兔AI助手,,CSIG-云技术运营服务部,"CSIG-智慧行业四部,CSIG-政企客户成功中心",louiscxqiu,"arthuzhang, hwanyan, leojinsong"
+565,腾讯位置服务开发者分析专家,,CSIG-地图产品部,,hunterfang,"huajiang, feiyuli, guanghuiye, kylocao, egbertshen, haleyfang, sissiepan"
+584,用户问题智能定位,,PCG-社交平台与应用线-社交协作产品部,,kanalin,"jerryzjhu, joeyguo, rayrzzhang, joslynlin"
+616,AI CLI Agent,,CSIG-云产品四部,,dyuankong,"batiliu, ericffan, gamyhuang, rinvaywu, sjjwwang, suboyang, victorrxu, yanani"
+693,CPS商品营销智能体,,"CDG-广告营销服务线-商业平台部,CDG-广告营销服务线-商业推荐部","CDG-广告营销服务线-泛生态业务部,CDG-广告营销服务线-商业运管部,CDG-广告营销服务线-广告工程部,CDG-广告营销服务线-商业数据部",laoguo,"nikoyxlin, yabohe, andrewhuang, bubblelv, darrenguo, dennisyang, evancyliu, ezewang, fengychen, kimding, lehu, olivialluo, regezhang, secondta, shawnshli, tommycao, tottizhang, xiujinyang, longiesong"
+708,微信输入法表情包创作agent,,WXG-读书产品部,,cecilelu,"rightyonghu, larionliu"
+750,轻量云游戏服智囊-游戏AI助手,https://hunyuanaide.taiji.woa.com/web/match_tryModel?id=7996,CSIG-云产品一部,,kylexli,"claudechen, hakunaliu, jasonxli, largezhou, laurenanyan, masonxhuang, morrisduan, xinqishang, yuehuali"
+783,新闻妹AI-伴随式新闻智能助手,https://view.inews.qq.com/ai/agent/UTR2025040800399100?no-redirect=1,PCG-腾讯新闻-新闻工程研发部,PCG-腾讯新闻-新闻平台业务部,tomqian,"aatroxli, aeroyang, bobzhao, chanyazhang, chenchi, ciusyanyang, danielcpeng, djeozhang, gaiuszhang, haiyangxie, hudsonwwang, jellyyan, jerrychu, jialiangsun, joesonqiao, joycelynliu, koikoizhang, kufazhang, ninaqqli, sampan, waynexie, willsonzhou, wrenwang, yonglisun, yukaiwang"
+794,新人助手agent,https://xd.woa.com/itrpc.xd.aim/#/chat/index?agent_id=ZODxVo6GTHEo,IEG-IEG品牌与数字生态营销部,,eviehehe,
+801,数据智能分析Agent,https://test.com,IEG-IEG品牌与数字生态营销部,IEG-IEG品牌与数字生态营销部,zackerguo,"damingli, scottwei, shaneyuan"
+81,Vedas智能体,https://ai.woa.com/#/vedas/agent/home,PCG-PCG技术与内容平台-大数据平台部,,chasewen,"brucebian, chansonchen, chasewen, christruan, echooguo, elisteryang, erokchen, evanyuchen, guoweiya, hemingwei, lexliang, orlandochen, takawang, walterbai, waynemvsun, winniexli, yunyunqin, zexuanli"
+814,企业微信AI搜索,,WXG-企业微信产品部,,loganyu,
+825,Data Agent,,TEG-机器学习平台部,,mikezctang,"faronwang, catenliu, arisjin, howiexia, asterchen, liuxinwang, yaranli"
+854,【微信蓝包】AI选礼物助手,,WXG-电商产品部,"WXG-电商产品部,WXG-技术架构部",julesyzhang,"aryaqi, chenhaochen, jimfan, jonyyjlin, kielhuang, kunqian, woodtmao, yaoozhou, zhuojieli, zifeishan"
+875,多尺寸扩图agent,,IEG-IEG品牌与数字生态营销部,,alvinxu,"wellhuang, alltasxiao, yuiqin, andyczheng, vonnieli, bruceren, lauheeliu, riveryuan, janfzhao"
+896,DDoS攻防提效AI助手,https://chat.zsd.woa.com/#/chat,TEG-安全平台部,,gammachen,"aikewang, chasonluo, chuyangzhao, fisherxiao, rockyzhou, seansi, wanruzhang, zideng, neoxuzhang, orionshu"
+923,AI智能评测文档预览效果,,WXG-企业微信应用部,,lukaschen,
+93,QQ 成本专家,,PCG-社交平台与应用线-社交平台架构中心,,vissong,"simonhao, gavinyao, wunrrywu"
+933,网页智能埋点工具,,CDG-广告营销服务线-商业数据部,TEG-安全平台部,siegli,"alexansong, damonbzhang, leilaxu, lemonye, mianxiaoli, nealcai, rockyjiang, snowsyzheng, tntzhang, xpzhang"
+947,腾讯公益AI搜索bot,https://hunyuanaide.taiji.woa.com/web/match_tryModel?id=19663,"CDG-可持续社会价值事业部-公益平台部,CDG-可持续社会价值事业部-技术生态部","PCG-PCG技术与内容平台-大数据平台部,TEG-大语言模型部",gongyusun,"astridwu, carryfan, chasewen, daisyvvtang, elainexiao, hannahhuixu, hunterguo, lyali, p_mengjinma, p_wwerchen, p_zhilingqi, ryderguo, seanxzzhang, spraydong, tracyxlliu, xinrancheng, zifengcai, masonhyli, chaisxiao, lianawu"
+964,AI智能告警系统,https://xy.woa.com/xy/app/test/yyzsd/alarm_denoise,TEG-安全平台部,,neoxuzhang,"orionshu, conychen, joinishu, melonyyang, rockyzhou, gammachen, aikewang, zideng"
+989,广告转化链路识别智能体,,"CDG-广告营销服务线-商业数据部,TEG-安全平台部",,txtingwang,
+1008,拾光回忆录,,PCG-PCG技术与内容平台-公共数据科学部,,jamesxfbai,"zhenbinluo, efrenli, jaredwei, porterzhong, sophiejwang, chanyujiang"
+102,AiX Agent,https://agent.aix.intlgame.com,IEG-IEG Global-GaaS Tech Group,,hongweiqu,"kiddwang, jijixu, xaviwang, euphrochen, homkerliu, wynterwen, defierzhang, hamorli, hanzoli, kaeming, zhenquanlin, maclerylin"
+111,CVM AI 助手,,CSIG-云产品一部,CSIG-云产品一部,jubaoliang,"kaioji, qitinghuang"
+130,腾讯开悟平台使用答疑小助手,,IEG-天美工作室群-天美电竞中心,,yutoli,
+141,家庭教育咨询助手,家庭教育咨询助手体验地址,TEG-客户服务部,,lexieluo,"alisdonwang, christosli, eanlin, eggsyliu, harrysosong, jackyqhong, jasonnhuang, lainzhang, miaama, mingxiao, qiulinchen, tenrronelli, ursulawang, adelinehu"
+149,多模态 AI 翻译及应用,,IEG-IEG Global-Orbital Gaming Solutions,,wanyouding,philmorenie
+164,AI自动写测试代码,,WXG-企业微信应用部,,pennypan,"dangyyan, flyfeihuang"
+170,AI验证码,,TEG-安全平台部,,milahuang,vistahua
+182,TencentOS智能诊断助手,https://tmanager.woa.com/#/workbench/homePage?task_id=261cbd65-a9c8-47a8-bc29-0fb6d7175f65,TEG-云架构平台部,,danielwjli,"berryczhang, ekodong, haifulian, huashionxu, jackmjhuang, joeytao, judyzhu, kevinxhuang, loganlli, markusluo, neowwang, suziechang, wujiwu, danielwjli"
+198,AI销售助手,,CSIG-智慧出行事业部,,sandrazhang,sandrazhang
+23,黑产智能情报感知系统,https://aml-rag.woa.com/,CDG-支付基础平台与金融应用线-反洗钱与风险控制部,,allisonzhao,"droidwen, flintqiu, kerrykli, linfapu, richardliu, yelinzhang, zekaizheng"
+256,开发专家agent,,CSIG-地图产品部,,haleyfang,
+284,领航员TAB-Navi,,PCG-PCG技术与内容平台-大数据平台部,PCG-PCG技术与内容平台-大数据平台部,ethanczheng,"jinhliu, kyanzha, ethanczheng, jielintang"
+296,SRE CLI,https://iwiki.woa.com/p/4015819348,CSIG-云技术运营服务部,,maxmzheng,"zhongsxiong, rynlli, qunithu, jordgedu, zachchen, karlcfchen, maxmzheng, quincyhu, peixinliu"
+313,轻量云 AI 助手智能规划,,CSIG-云产品一部,,ceylancao,
+344,小店广告客户增长Agent,,CDG-广告营销服务线-商业推荐部,,wadexue,"darwinzhao, yufeizhu, yuyanghuang, aslangao, jaylenjiang, alishayang"
+354,UGC运营助手,,IEG-业务安全部,,yammyjiang,"pandaliu, suhochen, jiamingguo"
+366,ai军师,,"WXG-技术架构部,WXG-增值业务部",,longpoliu,
+390,王者荣耀灵宝端外智能体,,TEG-计费平台部,,elaineou,
+410,推理回廊,,IEG-品质管理部,IEG-品质管理部,quarkzou,"daveyduan, fionayan, severnyu, shixili"
+425,ALADIN一站式AI测试实践,,CSIG-CSIG质量部,CSIG-CSIG质量部,yongfeijia,"bradqin, chenlusha, dahlcao, davehuo, defengdeng, evansjwu, hupengli, jasonjshu, marshallmma, massimohao, moneyzzhang, neilnqli, serenayyang, tukeyzhang, yongfeijia, yuanjiezhu"
+450,较真AI-智能查真假,https://view.inews.qq.com/ai/agent/UTR2025041800262600?no-redirect=1,PCG-腾讯新闻-平台运营部,"PCG-腾讯新闻-新闻工程研发部,PCG-腾讯新闻-新闻平台业务部,PCG-腾讯新闻-业务发展部",dorili,"aeroyang, bobzhao, haiyangxie, hudsonwwang, jenaxu, jerrychu, jingluwang, koikoizhang, kufazhang, lreliawu, ninaqqli, ryanding, stormyu, tomqian, xiaonanchen, yihongdai, yonglisun, yukaiwang, zoeyyizhang"
+46,审核智能体项目,https://trainingless.testsite.woa.com/,PCG-PCG技术与内容平台-内容服务部,,marshao,"alanshchen, aoxiangpeng, behindli, berryding, bonzhu, cathymzhang, chancecheng, cliveclliu, cooperxshi, dlleili, druryxu, evelynppli, fordzhao, gavinjjiang, geminiguan, georgefeng, hannafeng, herbiewang, hillsong, irinali, jamiejia, jarvisluo, jasoncjxcai, jasonxchen, krystalmzhu, lierli, linyinzhou, loongliu, marshao, maxdi, mingdali, minlonglin, nanpanzou, shaowu, skylarkyun, stevenyshi, suhuangfan, susieping, yettazhang, yuyangyin, zenzhong"
+476,AI驱动Web_UI自动化测试,https://adt.woa.com/#/tools/UITEST/debug?team=TEAM1267ab1f2ba9,TEG-数据平台部,,lucasybwang,"agprincefu, airbozheng, ezrealdeng, klaushu, lucasybwang"
+509,云安智答-公有云安全知识问答,https://ag.woa.com/?agentId=109,"CSIG-云技术运营服务部,CSIG-安全产品三部","CSIG-云技术运营服务部,CSIG-安全产品三部",donkhuang,"antoniusliu, noahluo, carywang, dapanzhang, gannonwang, lucasqli, timothyhu, waynelei"
+570,游戏账号画像分析,,IEG-业务安全部,,kosmoscheng,"currywang, nestorlin"
+594,腾讯新闻AI CR智能平台,,PCG-腾讯新闻-新闻工程研发部,,frankylu,dqfang
+600,安灯AI助手,https://andon.woa.com/webim/chat/,CSIG-云技术运营服务部,,arianewang,"ailanzhou, alexzmzhang, gavrielliu, greenyzhang, joskazhao, xuanzangshi, xxcxu, junhuideng"
+617,实验助手Agent,,WXG-技术架构部,,broccozhang,"darwinwang, txiong, daimintang, kiviyang"
+66,自选股智能客服agent,,CDG-支付基础平台与金融应用线-证券产品部,子公司-腾卓-证券产品部,qamrawang,"danizhang, moovyyang, jessshen, simpsonyuan, zvazhang"
+696,智能表格AI字段,https://doc.weixin.qq.com/,"WXG-企业微信应用部,WXG-企业微信产品部",PCG-社交平台与应用线-社交协作产品部,kevinjlchen,"adriankang, brookehu, calvinfeng, cansonli, deekywu, dingzhang, dylanlv, eddyzeng, eikoli, ericxyzhang, granthou, greyhuiliu, hanrycai, hughsu, jackyjli, jahodahe, jasonjfeng, jayjayli, joeyguo, johnnydai, josieshuang, joyfang, junpingyang, kenshinxu, kraigchen, lalisazhao, leconghuang, leohuo, likekli, linkyhuang, lpslin, luciouslu, lumoswang, lunafei, masonkang, nehchen, pablowang, pennypan, princeli, sofiesjiang, steephenliu, tigeran, towerchen, vincenzoxu, weihaozhong, wyatttwei, yongzhiguo, yuyongwang, zeruilin, zochen"
+721,GOG智能分析平台,,WXG-运营平台部,,lonnyliu,"edmundyang, robertliang, chuchuzhao, kapokhuang"
+751,工单提效专家—工单分析AI助手,http://9.134.150.235:3001/analysis,CSIG-云产品一部,,kylexli,"xinqishang, morrisduan, masonxhuang, laurenanyan, hakunaliu, largezhou, yuehuali, claudechen, easonxyi"
+775,外部代码生成,https://xd.woa.com/itrpc.xd.aim/#/chat/index?agent_id=xqph2SugTK8n,IEG-IEG品牌与数字生态营销部,IEG-IEG品牌与数字生态营销部,aihjiang,lucienpeng
+784,智能排版助手,http://82.157.154.60/,CSIG-政企客户成功中心,,harlansun,"yongqzhu, sanshizhao"
+795,QQ浏览器下载助手,https://browser.qq.com/ai-agents/?source=newtab,CSIG-信息平台与服务线-平台产品部,"CSIG-优图实验室,CSIG-信息平台与服务线-智能技术中心,CSIG-信息平台与服务线-用户体验设计部",stevenleisu,"answeryang, blowingwu, carolzzwu, chonglin, damonruan, deliaadchen, eckoyi, fredhbliu, frodochen, halenhu, harryzhtang, hengyuzhao, hidezhao, jawnrwen, jielzeng, maudiehuang, morrischeng, normanchen, orangehuang, perryuwang, qiyaoyuan, ruizhiqiao, ryankang, shaunyuan, shinejin, taianguo, terrencegu, tjzhong, winfredsun, wordenwang, xianyizhang, yeukqjiang, yorkeli, yuchuanliu, yvonichen, zhenweizhang, mcyli"
+803,TRTC云助手,https://taiji.woa.com/web-llm/web/llm_task_dialogue?id=19527&type=normal&redirectUrl=%2Fweb-llm%2Fweb%2Fllm_task%3FwsId%3D10144%26pageIndex%3D1&wsId=10144,CSIG-云技术运营服务部,,jackwlchen,lenzhao
+815,企业微信智能总结,,WXG-企业微信产品部,,loganyu,
+827,营销AI组合,,CDG-支付基础平台与金融应用线-金融市场部,,owensxli,"ethanbhuang, xtinajiang, alliehuang, vianneliu, juneqwang, lydiasylin, jasminywang, jiaxingyi, janylin, sukihuang"
+83,小磐SREAgent,xiaopan.woa.com,TEG-云架构平台部,TEG-云架构平台部,josenpeng,"rosenlsluo, josenpeng, jamyoungliu"
+859,微信公众号AI配图,,WXG-开放平台部,WXG-开放平台部,doniafu,"craneli, rahulyu, surezheng"
+882,研发全流程提效 Agent,,CSIG-医疗健康事业部,,hamilhong,"jamsun, jasonzxliu, liuyilliu, marcozhguo, vajyyi, zionzzhu, hamilhong"
+907,腾讯招聘AI-面试助手,,S3-招聘活水部,,elioyao,"maiyali, maddydeng, fayellawang, ansleyyu, joanqzhang, kitybzhang, joannezhang, willxqhe"
+925,基于文本用例终端自动化智能执行,https://testone.woa.com/terminal-one-replay/tiyan#/terminal/caseManager?projectId=1,PCG-PCG技术与内容平台-工程效能平台部,,vincentyli,"johnnyxwei, seanhhe, marszhuo, zencbzhang, yukyyang, mattdwang, ronnieshi, jiuyuanqiao, jiahaooyan, edenxpzhang"
+937,现网问题排查小助手,,IEG-IEG品牌与数字生态营销部,,tyraelhuang,
+972,瓦力 - AI 编程助手,https://wally.woa.com,CSIG-云产品一部,,jubaoliang,
+993,AI助力数据关联关系挖掘,怎么发现更多有价值的关联关系？让无监督算法和大模型来帮你！,IEG-光子工作室群-量子工作室,,zimoding,"charlieye, wadepxie, hongruizhou"
+1005,TCE接入Agent,,CSIG-云产品一部,,yaweihuang,"xianglotian, soleilhuang"
+109,利用 AI 高效响应用户反馈,,PCG-社交平台与应用线-社交协作产品部,PCG-社交平台与应用线-社交协作产品部,stephantang,"stephantang, joeyguo"
+122,AI助力叙事生成管线提质增效,https://git.woa.com/LQTechCentre/ShakespeareEditor/ShakespeareDialogueAIDemo.git,IEG-光子工作室群-光子技术发展部,,aresyfchen,"aresyfchen, dukegu, garygchen, joeytan, kaluozheng, lynnlaw, sianyazhang, snoopyxu, yuxiaoluo"
+135,人工智能助手-SOP托管,https://kfsop.woa.com/agent/#/testSopDialog?flowId=438&code=wzry_ppbmMCP&branchId=1863,TEG-客户服务部,TEG-客户服务部,yyyyan,"alanqiu, amberren, andredeng, aslanzhang, barneszhang, chaseliu, chaycao, chrizhang, cindyyliao, cycleechen, dezhixiang, dickzhou, dragonpzou, eanlin, garyldwang, gisellewang, holgerhuang, jianboduan, jovanwu, katefang, makioliao, maoxiangwei, quentinqian, ranzerzhao, rockpeng, ruthzhang, samuelyou, wellschen, wenlonghe, wufellzheng, yyyyan, zhenmingliu, mandyhu"
+147,模型实验一体化分析助手Aly,,CDG-广告营销服务线-商业推荐部,,vanessacao,"nicolewxu, serenaawang"
+157,A.I.G红队安全测试平台,,TEG-安全平台部,,nickyccwu,"fyoungguo, kikayli, nickyccwu, pythoncheng, robertzyang, rsinding, sharlhuang, simzheng, zoeyizhou, zonashi"
+167,AI智能写信,AI智能写信 体验介绍文档,WXG-企业微信应用部,WXG-企业微信产品部,jackiehe,"dylanlv, jennifu, hanrycai, luciouslu, jackiehe"
+176,AI驱动风控智能研发,,CDG-支付基础平台与金融应用线-反洗钱与风险控制部,,lilyzou,"zhenrandong, nightchliu, jefftan, atugao, johnqliu, richardliu, allisonzhao, pearqin, alonxli, randallsun, vfwei, wolfhwang, robertoxu, mitchellcai, joashhuang, cohnryhuang, zanezzhang, lilyzou, wlingzhang, davosli, xiaofgruan, paveeguo"
+19,iDOMO：广告形态智能助手,,CDG-广告营销服务线-联盟广告部,CDG-广告营销服务线-联盟广告部,yonhonwang,"miohwang, jogu, pgqin, chenglizhai, nimomeng, kuzliu, vicyanzhang"
+191,文档抽取Agent,https://ocrdemo.cloud.tencent.com/?action=SubmitExtractDocAgentJob,CSIG-云产品三部,,benpeng,benpeng
+212,金融信贷态势洞察agent,企微群内体验，体验请联系jasonzong,"WXG-微信支付线-研发部,WXG-微信支付线-支付金融产品部",,jasonzong,"skylerlu, jasonzong, anderszhou, rocoliang, leonclwu, regiswang"
+226,王者荣耀指挥官模式AI陪玩,,"IEG-天美工作室群-天美L1工作室,TEG-AI平台部",,townesyan,"rikilai, fumanzou, xinzhzhang, starkren, reaganli, reeseewang, allenxmzhu, ashinliu, bingojbwu, carlyzchen, casterwang, chadliang, chilynnxie, chunguguo, cyrilxi, danagizhong, danierdeng, davidyychen, dazelu, donyzhang, dougliu, dylanypli, eavangao, enginewang, ericjoewang, estang, francisfeng, frankfhqiu, fridazhu, georgeqiao, gorvinchen, gracesqli, granderyuan, gwanliao, haoxizhong, haskellli, honglinzhu, hongwuchen, howardyuan, huberyxu, ikechen, ivyoodai, jakixu, jigangliu, jimzhanyang, johnsmzhang, jojozhuo, jonnytan, jtzhou, kevinltzhu, leolian, leonfu, leooyliu, linhangcai, linusowang, lucianhuang, lukejguo, lunahyhuang, lunipan, macdeng, maksimwang, mikoyang, moriwang, nanamimo, nicejoeli, paimonzheng, peninahu, pentasu, qingmuliu, rycolzhang, sallensun, scorpiochen, sealqi, seevenyang, shadowping, sicilychen, simbahu, simonfang, skylerliang, staryding, stellaycwu, supeli, sysuzehuawu, vastyao, v_peijiexu, v_tatazhuo, waihinwang, winsterwei, xiangzhuang, xiaofenggao, yiweigong, yogiwu, yohunawu, yongfeiliu, ysunlin, yuchenhe, yujieren, yuntongli, zijianzhang, zimengzhou, zxyeh, heidichen"
+251,AI内容评测,,PCG-PCG技术与内容平台-工程效能平台部,PCG-在线视频BU-在线视频产品部,tritonzhang,"alphazzhang, canacezhang"
+277,运产研贴心助手—轻量云AI助手,wxwork://message?uin=33776998559279307,CSIG-云产品一部,,yuehuali,"claudechen, hakunaliu, kylexli, largezhou, laurenanyan, masonxhuang, morrisduan, xinqishang"
+294,CrashSight智理,https://crashsight.qq.com/workbench/apps,IEG-品质管理部,IEG-品质管理部,hugoxu,"xingjianma, zenozheng, xiaoqingmin, wenqingwu, mikecui, iainchen, vincentwgao, dannyzhou"
+30,Unity快捷资产插件,QuickAssetsPanel.unitypackage,IEG-天美工作室群-天美L1工作室,,guangruiwu,guangruiwu
+304,可观测AI工作台,https://console.cloud.tencent.com/monitor/ai/explore,CSIG-云技术运营服务部,,yyingxie,"archerhan, daixuwang, joseaufeng, kevineluo, lauraytwu, lucaske, minchang, starkluo, tianjunweng, victorhuang, warpzhang, yoavwang, yongyongliu, yucolu, yyingxie"
+335,腾讯水滴法务 AI,https://lawtech.woa.com/home/index,S1-法务综合部,"S1-职能线办公室,TEG-企业IT部",edisonwyli,"balanceli, edisonwyli, greywyzhao, hunternie, linnxu, matiszheng, mikehu, samxu, visanliu, andyhuang, bashxie, boneyxiang, jakiroyi, jinconghu, keenliang, kylinzhu, liviapeng, molihe, mouse, susanhan, tattyshang, v_slongsun, v_wenenli, v_xiauzhang, wallacezhai, wallyhuang, connerwang, kimiwljin, melodyxu, raekeli"
+352,微信小店智能客服联合项目,,WXG-基础产品部,"WXG-基础产品部,WXG-电商产品部",jieranwang,
+364,购物助手,,WXG-技术架构部,,astroliu,"drakezhang, dayerzhang, jiapeizhang, zexijia, seraphyuan, lingyuhuang, alexju, withtomzhou, astroliu"
+377,AI高考通,,CSIG-信息平台与服务线-搜索及内容产品中心,,johnrickli,
+403,TDesign AI Chat,https://tdesign.tencent.com/chat/getting-started,"CSIG-医疗健康事业部,PCG-在线视频BU-智能创作与内容平台部","TEG-运营管理部,TEG-企业IT部",yeonzhou,"deydu, brightzhli, yorionzhou, seerzhang, nekowu, liuyilliu, deandliu, aalicezhang, petterhong, evelynnlu, anlyyao, lincao, uyarnchen, yeonzhou, dntzhang"
+438,位置服务AI助手,,CSIG-地图产品部,,leohhzhuang,"hdzzuo, mingmyyu"
+454,SSV研发工作流AI提效实践,,CDG-可持续社会价值事业部-技术生态部,,windlin,"jefferwang, windealli, yikazhu, reynaldliu"
+472,邮箱奇美拉翻译,,WXG-企业微信产品部,TEG-大语言模型部,dylanlv,"moonzheng, wuxingzou, yalehe, loganyu, jasonzli"
+501,PlayStore Pilot,,IEG-IEG Global-GaaS Tech Group,,mjalowiec,"sunjoohwang, fennieyang, euphrochen, ninghanghu"
+548,TDebug Agent,,PCG-PCG技术与内容平台-大数据平台部,,fengsflin,
+583,AI 生成智能表和仪表盘,,PCG-社交平台与应用线-社交协作产品部,,joslynlin,"kanalin, jerryzjhu, joeyguo, viezhong, rayrzzhang"
+59,电销AI小工具,https://adp.cloud.tencent.com/webim_exp/#/chat/SyljAi,CSIG-产业生态合作部,CSIG-政企业务运营中心,harrisxu,"ashleydong, adamycyang, adapi, amyyylin, anyonetang, billi, coffeeguo, dermotwang, elinyi, ellengli, jackwzli, kenjili, lydiahao, mikeli, mikiiwang, milymei, sandyllcai, sherlyhong, v_pfeijiang, v_rutozhang, susiefang"
+597,腾讯新闻商业化智能AI助手,,PCG-腾讯新闻-新闻工程研发部,,frankylu,slayge
+615,新闻微服务助手Agent,https://inews.woa.com/page/chat,PCG-腾讯新闻-新闻工程研发部,,sampan,"michealgao, gaiuszhang, yiningyan, quonliu"
+685,ai播客,,TEG-大语言模型部,,austinyhli,
+707,微信输入法表情包创作agent,,WXG-读书产品部,,cecilelu,"rightyonghu, larionliu"
+747,FiT-AI安全大脑,http://localhost:8080,CDG-支付基础平台与金融应用线-支付金融平台与数据部,,faithsun,"vinkichen, boxingtan, leicentzeng, elizaliang, jakkzhang"
+767,青鸟系统-营销宣传合规审查工具,,"CDG-支付基础平台与金融应用线-金融风险管理部,CDG-支付基础平台与金融应用线-支付金融平台与数据部",S1-金融法律合规部,amandajye,"sarahjchen, foggyzhong, xanderywang, wenshanma, waynecui, meteoryliu, lincyzhou, karlypzeng, jayxjwu, jasonjsgu, howardfang, dylanywang, linnadai, xiaolonyang"
+78,联盟前端 SDK AI 助手,,CDG-广告营销服务线-联盟广告部,CDG-广告营销服务线-联盟广告部,zuoxingli,"nimomeng, yonhonwang"
+782,ima-agent任务模式,,CSIG-信息平台与服务线-应用技术部,,jimmyzhu,
+792,视频号智能客服小助手,https://work.weixin.qq.com/kfid/kfcbe6a0ad16c98642e,WXG-视频产品部,WXG-技术架构部,geryfan,"chilliyang, carrotzheng, lilianwang, huwu, carolcychen"
+800,Text2SQL智能取数,https://api-zhishu.woa.com/pdc.ai.text2sql/login,IEG-IEG品牌与数字生态营销部,IEG-IEG品牌与数字生态营销部,zackerguo,"scottwei, shaneyuan, damingli"
+811,大模型安全自动评估 Agent,,WXG-运营平台部,,zatozhang,"bojiehu, dingyaoyu, yundaozhang"
+823,QQ浏览器订阅助理,https://browser.qq.com/ai-agents/?source=newtab&enableSubscribe=true,CSIG-信息平台与服务线-平台产品部,"CSIG-优图实验室,CSIG-信息平台与服务线-用户体验设计部",damonruan,"carolzzwu, deliaadchen, fredhbliu, hengyuzhao, jawnrwen, jielzeng, morrischeng, ruizhiqiao, shaunyuan, taianguo, terrencegu, wordenwang, xianyizhang, yeukqjiang, yorkeli, yvonichen, stevenleisu"
+837,AI下载助理,,"CSIG-信息平台与服务线-平台产品部,CSIG-信息平台与服务线-智能技术中心",,terrencegu,"zhenweizhang, deliaadchen, carolzzwu, damonruan, lanternlu, maudiehuang, stevenleisu, xianyizhang, yorkeli, yvonichen, shaunyuan"
+872,QQ浏览器AI视频助理,https://browser.qq.com/ai-agents/?source=newtab&agent=video,"CSIG-信息平台与服务线-平台产品部,CSIG-信息平台与服务线-智能技术中心","CSIG-优图实验室,CSIG-云产品三部,CSIG-信息平台与服务线-用户体验设计部",xianyizhang,"andrewyuan, darrenyao, davinazhang, deliaadchen, fredhbliu, frodochen, harlingzhao, jacehuang, jarvielong, jielzeng, markshe, maudiehuang, peixianchen, quinnrong, shaunyuan, simonsheng, stevenleisu, winfredsun, xiaolingli, yeukqjiang, yeziwang, yorkeli, yvonichen"
+887,高价值弹幕AI挖掘助手,,PCG-在线视频BU-在线视频产品部,,lunaluhu,"henklin, allencheng, sherryhshu, moyallang"
+92,跨境汇款门店AI数字人,,CDG-支付基础平台与金融应用线-跨境支付业务部,"CDG-支付基础平台与金融应用线-支付金融平台与数据部,TEG-多模态模型部",fitzfei,"dustinyang, dddzhang, xmagicwu, stephyli"
+921,用户动线分析与财富管理需求挖掘,http://9.135.101.171.devcloud.woa.com:8080/data_agent_demo2/,CDG-支付基础平台与金融应用线-支付金融平台与数据部,CDG-支付基础平台与金融应用线-财富管理部,jackylzhou,"zenhaoxu, challenwang, ansonzliang, tingyuwang"
+960,鹅博士知识管家,鹅博士助手-0.0.20251030.zip,IEG-自研体系管理部,,vicjwli,"chenxzhang, elriczhou, ireneyufu, marglei, sunnyyysun, tianxia, islandli, xiaominggao"
+983,智能素材投放,https://avatar.fit.woa.com/llm-chat/28zy,CDG-支付基础平台与金融应用线-支付金融平台与数据部,,kaizenfang,"yechunwei, zenhaoxu, challenwang"
+1017,OVB智能数据助手小π,https://oval.woa.com/xiaopai,PCG-在线视频BU-在线视频数据科学部,PCG-PCG技术与内容平台-大数据平台部,ansonye,"abaozeng, abtan, andyttwang, ansonye, averyjzhang, bertgong, byronhu, caipingfang, carrliu, changdaxiao, chloeeyu, chuheli, colinqguo, daruijia, haitaoyou, hannahye, haoranjing, hellowang, hunterkong, ikenglin, jasperren, jesperliu, jiaoerliu, kentonli, kylekaixu, liduanqin, nickhui, pzpzpzzhang, qubitzhang, rickyhuo, ridxiong, seasonzhou, shuaiiwu, skyswpan, tinghaojia, traceytang, tristacchen, victorvzhao, weldonchen, wenqiwu, xmxiong, yuchenyang, zenoli, zhuoranzhen, zhuoyinglin"
+1030,叮-位置服务售前专家agant,,CSIG-地图产品部,,zhuoranchen,"leohhzhuang, walterwyang, hdzzuo"
+1054,叮小灵,,CSIG-地图产品部,,natalizhang,"hdzzuo, leohhzhuang, egbertshen, feiyuli, guanghuiye, huajiang, hunterfang, jasonzcheng, kylocao, leogguo, lucienshi, mingmingyu, simomliu, sissiepan, wkzzhang, wulinsong, zhenyzhang, falcontian, binlyli"
+1063,小途灵析AI,【悟空智能体】,"CSIG-通途数据中心,CSIG-CSIG质量部","CSIG-通途数据中心,CSIG-CSIG质量部",jensenwei,"adnanchen, carlxyzhang, fredaali, georgeliao, jevonguo, johuang, ljmengliu, magyang, randiyang, zyongzhao, ptingli"
+1071,体育大聪明一站式AI观赛助手,应用市场下载最新版腾讯体育APP，在比赛底层页、搜索框、底Tab、评论区等入口即可体验。（底Tab入口请联系marksi添加实验白名单）,PCG-在线视频BU-在线视频产品部,"PCG-PCG技术与内容平台-工程效能平台部,PCG-在线视频BU-MXD用户体验设计部,PCG-在线视频BU-AI影视表达工作室",marksi,"dequanzhu, uzukizheng, penfeiwang, pitechen, harveyfeng, luiscsliu, fredcui, mengtianjin, skycxu, yudongjin, donnyma, yongjozhang, expzhang, dakundong, hankyang, zhdongsong, nicknzhao, canacezhang, yarahong, v_yunfcui, tmacyuan"
+1078,出海合规助手,,CSIG-政企客户成功中心,,frankechen,"samanthama, barryzhang"
+1097,供应订单智能运维平台,,CSIG-云采购供应管理部,CSIG-云采购供应管理部,gallopxiong,"haoyunzheng, lancetang, kaiserlli"
+1029,方言语料自动采集系统,https://adp.cloud.tencent.com/adp/#/app/knowledge/app-config?appid=1958778301535923264&appType=knowledge_qa&spaceId=default_space,CDG-可持续社会价值事业部-技术生态部,"CDG-可持续社会价值事业部-为村发展实验室,WXG-技术架构部,WXG-基础产品部",iriswong,"chriswjliu, danieldli, henrywwang, hsinfan, joyhhe, kathleenliu, lanezli, lycheeyli, magnuschen, namixiao, neilingwang, ruiitang, sandylan, seanxzzhang, wheatzzhang, windlin, quannazhang"
+1036,门店通—门店营销AI助手,,TEG-数据平台部,,jinbaozhang,"jihongzhang, jimxiao, mingxuliu, alfredphliu, jamesrhxie, kunkzhu"
+1049,Lily金融助手&深度研究,https://fit.woa.com/lily,CDG-支付基础平台与金融应用线-支付金融平台与数据部,"CDG-支付基础平台与金融应用线-证券产品部,CDG-支付基础平台与金融应用线-财富管理部",benshwu,"abwu, arhatliu, bobbiizhang, breezehuang, daidaiwu, delorestang, deniellelin, elanlin, haoshen, herrickchen, howzhao, jecklin, jorywang, lobbyluo, mtyytang, qiufangying, saintwen, sukeychao, tracehuang, zyuanwang, maplelin"
+1061,智能营销助理,,TEG-计费平台部,,johannachen,
+1069,集团安全智能运营,http://9.208.17.36:8081/tasks,CSIG-安全产品三部,,qiitao,"selinasong, renardren, sharpenchen, ramosli"
+1076,计算运营数据AI助手,,CSIG-云产品一部,,elisedai,"bingbingxu, lesliesqma, vincejin, tornadoxie, gracecui, wechen, lewiszeng"
+1083,鹅厂党建小助手,,"S3-党群工作部,TEG-云架构平台部",,carlieqiu,
+1096,万人大会线上体验agent,,CSIG-CSIG市场部,,gawainou,"garygyfang, tonyyuwang, qiaoanzhu"
+1025,设计稿→可合并代码，AI全流程,,WXG-企业微信应用部,,donglinchen,
+1035,赛博科学家：一站式AI科研助手,http://21.6.160.180:7860,CSIG-生命科学实验室,,lukatang,"owenbhe, gelseywang, lqszchen, jianhuayao"
+1047,T-Audit,,S2-审计监察,,markplli,"yomonchen, chrissfhe, lekaizhu, seanjsong, sodatang"
+1060,客诉分析agent,,IEG-IEG Global-Publishing Tech Hub,,ziyizychen,"fannnnzhang, zhaoyuwang"
+1068,私有云文档写作助手,,CSIG-云产品一部,CSIG-云产品四部,tylerccwang,"tiffinyzhou, samyonghe, sunnyzhai, luminkong, lowinwu, devinshi"
+1081,王者共创投稿AI审核,,IEG-公共数据平台部,IEG-天美工作室群-天美市场中心,rikliu,"graceyguan, vickilin, kylinguo, zhihongyang, zongnanxiao"
+1094,天御金融反电信网络诈骗智能体,,CSIG-安全产品二部,"CSIG-安全产品二部,CSIG-云产品四部,CSIG-CSIG质量部",jonathanguo,"aaronwwu, barryssong, chaoweicai, elanliu, emberzhao, fordfeng, fungliang, jeeryli, jimmyjli, joelai, kathyyzhang, lichlli, lincolnchen, rongrwwang, shijiedeng, tengrizhang, v_cnqcheng, v_llvhuang, ximizheng, zoniaczhong, kevinnlong, miyawwang, qshandai, vensontao, ethancli, alphachen, chrisccai, neojianchen, zoeylu, miphaqiu"
+1021,视频号文案红点爆款审核提效,,WXG-视频产品部,,walkertian,"givenzhang, rgchen, lisiqiu, youronhuang, yamylan, shapxinye, xiaoleiwang, jadeyjwang, jerriehou, xianfejiang"
+1031,私有化AI运维助手,https://znyw.woa.com/chat/history,CSIG-云技术运营服务部,,lvanywang,"huanxiong, aidenmwang, jamleeli, haroldrzhao"
+1042,无人值守AI智能助手,,CDG-广告营销服务线-商业运管部,,sidneychen,"iriswen, colozou"
+1057,TCase测试智能,,TEG-云架构平台部,TEG-云架构平台部,seagullliu,"zhuofuliu, cherrieshi, haileylian, mandymtli, wecui, jerrydou, martinskxu, allenswluo, luyyhu"
+1064,悟空代码安全Agent—简化版,,TEG-安全平台部,,moomichen,"koalazheng, zalezhang, slamhu, kekelian, ciuwaalu, atoneduan, jordanhou"
+1072,大模型护照智能审核服务,微信钱包->身份信息->更新实名(或立即认证) ->选择证件类型(护照) -> 上传人像资料页面 -> 从手机相册选择,CDG-支付基础平台与金融应用线-支付平台研发部,"CDG-支付基础平台与金融应用线-支付平台研发部,CDG-支付基础平台与金融应用线-支付金融平台与数据部",tigerlan,"hyshen, fionahuang, kenjkpeng, amandzhang, jazmineli, xizhou, marinawang, donnerliang, casiohu, hildayang, heidizhang, yanbinghu"
+1079,智能文档审查系统,,CSIG-云产品一部,CSIG-云产品一部,ziongzhang,"jubaoliang, kaioji"
+1089,QQ浏览器信息流AI评论,,CSIG-信息平台与服务线-应用技术部,CSIG-信息平台与服务线-搜索及内容产品中心,hughzhu,"alieyu, lucyji, windyzheng, cocoludeng, sevenhtang, ceonzhao, iannjin, jamsluo, ruiwentao, hewittwang, leobzhang, yannizhang"
+1103,工蜂 AI CR Agent,,TEG-研发管理部,,jingyiwang,
+1024,微信支付AI开发助手,https://support.pay.weixin.qq.com/aidevhelper,WXG-微信支付线-商户产品部,CSIG-云产品四部,darcyhu,"devinghou, ryanrshao, rizenguo, donaldcen, tracysong, ericjhli, carollchen, shuoweiwu, mustangmo, tobiazhang, emmetzhang, prainliu, tengxunhe, rakuwang, willpang, gamyhuang, jessiejwli, suboyang, sjjwwang, ericffan"
+1032,AI 高考通,https://browser.qq.com/ai-agents?agent=gaokao,"CSIG-搜索应用部,CSIG-信息平台与服务线-搜索及内容产品中心","CSIG-信息平台与服务线-用户体验设计部,CSIG-CSIG公关部,CSIG-CSIG市场部,CSIG-信息平台与服务线-供需平台部,CSIG-信息平台与服务线-平台产品部,CSIG-信息平台与服务线-业务发展中心",qiyueli,"aliciama, allsochen, altenli, andyflyliu, aniballi, anjingshen, arvenwang, benjizhou, bokeyqi, brollanli, bytewei, camilakhliu, candijiang, cassiecwang, cecezou, cindykwang, cissiechu, clixqiu, congelhuang, conlinbao, conorzhang, cosmoszhao, daisychen, danieljfeng, dawenli, elroychen, evanyiu, fansonchen, fanvfan, fbhuizhao, felicityuan, finegao, fishuzhang, fredhbliu, gordeanlei, haohaoxu, haorantang, hayleewang, heatherma, hixinhe, hodgeliang, iessicaliu, irenejfli, iriswywang, ivanqu, jackiezhou, jadeycchen, jamesbai, janninewang, jasonjxliu, jayejywang, jellezjli, jesangliu, jessiejielu, jimmybzhang, johnrickli, josephinehe, josiexxiong, judypang, karenkang, kavehzhou, lanlanliang, leobu, leolwang, leontiliu, lightwwang, lightyao, lilianllli, lunacylu, lxcheng, lyciuszhang, lydisun, maisieren, makinochen, mikemi, mingetian, miyalliu, mookfeng, nadila, nathangao, nikiluo, nilinili, novajiang, oceanfeng, octozhang, owarheatliu, patphwang, patrikchen, paulinepeng, peijiqiu, pizyzheng, qianqzhang, qiyueli, qwqomo, raybdzhou, raywzhou, renaning, rooniewang, russelldeng, serenashen, shadowcao, shuaiilu, snowyxie, sveinzhang, tabbhe, teddylu, tedliangli, tevenxu, thiagoxu, tinshuang, tracycgong, treefu, vespayang, vickiywchen, v_ffylu, v_zhaoleili, wanchunzhuo, wentaohou, willemjiang, windyzheng, xdshang, xelliezhang, xshellyyang, xtinachen, yachnexu, yanawwwang, yanimo, yanqihuan, ydyyang, yecoirzhao, yeqin, yhhhli, yitinghuang, youchunzhou, yutengbian, zhenweizhang, zheyudong, zhuoyingmo"
+1043,客诉智能分析平台,,CDG-支付基础平台与金融应用线-支付平台研发部,,toonychen,"celiafeng, ramanzhu, tigerlan, xinfeili, hyshen"
+1058,bayes legal,https://bayes.app.fat.woa.com/,S1-金融法律合规部,,sivanxu,"ingridgu, lianglei, louismeng, chrisycwan, effylu, jayojyli, stephzjli, yizhuowang, foggyzhong, irenecong, eunicedai, felixliao, ruikcui, sarahjchen, zoeyizuo, juneyzhu, lestersun, melodylanli, selinawwang, jonpchen, smartczhang, noracwang"
+1067,AI PPT,,PCG-社交平台与应用线-社交协作产品部,,rongodzhang,"grapepeng, jessiegeng, joeechen, kakaqian, maopeng, reynwang, ryanypeng, muguan, tensorchen, genejyyin, rowanxie, carlsonzhao, hurryli, qiyuanxing, ruiqitan, siranxu, akitozhang, asynctlv, dayowu, dennisxu, feixiong, jacobwang, johnnydai, keepxing, klinwang, kuanggu, leoricxu, lipfanliu, lookchen, milymiwang, nickzydeng, plutoxiong, stevenyzliu, wikijin"
+1073,LH-Trace日志分析助手,http://21.215.6.248:8080/c/8a61bdc8-bf59-4c64-a832-7e70c33ac3d9,CSIG-云产品一部,,yuehuali,"claudechen, xinqishang, hakunaliu, laurenanyan, masonxhuang, morrisduan, kylexli, largezhou"
+1080,Midas智能监控,https://hunyuanaide.taiji.woa.com/web/llm_task_dialogue?id=19783&type=normal&redirectUrl=%2Fweb%2Fllm_task%3FwsId%3D10144%26pageIndex%3D1&wsId=10144,TEG-计费平台部,TEG-计费平台部,sungong,"leyipeng, rickfeng"
+1093,电销全流程增效Agent,AI质检培训材料,CSIG-云产品四部,,joyejiang,"davettang, easonmma, jackjchou, lawtonliu, ninggyang, oliverlliu, rayllliu, rrachelwang, terrencelli, thomenyang, wesperhuang"
+1186,影视素材智能剪辑agent,,PCG-在线视频BU-智能创作与内容平台部,,chanzhou,
+1184,忍者企鹅AI,,"IEG-光子工作室群-量子工作室,TEG-AI平台部","IEG-IEG Global-Data&AI Group,IEG-IEG Global-PUBGM Publishing,IEG-基础技术产品部",zimoding,"alanliang, alberthwu, ashleyjchen, benderzhao, boyudi, brydenzhang, chaseryang, chilynnxie, deferzhou, dorishzxiao, edenlei, ehmli, elibu, evanzhye, fangyunzhou, feliciagao, freemanfang, gennyjiang, haibinzhou, heeroli, hengyupan, honglinzhu, huberyxu, ikechen, jansonzhan, jasonjcsong, jerryyuan, jingjiawang, joeyxiong, jonnytan, justinlv, kantxu, keanewang, leobliu, leonfu, leoyhou, lukejguo, madelynyang, masonjchen, mingangzhou, moriwang, neronzhang, paimonzheng, ritchiezhao, roganliu, royqiu, sallensun, shuangteng, simbahu, simonfang, stevehguo, steveyyang, sysuzehuawu, tooyang, watsonwang, wenge, wenxizhu, willyang, wilsonli, xiangzhuang, xiyangji, yinsong, yiweigong, yohunawu, ysunlin, zhezhu, zijianzhang, alexjlzhang, cloudding, kylecyzhang, lilyliguo, sherlyzydou, v_blfliao, v_bmdxu, v_bwqliang, v_ftfaysal"
+1182,广告人群挖掘助手,,CDG-广告营销服务线-商业平台部,CDG-广告营销服务线-泛生态业务部,zeminmiao,"qinganfang, peggyygeng, sherryji"
+1181,DeepTest UI自动化测,https://zhiyan.woa.com/qta/17300/qta/#/p/17300/qta/report/294633894/testsolar/report/detail?namespace=qta&name=260148648-0b32cc9,CSIG-CSIG质量部,,erweiwang,"shadowyang, zuhaowei, peterxiong, jaylerliu, kaydai, baderliang"
+1176,DataPocket数据智能,,IEG-公共数据平台部,,prentissli,"katelang, qingminli, spikesi, gaffliu, chanceli, dragonchen, maolilai, billzheng, barramhong, beckyu, endrewzhang, johnzhi, kangji, khalidyang, reuszeng, ryanye, shawliang, shitaopeng, socketwang, tahongshen, yanhuahou, yesendong, livewang, lalicezhang, zihuigu, nikili, farmlan, blaneli"
+1172,赛博医院：你的专属AI医疗团队,http://9.135.217.78:7860,CSIG-生命科学实验室,,lqszchen,"lukatang, owenbhe, gelseywang, jianhuayao"
+1170,天穹helperAI智能助手,https://taiji.woa.com/web-llm/web/match_tryModel?id=19876&wsId=11607,TEG-数据平台部,TEG-机器学习平台部,alenawu,"colinhhfan, darronfang, ethansyliu, huiruan, jakowen, linkatan, shimerhe, tatema"
+1169,合规检测GUI Agent,,PCG-PCG技术与内容平台-应用架构平台部,,jairochen,"wilderwang, carlmli, jonaswu, peishengxia, qianyucheng, fellexhe, cliffyan, carianchen, jayceli"
+1168,With,,TEG-研发管理部,,shinnyhuang,"polopei, emilyma, alexwentong, baynejiang, carlottali, cylhuang, dbcchen, dextertan, elricchen, ginshu, haifangwang, harpergao, jameslee, jingboma, jonahhuang, jonnytang, laryli, lenalin, lovevili, maplehfzhou, marcelhuang, montionye, pinebi, proxyjiang, qiankunfan, qihangyang, rickiewang, samongzhang, shaowenyan, sisiychen, tobyzhai, vickyztzhu, vignywang, xenoli, yanniewang, yanniexu, yanniswang, yueuezhang, yuhaozhou, yumengwang, zhichenglu, zhipenglai"
+1165,支付凭证验真Agent,,S2-财经IT管理部,,shizhao,
+1162,DDOS攻击包分析,http://dify-ai.woa.com/chat/uS9QY3CyJw5iz4lr,CSIG-云技术运营服务部,,yaslhuang,"carywang, kenjhgao, odaywang"
+1160,通用自演进Agent,https://alma.woa.com/,TEG-AI Lab,TEG-数据平台部,michaelcqin,"sunwaysu, minyicheng"
+1156,数据标准化-maas大模型版本,,CSIG-安全产品二部,,sofiazhao,marlonliu
+1157,数据标准化-maas大模型版本,,CSIG-安全产品二部,,sofiazhao,marlonliu
+1152,修仙科普短篇一键生成,,IEG-国内发行线-V7产品部,IEG-增值服务部,leiisun,"agihaochen, bobyzhang, derekghchen, diracxu, hawkchen, nealzzhang, stevenhan, wynneli, xinrongqin, wenhaotao"
+1151,企微文档用户反馈自动定位,,WXG-企业微信应用部,,ivanxfjiang,"derekliao, steephenliu"
+1149,腾讯云智能客服,https://cloud.tencent.com/online-service?from=connect-us&Is=sdk-floatbar,CSIG-云技术运营服务部,,gavrielliu,"ailanzhou, albertyyang, alexzmzhang, ashleyxie, cavellli, chrisren, greenyzhang, joskazhao, junhuideng, lizhenli, scalezheng, sshyfeng, uli, xianzou, xxcxu"
+1144,「审小包」广告审核智能小助手,,CDG-广告营销服务线-商业运管部,,arvinmeng,"teetang, bondlin, davidfzhang, fiffypeng, gcchaoguo, kershinzhu, kxingzhang, tianyluo"
+1142,智能顾问-AI赋能云上架构治理,,CSIG-云技术运营服务部,,georgzhang,"ainsleypei, fisherhhyu, futureliu, jessiexxu, mtouyang, sunnielv, symonxu, xxcxu, tairyao, eevanzhang, dongqin, pumbaahu, springyyang"
+1137,TripGO(即刻出发),,S2-财经IT管理部,S2-财会及报告管理部,keliye,"paulnwang, erikbi, fightywang, laresyang, wuxingfeng, mingxuanlu, artonyu, amyyao, doreendli, daphnexu, colinouyang"
+1135,「腾讯探元」AI文博助手智能体,微信小程序搜索「腾讯探元」,CDG-可持续社会价值事业部-数字文化实验室,CDG-可持续社会价值事业部-技术生态部,ericjing,"andypianwu, aineli, gavinyan, aarondsshi, chelseaxie, sevenshu, brantli, ciccizhang, hsinfan, daisyvvtang, jacobyzhang, sammiexu, seanxzzhang"
+1126,QQ官方AI伙伴“小Q”,QQ 官方 AI 伙伴 “小Q” 体验指南,PCG-社交平台与应用线-AI应用产品中心,"PCG-社交平台与应用线-社交平台产品部,PCG-社交平台与应用线-社交用户体验设计部",kedeng,"asulewang, autozhang, biyinghe, carili, cloristian, dreamqian, fupinghuang, genglin, georgefu, greatgao, hongyuewang, jameszhou, jasonbwwu, jeannewoo, jerkoffliu, jimzang, johnshuang, kedeng, kenaiyu, lairdchen, lemanzhang, leoqlin, louiechen, mabelzhang, mambaxie, mandozhang, mingweiding, nebulawu, neilzrzhang, neoswang, nitezhang, oliveryhwu, onewang, raymonddeng, raymondguo, rclin, rianli, riojdai, ruirjji, shannonchen, shirlyzhao, sophiasong, sparkyu, teasqlin, trentinchen, walli, wenzeyang, yifanzzhou, yitingtsai, yuchiyao, yunfanhu, zachke, zhanyixiao, zhiweisu, zhongbeitan, ziweibai, zorazwang"
+1124,对象存储智能专家,https://ag.woa.com?agentId=308,CSIG-云产品一部,,luciayzjia,bronwang
+1123,TCS-Agent,,CSIG-云产品一部,,cocoqlwang,"bottlebthu, hongxiliu, joejunchen, wenhanqiu"
+1122,AI辅助应用合规审核与质量巡检,,PCG-商业产品部,PCG-PCG技术与内容平台-工程效能平台部,hockeyli,"jimluo, milesxia, sarahuang, burtlong, jjgan, jolynjiang, johnhjzhong, tritonzhang, sixwang, zhiwuliu, jornezhou, sumsumliang, v_zdeluo"
+1119,合同智能起草,,S2-财经IT管理部,S2-风险管理和内部控制,sunnyylyang,hikowu
+1118,腾讯云主机安全智能溯源助手,http://localhost:2024,CSIG-安全产品三部,CSIG-安全产品三部,falcoke,"cghou, yhaoyuyang"
+1116,星脉高性能网络智能化运营,https://netagent.woa.com/,TEG-网络平台部,,ankerchen,"cesczhang, hensonlin, jaydenxiao, joyxeechen, laineyluo, noradcai, veozhang, vickkylu, plankwang, francisplhe, findzyxu"
+1115,03助手,https://03.woa.com/chat,PCG-PCG技术与内容平台-应用架构平台部,PCG-PCG技术与内容平台-应用架构平台部,zeronezhang,"jessemjchen, yuxanghuang, caipeng, adenshen, barryfwu, bochenchen, galaxyji, huiyongchen, joeyzhong, kaynzhang, lioncfliu, lucazhou, martianliu, minchangwei, nanjianyang, rainyu, raylchen, robinmei, shilianglu, suziliu, wineguo, yingzishao, shadowding, baciiipan"
+1113,Brand Safety,,IEG-IEG Global-GaaS Tech Group,,sunjoohwang,
+1111,公域垂媒分析助手,,"CSIG-智慧出行事业部,CSIG-云产品三部",,irisxxzhao,"xueyuanzong, easonqiu, congkunzhu, cedricfu, judyni, adrianltli"
+1110,QBoost智能平台,https://qboost.woa.com/,PCG-社交平台与应用线-社区产品部,PCG-社交平台与应用线-社区产品部,boboxiong,"alvintliu, redyan"
+1109,内容安全Agent,http://11.219.11.58:80,WXG-运营平台部,,huanqinwu,"bojiehu, yangxiasong"
+1108,微信公众号AI分身（智能回复）,,TEG-大语言模型部,,dimitriyu,
+1105,AI智能生成文档后台接口用例,https://gytest.wwitil.woa.com/magiccube/welcome#/autotest/servemodule/moduledetail/2846/xmsmartsheetservice/%E6%99%BA%E8%83%BD%E8%A1%A8%E6%A0%BC%E5%93%81%E7%B1%BBcgi%E6%9C%8D%E5%8A%A1%E5%85%A5%E5%8F%A3,WXG-企业微信应用部,,lpslin,lpslin
+1221,KOL合作风险挖掘Agent,https://adp.cloud.tencent.com/webim_exp/#/chat/zpRTfm,IEG-IEG Global-GaaS Tech Group,,zanelin,"ninghanghu, sunjoohwang"
+1220,电商大促AI小助手,,"CDG-广告营销服务线-商业推荐部,CDG-广告营销服务线-商业平台部","CDG-广告营销服务线-泛生态业务部,CDG-广告营销服务线-广告工程部,CDG-广告营销服务线-商业运管部",darrenguo,"dennisyang, evancyliu, glennahuang, laoguo, lehu, leigangwang, longiesong, lycheexli, mantaywang, maxdiao, mikegjsun, nikoyxlin, nkandyliu, olivialluo, orcaluo, psfu, tianasun, tingzheng, tottizhang, wenxinwang, willfzhao, zhiquntian"
+1219,AI值班巡检排障助手,,PCG-社交平台与应用线-AI应用产品中心,,walli,"jameszhou, leoqlin, louiechen, oliveryhwu, rianli, shannonchen, sophiasong"
+1215,共富AI,,CDG-可持续社会价值事业部-为村发展实验室,"CDG-可持续社会价值事业部-技术生态部,CSIG-优图实验室,S1-腾讯华东总部",shoulintang,"jessyjjchen, suriwang, barryvwu, annikawang, glenglli, rachelhe, jiamuzili, sophielv, asterpeng, seanxzzhang, ciccizhang, sybil, jacobyzhang, alicellwan, sammiexu, cachi, daisyvvtang, patricksong, jinglexiong, yasmineyu, dewqi, skyhuang, gboghong, elsama"
+1213,doubleC,,"CDG-可持续社会价值事业部-技术生态部,CDG-可持续社会价值事业部-公益平台部",,maxineqiu,masonhyli
+1211,AI驱动UI自动化测试,,TEG-网络平台部,,bottlejiang,"xiaohaicai, jianxinyang"
+1210,<美职篮全明星>智能问答助手,https://21.6.137.62:7927,IEG-国内发行线-体育产品部,,clivesun,"svenshen, rubenhnhu, ezenliu, warezhao, rickenzhang, simontao"
+1209,公益项目进展分析报告生成智能体,,CDG-可持续社会价值事业部-公益平台部,,jayefeng,"masonhyli, lianawu, dorislan, chaisxiao, wangyangyu"
+1207,七彩石产品问答和诊断Agent,https://rainbow.woa.com/console,TEG-研发管理部,,kaeljiang,"bowlgao, ervinzhang, haixinshi, oliazheng, orionfang, parkyang, qunshugao, witpeng, eastonhuang"
+1205,网络质量分析智能体,https://nn.woa.com/agent_hub/netOperationAgent,TEG-网络平台部,TEG-网络平台部,samwong,"corwinkou, isaacyan, jaycellin, krisjczhang, liamhzliu, masoncai, roclv, victorliu, websterduan, wymanhu, yudianliu, zoeyuzhang"
+1203,SmartUI多模态UI自动化,,CSIG-CSIG质量部,CSIG-CSIG质量部,jaylerliu,"jialinlli, baderliang, kaydai"
+1202,混元AI播客Agent,,TEG-大语言模型部,,nickmysong,"moonzheng, mosssewang, magnumyang"
+1200,桃源萝夫子智能NPC,桃源智能NPCdemo.mov,IEG-公共数据平台部,IEG-国内发行线-V6产品部,rosielyuan,"bayzhao, bobbiexuan, brucejzhang, carlzmzhang, carrickliu, cicyqiao, jsonzhliu, kismetzhang, qizailiu, raylzhang, richardfeng, vinjinwang, wakeshao, yoyooluo, yuliangshen, zerochen, zixunsun, yanshili"
+1199,企业微信私域服务AI助手,,TEG-客户服务部,,maybezhou,"jojohzhang, tenrronelli, rochellehan, kikoyan, jasonnhuang, jackyqhong, thewang, linceyliu, lumizeng, yukiytzhou, martintian"
+1192,【和平精英】全场景AI小秘书,应用市场下载和平精英，游戏大厅左下角【吉事通】可以体验,IEG-光子工作室群-S工作室,IEG-光子工作室群-光子技术发展部,elitang,
+1191,【和平精英】明星AI队友,,IEG-光子工作室群-S工作室,IEG-光子工作室群-光子技术发展部,elitang,
+1345,公益项目进展分析报告生成智能体,,CDG-可持续社会价值事业部-公益平台部,,jayefeng,"masonhyli, lianawu, dorislan, chaisxiao, wangyangyu"
+1343,美观度评测助手,,TEG-计费平台部,,yuccakuang,
+1342,元梦活动助手,,"TEG-研发管理部,IEG-天美工作室群-天美T1工作室",,haifangwang,"rickiewang, murrayli, jarvisli, matrixguo"
+1341,扣叮慧读,,IEG-用户平台部,,shuozhishen,"maskzhang, ronweihao, toludou, allange, pavelyang, toviyyahxu, billybliu, corallsliu, alickwang"
+1339,AI埋点设计,,PCG-PCG技术与内容平台-大数据平台部,"PCG-PCG技术与内容平台-大数据平台部,PCG-在线视频BU-在线视频数据科学部",rachelning,"tristacchen, answerzhong, bryantmai, harlowli, luyuanzhang, kenwaychen, hunterkong, naikunwang, orfeocheng, harryyfhu, boristan, zhenxichen, palinchen, higgsli"
+1337,千万级3D资产库AI搜索方案,,IEG-效能产品部,,codchen,"chengge, qsliu, jingxiangli, anguszhang, vanliao, cinnywu, jinmianye, yilingzhang, tobyzhzhang"
+1336,123,,IEG-效能产品部,,kareyzhou,
+1335,IT运维智能服务台,,CSIG-智慧出行事业部,,adrianltli,"xueyuanzong, easonqiu, congkunzhu, cedricfu, judyni, irisxxzhao"
+1333,网络建设智能助手,https://iwiki.woa.com/p/4016428231,TEG-网络平台部,,xinhaichen,"lallaluo, lewenyu, liangzaiwei, hgt, fuwang, ankerchen, eliozhang, jagerzhang"
+1332,云API AI助手,,CSIG-云产品一部,CSIG-云产品四部,frankiefu,"loganmao, joewliu"
+1331,起名专家,,CSIG-政企客户成功中心,,xiaochenfan,"cathypiao, chuihuang"
+1329,活动运营风险检测,,S2-风险管理和内部控制,,shaoyouwang,"irisyhliao, joyceyi, bovineniu, derrickdai, haoxiang"
+1327,Midas商城内容生成助手,,TEG-计费平台部,,justinchen,"natelin, tankouyang, juicejiang, cowliu, chengpzhang, ironmin, graceyqgao, yihandong, lisahuiwang, lorneli, zoelin, lufywang"
+1324,腾讯文档AI救命文档智能体,https://docs.qq.com/ai/view/taifeng,PCG-社交平台与应用线-社交协作产品部,,melodizhang,"xiaosun, ponnyma, stevenyzliu, leoricxu, lookchen, tensorchen, johnnydai"
+1320,数据中心事件AI转单及诊断,https://dcops.woa.com/operateManage/basOperateManage/eventDetails?Id=20251013028090&selfId=E202510130571,TEG-IDC平台部,,keketan,"solwang, kimiluo, johnsenwang, alongeruan, kerwinzlin, philyuliu, henleyxiao, jiaqiliang"
+1316,AMS Data Agent,https://data-ams.testsite.woa.com/security/,CDG-广告营销服务线-商业数据部,CDG-广告营销服务线-商业数据部,kidlv,"yannisyang, monkeychai, yanfeizhao, ethanytzhou, miyoliu, jiapengdu, peiyunnie, hanruiliu, lynnzlli, spritesun, yanuofu, sunnyyyyang, steveywwu, jennyfeng"
+1314,qt4s测试代码智能生成,,TEG-计费平台部,,congzeng,
+1313,Midas问题异常分析,https://hunyuanaide.taiji.woa.com/web/match_tryModel?id=19905,TEG-计费平台部,,zekizheng,
+1312,腾讯公益数据需求智能助手,,CDG-可持续社会价值事业部-公益平台部,,wangyangyu,"masonhyli, ekkoychen, dorislan, lianawu"
+1309,客成通,https://work.weixin.qq.com/wework_admin/common/openBotProfile/2446466385a95842e1a66f6fe6c1963b49,CSIG-安全产品三部,CSIG-安全产品三部,juliajhzhu,"timothyhu, gannonwang, paipppeng, xiaohangyu, allenwwwang, v_wyxwu"
+1307,AI叮当旅行管家Agent,,CSIG-地图产品部,"CSIG-地图平台部,CSIG-CSIG质量部",louispeng,"kentezeng, kevinxu, finali, jiayinzhang, peishizhang, edenytjiang, millieli, pippoli, cicelycheng, kentgao, xunxunwang, bondma, cokeywei, jeffrren, kingjwwang, kunwkwang, lionzzhou, alanxwshen, torresyang, timothydeng, xueqiyang, willhao, abqiu, dcdong, jizhehu, mengyichen, frenchren, weikzhu, cheukyinye, codeyin, cszhenzhang, ellaahe, haohaochen, jeffreychen, jeffriechen, jobimzhou, julianwu, rachellpqiu, yunshanwang, hongshengwu, diyingli, junzhilu, cherrytu, gretyang, wulinsong, lindawlwang, wanqiucai, yuxuanjin, yanfeiwang, clintyang"
+1306,AI辅助DB性能调优,https://zhiyan.woa.com/operate/19106/task/#/task/result/38922,S2-财经IT管理部,,kevincai,derekxiang
+1305,QQ群聊消息AI总结,QQ群聊AI总结体验方式说明,PCG-社交平台与应用线-AI应用产品中心,"CSIG-元宝产品部,PCG-社交平台与应用线-社交平台产品部",zhanyixiao,"adacyang, alanpfhu, andrewychen, annayalin, aritaqin, asulewang, birdhua, colinjiang, dflyfang, dorajwang, eddyhe, eleenali, farisfeng, foxezhu, garycao, harperxu, hongyuewang, hwzhzhang, jameszhou, janetpwang, jasonbwwu, jeannewoo, jerkoffliu, jianjzheng, jimzang, junweidai, kailisun, kenaiyu, kevinlong, lairdchen, liqiangliu, louiechen, magilu, mambaxie, markcsjiang, mingweiding, neilzrzhang, nitezhang, pigeonliu, quintqi, rachelsong, rachelyyu, raymonddeng, raymrshen, riojdai, rogersxiao, rovenzhang, shassha, shirlyzhao, siminyin, sivinli, summercheng, superxiao, taekhamxue, teasqlin, trentinchen, walli, wenzeyang, yohanwu, yominyan, youbinghe, yuchiyao, yukixxwang, zenxu, zhiweisu, zhongbeitan, zorazwang, zhanyixiao"
+1303,视频号自动生产CGI测试用例,视频号自动生产CGI测试用例,WXG-视频产品部,WXG-技术架构部,bigheadzhou,"tommytang, bokzhou, clarkyao, rainylei, biteryli, amyzhuang, frankxia, apache, kairrylin, summerxie, guangyaoxu, kevinxhxu, kevintzqiu, mercijin, v_wdzeng"
+1302,AI4Test,https://git.woa.com/cj-test/AI4Test,S2-财经IT管理部,,ronniewang,[]
+1300,审计报告智能体,https://faudit.woa.com/audit,S2-财经IT管理部,,hikowu,"sunnyylyang, shizhao, tinarhuang, yuandongzhu, albanchen, lorcanzhang, kyleleeli, pengfeining, allanyu, henderyhuo, charlieyfli"
+1299,AI快看,https://qbflow.html5.qq.com/qb-test/h5/ai-news-share/index.html?guideContent=%5B%223003093362935277957%22%2C%223984878077380841861%22%2C%225759296375039164805%22%2C%224417223687154708869%22%2C%224156014895616620933%22%2C%227587757821244230021%22%5D,CSIG-信息平台与服务线-搜索及内容产品中心,CSIG-信息平台与服务线-应用技术部,jaceyxue,"sendohchi, yanghaozhou, haozhexing, hughzhu, talbotniu, gengkaiyu, howieyhuang, peirongyan, alieyu, yannizhang, tofuxbchen, alexyqhuang, zivjqxiao, kaiminghu, youzhengtao, allsochen, shahmei, victorsong, taurusyu, hassonlin, stevetychen, weihangwu, zorozhou, hattiehe, kroszhu, nicholasxie, piersonzhou, reubenlei, ivanqu, cathyfyliu, sevenhtang, jellezjli, lucyji, tianyusong, liuyuehuang, catthyxu, iannjin, josiejychen, kayeqliu, maryyyli, meekbai, sisiguo, kiritoyang, evonehuang, qiqizeng, gamehuang, rooneysong"
+1298,微信广告开发者AI服务助手,,CDG-广告营销服务线-微信广告部,,zeliayang,"louiselv, adenzhang, banyadai, corkyliu, johnqyang, lunaazhang, zeliayang"
+1296,TXSQL智能诊断Agent,https://mydbops-test.woa.com/next/instance/a9da354f-b6e9-11ef-8c34-08c0eb2cb60d?ClusterId=451&ClusterType=multiplenode_prod&tab=diagnostic,TEG-数据库研发部,,stanleewang,"belletang, jansenhu, lowenawang, paxonwang, yuxianjiang, sophiacai"
+1294,电商监管合规小助手,电商监管合规小助手体验地址,S1-市场经营合规部,,alekzhu,"abbeyhuang, alinabai, bigheng, billxqli, carolpzhang, chunleitan, dietzfang, fermiliu, jeorgechen, olinaqiu, teeniedong, vinwen, webberzhong"
+1292,设计转前端代码提效工具,test-d2c.woa.com,S2-财经IT管理部,S2-财经IT管理部,williamliao,"weizhang, pengswang, bensonlee, hnuwang, jqchang"
+1288,Launch Canvas,http://9.134.116.63:8000/,IEG-IEG Global-GaaS Tech Group,,lynntzhou,"xinxccheng, fennieyang, kiddwang, mengxingxu, mjalowiec, ninghanghu"
+1286,AI 埋点自动化测试,https://datong.woa.com/#/d/autoTest/case/pool?appId=z5EToxWw&menuN=AutoTest&tableType=1,PCG-PCG技术与内容平台-大数据平台部,,orfeocheng,"answerzhong, boristan, bryantmai, harlowli, kenwaychen, leonkyao, naikunwang, palinchen, v_bocbchen, zhenxichen"
+1285,多代码平台AI CR,多代码平台AI CR：破解多项目协作代码审查困局的智能引擎,CDG-可持续社会价值事业部-技术生态部,,henrywwang,"windlin, jefferwang, yikazhu, nichozhang"
+1284,自动化预测智能体,http://auto-forecast.devcloud.woa.com,S2-财经IT管理部,S2-财经IT管理部,fabinliu,"hikowu, shizhao, sunnyylyang, ethanxwang, strangeli"
+1282,AI智能化运营,https://iwiki.woa.com/p/4016178069,CDG-可持续社会价值事业部-技术生态部,,wayrakiwei,"carlwhhuang, henrywwang, xiaoyuuyang, windlin, yikazhu"
+1280,技术风险大脑Agent,https://iwiki.woa.com/p/4016418157,CDG-支付基础平台与金融应用线-支付平台研发部,,silonli,"pauluszhou, yanciliu, allenxqli"
+1279,CasePilot自动化测试,CasePilot体验说明,WXG-企业微信应用部,,flyfeihuang,"dangyyan, donglinchen, lalisazhao, linkejin, luciouslu, pennypan, tousjin, ubinwei, jayjayli, linkyhuang, guanlunfang, sabinachen, mandyzhong, jackiehe"
+1277,直播高光片段生成系统,,WXG-视频产品部,"WXG-视频产品部,WXG-技术架构部",bookermu,"tankygao, paulhe, howiehan, eckolv, fengyunrao, darryruidai, yuxiaohu, juanjuansun, tyewang, maxwellxu, lyleleeli, raykoomei, logiczhang, jacobcai, jinboyan, wenzha, bokzhou, nealkhxu, vezorkong, ethanyi, shuohuang, plusli, dijiarong, hackerliang, eryuwang, dashuosliu"
+1275,信用卡AI赋能用户运营服务项目,信用卡AI应用体验指引,CDG-支付基础平台与金融应用线-支付应用产品部,CDG-支付基础平台与金融应用线-支付金融平台与数据部,hawkinghe,
+1274,提示词生成智能体,https://promptagent.woa.com/,S2-财经IT管理部,,ethanxwang,"hikowu, sunnyylyang, shizhao, kyleleeli, pengfeining, allanyu, yuandongzhu"
+1272,AIGC玩家共创：画出修仙道侣,https://xxsd.qq.com/cp/a20250616creation/index_wx.html,IEG-国内发行线-V7产品部,TEG-大语言模型部,vanli,"darrenlin, isenli, stevenhan, yukizhou, zhenyizhou, v_linyuylin"
+1271,灵析——财经智能告警助手,https://fm-alert.woa.com/alert,S2-财经IT管理部,S2-财经IT管理部,vindentyang,"kevincai, kyleleeli, sagaliu, allanyu"
+1270,党建助手,https://hragent.woa.com/chat?botName=dangjianzhushou,S3-党群工作部,"S3-人力资源平台部,TEG-云架构平台部",sabrinacui,"jasparma, polohuang, aidorpeng, allanchen, bertzheng, essienlin, ikerzhang, ablegao"
+1269,“AI”治未病-SQL事前风险预测Agent,https://console.cloud.tencent.com/tdai/experience-center/sqlChat/agentins-aj0lyokm?isExperienceCenter=true,CSIG-云产品一部,,andyypli,"cloudluo, ivansqwu, willqwang, clorislin, simonnyu, ashbrzeng, adadong, shawnxsun, jerseychen, ellytan"
+1268,PCopilot:代码评审助手,《PCopilot代码评审助手》体验方式,IEG-光子工作室群-逍遥游工作室,,baohuizhu,"rossliao, sagehan, yukesun, yutazhuang, radlywang, billxiao, xiaoqhu, matthewmma, citruswang"
+1266,财经智能客服(财经小智),wxwork://message/?username=IT热线-财经系统支持;,S2-财经IT管理部,,jackluo,"hikowu, strangeli, sunnyylyang, jackluo"
+1265,混元AI IP分身Agent,,"TEG-大语言模型部,PCG-在线视频BU-平台运营部",,milkyingli,"kimluo, leonliuliu, leozli, pejacktan, yanhewang, yoyorzhang, zakkliu"
+1264,云知AI——智能售卖助手,https://csig.lexiangla.com/c/ai?company_from=csig,S3-CSIG人力资源中心,"CSIG-企业中台产品部,CSIG-云产品四部,CSIG-CSIG质量部",irisrrtong,"carinahyang, noelwang, scarlezheng, gemmagao, fionayfwang, sibylwang, alexchen, shuyafeng, amideng, roxieqin, handsomwang, roketyyang, jetonzeng, leroli, jackda, brianlin, yvonnezhao, xulongliang, ainleywang, jinyangpiao, chunxli, buqingchen, aallenma, kevinsmu, yannayu, gilgameshli, jerryzqsong, milomli, koltzhou, davilli, victorhuang"
+1263,智能体营销活动-修仙渡劫模拟器,https://xxsd.qq.com/cp/a20250909xxdjmnq/index_wx.html,IEG-国内发行线-V7产品部,"IEG-增值服务部,TEG-大语言模型部",vanli,"darrenlin, derekghchen, diracxu, stevenhan, yukizhou, v_linyuylin"
+1261,内控盖亚AI-风险策略小助手,https://gaiaic.woa.com/Strategy/manage/aiStrategy?business=7,S2-风险管理和内部控制,,nataliao,"jasonxxxliu, xhjiang, blairxu, torreswu, carolluo"
+1260,端云协同隐私保护智能体HaS,,CSIG-玄武实验室,CSIG-玄武实验室,longgteng,"alohachen, huimingliu, jhdeng, alanxing, reneeliang, tkyu"
+1259,软件包自维护Agent,,TEG-云架构平台部,,denisecheng,"zeyouliu, xinlongchen"
+1257,服采智能运营小助手,https://xd.woa.com/itrpc.xd.aim/#/chat/index?agent_id=hURAMRlWKT1J,IEG-互动娱乐服务采购部,IEG-IEG品牌与数字生态营销部,sunnyzou,"jonyhuang, kainmao, lucienpeng"
+1256,ppt-agent 自动生成,ppt-agent 自动生成 PPT,CDG-可持续社会价值事业部-技术生态部,,yikazhu,
+1255,taihu-tgit,taihu-tgit体验说明,IEG-天美工作室群-天美L1工作室,,yutoli,"lincliu, linlai, pondasong, xavierfxiao, xueruizhang, marclei, xiongpan, elonnwang"
+1250,服采视频优选智能体,https://xd.woa.com/itrpc.xd.aim/#/chat/index?agent_id=N6YJfOoNJqzv,IEG-互动娱乐服务采购部,IEG-IEG品牌与数字生态营销部,sunnyzou,"chenghu, lucienpeng, ludixie"
+1245,小A助手 (Adata平台),,CDG-广告营销服务线-商业运管部,"CDG-广告营销服务线-商业管理部,TEG-机器学习平台部",rongdou,"andyxbliu, archerli, elsietan, fredmeng, frigoyang, hermosazhu, hypinchi, jackieyin, jairzhu, junyangyao, kadesun, lanxu, lupinliu, markshen, qiizhou, saberqi, saryzhang, seekxu, tayloryu, tommyjli, tomshen, wayzheng, yangpu, yovelaou, zhenhaohu, zofiazhou, asctyzhang"
+1242,大模型智能文案提效直播红点分发,,WXG-视频产品部,WXG-视频产品部,deonzhou,"alexzyzhu, bliangjiang, danielachen, gavynli, gongyihuang, kikibo, paulhe, rayenchen, sirizheng, tankygao, timdong, yukixywu, winnieshi, jeffreyxie, alangao"
+1239,moredb-pgsql,moredb-pgsql体验说明,IEG-天美工作室群-天美L1工作室,,yutoli,"linlai, lincliu, pondasong, marclei, xavierfxiao, xiongpan, xueruizhang, elonnwang"
+1237,AI 视频审核,http://dev.dify.itea.woa.com/chat/4flXZaCf19uambqV,IEG-内容生态部,IEG-内容生态部,yiqiuzheng,"xiaolinwang, stefwang, kirahqin, lucienyu, jimcheng"
+1235,微信游戏 - AI游戏战报,https://kalm.woa.com/workflow/jWf9dmU7AtiFFtwV,"WXG-增值业务部,WXG-技术架构部",,shenzhenliu,"asgerzhou, autumnzheng, boxianlai, chetguo, fredren, hannahfang, haolinyan, haozanliang, kaelhuang, kaneqxzhou, kikiruoqili, longpoliu, reggiezhong, rosellemo, sladezhang, twocoldzyin, vikkiqu, willonwao, willswei, yongdailuo, zerolinzhao, zifeishan, zoiwu"
+1234,Bugly AI 问题分析,https://bugly.woa.com/v2/exception/crash/issues/detail?cId=11EC34E9-7739-4D28-9599-8F225483725E&clusterStackType=&feature=1C19AA1CE17846F9C9240A80D99A7398&messageTab=%E5%87%BA%E9%94%99%E5%A0%86%E6%A0%88&pid=2&productId=0aed60cc73&tab=copilot&token=,PCG-PCG技术与内容平台-应用架构平台部,,tianwuwang,"chazezhuang, constwu, lilyxie, maxtaohuang, miraclewu, shacheng, davidhu, jelynwang"
+1233,开悟D2C Figma插件,https://iwiki.woa.com/p/4016153398 D2C 插件使用指南,IEG-天美工作室群-天美L1工作室,,yutoli,"zianhe, yuanqinwang, sauisun, garywen, chunpingsun, guanghuicai"
+1232,商品自动化测评,https://test.gland.woa.com/agent-tools.html,CDG-广告营销服务线-商业数据部,CDG-广告营销服务线-商业数据部,lynchtan,"earvinli, meehomdong, piaoyang, simsonhe, yisuzhong, gordongpan, adairxbwang"
+1231,Agent-RED测试小助手,https://dify-ai.woa.com/chat/c1FPbBXmUEy5zm3o,"IEG-魔方工作室群-魔王工作室,IEG-魔方工作室群-技术中心",,willtang,"frozhang, guozizhang, harvienli, maxszhang, oldszhang, rexsliu, sawyerwang, v_abccheng, v_ananxwang, v_nkknkang, yipengwang"
+1230,InfraSec基础安全运营,https://secbuddy.woa.com/,TEG-安全平台部,,bozhongliu,"lukecanli, oldbuddyxin, daveychang, qiuyaosu, shangyuyang, yiiyi"
+1229,开悟前端代码生成助手,https://knot.woa.com/chat?web_key=da861e52d7ee454ab6cbdece0fbeb541,IEG-天美工作室群-天美L1工作室,,yutoli,"zianhe, chunpingsun, yuanqinwang, garywen, sauisun, guanghuicai"
+1228,IC-Helper内控合规助手,https://ichelper.woa.com/,"S2-风险管理和内部控制,S2-财经IT管理部",,georgeqjin,"ethanxwang, hikowu, keanuli, sulischen, sunnyylyang, tinarhuang, yaffahuang, yuandongzhu"
+1403,代码异常定位助手,,TEG-网络平台部,,liangzaiwei,
+1402,腾讯文档智能表格 AI 应用,,PCG-社交平台与应用线-社交协作产品部,,nyadai,
+1401,企业微信智能服务总结,,WXG-企业微信产品部,,xuekaili,
+1400,POI生产智能体,,CSIG-地图平台部,,ervinyue,
+1398,FiT 云平台AI助手,,CDG-支付基础平台与金融应用线-平台产品技术部,,franklzhang,
+1397,无障碍公益智能体集群,,CDG-可持续社会价值事业部-技术生态部,,auguszhu,
+1396,腾讯新闻用户反馈智能诊断助手,,PCG-腾讯新闻-新闻工程研发部,,xiaobaguo,
+1395,云原生中心AISE Agent,,CSIG-云产品一部,,raylhuang,
+1393,跨境汇款研发智能助手,,CDG-支付基础平台与金融应用线-跨境支付业务部,,luyungyu,
+1392,多模态AI驱动UI自动化测试,,CDG-支付基础平台与金融应用线-平台产品技术部,,willyu,
+1391,腾讯公益研发助手,,CDG-可持续社会价值事业部-公益平台部,,dingyuan,
+1390,RCM智能生成Agent,,S2-风险管理和内部控制,,jasonxxxliu,
+1388,AI辅助测试用例生成,,CDG-支付基础平台与金融应用线-跨境支付业务部,,yulongbai,
+1387,A/Brain-广告实验大模型,,CDG-广告营销服务线-商业数据部,,hanbinwang,
+1385,微信支付境外商户海报Agent,,CSIG-信息平台与服务线-用户体验设计部,,samjinli,
+1383,跨境汇款通用代码编写智能体,,CDG-支付基础平台与金融应用线-跨境支付业务部,,yuutingwang,
+1380,C++转Java批跑AI自动化,,CDG-支付基础平台与金融应用线-跨境支付业务部,,luyungyu,
+1375,跨境商户智能助手,,CDG-支付基础平台与金融应用线-跨境支付业务部,,callawang,
+1374,游戏版号助手,,S1-IEG公共事务部,,samuelsrhe,
+1371,MRR专家访谈AI助手-小玄,,"CDG-战略发展部,TEG-企业IT部",,carenli,
+1369,跨境业务研发智能运维,,CDG-支付基础平台与金融应用线-跨境支付业务部,,leoyhwei,
+1365,DBA永不眠,,CDG-支付基础平台与金融应用线-平台产品技术部,,williamlai,
+1364,代码覆盖率MCP,,CSIG-CSIG质量部,,andrewjiang,
+1362,基于多Agent协同的安全分析,,CDG-支付基础平台与金融应用线-平台产品技术部,,ericyhe,
+1355,资金中台运营小助手-证账实智能,,CDG-支付基础平台与金融应用线-平台产品技术部,,arnoldcheng,
+1352,GhostUnit,,CSIG-CSIG质量部,,andrewjiang,
+1349,生产风险AI定位,,CDG-支付基础平台与金融应用线-平台产品技术部,,alinaqzhang,
+1346,midas经营分析问答助手,,TEG-计费平台部,,justinchen,
+1413,公益项目AI评审,https://hunyuanaide.taiji.woa.com/web/match_tryModel?id=9450,CDG-可持续社会价值事业部-公益平台部,CDG-可持续社会价值事业部-基金会支持组,chaisxiao,seanxzzhang
+1412,工蜂AI CR赋能元梦之星提效,体验链接,"TEG-研发管理部,IEG-天美工作室群-天美T1工作室",,mansizeng,"silviasun, garybhwang, bornesong, carlcyang, jingyiwang, karynchen, kimzliang, longdawang, peiowang, rhainliu, samhong, v_yegliu, yatorozhang, zwingzheng, jarvisli, murrayli, lffliu, wenjunfan"
+1411,dlc udf迁移助手,,CSIG-政企客户成功中心,,chopperxu,
+1410,FiT_Helper深度搜索,,CDG-支付基础平台与金融应用线-平台产品技术部,CDG-支付基础平台与金融应用线-平台产品技术部,gatsbyxu,"mingyangan, cherryqian"
+1408,CDN接入领域SRE智能体,https://chatinsight.woa.com/#/chat/chatView,TEG-云架构平台部,TEG-云架构平台部,yikunhong,"samglin, seazhou, jetzuo, abnerxwang, adelinwang, davidsondai, dengyideng, edenzeng, lesterxia, lucaslluo, tenerozhou"
+1405,用户之声,https://tad.woa.com/voc/,CDG-广告营销服务线-广告营销设计中心,,yettazhou,"dovechen, yilanghe, lacqlu, yanlinggao, donringyang, yanqinghu, arryliu, chihyunli, wesliang, charlieyin, danayang, queenzhou, renqiangxie, yijiejiang, tooyangliu, lishuyuan"
+1404,FiT_Helper提效助手,http://21.91.243.242:7862/,CDG-支付基础平台与金融应用线-平台产品技术部,,cherryqian,"mingyangan, gatsbyxu, alfredyyang"
+1338,智能检查服务-你的资产治理助手,,PCG-PCG技术与内容平台-工程效能平台部,,rhinoliu,

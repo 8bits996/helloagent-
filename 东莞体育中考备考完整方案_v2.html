@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>东莞市体育中考备考完整方案 - 2027届考生专用</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #1a5fb4; --primary-light: #3584e4; --success: #2ec27e;
+            --warning: #f5c211; --danger: #e01b24; --info: #62a0ea;
+            --gray: #666; --light-gray: #f8f9fa; --border: #e9ecef;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8; color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px; margin: 0 auto; background: #fff;
+            min-height: 100vh; box-shadow: 0 0 60px rgba(0,0,0,0.3);
+        }
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white; padding: 30px 40px; text-align: center;
+        }
+        .header h1 { font-size: 2em; margin-bottom: 8px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
+        .header .subtitle { font-size: 1.1em; opacity: 0.9; }
+        .student-info-bar {
+            background: rgba(255,255,255,0.15); padding: 12px 20px; margin-top: 15px;
+            border-radius: 8px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;
+        }
+        .tab-nav {
+            background: #fff; border-bottom: 2px solid var(--border);
+            position: sticky; top: 0; z-index: 100; display: flex; overflow-x: auto; padding: 0 20px;
+        }
+        .tab-btn {
+            padding: 15px 18px; border: none; background: none; cursor: pointer;
+            font-size: 0.9em; color: var(--gray); white-space: nowrap;
+            position: relative; transition: all 0.3s; font-weight: 500;
+        }
+        .tab-btn:hover { color: var(--primary); background: var(--light-gray); }
+        .tab-btn.active { color: var(--primary); }
+        .tab-btn.active::after {
+            content: ''; position: absolute; bottom: -2px; left: 0; right: 0;
+            height: 3px; background: var(--primary);
+        }
+        .tab-content { display: none; padding: 30px 40px; animation: fadeIn 0.3s ease; }
+        .tab-content.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .section-title {
+            display: flex; align-items: center; margin: 30px 0 20px;
+            padding-bottom: 10px; border-bottom: 3px solid var(--primary);
+        }
+        .section-title:first-child { margin-top: 0; }
+        .section-title .icon {
+            width: 36px; height: 36px;
+            background: linear-gradient(135deg, var(--primary-light), var(--primary));
+            border-radius: 8px; display: flex; align-items: center; justify-content: center;
+            margin-right: 12px; font-size: 1.1em; color: white;
+        }
+        .section-title h2 { font-size: 1.4em; color: var(--primary); }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.08); font-size: 0.95em; }
+        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid var(--border); }
+        th { background: linear-gradient(135deg, var(--primary-light), var(--primary)); color: white; font-weight: 600; }
+        tr:hover { background: var(--light-gray); }
+        tr:last-child td { border-bottom: none; }
+        .highlight-row { background: #e8f4fd !important; }
+        .card { background: var(--light-gray); border-radius: 12px; padding: 20px; margin: 15px 0; }
+        .policy-card { background: var(--light-gray); border-radius: 12px; padding: 20px; margin-bottom: 15px; border-left: 4px solid var(--primary); }
+        .policy-card h4 { color: var(--primary); margin-bottom: 10px; }
+        .policy-card .time-tag { display: inline-block; background: var(--primary); color: white; padding: 3px 12px; border-radius: 15px; font-size: 0.85em; margin-bottom: 10px; }
+        .policy-card.applicable { border-left-color: var(--success); }
+        .policy-card.applicable .time-tag { background: var(--success); }
+        .policy-card.not-applicable { border-left-color: var(--danger); opacity: 0.75; }
+        .policy-card.not-applicable .time-tag { background: var(--danger); }
+        .tip-box { background: linear-gradient(135deg, #fff9e6, #fff3cd); border-radius: 10px; padding: 15px 20px; margin: 15px 0; border-left: 4px solid var(--warning); }
+        .tip-box h5 { color: #856404; margin-bottom: 8px; }
+        .warning-box { background: linear-gradient(135deg, #ffe6e6, #ffcccc); border-radius: 10px; padding: 15px 20px; margin: 15px 0; border-left: 4px solid var(--danger); }
+        .warning-box h5 { color: #721c24; margin-bottom: 8px; }
+        .success-box { background: linear-gradient(135deg, #e6ffe6, #ccffcc); border-radius: 10px; padding: 15px 20px; margin: 15px 0; border-left: 4px solid var(--success); }
+        .success-box h5 { color: #155724; margin-bottom: 8px; }
+        .info-box { background: linear-gradient(135deg, #e6f3ff, #cce5ff); border-radius: 10px; padding: 15px 20px; margin: 15px 0; border-left: 4px solid var(--info); }
+        .info-box h5 { color: #004085; margin-bottom: 8px; }
+        .badge { display: inline-block; padding: 3px 10px; border-radius: 15px; font-size: 0.8em; font-weight: 600; }
+        .badge-success { background: #d4edda; color: #155724; }
+        .badge-warning { background: #fff3cd; color: #856404; }
+        .badge-danger { background: #f8d7da; color: #721c24; }
+        .badge-info { background: #d1ecf1; color: #0c5460; }
+        .badge-primary { background: #cce5ff; color: #004085; }
+        .timeline { position: relative; padding-left: 30px; }
+        .timeline::before { content: ''; position: absolute; left: 10px; top: 0; bottom: 0; width: 3px; background: linear-gradient(to bottom, var(--primary), var(--success)); border-radius: 3px; }
+        .timeline-item { position: relative; margin-bottom: 25px; padding: 20px; background: var(--light-gray); border-radius: 12px; margin-left: 20px; }
+        .timeline-item::before { content: ''; position: absolute; left: -27px; top: 25px; width: 14px; height: 14px; background: var(--primary); border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+        .timeline-item.current::before { background: var(--danger); animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(224, 27, 36, 0.4); } 50% { box-shadow: 0 0 0 10px rgba(224, 27, 36, 0); } }
+        .timeline-item h4 { color: var(--primary); margin-bottom: 5px; }
+        .timeline-item .date { font-size: 0.9em; color: var(--gray); margin-bottom: 10px; }
+        .project-card { background: white; border-radius: 12px; padding: 20px; margin-bottom: 20px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); border-top: 4px solid var(--primary); }
+        .project-card.recommended { border-top-color: var(--success); }
+        .project-card.alternative { border-top-color: var(--warning); }
+        .project-card.not-recommended { border-top-color: var(--danger); opacity: 0.9; }
+        .project-card h4 { display: flex; align-items: center; margin-bottom: 15px; font-size: 1.15em; }
+        .project-card h4 span { margin-right: 10px; font-size: 1.2em; }
+        .tech-point { background: #e8f4fd; border-radius: 8px; padding: 15px; margin: 10px 0; }
+        .tech-point h5 { color: var(--primary); margin-bottom: 8px; }
+        .tech-point ol, .tech-point ul { margin-left: 20px; }
+        .tech-point li { margin: 5px 0; }
+        .score-prediction { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin: 20px 0; }
+        .score-card { background: linear-gradient(135deg, var(--light-gray), var(--border)); border-radius: 12px; padding: 20px; text-align: center; }
+        .score-card .project { font-size: 0.9em; color: var(--gray); margin-bottom: 5px; }
+        .score-card .score { font-size: 2em; font-weight: bold; color: var(--primary); }
+        .score-card .score span { font-size: 0.5em; color: var(--gray); }
+        .score-card.total { background: linear-gradient(135deg, var(--primary-light), var(--primary)); color: white; }
+        .score-card.total .project { color: rgba(255,255,255,0.8); }
+        .score-card.total .score { color: white; }
+        .weekly-plan { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; margin: 15px 0; }
+        .day-card { background: var(--light-gray); border-radius: 8px; padding: 10px; text-align: center; font-size: 0.85em; }
+        .day-card .day-name { font-weight: bold; color: var(--primary); margin-bottom: 8px; padding-bottom: 5px; border-bottom: 2px solid var(--border); }
+        .day-card.rest { background: var(--border); opacity: 0.7; }
+        .checklist { list-style: none; padding: 0; }
+        .checklist li { padding: 10px 15px; margin: 8px 0; background: var(--light-gray); border-radius: 8px; display: flex; align-items: center; }
+        .checklist li::before { content: '☐'; margin-right: 12px; font-size: 1.2em; color: var(--primary); }
+        .source-ref { background: #f0f0f0; border-radius: 8px; padding: 15px; margin-top: 20px; font-size: 0.9em; }
+        .source-ref h5 { color: var(--gray); margin-bottom: 10px; }
+        .source-ref a { color: var(--primary); text-decoration: none; }
+        .source-ref a:hover { text-decoration: underline; }
+        .source-ref ul { margin-left: 20px; }
+        .source-ref li { margin: 5px 0; }
+        .footer { background: var(--light-gray); padding: 30px 40px; text-align: center; border-top: 1px solid var(--border); }
+        .footer p { color: var(--gray); font-size: 0.9em; margin: 5px 0; }
+        .progress-bar { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; margin: 10px 0; }
+        .progress-bar .fill { height: 100%; background: linear-gradient(90deg, var(--primary), var(--success)); border-radius: 4px; }
+        .difficulty-meter { display: flex; gap: 3px; margin: 5px 0; }
+        .difficulty-meter .bar { width: 20px; height: 8px; background: var(--border); border-radius: 2px; }
+        .difficulty-meter .bar.filled { background: var(--danger); }
+        .difficulty-meter.easy .bar.filled { background: var(--success); }
+        .difficulty-meter.medium .bar.filled { background: var(--warning); }
+        .comparison-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0; }
+        .score-table { width: 100%; font-size: 0.85em; }
+        .score-table th, .score-table td { padding: 8px 10px; text-align: center; }
+        @media (max-width: 768px) {
+            .header h1 { font-size: 1.5em; }
+            .tab-content { padding: 20px; }
+            .weekly-plan { grid-template-columns: repeat(2, 1fr); }
+            .score-prediction { grid-template-columns: 1fr 1fr; }
+            .student-info-bar { flex-direction: column; gap: 8px; }
+            .comparison-grid { grid-template-columns: 1fr; }
+        }
+        @media print {
+            body { background: white; }
+            .container { box-shadow: none; }
+            .tab-nav { display: none; }
+            .tab-content { display: block !important; page-break-after: always; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏃 东莞市体育中考备考完整方案</h1>
+            <p class="subtitle">基于《东莞市初中学业水平考试体育与健康科目考试实施方案（2025年修订）》</p>
+            <div class="student-info-bar">
+                <span>📅 当前时间：2025年12月7日</span>
+                <span>🎓 当前年级：初二上学期</span>
+                <span>🎯 中考时间：2027年4-5月</span>
+                <span>💪 个人优势：长跑（800米/1000米）</span>
+            </div>
+        </div>
+        
+        <div class="tab-nav">
+            <button class="tab-btn active" data-tab="policy">📋 政策解读</button>
+            <button class="tab-btn" data-tab="structure">📊 考试结构</button>
+            <button class="tab-btn" data-tab="fitness">📝 体质测试</button>
+            <button class="tab-btn" data-tab="selection">🎯 选考方案</button>
+            <button class="tab-btn" data-tab="all-projects">📚 全部项目详解</button>
+            <button class="tab-btn" data-tab="training">💪 训练方案</button>
+            <button class="tab-btn" data-tab="timeline">📅 时间规划</button>
+            <button class="tab-btn" data-tab="checklist">✅ 考前清单</button>
+        </div>
+        
+        <!-- 政策解读 -->
+        <div id="policy" class="tab-content active">
+            <div class="section-title">
+                <div class="icon">📋</div>
+                <h2>政策改革解读</h2>
+            </div>
+            
+            <p style="margin-bottom: 20px;"><strong>发布时间：</strong>2025年12月3日，东莞市教育局正式发布《东莞市初中学业水平考试体育与健康科目考试实施方案（2025年修订）》。</p>
+            
+            <h3 style="margin: 25px 0 15px; color: var(--success);">✅ 适用于你的新政策（2026年、2027年中考）</h3>
+            
+            <div class="policy-card applicable">
+                <span class="time-tag">2026年中考起</span>
+                <h4>1. 成绩计算方式优化 - 三项互补</h4>
+                <p>必考、选考、体能素质三项考试单项最高分为<strong>120分</strong>，三项成绩可互补。平均分超过100分按100分计，未超过按实际得分折算。</p>
+                <div class="tip-box">
+                    <h5>💡 对你的意义</h5>
+                    <p>长跑强项可冲120分，即使其他两项各80分，平均分也有93.3分！强项能有效弥补弱项。</p>
+                </div>
+            </div>
+            
+            <div class="policy-card applicable">
+                <span class="time-tag">2026年中考起</span>
+                <h4>2. 体能素质项目改为自选（五选一）</h4>
+                <p>体能素质考试项目从之前由市教育局统一抽取改为<strong>考生自选</strong>。</p>
+                <p><strong>可选项目：</strong></p>
+                <ul style="margin-left: 20px; margin-top: 8px;">
+                    <li>①引体向上（男）、一分钟仰卧起坐（女）</li>
+                    <li>②一分钟双杠杠端跳起支撑前摆下</li>
+                    <li>③立定跳远</li>
+                    <li>④原地双手正面投掷实心球</li>
+                    <li>⑤平行梯悬垂攀移（仅2026-2027年有）</li>
+                </ul>
+            </div>
+            
+            <div class="policy-card applicable">
+                <span class="time-tag">2026年中考起</span>
+                <h4>3. 选考项目范围扩大（九选一）</h4>
+                <p>选考项目从5选1扩大为<strong>9选1</strong>：</p>
+                <ul style="margin-left: 20px; margin-top: 8px;">
+                    <li>①篮球</li>
+                    <li>②足球</li>
+                    <li>③排球</li>
+                    <li>④气排球</li>
+                    <li>⑤素质四项</li>
+                    <li>⑥十字障碍跑</li>
+                    <li>⑦三角蛇形跑</li>
+                    <li>⑧60米跨栏</li>
+                    <li>⑨上步三级跳远</li>
+                </ul>
+            </div>
+            
+            <div class="policy-card applicable">
+                <span class="time-tag">2026年中考起</span>
+                <h4>4. 部分项目难度降低</h4>
+                <p>引体向上（男）、平行梯悬垂攀移（女）、篮球、足球、排球等项目<strong>评分标准适当下调</strong>。</p>
+            </div>
+            
+            <h3 style="margin: 30px 0 15px; color: var(--danger);">❌ 不适用于你的政策（2028年中考起）</h3>
+            
+            <div class="policy-card not-applicable">
+                <span class="time-tag">2028年中考起</span>
+                <h4>平时考核分值提高至30分（50%）</h4>
+                <p>平时考核从6分（10%）提高至30分（50%），初一、初二、初三各10分。</p>
+                <p><strong>你的情况：</strong>仍按原方案，平时考核6分（占10%）。</p>
+            </div>
+            
+            <div class="policy-card not-applicable">
+                <span class="time-tag">2028年中考起</span>
+                <h4>新增"三小球"项目</h4>
+                <p>选考项目增加乒乓球、羽毛球、网球。</p>
+                <p><strong>你的情况：</strong>虽然你会打羽毛球和乒乓球，但<strong>2027年中考还未纳入</strong>这些项目，无法选择。</p>
+            </div>
+            
+            <div class="policy-card not-applicable">
+                <span class="time-tag">2028年中考起</span>
+                <h4>体能素质调整为四选一</h4>
+                <p>取消平行梯悬垂攀移，保留其他四项。</p>
+            </div>
+            
+            <div class="source-ref">
+                <h5>📚 信息来源</h5>
+                <ul>
+                    <li>东莞市教育局《东莞市初中学业水平考试体育与健康科目考试实施方案（2025年修订）》- 2025年12月3日发布</li>
+                    <li><a href="https://new.qq.com/rain/a/20251203A08EMO00" target="_blank">腾讯新闻 - 东莞体育中考改革方案发布</a></li>
+                    <li><a href="https://m.itouchtv.cn/article/c2237f9f2ccb80d8189cbb22708b301f" target="_blank">粤TV - 体育中考大变革！东莞考生可选项目增加、难度降低</a></li>
+                    <li><a href="https://mp.weixin.qq.com/s/HqxTT65fizpfNxYvxoPpcA" target="_blank">"东莞慧教育"微信公众号</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 考试结构 -->
+        <div id="structure" class="tab-content">
+            <div class="section-title">
+                <div class="icon">📊</div>
+                <h2>考试结构与分值（2027年中考适用）</h2>
+            </div>
+            
+            <h3 style="margin-bottom: 15px;">总分构成</h3>
+            <table>
+                <tr><th>组成部分</th><th>分值</th><th>占比</th><th>说明</th></tr>
+                <tr><td><strong>平时考核</strong></td><td>6分</td><td>10%</td><td>《国家学生体质健康标准》测试，初一至初三各2分</td></tr>
+                <tr><td><strong>现场考试</strong></td><td>54分</td><td>90%</td><td>必考+选考+体能素质，三项互补计算</td></tr>
+                <tr class="highlight-row"><td><strong>体育中考总分</strong></td><td><strong>60分</strong></td><td>100%</td><td>计入中考总分</td></tr>
+            </table>
+            
+            <h3 style="margin: 25px 0 15px;">2026年、2027年现场考试项目一览</h3>
+            <table>
+                <tr><th>项目类型</th><th>可选项目</th><th>选择方式</th></tr>
+                <tr>
+                    <td><strong>必考选考类</strong></td>
+                    <td>①长跑1000米(男)/800米(女)<br>②游泳100米</td>
+                    <td><span class="badge badge-primary">2选1</span></td>
+                </tr>
+                <tr>
+                    <td><strong>体能素质类</strong></td>
+                    <td>①引体向上(男)、一分钟仰卧起坐(女)<br>②一分钟双杠杠端跳起支撑前摆下<br>③立定跳远<br>④原地双手正面投掷实心球<br>⑤平行梯悬垂攀移</td>
+                    <td><span class="badge badge-success">5选1（自选）</span></td>
+                </tr>
+                <tr>
+                    <td><strong>选考类</strong></td>
+                    <td>①篮球 ②足球 ③排球 ④气排球<br>⑤素质四项 ⑥十字障碍跑<br>⑦三角蛇形跑 ⑧60米跨栏 ⑨上步三级跳远</td>
+                    <td><span class="badge badge-info">9选1</span></td>
+                </tr>
+            </table>
+            
+            <h3 style="margin: 25px 0 15px;">三项互补计算示例</h3>
+            <div class="info-box">
+                <h5>📐 计算公式</h5>
+                <p>三项单项最高分均为<strong>120分</strong>，最终得分 = (必考分 + 选考分 + 体能素质分) ÷ 3</p>
+                <p>如果平均分 ≥ 100分，按100分计；如果 < 100分，按实际得分折算为54分满分。</p>
+            </div>
+            
+            <table>
+                <tr><th>情况</th><th>必考(长跑)</th><th>选考(排球)</th><th>体能素质</th><th>平均分</th><th>折算后(54分满)</th></tr>
+                <tr><td>理想情况</td><td>120分</td><td>100分</td><td>95分</td><td>105分→100分</td><td><strong>54分</strong></td></tr>
+                <tr><td>正常发挥</td><td>115分</td><td>90分</td><td>85分</td><td>96.7分</td><td><strong>52.2分</strong></td></tr>
+                <tr><td>保底情况</td><td>110分</td><td>80分</td><td>75分</td><td>88.3分</td><td><strong>47.7分</strong></td></tr>
+            </table>
+            
+            <div class="source-ref">
+                <h5>📚 信息来源</h5>
+                <ul>
+                    <li>《东莞市初中学业水平考试体育与健康科目考试实施方案（2019年修订）》（东教考函〔2019〕29号）</li>
+                    <li><a href="http://m.dg.bendibao.com/mip/edu145478.shtm" target="_blank">东莞本地宝 - 2025东莞中考体育评分标准</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 体质测试 -->
+        <div id="fitness" class="tab-content">
+            <div class="section-title">
+                <div class="icon">📝</div>
+                <h2>《国家学生体质健康标准》测试（平时考核6分）</h2>
+            </div>
+            
+            <div class="info-box">
+                <h5>📌 重要说明</h5>
+                <p>平时考核6分来源于每学年的体质健康测试，<strong>达到及格标准即可获得该学年满分</strong>。测试依据《国家学生体质健康标准（2014年修订）》执行。</p>
+            </div>
+            
+            <h3 style="margin: 25px 0 15px;">测试时间安排</h3>
+            <table>
+                <tr><th>学年</th><th>测试时间</th><th>分值</th><th>状态</th></tr>
+                <tr><td>初一（七年级）</td><td>2024年9月-12月</td><td>2分</td><td><span class="badge badge-success">已完成</span></td></tr>
+                <tr class="highlight-row"><td><strong>初二（八年级）</strong></td><td><strong>2025年9月-12月</strong></td><td>2分</td><td><span class="badge badge-warning">约9-12个月后</span></td></tr>
+                <tr><td>初三（九年级）</td><td>2026年9月-12月</td><td>2分</td><td><span class="badge badge-info">待完成</span></td></tr>
+            </table>
+            
+            <div class="tip-box">
+                <h5>⏰ 测试时间说明</h5>
+                <p>根据教育部要求，各学校每学年<strong>9月1日至12月31日</strong>期间完成体质健康测试并上报数据。大多数学校安排在<strong>10月-11月</strong>进行集中测试。具体时间以学校通知为准。</p>
+            </div>
+            
+            <h3 style="margin: 25px 0 15px;">测试项目（初中阶段共8项）</h3>
+            <table>
+                <tr><th>项目</th><th>类型</th><th>权重</th><th>你的情况</th></tr>
+                <tr><td>身高/体重（BMI）</td><td>身体形态</td><td>15%</td><td><span class="badge badge-info">保持正常体重</span></td></tr>
+                <tr class="highlight-row"><td><strong>肺活量</strong></td><td>身体机能</td><td>15%</td><td><span class="badge badge-success">长跑优势，轻松过</span></td></tr>
+                <tr><td>50米跑</td><td>身体素质</td><td>20%</td><td><span class="badge badge-info">正常训练即可</span></td></tr>
+                <tr><td>坐位体前屈</td><td>身体素质</td><td>10%</td><td><span class="badge badge-warning">需柔韧性训练</span></td></tr>
+                <tr><td>立定跳远</td><td>身体素质</td><td>10%</td><td><span class="badge badge-warning">需要练习</span></td></tr>
+                <tr><td>引体向上(男)/仰卧起坐(女)</td><td>身体素质</td><td>10%</td><td><span class="badge badge-warning">需要练习</span></td></tr>
+                <tr class="highlight-row"><td><strong>1000米(男)/800米(女)</strong></td><td>身体素质</td><td>20%</td><td><span class="badge badge-success">强项，轻松过</span></td></tr>
+            </table>
+            
+            <h3 style="margin: 25px 0 15px;">初二（八年级）评分标准</h3>
+            <table>
+                <tr><th>项目</th><th>男生及格</th><th>男生优秀</th><th>女生及格</th><th>女生优秀</th></tr>
+                <tr class="highlight-row"><td><strong>肺活量</strong></td><td>2500ml</td><td>3900ml</td><td>1800ml</td><td>2900ml</td></tr>
+                <tr><td>50米跑</td><td>9.5秒</td><td>7.5秒</td><td>10.3秒</td><td>8.2秒</td></tr>
+                <tr><td>坐位体前屈</td><td>1.2cm</td><td>16.0cm</td><td>4.5cm</td><td>18.0cm</td></tr>
+                <tr><td>立定跳远</td><td>180cm</td><td>230cm</td><td>140cm</td><td>185cm</td></tr>
+                <tr><td>引体向上(男)</td><td>5次</td><td>12次</td><td>-</td><td>-</td></tr>
+                <tr><td>仰卧起坐(女)</td><td>-</td><td>-</td><td>30次/分</td><td>46次/分</td></tr>
+                <tr class="highlight-row"><td><strong>1000米(男)/800米(女)</strong></td><td>4'55"</td><td>4'30"</td><td>4'23"</td><td>4'10"</td></tr>
+            </table>
+            
+            <div class="success-box">
+                <h5>✅ 你的优势分析</h5>
+                <p><strong>长跑强项</strong>意味着：</p>
+                <ul style="margin-left: 20px; margin-top: 8px;">
+                    <li>1000米/800米（权重20%）轻松拿满分</li>
+                    <li>肺活量（权重15%）通常也会很好，因为长跑训练提升心肺功能</li>
+                    <li>这两项占总分<strong>35%</strong>，是你的稳定得分点</li>
+                </ul>
+            </div>
+            
+            <div class="source-ref">
+                <h5>📚 信息来源</h5>
+                <ul>
+                    <li>《国家学生体质健康标准（2014年修订）》- 教育部发布</li>
+                    <li><a href="http://m.163.com/dy/article/IKKM0KT20545THPW.html" target="_blank">网易 - 国家学生体质健康标准评分标准大全</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 选考方案 -->
+        <div id="selection" class="tab-content">
+            <div class="section-title">
+                <div class="icon">🎯</div>
+                <h2>个性化选考方案</h2>
+            </div>
+            
+            <div class="success-box">
+                <h5>✅ 推荐选考组合</h5>
+                <p>基于你<strong>长跑强项 + 不擅长跳远/篮球/足球 + 会一点羽毛球乒乓球（但2027年不可选）</strong>的情况：</p>
+            </div>
+            
+            <table>
+                <tr><th>项目类型</th><th>推荐选择</th><th>选择理由</th><th>目标分数</th></tr>
+                <tr class="highlight-row">
+                    <td><strong>必考选考类</strong></td>
+                    <td>中长跑（男1000米/女800米）</td>
+                    <td>你的绝对优势项目</td>
+                    <td><span class="badge badge-success">115-120分</span></td>
+                </tr>
+                <tr>
+                    <td><strong>选考项目</strong></td>
+                    <td>排球 或 气排球</td>
+                    <td>技术相对简单、稳定性高、难度已下调</td>
+                    <td><span class="badge badge-info">90-100分</span></td>
+                </tr>
+                <tr>
+                    <td><strong>体能素质</strong></td>
+                    <td>投掷实心球</td>
+                    <td>靠技术和核心力量，比跳远更适合你</td>
+                    <td><span class="badge badge-warning">85-95分</span></td>
+                </tr>
+            </table>
+            
+            <h3 style="margin: 25px 0 15px;">选考项目对比分析</h3>
+            <table>
+                <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>适合你吗</th></tr>
+                <tr class="highlight-row"><td><strong>排球/气排球</strong></td><td>⭐⭐</td><td>3-4个月</td><td>高</td><td><span class="badge badge-success">推荐</span></td></tr>
+                <tr><td>三角蛇形跑</td><td>⭐⭐</td><td>2-3个月</td><td>中</td><td><span class="badge badge-info">备选</span></td></tr>
+                <tr><td>素质四项</td><td>⭐⭐⭐</td><td>3-4个月</td><td>中</td><td><span class="badge badge-warning">可考虑</span></td></tr>
+                <tr><td>篮球</td><td>⭐⭐⭐</td><td>4-6个月</td><td>中</td><td><span class="badge badge-danger">不喜欢</span></td></tr>
+                <tr><td>足球</td><td>⭐⭐⭐</td><td>4-6个月</td><td>低</td><td><span class="badge badge-danger">不喜欢</span></td></tr>
+                <tr><td>60米跨栏</td><td>⭐⭐⭐⭐</td><td>4-6个月</td><td>低</td><td><span class="badge badge-danger">风险高</span></td></tr>
+                <tr><td>上步三级跳远</td><td>⭐⭐⭐⭐</td><td>4-6个月</td><td>低</td><td><span class="badge badge-danger">不擅长</span></td></tr>
+            </table>
+            
+            <h3 style="margin: 25px 0 15px;">体能素质项目对比</h3>
+            <table>
+                <tr><th>项目</th><th>难度</th><th>与长跑关联</th><th>训练周期</th><th>适合你吗</th></tr>
+                <tr class="highlight-row"><td><strong>投掷实心球</strong></td><td>⭐⭐</td><td>核心力量有帮助</td><td>2-3个月</td><td><span class="badge badge-success">推荐</span></td></tr>
+                <tr><td>立定跳远</td><td>⭐⭐⭐</td><td>关联度低</td><td>3-4个月</td><td><span class="badge badge-danger">不擅长</span></td></tr>
+                <tr><td>引体向上(男)</td><td>⭐⭐⭐⭐</td><td>关联度低</td><td>4-6个月</td><td><span class="badge badge-warning">难度大</span></td></tr>
+                <tr><td>仰卧起坐(女)</td><td>⭐⭐</td><td>核心力量</td><td>1-2个月</td><td><span class="badge badge-success">女生推荐</span></td></tr>
+                <tr><td>双杠支撑前摆下</td><td>⭐⭐⭐</td><td>关联度低</td><td>3-4个月</td><td><span class="badge badge-warning">需专业指导</span></td></tr>
+            </table>
+            
+            <h3 style="margin: 25px 0 15px;">预期成绩</h3>
+            <div class="score-prediction">
+                <div class="score-card">
+                    <div class="project">必考 · 中长跑</div>
+                    <div class="score">115-120<span>分</span></div>
+                    <span class="badge badge-success">强项</span>
+                </div>
+                <div class="score-card">
+                    <div class="project">选考 · 排球</div>
+                    <div class="score">90-100<span>分</span></div>
+                    <span class="badge badge-info">可提升</span>
+                </div>
+                <div class="score-card">
+                    <div class="project">体能 · 实心球</div>
+                    <div class="score">85-95<span>分</span></div>
+                    <span class="badge badge-warning">需训练</span>
+                </div>
+                <div class="score-card total">
+                    <div class="project">现场考试平均分</div>
+                    <div class="score">96-105<span>→按100计</span></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 全部项目详解 -->
+        <div id="all-projects" class="tab-content">
+            <div class="section-title">
+                <div class="icon">📚</div>
+                <h2>全部考试项目详解</h2>
+            </div>
+            
+            <p style="margin-bottom: 20px;">以下详细分析2026-2027年东莞体育中考所有可选项目的<strong>考试内容、难度、特点、训练要点</strong>，供选择参考。</p>
+            
+            <!-- 必考项目 -->
+            <h3 style="margin: 25px 0 15px; color: var(--primary);">一、必考选考类（2选1）</h3>
+            
+            <div class="project-card recommended">
+                <h4><span>🏃</span>长跑：1000米(男)/800米(女) <span class="badge badge-success">推荐</span></h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>你的情况</th></tr>
+                    <tr><td>中长跑</td><td>⭐⭐⭐</td><td>长期积累</td><td>高</td><td><span class="badge badge-success">强项</span></td></tr>
+                </table>
+                <div class="tech-point">
+                    <h5>📋 评分标准（部分）</h5>
+                    <table class="score-table">
+                        <tr><th>分值</th><th>男生1000米</th><th>女生800米</th></tr>
+                        <tr><td>120分</td><td>3'20"</td><td>3'05"</td></tr>
+                        <tr><td>100分</td><td>3'40"</td><td>3'25"</td></tr>
+                        <tr><td>80分</td><td>4'05"</td><td>3'55"</td></tr>
+                        <tr><td>60分</td><td>4'25"</td><td>4'15"</td></tr>
+                    </table>
+                </div>
+                <div class="tech-point">
+                    <h5>🔑 技术要点</h5>
+                    <ol>
+                        <li><strong>起跑</strong>：站立式起跑，听到信号后快速启动但不要冲太快</li>
+                        <li><strong>途中跑</strong>：保持匀速，呼吸节奏与步频配合（两步一呼两步一吸）</li>
+                        <li><strong>冲刺</strong>：最后200米加速，最后50米全力冲刺</li>
+                        <li><strong>配速策略</strong>：前半程稍慢，后半程加速，避免前快后慢</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <h4><span>🏊</span>游泳：100米</h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>适合人群</th></tr>
+                    <tr><td>100米游泳</td><td>⭐⭐⭐</td><td>3-6个月（有基础）</td><td>高</td><td>会游泳且有场地</td></tr>
+                </table>
+                <div class="tech-point">
+                    <h5>📋 评分标准（部分）</h5>
+                    <table class="score-table">
+                        <tr><th>分值</th><th>男生(50米池)</th><th>女生(50米池)</th></tr>
+                        <tr><td>120分</td><td>1'28"</td><td>1'35"</td></tr>
+                        <tr><td>100分</td><td>1'48"</td><td>1'55"</td></tr>
+                        <tr><td>80分</td><td>2'24"</td><td>2'31"</td></tr>
+                    </table>
+                </div>
+                <div class="warning-box">
+                    <h5>⚠️ 注意事项</h5>
+                    <p>需要有游泳基础和训练场地。考试在指定游泳馆进行，时间通常与其他项目分开。如果不会游泳，不建议临时学习。</p>
+                </div>
+            </div>
+            
+            <!-- 体能素质项目 -->
+            <h3 style="margin: 25px 0 15px; color: var(--primary);">二、体能素质类（5选1）</h3>
+            
+            <div class="project-card recommended">
+                <h4><span>🎯</span>原地双手正面投掷实心球 <span class="badge badge-success">推荐</span></h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>你的情况</th></tr>
+                    <tr><td>实心球</td><td>⭐⭐</td><td>2-3个月</td><td>中高</td><td><span class="badge badge-success">推荐</span></td></tr>
+                </table>
+                <div class="tech-point">
+                    <h5>🔑 技术要点</h5>
+                    <ol>
+                        <li><strong>握球</strong>：双手五指张开，包住球的两侧和后下方</li>
+                        <li><strong>预摆</strong>：球从胸前向后上方引，身体后仰形成"满弓"</li>
+                        <li><strong>发力顺序</strong>：蹬地→转髋→挺胸→甩臂→拨指</li>
+                        <li><strong>出手角度</strong>：约38-42度，太高或太低都会影响远度</li>
+                    </ol>
+                </div>
+                <div class="success-box">
+                    <h5>✅ 优势</h5>
+                    <ul style="margin-left: 20px;">
+                        <li>技术性项目，掌握正确方法后提升快</li>
+                        <li>核心力量训练对长跑也有帮助</li>
+                        <li>不需要爆发力，适合耐力型选手</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="project-card not-recommended">
+                <h4><span>🦘</span>立定跳远 <span class="badge badge-danger">不推荐</span></h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>你的情况</th></tr>
+                    <tr><td>立定跳远</td><td>⭐⭐⭐</td><td>3-4个月</td><td>中</td><td><span class="badge badge-danger">不擅长</span></td></tr>
+                </table>
+                <div class="tech-point">
+                    <h5>🔑 技术要点（如需训练）</h5>
+                    <ol>
+                        <li><strong>预摆</strong>：双臂前后摆动2-3次，配合屈膝</li>
+                        <li><strong>起跳</strong>：蹬地、摆臂、展体同时进行，起跳角度约45度</li>
+                        <li><strong>腾空</strong>：收腹举腿，保持身体平衡</li>
+                        <li><strong>落地</strong>：小腿前伸，脚跟先着地，屈膝缓冲</li>
+                    </ol>
+                </div>
+                <div class="warning-box">
+                    <h5>⚠️ 难点</h5>
+                    <p>需要较好的爆发力和协调性，长跑型选手通常不占优势。考试时容易受紧张情绪影响，发挥不稳定。</p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <h4><span>💪</span>引体向上（男生）</h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>适合人群</th></tr>
+                    <tr><td>引体向上</td><td>⭐⭐⭐⭐</td><td>4-6个月</td><td>中</td><td>上肢力量好、体重轻</td></tr>
+                </table>
+                <div class="tech-point">
+                    <h5>🔑 技术要点</h5>
+                    <ol>
+                        <li><strong>握杠</strong>：正握（手心向前），握距略宽于肩</li>
+                        <li><strong>引体</strong>：背部和手臂同时发力，下巴超过杠面</li>
+                        <li><strong>下放</strong>：控制速度下放，不要完全放松</li>
+                        <li><strong>呼吸</strong>：上拉时呼气，下放时吸气</li>
+                    </ol>
+                </div>
+                <div class="warning-box">
+                    <h5>⚠️ 难点</h5>
+                    <p>对上肢力量要求高，体重较大的同学较难。2026年起评分标准已下调，但仍是公认最难的项目之一。</p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <h4><span>🏋️</span>一分钟仰卧起坐（女生）</h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>适合人群</th></tr>
+                    <tr><td>仰卧起坐</td><td>⭐⭐</td><td>1-2个月</td><td>高</td><td>女生首选</td></tr>
+                </table>
+                <div class="tech-point">
+                    <h5>🔑 技术要点</h5>
+                    <ol>
+                        <li><strong>准备姿势</strong>：仰卧，双手抱头，双腿屈膝90度</li>
+                        <li><strong>起身</strong>：腹部发力，肘部触及膝盖</li>
+                        <li><strong>还原</strong>：肩胛骨触垫即可，不需要完全躺平</li>
+                        <li><strong>节奏</strong>：保持稳定节奏，不要前快后慢</li>
+                    </ol>
+                </div>
+                <div class="success-box">
+                    <h5>✅ 优势</h5>
+                    <p>技术简单，训练周期短，女生体能素质首选项目。</p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <h4><span>🤸</span>一分钟双杠杠端跳起支撑前摆下</h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>适合人群</th></tr>
+                    <tr><td>双杠支撑</td><td>⭐⭐⭐</td><td>3-4个月</td><td>中</td><td>上肢力量好</td></tr>
+                </table>
+                <div class="warning-box">
+                    <h5>⚠️ 注意</h5>
+                    <p>需要专业器械和指导，动作有一定技术要求。建议在体育老师指导下训练。</p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <h4><span>🐒</span>平行梯悬垂攀移（仅2026-2027年）</h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>适合人群</th></tr>
+                    <tr><td>平行梯攀移</td><td>⭐⭐⭐</td><td>3-4个月</td><td>中</td><td>握力好、体重轻</td></tr>
+                </table>
+                <div class="warning-box">
+                    <h5>⚠️ 注意</h5>
+                    <p>2028年起取消此项目。对握力和上肢耐力要求较高，训练时容易磨破手掌。</p>
+                </div>
+            </div>
+            
+            <!-- 选考项目 -->
+            <h3 style="margin: 25px 0 15px; color: var(--primary);">三、选考类（9选1）</h3>
+            
+            <div class="project-card recommended">
+                <h4><span>🏐</span>排球 / 气排球 <span class="badge badge-success">推荐</span></h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>你的情况</th></tr>
+                    <tr><td>排球/气排球</td><td>⭐⭐</td><td>3-4个月</td><td>高</td><td><span class="badge badge-success">推荐</span></td></tr>
+                </table>
+                <p><strong>考试内容：</strong>拦网—传球—传球接击球—垫球—垫球接击球—发球（运动能力组合）</p>
+                <div class="tech-point">
+                    <h5>📋 评分标准</h5>
+                    <table class="score-table">
+                        <tr><th>分值</th><th>完成次数</th></tr>
+                        <tr><td>120分</td><td>12次</td></tr>
+                        <tr><td>100分</td><td>10次</td></tr>
+                        <tr><td>80分</td><td>8次</td></tr>
+                        <tr><td>60分</td><td>6次</td></tr>
+                    </table>
+                </div>
+                <div class="tech-point">
+                    <h5>🔑 技术要点</h5>
+                    <ol>
+                        <li><strong>垫球</strong>：两手交叉叠放，大拇指并拢，用前臂平面击球，腿部蹬地发力</li>
+                        <li><strong>传球</strong>：双手呈半球形，手指触球，利用手指和手腕弹力将球传出</li>
+                        <li><strong>发球</strong>：下手发球最稳定，击球点在腰部高度，手掌根部击球</li>
+                        <li><strong>拦网</strong>：起跳时机、手型和落地姿势</li>
+                    </ol>
+                </div>
+                <div class="success-box">
+                    <h5>✅ 为什么推荐</h5>
+                    <ul style="margin-left: 20px;">
+                        <li>2026年起评分标准已下调</li>
+                        <li>技术相对简单，短期可提升</li>
+                        <li>考试稳定性高，不易失误</li>
+                        <li>气排球比排球更轻更软，更容易控制</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="project-card alternative">
+                <h4><span>🔺</span>三角蛇形跑 <span class="badge badge-warning">备选</span></h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>适合人群</th></tr>
+                    <tr><td>三角蛇形跑</td><td>⭐⭐</td><td>2-3个月</td><td>中高</td><td>灵活、变向能力好</td></tr>
+                </table>
+                <div class="tech-point">
+                    <h5>📋 评分标准</h5>
+                    <table class="score-table">
+                        <tr><th>分值</th><th>男生</th><th>女生</th></tr>
+                        <tr><td>120分</td><td>8.0秒</td><td>18.0秒</td></tr>
+                        <tr><td>100分</td><td>8.8秒</td><td>22.0秒</td></tr>
+                        <tr><td>80分</td><td>10.0秒</td><td>24.0秒</td></tr>
+                    </table>
+                </div>
+                <div class="tech-point">
+                    <h5>🔑 技术要点</h5>
+                    <ol>
+                        <li><strong>起跑</strong>：快速启动，降低重心</li>
+                        <li><strong>转向</strong>：接近标志物时减速，用内侧脚蹬地转向</li>
+                        <li><strong>加速</strong>：转向后迅速加速</li>
+                        <li><strong>路线</strong>：贴近标志物但不能碰倒</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="project-card alternative">
+                <h4><span>➕</span>十字障碍跑 <span class="badge badge-warning">备选</span></h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>适合人群</th></tr>
+                    <tr><td>十字障碍跑</td><td>⭐⭐⭐</td><td>2-3个月</td><td>中</td><td>灵活、反应快</td></tr>
+                </table>
+                <div class="tech-point">
+                    <h5>🔑 技术要点</h5>
+                    <ol>
+                        <li>熟悉路线，减少犹豫时间</li>
+                        <li>转向时重心下降，快速变向</li>
+                        <li>保持稳定节奏，避免失误</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="project-card alternative">
+                <h4><span>🏋️</span>素质四项 <span class="badge badge-warning">可考虑</span></h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>适合人群</th></tr>
+                    <tr><td>素质四项</td><td>⭐⭐⭐</td><td>3-4个月</td><td>中</td><td>综合素质好</td></tr>
+                </table>
+                <p><strong>考试内容：</strong>连续完成俯卧撑8次(男)/6次(女)—跳跃5个障碍—连续前滚翻2次—30米跑</p>
+                <div class="tech-point">
+                    <h5>🔑 技术要点</h5>
+                    <ol>
+                        <li><strong>俯卧撑</strong>：标准姿势，胸部接近地面</li>
+                        <li><strong>跳跃障碍</strong>：连续跳跃，节奏稳定</li>
+                        <li><strong>前滚翻</strong>：低头团身，保护颈部</li>
+                        <li><strong>30米跑</strong>：全力冲刺</li>
+                    </ol>
+                </div>
+                <div class="warning-box">
+                    <h5>⚠️ 注意</h5>
+                    <p>需要综合能力，前滚翻需要专业指导。如果某一项特别弱，会拖累整体成绩。</p>
+                </div>
+            </div>
+            
+            <div class="project-card not-recommended">
+                <h4><span>🏀</span>篮球 <span class="badge badge-danger">不推荐（不喜欢）</span></h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>你的情况</th></tr>
+                    <tr><td>篮球</td><td>⭐⭐⭐</td><td>4-6个月</td><td>中</td><td><span class="badge badge-danger">不喜欢</span></td></tr>
+                </table>
+                <p><strong>考试内容：</strong>定点投篮—抢篮板—运球—摆球—滑步及转身—持球—运球—体前换手变向运球接行进间投篮—抢篮板球</p>
+                <div class="tech-point">
+                    <h5>📋 评分标准</h5>
+                    <table class="score-table">
+                        <tr><th>分值</th><th>男生</th><th>女生</th></tr>
+                        <tr><td>120分</td><td>18秒</td><td>22秒</td></tr>
+                        <tr><td>100分</td><td>22秒</td><td>26秒</td></tr>
+                        <tr><td>80分</td><td>28秒</td><td>32秒</td></tr>
+                    </table>
+                </div>
+                <div class="warning-box">
+                    <h5>⚠️ 难点</h5>
+                    <p>需要较好的球感和协调性，动作组合复杂。2026年起评分标准已下调，但仍需要长期训练。</p>
+                </div>
+            </div>
+            
+            <div class="project-card not-recommended">
+                <h4><span>⚽</span>足球 <span class="badge badge-danger">不推荐（不喜欢）</span></h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>你的情况</th></tr>
+                    <tr><td>足球</td><td>⭐⭐⭐</td><td>4-6个月</td><td>低</td><td><span class="badge badge-danger">不喜欢</span></td></tr>
+                </table>
+                <p><strong>考试内容：</strong>颠球或颠反弹球—变向运球—快速运球—变向运球接射门</p>
+                <div class="tech-point">
+                    <h5>📋 评分标准</h5>
+                    <table class="score-table">
+                        <tr><th>分值</th><th>男生</th><th>女生</th></tr>
+                        <tr><td>120分</td><td>22秒</td><td>26秒</td></tr>
+                        <tr><td>100分</td><td>26秒</td><td>30秒</td></tr>
+                        <tr><td>80分</td><td>31秒</td><td>35秒</td></tr>
+                    </table>
+                </div>
+                <div class="warning-box">
+                    <h5>⚠️ 难点</h5>
+                    <p>颠球对球感要求高，射门准确性需要大量练习。考试时失误率较高。</p>
+                </div>
+            </div>
+            
+            <div class="project-card not-recommended">
+                <h4><span>🏃‍♂️</span>60米跨栏跑 <span class="badge badge-danger">不推荐（风险高）</span></h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>风险</th></tr>
+                    <tr><td>60米跨栏</td><td>⭐⭐⭐⭐</td><td>4-6个月</td><td>低</td><td><span class="badge badge-danger">较高</span></td></tr>
+                </table>
+                <div class="tech-point">
+                    <h5>📋 评分标准</h5>
+                    <table class="score-table">
+                        <tr><th>分值</th><th>男生</th><th>女生</th></tr>
+                        <tr><td>120分</td><td>11.4秒</td><td>14.2秒</td></tr>
+                        <tr><td>100分</td><td>12.2秒</td><td>15.0秒</td></tr>
+                        <tr><td>80分</td><td>13.3秒</td><td>16.1秒</td></tr>
+                    </table>
+                </div>
+                <div class="warning-box">
+                    <h5>⚠️ 难点</h5>
+                    <p>技术动作复杂，需要专业指导。过栏时容易碰栏或摔倒，有一定安全风险。不建议没有基础的同学选择。</p>
+                </div>
+            </div>
+            
+            <div class="project-card not-recommended">
+                <h4><span>🦘</span>上步三级跳远 <span class="badge badge-danger">不推荐（不擅长）</span></h4>
+                <table>
+                    <tr><th>项目</th><th>难度</th><th>训练周期</th><th>稳定性</th><th>你的情况</th></tr>
+                    <tr><td>上步三级跳远</td><td>⭐⭐⭐⭐</td><td>4-6个月</td><td>低</td><td><span class="badge badge-danger">不擅长跳远</span></td></tr>
+                </table>
+                <div class="warning-box">
+                    <h5>⚠️ 难点</h5>
+                    <p>需要较好的爆发力和协调性，技术要求高。你已表示不擅长跳远，不建议选择。</p>
+                </div>
+            </div>
+            
+            <div class="source-ref">
+                <h5>📚 信息来源</h5>
+                <ul>
+                    <li><a href="http://m.dg.bendibao.com/mip/edu145478.shtm" target="_blank">东莞本地宝 - 2025东莞中考体育评分标准及分值表一览</a></li>
+                    <li><a href="https://m.itouchtv.cn/article/c2237f9f2ccb80d8189cbb22708b301f" target="_blank">粤TV - 体育中考大变革！东莞考生可选项目增加、难度降低</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 训练方案 -->
+        <div id="training" class="tab-content">
+            <div class="section-title">
+                <div class="icon">💪</div>
+                <h2>分项训练方案</h2>
+            </div>
+            
+            <div class="project-card recommended">
+                <h4><span>🏃</span>中长跑训练（必考项目）- 你的强项</h4>
+                <p><strong>目标：</strong>从优秀提升至满分（120分）</p>
+                <table>
+                    <tr><th>训练阶段</th><th>时间</th><th>训练内容</th><th>频率</th></tr>
+                    <tr><td>保持期</td><td>现在-2026年6月</td><td>匀速跑3-5公里，配速5:30-6:00/km</td><td>每周4次</td></tr>
+                    <tr><td>提高期</td><td>2026年7月-12月</td><td>间歇跑：400m×6组，组间休息2分钟</td><td>每周2次</td></tr>
+                    <tr><td>冲刺期</td><td>2027年1月-考前</td><td>模拟考试配速跑，全程计时</td><td>每周1次</td></tr>
+                </table>
+                <div class="tech-point">
+                    <h5>🔑 关键训练方法</h5>
+                    <ol>
+                        <li><strong>变速跑</strong>：200米快+200米慢，交替8组，提升速度耐力</li>
+                        <li><strong>坡道跑</strong>：上坡冲刺30秒×10组，增强心肺能力和腿部力量</li>
+                        <li><strong>配速训练</strong>：按目标成绩配速跑全程，培养比赛节奏感</li>
+                        <li><strong>核心训练</strong>：平板支撑、仰卧起坐，提升跑步稳定性</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="project-card alternative">
+                <h4><span>🏐</span>排球训练（选考项目）</h4>
+                <p><strong>目标：</strong>从零基础到90-100分</p>
+                <table>
+                    <tr><th>训练阶段</th><th>时长</th><th>训练内容</th><th>目标</th></tr>
+                    <tr><td>入门期（第1-4周）</td><td>每次30分钟</td><td>熟悉球感，练习垫球和传球基本动作</td><td>掌握基本手型</td></tr>
+                    <tr><td>基础期（第5-12周）</td><td>每次40分钟</td><td>分项练习：垫球、传球、发球</td><td>各项动作规范</td></tr>
+                    <tr><td>组合期（第13-24周）</td><td>每次45分钟</td><td>练习完整考试动作组合</td><td>流畅完成全套</td></tr>
+                    <tr><td>巩固期（考前3个月）</td><td>每次30分钟</td><td>模拟考试，计时练习</td><td>稳定发挥</td></tr>
+                </table>
+            </div>
+            
+            <div class="project-card">
+                <h4><span>🎯</span>实心球训练（体能素质项目）</h4>
+                <p><strong>目标：</strong>达到85-95分</p>
+                <table>
+                    <tr><th>训练项目</th><th>方法</th><th>频率</th></tr>
+                    <tr><td>核心力量</td><td>平板支撑60秒×3组</td><td>每天</td></tr>
+                    <tr><td>背肌训练</td><td>俯卧两头起15个×3组</td><td>隔天</td></tr>
+                    <tr><td>出手练习</td><td>轻球找角度，重球练力量</td><td>每周3次</td></tr>
+                    <tr><td>完整动作</td><td>全程发力，注意出手角度38-42°</td><td>每周2次</td></tr>
+                </table>
+            </div>
+            
+            <h3 style="margin: 25px 0 15px;">每周训练计划模板</h3>
+            <div class="weekly-plan">
+                <div class="day-card"><div class="day-name">周一</div><div style="color: var(--success);">匀速跑3km</div><div>+拉伸</div></div>
+                <div class="day-card"><div class="day-name">周二</div><div style="color: var(--warning);">排球30分钟</div><div>+核心训练</div></div>
+                <div class="day-card"><div class="day-name">周三</div><div style="color: var(--success);">间歇跑</div><div>400m×4组</div></div>
+                <div class="day-card"><div class="day-name">周四</div><div style="color: var(--warning);">排球30分钟</div><div>+实心球</div></div>
+                <div class="day-card"><div class="day-name">周五</div><div style="color: var(--success);">变速跑</div><div>+柔韧性</div></div>
+                <div class="day-card"><div class="day-name">周六</div><div>模拟测试</div><div>全项目</div></div>
+                <div class="day-card rest"><div class="day-name">周日</div><div>休息</div><div>或轻松活动</div></div>
+            </div>
+        </div>
+        
+        <!-- 时间规划 -->
+        <div id="timeline" class="tab-content">
+            <div class="section-title">
+                <div class="icon">📅</div>
+                <h2>备考时间规划（2025.12 - 2027.5）</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item current">
+                    <h4>第一阶段：基础建立期</h4>
+                    <div class="date">2025年12月 - 2026年6月（初二上-初二下）</div>
+                    <ul style="margin-left: 20px;">
+                        <li>保持长跑训练，每周4次匀速跑</li>
+                        <li>排球入门，掌握基本手型和击球感觉</li>
+                        <li>实心球基础练习</li>
+                        <li>体质测试弱项补强</li>
+                    </ul>
+                    <div class="progress-bar"><div class="fill" style="width: 5%;"></div></div>
+                    <small>当前进度：5%</small>
+                </div>
+                
+                <div class="timeline-item">
+                    <h4>第二阶段：强化提升期（暑假）</h4>
+                    <div class="date">2026年7月 - 2026年8月</div>
+                    <ul style="margin-left: 20px;">
+                        <li>排球强化训练，练习完整考试组合</li>
+                        <li>实心球技术提升</li>
+                        <li>长跑加入间歇训练</li>
+                    </ul>
+                    <div class="tip-box">
+                        <h5>💡 暑假是黄金训练期</h5>
+                        <p>时间充裕，建议每天训练1.5-2小时。</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <h4>第三阶段：体质测试准备</h4>
+                    <div class="date">2026年9月 - 2026年11月（初三上）</div>
+                    <ul style="margin-left: 20px;">
+                        <li>初三体质健康测试冲刺，确保拿满2分</li>
+                        <li>排球巩固，保持稳定性</li>
+                        <li>长跑维持状态</li>
+                    </ul>
+                </div>
+                
+                <div class="timeline-item">
+                    <h4>第四阶段：全面巩固期</h4>
+                    <div class="date">2026年12月 - 2027年2月</div>
+                    <ul style="margin-left: 20px;">
+                        <li>三项均衡训练，查漏补缺</li>
+                        <li>参加学校模拟测试</li>
+                        <li>根据模拟成绩调整训练重点</li>
+                    </ul>
+                </div>
+                
+                <div class="timeline-item">
+                    <h4>第五阶段：考前冲刺期</h4>
+                    <div class="date">2027年3月 - 2027年4月初</div>
+                    <ul style="margin-left: 20px;">
+                        <li>模拟考试频率增加</li>
+                        <li>长跑配速训练</li>
+                        <li>排球和实心球保持手感</li>
+                    </ul>
+                </div>
+                
+                <div class="timeline-item">
+                    <h4>🎯 体育中考</h4>
+                    <div class="date">2027年4月-5月</div>
+                    <p>考前一周减量，保持状态，注意休息和营养。</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 考前清单 -->
+        <div id="checklist" class="tab-content">
+            <div class="section-title">
+                <div class="icon">✅</div>
+                <h2>考前准备清单</h2>
+            </div>
+            
+            <h3 style="margin-bottom: 15px;">考前一周</h3>
+            <ul class="checklist">
+                <li>减少训练强度，保持状态即可</li>
+                <li>检查考试装备（运动鞋、运动服）</li>
+                <li>了解考试场地和流程</li>
+                <li>保证充足睡眠（每天8小时以上）</li>
+                <li>饮食清淡，避免肠胃问题</li>
+            </ul>
+            
+            <h3 style="margin: 25px 0 15px;">考试当天</h3>
+            <ul class="checklist">
+                <li>提前2小时起床，吃易消化的早餐</li>
+                <li>携带准考证、学生证等必要证件</li>
+                <li>穿着合脚的运动鞋（建议穿过的旧鞋）</li>
+                <li>提前到达考场，充分热身（15-20分钟）</li>
+                <li>保持平常心，正常发挥即可</li>
+            </ul>
+            
+            <h3 style="margin: 25px 0 15px;">预期最终成绩</h3>
+            <table>
+                <tr><th>分数组成</th><th>保底</th><th>正常</th><th>理想</th></tr>
+                <tr><td>平时考核（6分满）</td><td>6分</td><td>6分</td><td>6分</td></tr>
+                <tr><td>现场考试（54分满）</td><td>47.7分</td><td>52.2分</td><td>54分</td></tr>
+                <tr class="highlight-row"><td><strong>体育中考总分</strong></td><td><strong>53.7分</strong></td><td><strong>58.2分</strong></td><td><strong>60分（满分）</strong></td></tr>
+            </table>
+            
+            <div class="success-box">
+                <h5>✅ 总结</h5>
+                <p>以你的长跑优势为基础，配合排球和实心球的针对性训练，<strong>体育中考58分以上完全可以实现</strong>，冲击满分也有很大希望！</p>
+                <p style="margin-top: 10px;"><strong>关键是坚持训练，不要临时抱佛脚。</strong></p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>东莞市体育中考备考完整方案</strong></p>
+            <p>基于《东莞市初中学业水平考试体育与健康科目考试实施方案（2025年修订）》</p>
+            <p>生成时间：2025年12月7日 | 适用对象：2027届中考考生（当前初二）</p>
+            <p style="margin-top: 15px; color: #999;">祝你考试顺利，取得理想成绩！🏆</p>
+        </div>
+    </div>
+    
+    <script>
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById(btn.dataset.tab).classList.add('active');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>

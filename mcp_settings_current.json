@@ -1,0 +1,55 @@
+{
+  "mcpServers": {
+    "mcp-metaso": {
+      "timeout": 60000,
+      "type": "stdio",
+      "command": "C:\\Program Files\\Python311\\python.exe",
+      "args": [
+        "C:\\Users\\frankechen\\CodeBuddy\\20251013195115\\mcp-metaso\\server.py"
+      ],
+      "env": {
+        "METASO_API_KEY": "mk-25382380A7B0E6E27943B18E98F44699"
+      }
+    },
+    "filesystem": {
+      "timeout": 60000,
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem"
+      ],
+      "env": {
+        "ALLOWED_DIRECTORIES": "C:\\Users\\frankechen\\CodeBuddy\\20251013195115"
+      }
+    },
+    "sequential-thinking": {
+      "timeout": 60000,
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "hello-world": {
+      "timeout": 60000,
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-hello-world"
+      ]
+    },
+    "search": {
+      "timeout": 60000,
+      "type": "stdio",
+      "command": "C:\\Program Files\\Python311\\python.exe",
+      "args": [
+        "c:\\Users\\frankechen\\CodeBuddy\\20251016195115\\search_mcp_server.py"
+      ],
+      "env": {},
+      "description": "网络搜索服务器 - 提供通用搜索、新闻、图片、视频、学术搜索等功能"
+    }
+  }
+}

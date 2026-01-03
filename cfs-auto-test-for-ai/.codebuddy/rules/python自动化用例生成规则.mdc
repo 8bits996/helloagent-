@@ -1,0 +1,88 @@
+---
+description: ADP python自动化用例生成规则参考
+alwaysApply: false
+enabled: true
+updatedAt: 2025-11-30T01:33:14.937Z
+provider: 
+---
+
+#结构体遍历与验证规则
+比如根据AgentAdvancedConfig里的字段的含义逐一进行设置和变更，然后通过chat_sse.experience_sse_client的方式调用对话，并对对话结果进行验证，比如通过如下回调函数断言和验证1024+1024是否等于2048，其中回调函数函数cb作为experience_sse_client的一个参数：
+
+        visitor_biz_id = datetime.now().strftime("%Y%m%d%H%M%S")
+        session_id = f"sdk_session_{visitor_biz_id}"
+        bot_app_key = conf_util.get_config("APP_KEY")
+        question = "1024+1024等于几"
+
+        def cb(ev):
+            data = json.loads(ev.data)
+            if ev.event == "reply" and not data["payload"]["is_from_self"]:
+                if data["payload"]["is_final"]:
+                    answer = data["payload"]["content"]
+                    print(f"answer: {answer}")
+                    self.assert_(
+                        
+                        f"返回结果应为2048，实际为: {answer}","2048" in answer or "二零四八" in answer
+                    )
+
+
+可以参考modify_app_knowledge_qa.py或者create_and_chat_with_agent.py的写法。
+
+#测试用例类的写法
+必须从TcadpTestCase继承，用例执行内容放在run_test函数里
+
+#用例尽量用对话过程来验证功能正确性
+比如请实现一个用例， 打开和关闭EnableClarification，通过modifyagent设置，通过sse接口进行验证，如果关闭了EnableClarification，问的问题是“今天天气怎么样”，模型依然追问，就说明关闭EnableClarification没有生效，这个过程要用对话过程实现作为验证点，封装在一个函数里。
+
+#获取基础运行参数用conf_util.get_config
+比如biz_id = conf_util.get_config("APP_BIZ_ID")
+
+#编写函数调用的时候，不要乱编写变量名，比如函数：create_release(biz_id, desc='', channel_biz_ids=[], _self=None)，调用的时候参数要填写biz_id，而不是app_biz_id。
+如下写法是对的：
+response = lke_api.create_release(
+            biz_id=self.app_biz_id,
+            desc=desc,
+            channel_biz_ids=channel_biz_ids  # 直接传递数组，不检查是否为None
+        )
+但是如下写法是有问题：
+response = lke_api.create_release(
+            app_biz_id=self.app_biz_id,
+            desc=desc,
+            channel_biz_ids=channel_biz_ids  # 直接传递数组，不检查是否为None
+        )
+
+#几个规则一定要注意
+1）基于TestCase的类，如果写self.log("文档删除成功”)，就不对， 应该是self.log_info("文档删除成功")
+        
+2）假设已知app_biz_id，动态创建应用之后，如果要真正使用appkey，则在调用
+lke_api.generate_app_key(app_biz_id)之后，调用lke_api.create_app_key(app_biz_id,app_key)，不然在使用体验端对话，就是调用chat_sse.experience_sse_client的时候会遇到"机器人不存在"（错误代码460004）
+
+3）chat_sse生产环境的对话接口是sse_client，开发或者体验环境的对话接口是experience_sse_client
+
+#调用发布接口需要注意的地方
+调用了lke_api.create_release之后应该要等发布成功， 通过lke_api.describe_release_info_listener实现。例子如下：
+release_response = lke_api.create_release(
+            biz_id=app_biz_id,
+            desc="文本搜索图片功能测试发布",
+            channel_biz_ids=[]
+        )
+        
+        is_publish = lke_api.describe_release_info_listener(app_biz_id,self)
+
+#空间不存在的处理经验
+比如遇到这种错误：rsp={'Error': {'Code': 'FailedOperation', 'Message': '4510004-空间信息不存在'}, 'RequestId': '798ccf41-64ce-4339-8e18-501b1007bff2'}
+就需要通过lke_space_api.list_space()获取可见的space_id，并使用其中一个，作为create_app的参数。例子：
+ENV_NAME = config.get(SYS_APP_NAME, 'ENV')
+        if "prod" in ENV_NAME:
+            space_id = "oQaoTHQw"
+        else:
+            space_id = "default_space"
+
+        create_response = lke_api.create_app(
+            app_type="knowledge_qa",
+            name=app_name,
+            desc=app_desc,
+            pattern="standard",
+            space_id=space_id
+        )
+其中"oQaoTHQw"来自lke_space_api.list_space。

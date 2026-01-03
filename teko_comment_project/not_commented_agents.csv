@@ -1,0 +1,393 @@
+﻿id,agent名,主导部门,项目经理,体验链接
+105,AIGC影视后期制作agent,PCG-在线视频BU-智能创作与内容平台部,xinlongsun,
+131,微信广告ai机器人zaker,CDG-广告营销服务线-微信广告部,zakkzhang,企业微信机器人搜索Zaker
+143,腾讯卫士举报智能助手,TEG-客户服务部,soorenzhang,
+153,腾讯反诈助手,TEG-客户服务部,aaronke,
+165,智享AI提效工具,CSIG-产业生态合作部,alexeliu,https://zhixiang.fn.qq.com/partner/demo
+184,DeepTest AI后台测试,CSIG-CSIG质量部,erweiwang,
+204,证券-问 AI,CDG-支付基础平台与金融应用线-证券产品部,macxin,自选股&微证券的“问 AI”入口（产品搜索框右侧“问 AI” 按钮）
+219,理财通编码与测试提效Agent,CDG-支付基础平台与金融应用线-财富管理部,churongliu,
+240,更懂你的助手-轻量云AI助手,CSIG-云产品一部,ceylancao,https://console.cloud.tencent.com/lighthouse/instance/index
+27,AI 全链路智能测试引擎​,CSIG-CSIG质量部,zichaohu,
+270,广告工程智能助理Cyber,CDG-广告营销服务线-广告工程部,yvanwang,https://versa.woa.com/strategy/cyberbot
+287,智研服务洞察助手,CDG-广告营销服务线-商业平台部,nichotang,
+299,AiSee日志分析小助手,PCG-PCG技术与内容平台-工程效能平台部,jiyuanliu,https://aisee.woa.com/admin/p-a6ae25e3-fca6-3ad9-8b46-04148c919e1e/b-af298735-17c9-31e6-b0a6-2a05843aff16/32a2a0e053/overview?ref=agent&ref_type=rizhi
+320,BrandTalking,PCG-PCG技术与内容平台-工程效能平台部,miphazhang,
+347,视频结构化理解联合项目,PCG-PCG技术与内容平台-应用研究中心,wybertwang,
+357,合规智能助手,CSIG-安全产品二部,ivyrxie,https://ag.woa.com/?agentId=980
+367,历史代码工程的wiki实践,CDG-支付基础平台与金融应用线-支付金融平台与数据部,haruntian,
+396,Feedback Hawk,WXG-企业微信应用部,derekliao,
+411,视觉创作Agent,TEG-多模态模型部,angelqlin,
+431,广告业务大盘助手,CDG-广告营销服务线-商业运管部,hermanzeng,
+451,AI迁云工具,CSIG-政企客户成功中心,graceyliu,
+460,AI智能专题,PCG-PCG技术与内容平台-内容服务部,kaiyuancui,https://hot.woa.com/big-event-thing
+49,王者营地大模型助手,IEG-天美工作室群-天美L1工作室,pepeli,https://camp.qq.com/h5/webdist/redirect-app/index.html
+496,安全问答助手,PCG-社交平台与应用线-社交安全中心,alanpfhu,
+526,网络报文智能分析,TEG-网络平台部,claudexie,https://pcapagent.woa.com
+571,腾讯频道问问Agent,PCG-社交平台与应用线-社区产品部,nickxiao,
+595,X5灵析助手,CSIG-信息平台与服务线-平台产品部,normanchen,
+619,PM数智人,CSIG-政企客户成功中心,feizhuang,
+68,Anknow安知道智能分身平台,CSIG-云产品技术支持部,keyiding,https://ag.woa.com
+698,DcData数据分析助手,TEG-IDC平台部,yinggan,"xxxx,数据敏感"
+726,草场地智能客服agent,PCG-在线视频BU-在线视频商业化部,kacychen,https://mall.video.qq.com/ecommerce/ai-chat?hidetitlebar=1&immersive=2&entranceType=1
+754,FinAIEval金模判官,CDG-支付基础平台与金融应用线-支付金融平台与数据部,elizaliang,
+778,linda测试,TEG-运营管理部,lindaluan,
+789,和平赛场智能助手,IEG-IEG品牌与数字生态营销部,gertrudezou,
+796,设计稿转代码D2C,IEG-IEG品牌与数字生态营销部,junshao,https://mobile.woa.com/d2c-front/
+809,新闻内容质量AI,PCG-腾讯新闻-新闻工程研发部,kufazhang,
+817,大模型自动化红队 Agent,WXG-运营平台部,bengiojiang,
+831,​​易链灵构,TEG-客户服务部,chaseliu,https://test.woa.com/
+84,如影DS智能助手,PCG-在线视频BU-智能创作与内容平台部,luciferxu,https://zp.woa.com/ruying-chat
+883,文旅行业agent,CSIG-地图平台部,maggieylye,
+926,智能AI营销图生成,CDG-支付基础平台与金融应用线-跨境支付业务部,leonwhliu,
+973,EGA智能起量系统,CDG-广告营销服务线-商业推荐部,jeremydong,
+995,智能问数智能体,"CSIG-通途数据中心,CSIG-CSIG质量部",ljmengliu,
+1012,数据库知识Agent,CSIG-云产品一部,dirkjin,
+108,云产品优化研究分析Agent,CSIG-云产品四部,atomzhong,
+117,DataBrain Agent,IEG-IEG Global-Data&AI Group,miamgao,https://databrain.woa.com/agent
+134,电销运营提效,CSIG-产业生态合作部,coffeeguo,
+146,影视素材智能剪辑agent,PCG-在线视频BU-智能创作与内容平台部,chanzhou,
+156,商户平台智能开发,WXG-微信支付线-商户产品部,donaldcen,
+166,悟空AI自动化智能测试平台,WXG-企业微信产品部,likunhuang,https://wwwukong.woa.com/Laboratory
+175,智瞳-客户商机分析,CSIG-产业生态合作部,kevinxjjia,【模板】智瞳-新客拓展-样例
+187,OCNET智能运营助手,TEG-云架构平台部,kawsguan,https://knot.woa.com/chat?web_key=bb3fe7dfdd1b4200b3dc3d492f441695
+209,数据自动化发布助手agent,CSIG-地图平台部,nicoyanli,
+248,AI战报,"WXG-增值业务部,WXG-技术架构部",reggiezhong,
+275,PLAN小助手-查询GPU,TEG-运营管理部,risehuang,http://21.91.21.135:5000/
+29,腾讯开悟平台,"IEG-天美工作室群-天美L1工作室,S1-腾讯西南总部",rikkiliu,
+290,业务安全AI蓝军Agent,TEG-安全平台部,jiashihe,
+302,Lumos AI,PCG-PCG技术与内容平台-大数据平台部,lidanxu,
+330,小北助手*北东区助销agent,CSIG-北区业务部,rollsliu,
+351,大禹营销创意素材生成Agent,PCG-PCG技术与内容平台-公共数据科学部,samscai,
+362,在线图文纠错,PCG-在线视频BU-在线视频会员业务部,pomelocai,https://video-llm.woa.com/online-check
+369,安全攻击智能分析助手,CSIG-云产品三部,visongu,https://adp.cloud.tencent.com/webim/#/chat/BaDPRj
+400,AiX,IEG-光子工作室群-光子综合业务中心,jinyjguo,
+415,EplusChat AI助手,TEG-运营管理部,susiessli,
+437,灵鹅点睛,CDG-广告营销服务线-商业数据部,xuezhangli,https://ai-query-assistant-j1tj141h.app.with.woa.com/
+453,云镜台,"IEG-互动科技创新部,IEG-技术运营部",zhihaoochen,
+463,tapd需求分析助手,IEG-IEG品牌与数字生态营销部,lucienpeng,https://xd.woa.com/itrpc.xd.aim/#/chat/index?agent_id=oSEpUNPQS2ya
+52,云手机 AI Agent项目,CSIG-云产品五部,hayesli,https://autoglm.zhipuai.cn/htdocs/download.html
+542,AgentHub智能体路由服务,TEG-网络平台部,jagerzhang,http://test.nops.woa.com/agenthub/ui/group/sre
+577,PCAD数询助手,CDG-广告营销服务线-平台与内容广告部,ziffzhuo,
+596,供应商咨询应答机器人,S1-集团采购管理部,johnlli,https://yuanqi.tencent.com/webim/#/chat/smWTKM?appid=1957276228185850496&experience=true
+608,微信客服线索获客会话智能体,CDG-广告营销服务线-微信广告部,qinghuzhang,
+664,企微智能机器人,WXG-企业微信产品部,dylanlv,
+701,秒剪广告制作 agent,WXG-读书产品部,cecilelu,
+739,鹰眼·AI智审,CSIG-政企客户成功中心,frankechen,http://21.6.93.247:5002/
+766,视频号智能合集,WXG-视频产品部,taoklin,
+779,赛宝对局问题定位agent,IEG-IEG品牌与数字生态营销部,kirinpeng,
+797,智研全链路可观测 Agent,TEG-研发管理部,shinnyhuang,
+832,单测生成Agent,TEG-研发管理部,dollyyang,
+85,无极智能开发,PCG-PCG技术与内容平台-应用架构平台部,vicyao,
+871,大客户转售Agent,CSIG-云技术运营服务部,mianmfu,https://test-andon.woa.com/mobile/ai-assist/chat
+885,小途工艺制作专家,"CSIG-通途数据中心,CSIG-CSIG质量部",yttingzhang,https://tmind.woa.com/showShare?code=15S5V37UWX
+913,AI抽奖配置师,IEG-IEG品牌与数字生态营销部,alviswang,
+928,免广告券Helper,CDG-广告营销服务线-微信广告部,irisshi,
+952,支付平台AI研发助手,CDG-支付基础平台与金融应用线-支付平台研发部,skyenwu,
+982,webAssistant,IEG-内容生态部,boltzou,
+999,特征检索agent,CDG-广告营销服务线-商业数据部,cocoxyyang,
+1006,PUBGM WOW 智能助手,"IEG-光子工作室群-量子工作室,IEG-IEG Global-Data&AI Group",zimoding,https://www.pubgmobile.com/HK/home.shtml
+110,Talos智能测试,PCG-社交平台与应用线-社区产品部,edzhou,
+129,旅鹅HotelGPT,CSIG-智慧零售战略合作部,feliciazhu,pages/chatbot/index.html
+138,QQ浏览器小说AI-Agent,CSIG-信息平台与服务线-应用技术部,basezhang,https://tool.browser.qq.com/ai-tools/h5/share?subRobotType=4&shareId=1509a0024ef743a2997ce59e06248c34&useNewInstance=1&uiType=5&nickname=Base&isNovelAgent=1
+148,COS迁移AI工作流,CSIG-智慧行业一部,leohaosun,
+161,AI智享提效工具,CSIG-产业生态合作部,leqingli,
+168,LangData-ChatBI,TEG-机器学习平台部,daisyqhuang,https://wedata.woa.com/do;https://llmapp.woa.com/
+177,智投广告投放 AIM+,"CDG-广告营销服务线-商业推荐部,CDG-广告营销服务线-商业平台部",xinruchen,
+21,智绘AI设计工作台,CSIG-信息平台与服务线-用户体验设计部,jundabei,https://zha.woa.com/home
+215,伽利略Agent项目,PCG-PCG技术与内容平台-应用架构平台部,petermeng,https://j.woa.com/?orgId=tencent&aiAgentOpen=true
+231,小O数智员工-经营管理助手,CSIG-业务经营管理部,lucazyli,
+253,智能API助手,CDG-支付基础平台与金融应用线-跨境支付业务部,zicowu,
+278,卡证鉴伪智能体,CSIG-优图实验室,wyitwang,https://adp.cloud.tencent.com/webim_exp/#/chat/AumYCw
+295,和平精英绿洲开发AI助手,IEG-光子工作室群-S工作室,jimmyzmwu,
+311,Dola：数据知识库AI助手,PCG-PCG技术与内容平台-大数据平台部,karolinaliu,https://dola.woa.com/ai-chat?repo=market-51b9fa0c-d413-46ef-8aef-7ae82667c5cd&question=%E8%85%BE%E8%AE%AF%E8%82%A1%E7%A5%A8%E4%BB%B7%E6%A0%BC%E5%88%86%E6%9E%90%EF%BC%8C%E6%9C%AA%E6%9D%A5%E4%B8%80%E4%B8%AA%E6%9C%88%E8%B5%B0%E5%8A%BF%E9%A2%84%E6%B5%8B&autoSend=true
+353,云手机+ AI agent,CSIG-云产品五部,hayesli,
+365,英雄联盟手游-智能化AI指导,IEG-光子工作室群-逍遥游工作室,dillyli,
+385,AI Agent开户审核,CDG-广告营销服务线-商业运管部,kxingzhang,
+408,研发预算智能问数,TEG-运营管理部,terrydai,
+419,企鹅教师创意教学Agent,CDG-可持续社会价值事业部-数字教育实验室,onlychen,
+43,智能运维平台,CSIG-云技术运营服务部,dinglimao,
+457,QQ AI+DS,PCG-社交平台与应用线-社交平台架构中心,fiosong,
+474,QQ浏览器AI学术助理,CSIG-搜索应用部,galenqin,
+505,安兔AI助手,CSIG-云技术运营服务部,louiscxqiu,
+565,腾讯位置服务开发者分析专家,CSIG-地图产品部,hunterfang,
+584,用户问题智能定位,PCG-社交平台与应用线-社交协作产品部,kanalin,
+616,AI CLI Agent,CSIG-云产品四部,dyuankong,
+693,CPS商品营销智能体,"CDG-广告营销服务线-商业平台部,CDG-广告营销服务线-商业推荐部",laoguo,
+708,微信输入法表情包创作agent,WXG-读书产品部,cecilelu,
+783,新闻妹AI-伴随式新闻智能助手,PCG-腾讯新闻-新闻工程研发部,tomqian,https://view.inews.qq.com/ai/agent/UTR2025040800399100?no-redirect=1
+794,新人助手agent,IEG-IEG品牌与数字生态营销部,eviehehe,https://xd.woa.com/itrpc.xd.aim/#/chat/index?agent_id=ZODxVo6GTHEo
+801,数据智能分析Agent,IEG-IEG品牌与数字生态营销部,zackerguo,https://test.com
+814,企业微信AI搜索,WXG-企业微信产品部,loganyu,
+825,Data Agent,TEG-机器学习平台部,mikezctang,
+854,【微信蓝包】AI选礼物助手,WXG-电商产品部,julesyzhang,
+875,多尺寸扩图agent,IEG-IEG品牌与数字生态营销部,alvinxu,
+896,DDoS攻防提效AI助手,TEG-安全平台部,gammachen,https://chat.zsd.woa.com/#/chat
+923,AI智能评测文档预览效果,WXG-企业微信应用部,lukaschen,
+93,QQ 成本专家,PCG-社交平台与应用线-社交平台架构中心,vissong,
+933,网页智能埋点工具,CDG-广告营销服务线-商业数据部,siegli,
+947,腾讯公益AI搜索bot,"CDG-可持续社会价值事业部-公益平台部,CDG-可持续社会价值事业部-技术生态部",gongyusun,https://hunyuanaide.taiji.woa.com/web/match_tryModel?id=19663
+964,AI智能告警系统,TEG-安全平台部,neoxuzhang,https://xy.woa.com/xy/app/test/yyzsd/alarm_denoise
+989,广告转化链路识别智能体,"CDG-广告营销服务线-商业数据部,TEG-安全平台部",txtingwang,
+1008,拾光回忆录,PCG-PCG技术与内容平台-公共数据科学部,jamesxfbai,
+102,AiX Agent,IEG-IEG Global-GaaS Tech Group,hongweiqu,https://agent.aix.intlgame.com
+111,CVM AI 助手,CSIG-云产品一部,jubaoliang,
+130,腾讯开悟平台使用答疑小助手,IEG-天美工作室群-天美电竞中心,yutoli,
+149,多模态 AI 翻译及应用,IEG-IEG Global-Orbital Gaming Solutions,wanyouding,
+164,AI自动写测试代码,WXG-企业微信应用部,pennypan,
+170,AI验证码,TEG-安全平台部,milahuang,
+182,TencentOS智能诊断助手,TEG-云架构平台部,danielwjli,https://tmanager.woa.com/#/workbench/homePage?task_id=261cbd65-a9c8-47a8-bc29-0fb6d7175f65
+198,AI销售助手,CSIG-智慧出行事业部,sandrazhang,
+23,黑产智能情报感知系统,CDG-支付基础平台与金融应用线-反洗钱与风险控制部,allisonzhao,https://aml-rag.woa.com/
+256,开发专家agent,CSIG-地图产品部,haleyfang,
+284,领航员TAB-Navi,PCG-PCG技术与内容平台-大数据平台部,ethanczheng,
+296,SRE CLI,CSIG-云技术运营服务部,maxmzheng,https://iwiki.woa.com/p/4015819348
+313,轻量云 AI 助手智能规划,CSIG-云产品一部,ceylancao,
+344,小店广告客户增长Agent,CDG-广告营销服务线-商业推荐部,wadexue,
+354,UGC运营助手,IEG-业务安全部,yammyjiang,
+366,ai军师,"WXG-技术架构部,WXG-增值业务部",longpoliu,
+390,王者荣耀灵宝端外智能体,TEG-计费平台部,elaineou,
+410,推理回廊,IEG-品质管理部,quarkzou,
+425,ALADIN一站式AI测试实践,CSIG-CSIG质量部,yongfeijia,
+46,审核智能体项目,PCG-PCG技术与内容平台-内容服务部,marshao,https://trainingless.testsite.woa.com/
+476,AI驱动Web_UI自动化测试,TEG-数据平台部,lucasybwang,https://adt.woa.com/#/tools/UITEST/debug?team=TEAM1267ab1f2ba9
+509,云安智答-公有云安全知识问答,"CSIG-云技术运营服务部,CSIG-安全产品三部",donkhuang,https://ag.woa.com/?agentId=109
+570,游戏账号画像分析,IEG-业务安全部,kosmoscheng,
+594,腾讯新闻AI CR智能平台,PCG-腾讯新闻-新闻工程研发部,frankylu,
+617,实验助手Agent,WXG-技术架构部,broccozhang,
+66,自选股智能客服agent,CDG-支付基础平台与金融应用线-证券产品部,qamrawang,
+696,智能表格AI字段,"WXG-企业微信应用部,WXG-企业微信产品部",kevinjlchen,https://doc.weixin.qq.com/
+751,工单提效专家—工单分析AI助手,CSIG-云产品一部,kylexli,http://9.134.150.235:3001/analysis
+775,外部代码生成,IEG-IEG品牌与数字生态营销部,aihjiang,https://xd.woa.com/itrpc.xd.aim/#/chat/index?agent_id=xqph2SugTK8n
+784,智能排版助手,CSIG-政企客户成功中心,harlansun,http://82.157.154.60/
+795,QQ浏览器下载助手,CSIG-信息平台与服务线-平台产品部,stevenleisu,https://browser.qq.com/ai-agents/?source=newtab
+803,TRTC云助手,CSIG-云技术运营服务部,jackwlchen,https://taiji.woa.com/web-llm/web/llm_task_dialogue?id=19527&type=normal&redirectUrl=%2Fweb-llm%2Fweb%2Fllm_task%3FwsId%3D10144%26pageIndex%3D1&wsId=10144
+815,企业微信智能总结,WXG-企业微信产品部,loganyu,
+827,营销AI组合,CDG-支付基础平台与金融应用线-金融市场部,owensxli,
+83,小磐SREAgent,TEG-云架构平台部,josenpeng,xiaopan.woa.com
+859,微信公众号AI配图,WXG-开放平台部,doniafu,
+882,研发全流程提效 Agent,CSIG-医疗健康事业部,hamilhong,
+907,腾讯招聘AI-面试助手,S3-招聘活水部,elioyao,
+925,基于文本用例终端自动化智能执行,PCG-PCG技术与内容平台-工程效能平台部,vincentyli,https://testone.woa.com/terminal-one-replay/tiyan#/terminal/caseManager?projectId=1
+937,现网问题排查小助手,IEG-IEG品牌与数字生态营销部,tyraelhuang,
+972,瓦力 - AI 编程助手,CSIG-云产品一部,jubaoliang,https://wally.woa.com
+993,AI助力数据关联关系挖掘,IEG-光子工作室群-量子工作室,zimoding,怎么发现更多有价值的关联关系？让无监督算法和大模型来帮你！
+1005,TCE接入Agent,CSIG-云产品一部,yaweihuang,
+109,利用 AI 高效响应用户反馈,PCG-社交平台与应用线-社交协作产品部,stephantang,
+122,AI助力叙事生成管线提质增效,IEG-光子工作室群-光子技术发展部,aresyfchen,https://git.woa.com/LQTechCentre/ShakespeareEditor/ShakespeareDialogueAIDemo.git
+135,人工智能助手-SOP托管,TEG-客户服务部,yyyyan,https://kfsop.woa.com/agent/#/testSopDialog?flowId=438&code=wzry_ppbmMCP&branchId=1863
+147,模型实验一体化分析助手Aly,CDG-广告营销服务线-商业推荐部,vanessacao,
+157,A.I.G红队安全测试平台,TEG-安全平台部,nickyccwu,
+167,AI智能写信,WXG-企业微信应用部,jackiehe,AI智能写信 体验介绍文档
+176,AI驱动风控智能研发,CDG-支付基础平台与金融应用线-反洗钱与风险控制部,lilyzou,
+19,iDOMO：广告形态智能助手,CDG-广告营销服务线-联盟广告部,yonhonwang,
+191,文档抽取Agent,CSIG-云产品三部,benpeng,https://ocrdemo.cloud.tencent.com/?action=SubmitExtractDocAgentJob
+212,金融信贷态势洞察agent,"WXG-微信支付线-研发部,WXG-微信支付线-支付金融产品部",jasonzong,企微群内体验，体验请联系jasonzong
+226,王者荣耀指挥官模式AI陪玩,"IEG-天美工作室群-天美L1工作室,TEG-AI平台部",townesyan,
+251,AI内容评测,PCG-PCG技术与内容平台-工程效能平台部,tritonzhang,
+277,运产研贴心助手—轻量云AI助手,CSIG-云产品一部,yuehuali,wxwork://message?uin=33776998559279307
+294,CrashSight智理,IEG-品质管理部,hugoxu,https://crashsight.qq.com/workbench/apps
+30,Unity快捷资产插件,IEG-天美工作室群-天美L1工作室,guangruiwu,QuickAssetsPanel.unitypackage
+304,可观测AI工作台,CSIG-云技术运营服务部,yyingxie,https://console.cloud.tencent.com/monitor/ai/explore
+335,腾讯水滴法务 AI,S1-法务综合部,edisonwyli,https://lawtech.woa.com/home/index
+352,微信小店智能客服联合项目,WXG-基础产品部,jieranwang,
+364,购物助手,WXG-技术架构部,astroliu,
+377,AI高考通,CSIG-信息平台与服务线-搜索及内容产品中心,johnrickli,
+403,TDesign AI Chat,"CSIG-医疗健康事业部,PCG-在线视频BU-智能创作与内容平台部",yeonzhou,https://tdesign.tencent.com/chat/getting-started
+438,位置服务AI助手,CSIG-地图产品部,leohhzhuang,
+454,SSV研发工作流AI提效实践,CDG-可持续社会价值事业部-技术生态部,windlin,
+472,邮箱奇美拉翻译,WXG-企业微信产品部,dylanlv,
+548,TDebug Agent,PCG-PCG技术与内容平台-大数据平台部,fengsflin,
+583,AI 生成智能表和仪表盘,PCG-社交平台与应用线-社交协作产品部,joslynlin,
+59,电销AI小工具,CSIG-产业生态合作部,harrisxu,https://adp.cloud.tencent.com/webim_exp/#/chat/SyljAi
+597,腾讯新闻商业化智能AI助手,PCG-腾讯新闻-新闻工程研发部,frankylu,
+615,新闻微服务助手Agent,PCG-腾讯新闻-新闻工程研发部,sampan,https://inews.woa.com/page/chat
+685,ai播客,TEG-大语言模型部,austinyhli,
+707,微信输入法表情包创作agent,WXG-读书产品部,cecilelu,
+747,FiT-AI安全大脑,CDG-支付基础平台与金融应用线-支付金融平台与数据部,faithsun,http://localhost:8080
+767,青鸟系统-营销宣传合规审查工具,"CDG-支付基础平台与金融应用线-金融风险管理部,CDG-支付基础平台与金融应用线-支付金融平台与数据部",amandajye,
+78,联盟前端 SDK AI 助手,CDG-广告营销服务线-联盟广告部,zuoxingli,
+782,ima-agent任务模式,CSIG-信息平台与服务线-应用技术部,jimmyzhu,
+792,视频号智能客服小助手,WXG-视频产品部,geryfan,https://work.weixin.qq.com/kfid/kfcbe6a0ad16c98642e
+811,大模型安全自动评估 Agent,WXG-运营平台部,zatozhang,
+823,QQ浏览器订阅助理,CSIG-信息平台与服务线-平台产品部,damonruan,https://browser.qq.com/ai-agents/?source=newtab&enableSubscribe=true
+837,AI下载助理,"CSIG-信息平台与服务线-平台产品部,CSIG-信息平台与服务线-智能技术中心",terrencegu,
+872,QQ浏览器AI视频助理,"CSIG-信息平台与服务线-平台产品部,CSIG-信息平台与服务线-智能技术中心",xianyizhang,https://browser.qq.com/ai-agents/?source=newtab&agent=video
+887,高价值弹幕AI挖掘助手,PCG-在线视频BU-在线视频产品部,lunaluhu,
+92,跨境汇款门店AI数字人,CDG-支付基础平台与金融应用线-跨境支付业务部,fitzfei,
+983,智能素材投放,CDG-支付基础平台与金融应用线-支付金融平台与数据部,kaizenfang,https://avatar.fit.woa.com/llm-chat/28zy
+1017,OVB智能数据助手小π,PCG-在线视频BU-在线视频数据科学部,ansonye,https://oval.woa.com/xiaopai
+1054,叮小灵,CSIG-地图产品部,natalizhang,
+1063,小途灵析AI,"CSIG-通途数据中心,CSIG-CSIG质量部",jensenwei,【悟空智能体】
+1071,体育大聪明一站式AI观赛助手,PCG-在线视频BU-在线视频产品部,marksi,应用市场下载最新版腾讯体育APP，在比赛底层页、搜索框、底Tab、评论区等入口即可体验。（底Tab入口请联系marksi添加实验白名单）
+1078,出海合规助手,CSIG-政企客户成功中心,frankechen,
+1097,供应订单智能运维平台,CSIG-云采购供应管理部,gallopxiong,
+1029,方言语料自动采集系统,CDG-可持续社会价值事业部-技术生态部,iriswong,https://adp.cloud.tencent.com/adp/#/app/knowledge/app-config?appid=1958778301535923264&appType=knowledge_qa&spaceId=default_space
+1036,门店通—门店营销AI助手,TEG-数据平台部,jinbaozhang,
+1049,Lily金融助手&深度研究,CDG-支付基础平台与金融应用线-支付金融平台与数据部,benshwu,https://fit.woa.com/lily
+1061,智能营销助理,TEG-计费平台部,johannachen,
+1069,集团安全智能运营,CSIG-安全产品三部,qiitao,http://9.208.17.36:8081/tasks
+1076,计算运营数据AI助手,CSIG-云产品一部,elisedai,
+1083,鹅厂党建小助手,"S3-党群工作部,TEG-云架构平台部",carlieqiu,
+1096,万人大会线上体验agent,CSIG-CSIG市场部,gawainou,
+1025,设计稿→可合并代码，AI全流程,WXG-企业微信应用部,donglinchen,
+1035,赛博科学家：一站式AI科研助手,CSIG-生命科学实验室,lukatang,http://21.6.160.180:7860
+1047,T-Audit,S2-审计监察,markplli,
+1068,私有云文档写作助手,CSIG-云产品一部,tylerccwang,
+1081,王者共创投稿AI审核,IEG-公共数据平台部,rikliu,
+1094,天御金融反电信网络诈骗智能体,CSIG-安全产品二部,jonathanguo,
+1031,私有化AI运维助手,CSIG-云技术运营服务部,lvanywang,https://znyw.woa.com/chat/history
+1042,无人值守AI智能助手,CDG-广告营销服务线-商业运管部,sidneychen,
+1057,TCase测试智能,TEG-云架构平台部,seagullliu,
+1064,悟空代码安全Agent—简化版,TEG-安全平台部,moomichen,
+1072,大模型护照智能审核服务,CDG-支付基础平台与金融应用线-支付平台研发部,tigerlan,微信钱包->身份信息->更新实名(或立即认证) ->选择证件类型(护照) -> 上传人像资料页面 -> 从手机相册选择
+1079,智能文档审查系统,CSIG-云产品一部,ziongzhang,
+1089,QQ浏览器信息流AI评论,CSIG-信息平台与服务线-应用技术部,hughzhu,
+1103,工蜂 AI CR Agent,TEG-研发管理部,jingyiwang,
+1024,微信支付AI开发助手,WXG-微信支付线-商户产品部,darcyhu,https://support.pay.weixin.qq.com/aidevhelper
+1032,AI 高考通,"CSIG-搜索应用部,CSIG-信息平台与服务线-搜索及内容产品中心",qiyueli,https://browser.qq.com/ai-agents?agent=gaokao
+1043,客诉智能分析平台,CDG-支付基础平台与金融应用线-支付平台研发部,toonychen,
+1058,bayes legal,S1-金融法律合规部,sivanxu,https://bayes.app.fat.woa.com/
+1067,AI PPT,PCG-社交平台与应用线-社交协作产品部,rongodzhang,
+1073,LH-Trace日志分析助手,CSIG-云产品一部,yuehuali,http://21.215.6.248:8080/c/8a61bdc8-bf59-4c64-a832-7e70c33ac3d9
+1093,电销全流程增效Agent,CSIG-云产品四部,joyejiang,AI质检培训材料
+1186,影视素材智能剪辑agent,PCG-在线视频BU-智能创作与内容平台部,chanzhou,
+1184,忍者企鹅AI,"IEG-光子工作室群-量子工作室,TEG-AI平台部",zimoding,
+1182,广告人群挖掘助手,CDG-广告营销服务线-商业平台部,zeminmiao,
+1176,DataPocket数据智能,IEG-公共数据平台部,prentissli,
+1172,赛博医院：你的专属AI医疗团队,CSIG-生命科学实验室,lqszchen,http://9.135.217.78:7860
+1169,合规检测GUI Agent,PCG-PCG技术与内容平台-应用架构平台部,jairochen,
+1168,With,TEG-研发管理部,shinnyhuang,
+1165,支付凭证验真Agent,S2-财经IT管理部,shizhao,
+1162,DDOS攻击包分析,CSIG-云技术运营服务部,yaslhuang,http://dify-ai.woa.com/chat/uS9QY3CyJw5iz4lr
+1160,通用自演进Agent,TEG-AI Lab,michaelcqin,https://alma.woa.com/
+1156,数据标准化-maas大模型版本,CSIG-安全产品二部,sofiazhao,
+1157,数据标准化-maas大模型版本,CSIG-安全产品二部,sofiazhao,
+1152,修仙科普短篇一键生成,IEG-国内发行线-V7产品部,leiisun,
+1151,企微文档用户反馈自动定位,WXG-企业微信应用部,ivanxfjiang,
+1149,腾讯云智能客服,CSIG-云技术运营服务部,gavrielliu,https://cloud.tencent.com/online-service?from=connect-us&Is=sdk-floatbar
+1144,「审小包」广告审核智能小助手,CDG-广告营销服务线-商业运管部,arvinmeng,
+1142,智能顾问-AI赋能云上架构治理,CSIG-云技术运营服务部,georgzhang,
+1137,TripGO(即刻出发),S2-财经IT管理部,keliye,
+1135,「腾讯探元」AI文博助手智能体,CDG-可持续社会价值事业部-数字文化实验室,ericjing,微信小程序搜索「腾讯探元」
+1126,QQ官方AI伙伴“小Q”,PCG-社交平台与应用线-AI应用产品中心,kedeng,QQ 官方 AI 伙伴 “小Q” 体验指南
+1124,对象存储智能专家,CSIG-云产品一部,luciayzjia,https://ag.woa.com?agentId=308
+1123,TCS-Agent,CSIG-云产品一部,cocoqlwang,
+1122,AI辅助应用合规审核与质量巡检,PCG-商业产品部,hockeyli,
+1119,合同智能起草,S2-财经IT管理部,sunnyylyang,
+1118,腾讯云主机安全智能溯源助手,CSIG-安全产品三部,falcoke,http://localhost:2024
+1116,星脉高性能网络智能化运营,TEG-网络平台部,ankerchen,https://netagent.woa.com/
+1115,03助手,PCG-PCG技术与内容平台-应用架构平台部,zeronezhang,https://03.woa.com/chat
+1113,Brand Safety,IEG-IEG Global-GaaS Tech Group,sunjoohwang,
+1111,公域垂媒分析助手,"CSIG-智慧出行事业部,CSIG-云产品三部",irisxxzhao,
+1110,QBoost智能平台,PCG-社交平台与应用线-社区产品部,boboxiong,https://qboost.woa.com/
+1109,内容安全Agent,WXG-运营平台部,huanqinwu,http://11.219.11.58:80
+1108,微信公众号AI分身（智能回复）,TEG-大语言模型部,dimitriyu,
+1105,AI智能生成文档后台接口用例,WXG-企业微信应用部,lpslin,https://gytest.wwitil.woa.com/magiccube/welcome#/autotest/servemodule/moduledetail/2846/xmsmartsheetservice/%E6%99%BA%E8%83%BD%E8%A1%A8%E6%A0%BC%E5%93%81%E7%B1%BBcgi%E6%9C%8D%E5%8A%A1%E5%85%A5%E5%8F%A3
+1220,电商大促AI小助手,"CDG-广告营销服务线-商业推荐部,CDG-广告营销服务线-商业平台部",darrenguo,
+1219,AI值班巡检排障助手,PCG-社交平台与应用线-AI应用产品中心,walli,
+1215,共富AI,CDG-可持续社会价值事业部-为村发展实验室,shoulintang,
+1213,doubleC,"CDG-可持续社会价值事业部-技术生态部,CDG-可持续社会价值事业部-公益平台部",maxineqiu,
+1211,AI驱动UI自动化测试,TEG-网络平台部,bottlejiang,
+1209,公益项目进展分析报告生成智能体,CDG-可持续社会价值事业部-公益平台部,jayefeng,
+1207,七彩石产品问答和诊断Agent,TEG-研发管理部,kaeljiang,https://rainbow.woa.com/console
+1205,网络质量分析智能体,TEG-网络平台部,samwong,https://nn.woa.com/agent_hub/netOperationAgent
+1203,SmartUI多模态UI自动化,CSIG-CSIG质量部,jaylerliu,
+1202,混元AI播客Agent,TEG-大语言模型部,nickmysong,
+1199,企业微信私域服务AI助手,TEG-客户服务部,maybezhou,
+1192,【和平精英】全场景AI小秘书,IEG-光子工作室群-S工作室,elitang,应用市场下载和平精英，游戏大厅左下角【吉事通】可以体验
+1191,【和平精英】明星AI队友,IEG-光子工作室群-S工作室,elitang,
+1345,公益项目进展分析报告生成智能体,CDG-可持续社会价值事业部-公益平台部,jayefeng,
+1343,美观度评测助手,TEG-计费平台部,yuccakuang,
+1342,元梦活动助手,"TEG-研发管理部,IEG-天美工作室群-天美T1工作室",haifangwang,
+1341,扣叮慧读,IEG-用户平台部,shuozhishen,
+1339,AI埋点设计,PCG-PCG技术与内容平台-大数据平台部,rachelning,
+1337,千万级3D资产库AI搜索方案,IEG-效能产品部,codchen,
+1336,123,IEG-效能产品部,kareyzhou,
+1335,IT运维智能服务台,CSIG-智慧出行事业部,adrianltli,
+1333,网络建设智能助手,TEG-网络平台部,xinhaichen,https://iwiki.woa.com/p/4016428231
+1332,云API AI助手,CSIG-云产品一部,frankiefu,
+1331,起名专家,CSIG-政企客户成功中心,xiaochenfan,
+1329,活动运营风险检测,S2-风险管理和内部控制,shaoyouwang,
+1327,Midas商城内容生成助手,TEG-计费平台部,justinchen,
+1324,腾讯文档AI救命文档智能体,PCG-社交平台与应用线-社交协作产品部,melodizhang,https://docs.qq.com/ai/view/taifeng
+1316,AMS Data Agent,CDG-广告营销服务线-商业数据部,kidlv,https://data-ams.testsite.woa.com/security/
+1314,qt4s测试代码智能生成,TEG-计费平台部,congzeng,
+1313,Midas问题异常分析,TEG-计费平台部,zekizheng,https://hunyuanaide.taiji.woa.com/web/match_tryModel?id=19905
+1312,腾讯公益数据需求智能助手,CDG-可持续社会价值事业部-公益平台部,wangyangyu,
+1309,客成通,CSIG-安全产品三部,juliajhzhu,https://work.weixin.qq.com/wework_admin/common/openBotProfile/2446466385a95842e1a66f6fe6c1963b49
+1307,AI叮当旅行管家Agent,CSIG-地图产品部,louispeng,
+1306,AI辅助DB性能调优,S2-财经IT管理部,kevincai,https://zhiyan.woa.com/operate/19106/task/#/task/result/38922
+1305,QQ群聊消息AI总结,PCG-社交平台与应用线-AI应用产品中心,zhanyixiao,QQ群聊AI总结体验方式说明
+1303,视频号自动生产CGI测试用例,WXG-视频产品部,bigheadzhou,视频号自动生产CGI测试用例
+1302,AI4Test,S2-财经IT管理部,ronniewang,https://git.woa.com/cj-test/AI4Test
+1299,AI快看,CSIG-信息平台与服务线-搜索及内容产品中心,jaceyxue,https://qbflow.html5.qq.com/qb-test/h5/ai-news-share/index.html?guideContent=%5B%223003093362935277957%22%2C%223984878077380841861%22%2C%225759296375039164805%22%2C%224417223687154708869%22%2C%224156014895616620933%22%2C%227587757821244230021%22%5D
+1298,微信广告开发者AI服务助手,CDG-广告营销服务线-微信广告部,zeliayang,
+1296,TXSQL智能诊断Agent,TEG-数据库研发部,stanleewang,https://mydbops-test.woa.com/next/instance/a9da354f-b6e9-11ef-8c34-08c0eb2cb60d?ClusterId=451&ClusterType=multiplenode_prod&tab=diagnostic
+1294,电商监管合规小助手,S1-市场经营合规部,alekzhu,电商监管合规小助手体验地址
+1292,设计转前端代码提效工具,S2-财经IT管理部,williamliao,test-d2c.woa.com
+1288,Launch Canvas,IEG-IEG Global-GaaS Tech Group,lynntzhou,http://9.134.116.63:8000/
+1286,AI 埋点自动化测试,PCG-PCG技术与内容平台-大数据平台部,orfeocheng,https://datong.woa.com/#/d/autoTest/case/pool?appId=z5EToxWw&menuN=AutoTest&tableType=1
+1285,多代码平台AI CR,CDG-可持续社会价值事业部-技术生态部,henrywwang,多代码平台AI CR：破解多项目协作代码审查困局的智能引擎
+1284,自动化预测智能体,S2-财经IT管理部,fabinliu,http://auto-forecast.devcloud.woa.com
+1282,AI智能化运营,CDG-可持续社会价值事业部-技术生态部,wayrakiwei,https://iwiki.woa.com/p/4016178069
+1280,技术风险大脑Agent,CDG-支付基础平台与金融应用线-支付平台研发部,silonli,https://iwiki.woa.com/p/4016418157
+1279,CasePilot自动化测试,WXG-企业微信应用部,flyfeihuang,CasePilot体验说明
+1277,直播高光片段生成系统,WXG-视频产品部,bookermu,
+1275,信用卡AI赋能用户运营服务项目,CDG-支付基础平台与金融应用线-支付应用产品部,hawkinghe,信用卡AI应用体验指引
+1274,提示词生成智能体,S2-财经IT管理部,ethanxwang,https://promptagent.woa.com/
+1272,AIGC玩家共创：画出修仙道侣,IEG-国内发行线-V7产品部,vanli,https://xxsd.qq.com/cp/a20250616creation/index_wx.html
+1271,灵析——财经智能告警助手,S2-财经IT管理部,vindentyang,https://fm-alert.woa.com/alert
+1269,“AI”治未病-SQL事前风险预测Agent,CSIG-云产品一部,andyypli,https://console.cloud.tencent.com/tdai/experience-center/sqlChat/agentins-aj0lyokm?isExperienceCenter=true
+1268,PCopilot:代码评审助手,IEG-光子工作室群-逍遥游工作室,baohuizhu,《PCopilot代码评审助手》体验方式
+1266,财经智能客服(财经小智),S2-财经IT管理部,jackluo,wxwork://message/?username=IT热线-财经系统支持;
+1265,混元AI IP分身Agent,"TEG-大语言模型部,PCG-在线视频BU-平台运营部",milkyingli,
+1264,云知AI——智能售卖助手,S3-CSIG人力资源中心,irisrrtong,https://csig.lexiangla.com/c/ai?company_from=csig
+1263,智能体营销活动-修仙渡劫模拟器,IEG-国内发行线-V7产品部,vanli,https://xxsd.qq.com/cp/a20250909xxdjmnq/index_wx.html
+1259,软件包自维护Agent,TEG-云架构平台部,denisecheng,
+1257,服采智能运营小助手,IEG-互动娱乐服务采购部,sunnyzou,https://xd.woa.com/itrpc.xd.aim/#/chat/index?agent_id=hURAMRlWKT1J
+1256,ppt-agent 自动生成,CDG-可持续社会价值事业部-技术生态部,yikazhu,ppt-agent 自动生成 PPT
+1255,taihu-tgit,IEG-天美工作室群-天美L1工作室,yutoli,taihu-tgit体验说明
+1245,小A助手 (Adata平台),CDG-广告营销服务线-商业运管部,rongdou,
+1242,大模型智能文案提效直播红点分发,WXG-视频产品部,deonzhou,
+1239,moredb-pgsql,IEG-天美工作室群-天美L1工作室,yutoli,moredb-pgsql体验说明
+1237,AI 视频审核,IEG-内容生态部,yiqiuzheng,http://dev.dify.itea.woa.com/chat/4flXZaCf19uambqV
+1235,微信游戏 - AI游戏战报,"WXG-增值业务部,WXG-技术架构部",shenzhenliu,https://kalm.woa.com/workflow/jWf9dmU7AtiFFtwV
+1234,Bugly AI 问题分析,PCG-PCG技术与内容平台-应用架构平台部,tianwuwang,https://bugly.woa.com/v2/exception/crash/issues/detail?cId=11EC34E9-7739-4D28-9599-8F225483725E&clusterStackType=&feature=1C19AA1CE17846F9C9240A80D99A7398&messageTab=%E5%87%BA%E9%94%99%E5%A0%86%E6%A0%88&pid=2&productId=0aed60cc73&tab=copilot&token=
+1233,开悟D2C Figma插件,IEG-天美工作室群-天美L1工作室,yutoli,https://iwiki.woa.com/p/4016153398 D2C 插件使用指南
+1232,商品自动化测评,CDG-广告营销服务线-商业数据部,lynchtan,https://test.gland.woa.com/agent-tools.html
+1231,Agent-RED测试小助手,"IEG-魔方工作室群-魔王工作室,IEG-魔方工作室群-技术中心",willtang,https://dify-ai.woa.com/chat/c1FPbBXmUEy5zm3o
+1229,开悟前端代码生成助手,IEG-天美工作室群-天美L1工作室,yutoli,https://knot.woa.com/chat?web_key=da861e52d7ee454ab6cbdece0fbeb541
+1228,IC-Helper内控合规助手,"S2-风险管理和内部控制,S2-财经IT管理部",georgeqjin,https://ichelper.woa.com/
+1403,代码异常定位助手,TEG-网络平台部,liangzaiwei,
+1402,腾讯文档智能表格 AI 应用,PCG-社交平台与应用线-社交协作产品部,nyadai,
+1398,FiT 云平台AI助手,CDG-支付基础平台与金融应用线-平台产品技术部,franklzhang,
+1397,无障碍公益智能体集群,CDG-可持续社会价值事业部-技术生态部,auguszhu,
+1396,腾讯新闻用户反馈智能诊断助手,PCG-腾讯新闻-新闻工程研发部,xiaobaguo,
+1395,云原生中心AISE Agent,CSIG-云产品一部,raylhuang,
+1393,跨境汇款研发智能助手,CDG-支付基础平台与金融应用线-跨境支付业务部,luyungyu,
+1392,多模态AI驱动UI自动化测试,CDG-支付基础平台与金融应用线-平台产品技术部,willyu,
+1391,腾讯公益研发助手,CDG-可持续社会价值事业部-公益平台部,dingyuan,
+1388,AI辅助测试用例生成,CDG-支付基础平台与金融应用线-跨境支付业务部,yulongbai,
+1387,A/Brain-广告实验大模型,CDG-广告营销服务线-商业数据部,hanbinwang,
+1385,微信支付境外商户海报Agent,CSIG-信息平台与服务线-用户体验设计部,samjinli,
+1383,跨境汇款通用代码编写智能体,CDG-支付基础平台与金融应用线-跨境支付业务部,yuutingwang,
+1375,跨境商户智能助手,CDG-支付基础平台与金融应用线-跨境支付业务部,callawang,
+1374,游戏版号助手,S1-IEG公共事务部,samuelsrhe,
+1371,MRR专家访谈AI助手-小玄,"CDG-战略发展部,TEG-企业IT部",carenli,
+1369,跨境业务研发智能运维,CDG-支付基础平台与金融应用线-跨境支付业务部,leoyhwei,
+1365,DBA永不眠,CDG-支付基础平台与金融应用线-平台产品技术部,williamlai,
+1364,代码覆盖率MCP,CSIG-CSIG质量部,andrewjiang,
+1362,基于多Agent协同的安全分析,CDG-支付基础平台与金融应用线-平台产品技术部,ericyhe,
+1355,资金中台运营小助手-证账实智能,CDG-支付基础平台与金融应用线-平台产品技术部,arnoldcheng,
+1352,GhostUnit,CSIG-CSIG质量部,andrewjiang,
+1349,生产风险AI定位,CDG-支付基础平台与金融应用线-平台产品技术部,alinaqzhang,
+1346,midas经营分析问答助手,TEG-计费平台部,justinchen,
+1413,公益项目AI评审,CDG-可持续社会价值事业部-公益平台部,chaisxiao,https://hunyuanaide.taiji.woa.com/web/match_tryModel?id=9450
+1412,工蜂AI CR赋能元梦之星提效,"TEG-研发管理部,IEG-天美工作室群-天美T1工作室",mansizeng,体验链接
+1411,dlc udf迁移助手,CSIG-政企客户成功中心,chopperxu,
+1410,FiT_Helper深度搜索,CDG-支付基础平台与金融应用线-平台产品技术部,gatsbyxu,
+1408,CDN接入领域SRE智能体,TEG-云架构平台部,yikunhong,https://chatinsight.woa.com/#/chat/chatView
+1405,用户之声,CDG-广告营销服务线-广告营销设计中心,yettazhou,https://tad.woa.com/voc/
+1404,FiT_Helper提效助手,CDG-支付基础平台与金融应用线-平台产品技术部,cherryqian,http://21.91.243.242:7862/
+1338,智能检查服务-你的资产治理助手,PCG-PCG技术与内容平台-工程效能平台部,rhinoliu,

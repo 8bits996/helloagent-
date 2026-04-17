@@ -1,0 +1,22 @@
+{
+  "简笔画风格": {
+    "prompt_template": "minimalist line art, white background, clean simple lines, fresh and literary, hand-drawn style, soft colors, gentle atmosphere, simple composition, elegant, delicate, artistic, vector illustration",
+    "chinese_text_suffix": "使用中文绘制，所有中文必须做独立文字图层处理，清晰可读。"
+  },
+  "学术海报风": {
+    "prompt_template": "academic poster style, minimalist and rigorous, professional and authoritative, deep color tones, clean layout, scientific, formal, serious, technical illustration, precise, detailed, professional design",
+    "chinese_text_suffix": "使用中文绘制，所有中文必须做独立文字图层处理，清晰可读。"
+  },
+  "扁平化矢量风格": {
+    "prompt_template": "flat vector style, geometric shapes, high saturation colors, modern feel, clean design, minimalist, bold colors, simple shapes, vector graphics, flat illustration, modern design, graphic design",
+    "chinese_text_suffix": "使用中文绘制，所有中文必须做独立文字图层处理，清晰可读。"
+  },
+  "粘土拟物风格": {
+    "prompt_template": "clay-like 3D style, 3D texture, rounded and cute, warm and lively, soft colors, playful atmosphere, clay modeling style, cartoonish, whimsical, friendly, 3D illustration, cute characters, soft shadows",
+    "chinese_text_suffix": "使用中文绘制，所有中文必须做独立文字图层处理，清晰可读。"
+  },
+  "科技渐变风": {
+    "prompt_template": "tech gradient style, dark background, neon light effects, strong tech feel, futuristic, cyberpunk aesthetic, glowing effects, digital art, high contrast, modern technology, sci-fi design, gradient backgrounds, neon colors",
+    "chinese_text_suffix": "使用中文绘制，所有中文必须做独立文字图层处理，清晰可读。"
+  }
+}

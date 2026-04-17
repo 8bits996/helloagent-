@@ -1,0 +1,296 @@
+{
+  "name": "长图滚动模板",
+  "type": "long",
+  "version": "1.0.0",
+  "description": "适用于微信公众号、H5的长图案例模板",
+  "aspectRatio": "auto",
+  "exportWidths": [1080, 750, 1200],
+  
+  "slots": {
+    "tag": {
+      "type": "text",
+      "label": "案例标签",
+      "placeholder": "案例标签"
+    },
+    "title": {
+      "type": "text",
+      "label": "主标题",
+      "required": true,
+      "maxLength": 50,
+      "placeholder": "核心数字+亮点关键词"
+    },
+    "subtitle": {
+      "type": "text",
+      "label": "副标题"
+    },
+    "intro": {
+      "type": "richtext",
+      "label": "案例简介"
+    },
+    "data1_value": {
+      "type": "text",
+      "label": "数据卡片1-数值",
+      "highlight": true
+    },
+    "data1_name": {
+      "type": "text",
+      "label": "数据卡片1-名称"
+    },
+    "data2_value": {
+      "type": "text",
+      "label": "数据卡片2-数值",
+      "highlight": true
+    },
+    "data2_name": {
+      "type": "text",
+      "label": "数据卡片2-名称"
+    },
+    "data3_value": {
+      "type": "text",
+      "label": "数据卡片3-数值",
+      "highlight": true
+    },
+    "data3_name": {
+      "type": "text",
+      "label": "数据卡片3-名称"
+    },
+    "customer_info": {
+      "type": "richtext",
+      "label": "客户信息"
+    },
+    "painpoint1": {
+      "type": "text",
+      "label": "痛点1"
+    },
+    "painpoint2": {
+      "type": "text",
+      "label": "痛点2"
+    },
+    "painpoint3": {
+      "type": "text",
+      "label": "痛点3"
+    },
+    "goal1": {
+      "type": "text",
+      "label": "目标1"
+    },
+    "goal2": {
+      "type": "text",
+      "label": "目标2"
+    },
+    "goal3": {
+      "type": "text",
+      "label": "目标3"
+    },
+    "solution_name": {
+      "type": "text",
+      "label": "方案名称"
+    },
+    "strategy1_title": {
+      "type": "text",
+      "label": "策略1标题"
+    },
+    "strategy1_desc": {
+      "type": "richtext",
+      "label": "策略1描述"
+    },
+    "strategy2_title": {
+      "type": "text",
+      "label": "策略2标题"
+    },
+    "strategy2_desc": {
+      "type": "richtext",
+      "label": "策略2描述"
+    },
+    "strategy3_title": {
+      "type": "text",
+      "label": "策略3标题"
+    },
+    "strategy3_desc": {
+      "type": "richtext",
+      "label": "策略3描述"
+    },
+    "result_metric1_name": {
+      "type": "text",
+      "label": "效果指标1名称"
+    },
+    "result_metric1_value": {
+      "type": "text",
+      "label": "效果指标1数值",
+      "highlight": true
+    },
+    "result_metric2_name": {
+      "type": "text",
+      "label": "效果指标2名称"
+    },
+    "result_metric2_value": {
+      "type": "text",
+      "label": "效果指标2数值",
+      "highlight": true
+    },
+    "table_row1_col1": {
+      "type": "text",
+      "label": "表格-投放周期"
+    },
+    "table_row1_col2": {
+      "type": "text",
+      "label": "表格-投放周期数据"
+    },
+    "table_row2_col1": {
+      "type": "text",
+      "label": "表格-总投放"
+    },
+    "table_row2_col2": {
+      "type": "text",
+      "label": "表格-总投放数据"
+    },
+    "table_highlight_name": {
+      "type": "text",
+      "label": "表格-核心亮点名称"
+    },
+    "table_highlight_value": {
+      "type": "text",
+      "label": "表格-核心亮点数值",
+      "highlight": true
+    },
+    "table_highlight_compare": {
+      "type": "text",
+      "label": "表格-对比行业"
+    },
+    "table_roi": {
+      "type": "text",
+      "label": "表格-ROI"
+    },
+    "table_roi_compare": {
+      "type": "text",
+      "label": "表格-ROI对比"
+    },
+    "table_gmv": {
+      "type": "text",
+      "label": "表格-归因GMV"
+    },
+    "highlight1_title": {
+      "type": "text",
+      "label": "亮点1标题"
+    },
+    "highlight1_desc": {
+      "type": "richtext",
+      "label": "亮点1描述"
+    },
+    "highlight1_proof": {
+      "type": "text",
+      "label": "亮点1数据支撑"
+    },
+    "highlight2_title": {
+      "type": "text",
+      "label": "亮点2标题"
+    },
+    "highlight2_desc": {
+      "type": "richtext",
+      "label": "亮点2描述"
+    },
+    "highlight2_proof": {
+      "type": "text",
+      "label": "亮点2数据支撑"
+    },
+    "why1_title": {
+      "type": "text",
+      "label": "优势1标题"
+    },
+    "why1_desc": {
+      "type": "text",
+      "label": "优势1描述"
+    },
+    "why2_title": {
+      "type": "text",
+      "label": "优势2标题"
+    },
+    "why2_desc": {
+      "type": "text",
+      "label": "优势2描述"
+    },
+    "why3_title": {
+      "type": "text",
+      "label": "优势3标题"
+    },
+    "why3_desc": {
+      "type": "text",
+      "label": "优势3描述"
+    },
+    "why4_title": {
+      "type": "text",
+      "label": "优势4标题"
+    },
+    "why4_desc": {
+      "type": "text",
+      "label": "优势4描述"
+    },
+    "step1": {
+      "type": "text",
+      "label": "步骤1"
+    },
+    "step2": {
+      "type": "text",
+      "label": "步骤2"
+    },
+    "step3": {
+      "type": "text",
+      "label": "步骤3"
+    },
+    "contact_email": {
+      "type": "text",
+      "label": "联系邮箱"
+    },
+    "contact_phone": {
+      "type": "text",
+      "label": "联系电话"
+    },
+    "copyright": {
+      "type": "text",
+      "label": "版权信息"
+    }
+  },
+  
+  "sections": [
+    {
+      "id": "header",
+      "label": "头部区域",
+      "slots": ["tag", "title", "subtitle", "intro"]
+    },
+    {
+      "id": "data_cards",
+      "label": "核心数据卡片",
+      "slots": ["data1_value", "data1_name", "data2_value", "data2_name", "data3_value", "data3_name"]
+    },
+    {
+      "id": "background",
+      "label": "客户背景",
+      "slots": ["customer_info", "painpoint1", "painpoint2", "painpoint3", "goal1", "goal2", "goal3"]
+    },
+    {
+      "id": "strategy",
+      "label": "投放方案",
+      "slots": ["solution_name", "strategy1_title", "strategy1_desc", "strategy2_title", "strategy2_desc", "strategy3_title", "strategy3_desc"]
+    },
+    {
+      "id": "result",
+      "label": "投放效果",
+      "slots": ["result_metric1_name", "result_metric1_value", "result_metric2_name", "result_metric2_value", "table_row1_col1", "table_row1_col2", "table_row2_col1", "table_row2_col2", "table_highlight_name", "table_highlight_value", "table_highlight_compare", "table_roi", "table_roi_compare", "table_gmv"]
+    },
+    {
+      "id": "highlights",
+      "label": "亮点解读",
+      "slots": ["highlight1_title", "highlight1_desc", "highlight1_proof", "highlight2_title", "highlight2_desc", "highlight2_proof"]
+    },
+    {
+      "id": "why",
+      "label": "为什么选择",
+      "slots": ["why1_title", "why1_desc", "why2_title", "why2_desc", "why3_title", "why3_desc", "why4_title", "why4_desc"]
+    },
+    {
+      "id": "cta",
+      "label": "行动引导",
+      "slots": ["step1", "step2", "step3", "contact_email", "contact_phone", "copyright"]
+    }
+  ]
+}

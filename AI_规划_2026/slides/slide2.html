@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #FFFFFF; }
+body {
+    width: 720pt; height: 405pt; margin: 0; padding: 0;
+    background: #f7fafc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background: #1a365d;
+    padding: 15pt 30pt;
+}
+h1 {
+    color: #FFFFFF;
+    font-size: 22pt;
+    margin: 0;
+}
+.content {
+    flex: 1;
+    padding: 20pt 30pt;
+    overflow: hidden;
+}
+
+.toc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12pt;
+    height: 100%;
+}
+.toc-item {
+    background: #FFFFFF;
+    border-left: 5pt solid #3182ce;
+    padding: 12pt 15pt;
+    display: flex;
+    align-items: center;
+    border-radius: 0 6pt 6pt 0;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+.toc-num {
+    font-size: 26pt;
+    font-weight: bold;
+    color: #1a365d;
+    margin-right: 12pt;
+}
+.toc-text {
+    font-size: 13pt;
+    color: #1a202c;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+    <h1>目录</h1>
+</div>
+<div class="content">
+    
+<div class="toc-grid">
+    <div class="toc-item"><span class="toc-num">01</span><span class="toc-text">五看分析：洞察趋势与机会</span></div>
+    <div class="toc-item"><span class="toc-num">02</span><span class="toc-text">三定规划：明确战略与目标</span></div>
+    <div class="toc-item"><span class="toc-num">03</span><span class="toc-text">战略屋：整体架构设计</span></div>
+    <div class="toc-item"><span class="toc-num">04</span><span class="toc-text">小组规划框架与目标</span></div>
+    <div class="toc-item"><span class="toc-num">05</span><span class="toc-text">实施路径与里程碑</span></div>
+    <div class="toc-item"><span class="toc-num">06</span><span class="toc-text">资源保障与预期成效</span></div>
+</div>
+
+</div>
+</body>
+</html>

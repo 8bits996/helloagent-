@@ -1,0 +1,31 @@
+# Debug Agent 客户端配置文件
+# 远程服务器: 我的CVM环境 (21.91.168.209)
+
+target:
+  host: "21.91.168.209"
+  port: 9999
+  # Token 从环境变量读取: export DEBUG_AGENT_TOKEN="your-token"
+  # 或者直接配置: token: "your-token"
+
+build:
+  # 根据你的项目修改构建命令
+  command: "go build -o ./bin/myapp ./cmd/myapp"
+  env:
+    GOOS: linux
+    GOARCH: amd64
+
+deploy:
+  # 本地编译产物路径
+  binary_path: "./bin/myapp"
+  # 远程部署路径
+  remote_path: "/home/frankechen/debug-agent/workspace/myapp"
+  backup: true
+
+restart:
+  timeout: 30
+
+verify:
+  # 你的应用健康检查地址
+  health_check_url: "http://localhost:8080/health"
+  retry: 3
+  interval: 2

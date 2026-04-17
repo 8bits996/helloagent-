@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:notes xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="&#24187;&#28783;&#29255;&#22270;&#20687;&#21344;&#20301;&#31526; 1"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1" noRot="1" noChangeAspect="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldImg"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="&#22791;&#27880;&#21344;&#20301;&#31526; 2"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="body" idx="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【3.6 如何深入进阶 - 5分钟】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【学习路径规划】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>第一阶段：上手体验（1-2周）</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>目标：直观了解Agent能力</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>行动：用Dify/ADP快速实操</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>产出：跑通第一个工作流</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>第二阶段：动手实践（1-2月）</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>目标：初步利用Agent能力</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>行动：选择业务场景开发</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>产出：解决实际业务问题</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>第三阶段：挖掘本质（持续）</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>目标：深挖技术原理</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>行动：学习RAG、ReAct、COT等技术</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>产出：能够调优和设计复杂Agent</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【技术能力分层】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>Prompt Engineering：入门门槛，终端用户</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>AI Agents：应用开发，我们的目标</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>Fine-tuning：模型微调，进阶方向</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>Pre-training：预训练，研究方向</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【官方资源】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>官网文档：https://docs.dify.ai/zh-hans</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>Github：https://github.com/langgenius/dify</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【最后的建议】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>行动起来！选择一个贴近工作的场景</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>导入模版，跑通流程，持续迭代</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>长期坚持，不断优化！</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="&#28783;&#29255;&#32534;&#21495;&#21344;&#20301;&#31526; 3"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldNum" sz="quarter" idx="5"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:fld id="{99461AAB-3540-4EC5-BC84-936303A0A8C9}" type="slidenum">
+              <a:rPr lang="zh-CN" altLang="en-US" smtClean="0"/>
+              <a:t>20</a:t>
+            </a:fld>
+            <a:endParaRPr lang="zh-CN" altLang="en-US"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="878241552"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:notes>

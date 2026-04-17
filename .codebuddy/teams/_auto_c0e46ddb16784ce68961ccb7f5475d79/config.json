@@ -1,0 +1,33 @@
+{
+  "name": "_auto_c0e46ddb16784ce68961ccb7f5475d79",
+  "leadAgentId": "c0e46ddb16784ce68961ccb7f5475d79",
+  "workspacePath": "c:\\Users\\frankechen\\CodeBuddy\\chrome",
+  "createdAt": "2026-03-27T09:33:35.575Z",
+  "options": {
+    "workspacePath": "c:\\Users\\frankechen\\CodeBuddy\\chrome",
+    "isAutoTeam": true
+  },
+  "members": [
+    {
+      "memberId": "team-lead@_auto_c0e46ddb16784ce68961ccb7f5475d79",
+      "name": "team-lead",
+      "role": "Team Lead - coordinates the team and interacts with the user"
+    },
+    {
+      "memberId": "ui-agent-b@_auto_c0e46ddb16784ce68961ccb7f5475d79",
+      "name": "ui-agent-b",
+      "role": "UI Agent B: 母题+单元+筛选"
+    },
+    {
+      "memberId": "ui-agent-a@_auto_c0e46ddb16784ce68961ccb7f5475d79",
+      "name": "ui-agent-a",
+      "role": "UI Agent A: Banner+骨架屏"
+    },
+    {
+      "memberId": "ui-agent-c@_auto_c0e46ddb16784ce68961ccb7f5475d79",
+      "name": "ui-agent-c",
+      "role": "UI Agent C: 复习+我的页面"
+    }
+  ],
+  "isAutoTeam": true
+}

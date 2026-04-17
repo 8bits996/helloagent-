@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>区域金融公有云看板</title>
+    <script src="https://cdn.jsdelivr.net/npm/react@18.0.0/umd/react.development.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom@18.0.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@babel/standalone/babel.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState } = React;
+
+        // 顶部导航栏组件
+        const TopNav = () => {
+            return (
+                <div className="bg-white border-b border-gray-200 px-6 py-2 flex justify-between items-center">
+                    <div className="flex items-center">
+                        <i className="fas fa-chart-line text-blue-600 mr-2"></i>
+                        <span className="text-lg font-medium text-blue-600">区域金融公有云看板</span>
+                    </div>
+                    <div className="flex items-center">
+                        <button className="bg-blue-600 text-white px-3 py-1 rounded-md text-sm mr-4 flex items-center">
+                            <i className="fas fa-user mr-1"></i>
+                            登录系统
+                        </button>
+                        <img src="https://r.hrc.woa.com/photo/150/frankechen.png?default_when_absent=true" alt="用户头像" className="w-8 h-8 rounded-full" />
+                    </div>
+                </div>
+            );
+        };
+
+        // 标题区域组件
+        const Header = () => {
+            return (
+                <div className="bg-white rounded-lg shadow-sm p-8 mb-6 text-center">
+                    <h1 className="text-3xl font-bold text-gray-800 mb-4">区域金融云全周期智能一站式管控平台</h1>
+                    <p className="text-gray-600 mb-6">覆盖从项目初期介入、启动、规划、实施、验收、运营，到最终收获全链流程，提供AI智能驱动的金融云管控能力，赋能客户成功。</p>
+                    <div className="flex justify-center space-x-8">
+                        <div className="text-center">
+                            <i className="fas fa-search text-blue-500 text-xl mb-2"></i>
+                            <p className="text-sm text-gray-600">流程维度快速定位</p>
+                        </div>
+                        <div className="text-center">
+                            <i className="fas fa-cube text-blue-500 text-xl mb-2"></i>
+                            <p className="text-sm text-gray-600">产品维度灵活筛选</p>
+                        </div>
+                        <div className="text-center">
+                            <i className="fas fa-star text-blue-500 text-xl mb-2"></i>
+                            <p className="text-sm text-gray-600">常用功能一键直达</p>
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
+        // 维度卡片组件
+        const DimensionCard = ({ number, title, icon, items, activeItem }) => {
+            return (
+                <div className="bg-white rounded-lg shadow-sm p-6">
+                    <div className="flex items-center mb-4">
+                        <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center mr-3">
+                            {number}
+                        </div>
+                        <div className="flex items-center">
+                            <i className={`${icon} text-blue-600 mr-2`}></i>
+                            <h2 className="text-lg font-medium">{title}</h2>
+                        </div>
+                    </div>
+                    <div className="space-y-2">
+                        {items.map((item, index) => (
+                            <button
+                                key={index}
+                                className={`w-full text-left p-3 rounded-md flex items-center justify-between ${
+                                    activeItem === item.name ? 'bg-blue-50 text-blue-600 border border-blue-200' : 'text-gray-700 hover:bg-gray-50'
+                                }`}
+                            >
+                                <span>{item.name}</span>
+                                {item.icon && <i className={`${item.icon}`}></i>}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+            );
+        };
+
+        // 功能模块组件
+        const FeatureModule = ({ icon, title, description, status }) => {
+            return (
+                <div className="bg-white rounded-lg shadow-sm p-6">
+                    <div className="flex items-center mb-4">
+                        <i className={`${icon} text-blue-600 text-xl mr-3`}></i>
+                        <h3 className="text-lg font-medium">{title}</h3>
+                    </div>
+                    <p className="text-gray-600 text-sm mb-4">{description}</p>
+                    <div className="text-right">
+                        {status && <span className="text-blue-600 text-sm">即将上线</span>}
+                    </div>
+                </div>
+            );
+        };
+
+        // 阶段标题组件
+        const StageTitle = ({ icon, title }) => {
+            return (
+                <div className="flex items-center mb-6">
+                    <i className={`${icon} text-blue-600 mr-2`}></i>
+                    <h2 className="text-xl font-medium text-gray-800">{title}</h2>
+                </div>
+            );
+        };
+
+        // 主应用组件
+        const App = () => {
+            const [activeFlow, setActiveFlow] = useState('全部流程');
+            const [activeProduct, setActiveProduct] = useState('全部产品');
+            const [activeFunction, setActiveFunction] = useState('常用功能一键直达');
+
+            const flowDimensions = [
+                { name: '售前阶段', icon: 'fas fa-lightbulb' },
+                { name: '售中阶段', icon: 'fas fa-handshake' },
+                { name: '售后阶段', icon: 'fas fa-headset' },
+                { name: '项目管理', icon: 'fas fa-tasks' },
+                { name: '全部流程', icon: 'fas fa-th-large' }
+            ];
+
+            const productDimensions = [
+                { name: 'IaaS', icon: 'fas fa-server' },
+                { name: 'PaaS', icon: 'fas fa-layer-group' },
+                { name: 'SaaS', icon: 'fas fa-cloud' },
+                { name: '全部产品', icon: 'fas fa-cube' }
+            ];
+
+            const functionDimensions = [
+                { name: '金融专区接入与规划', icon: 'fas fa-shield-alt' },
+                { name: '客户调研报告', icon: 'fas fa-file-alt' },
+                { name: '信贷生命周期智能解决方案', icon: 'fas fa-credit-card' },
+                { name: '网络拓扑生成器', icon: 'fas fa-project-diagram' }
+            ];
+
+            const preSalesFeatures = [
+                {
+                    icon: 'fas fa-file-alt',
+                    title: '客户调研报告',
+                    description: 'AI智能生成客户需求调研报告'
+                },
+                {
+                    icon: 'fas fa-credit-card',
+                    title: '信贷生命周期智能解决方案',
+                    description: '全方位展示产品服务能力和解决方案'
+                },
+                {
+                    icon: 'fas fa-shield-alt',
+                    title: '金融专区接入与规划',
+                    description: '依托腾讯云金融专区的安全隔离与高可用特性，提供资源可用性检测、合规资源与隔离状态提示、金融专线/网络架构建议、容灾架构模板输出以及成本评估'
+                },
+                {
+                    icon: 'fas fa-gavel',
+                    title: '招投标评审助手',
+                    description: '解析招标文件，提取评分要素，规避废标风险',
+                    status: true
+                }
+            ];
+
+            const salesFeatures = [
+                {
+                    icon: 'fas fa-users',
+                    title: '实施效能与团队协作',
+                    description: ''
+                },
+                {
+                    icon: 'fas fa-chart-line',
+                    title: 'SaaS交付建模全链路专家伴随',
+                    description: '评分卡建模全流程专家指导，从数据准备到评分卡转换，提供方法论、话术、检查清单和产研对接支持',
+                    status: true
+                },
+                {
+                    icon: 'fas fa-server',
+                    title: '批量指定IP创建 CVM',
+                    description: '自动化执行大规模云服务器的部署操作',
+                    status: true
+                },
+                {
+                    icon: 'fas fa-project-diagram',
+                    title: 'Mermaid 流程图编辑器',
+                    description: '将存量业务流程转化为可编辑的代码化图表，沉淀为项目资产',
+                    status: true
+                },
+                {
+                    icon: 'fas fa-file-excel',
+                    title: '日常工作提效小助手',
+                    description: '处理复杂的Excel数据翻译与整理，提升文档处理效率',
+                    status: true
+                },
+                {
+                    icon: 'fas fa-network-wired',
+                    title: '网络拓扑生成器',
+                    description: '智能网络拓扑设计和可视化工具'
+                },
+                {
+                    icon: 'fas fa-route',
+                    title: '连通性方案',
+                    description: '智能网络连通性分析和方案设计工具，提供网络连通性测试、路由规划和故障诊断'
+                }
+            ];
+
+            const deliveryFeatures = [
+                {
+                    icon: 'fas fa-users',
+                    title: '项目管理会议洞察',
+                    description: '识别会议中的风险与待办（Action Item），跟踪决策落地',
+                    status: true
+                },
+                {
+                    icon: 'fas fa-file-alt',
+                    title: '项目管理智能排版助手',
+                    description: '确保所有交付文档（设计书、验收单）符合公文排版规范',
+                    status: true
+                }
+            ];
+
+            const postSalesFeatures = [
+                {
+                    icon: 'fas fa-radar',
+                    title: '区域金融客户经营雷达',
+                    description: 'SaaS客户经营分析看板，通过数据分析帮助交付经理发现银行客户的流失风险或扩容商机'
+                },
+                {
+                    icon: 'fas fa-graduation-cap',
+                    title: '用户培训服务',
+                    description: '用户培训和知识传递',
+                    status: true
+                }
+            ];
+
+            const projectFeatures = [
+                {
+                    icon: 'fas fa-calendar-alt',
+                    title: '项目计划制定',
+                    description: 'AI辅助项目计划制定和里程碑管理',
+                    status: true
+                },
+                {
+                    icon: 'fas fa-chart-line',
+                    title: '项目进度跟踪',
+                    description: '实时项目进度监控和报告',
+                    status: true
+                },
+                {
+                    icon: 'fas fa-folder',
+                    title: '文档中心',
+                    description: '项目文档管理和知识库',
+                    status: true
+                },
+                {
+                    icon: 'fas fa-presentation',
+                    title: '网页式演示生成平台',
+                    description: '将技术文档一键转化为汇报PPT，快速输出售前方案胶片',
+                    status: true
+                },
+                {
+                    icon: 'fas fa-download',
+                    title: '标准文件下载助手',
+                    description: '快速检索国标/行标（GB/JR），为方案的合规性设计提供依据',
+                    status: true
+                }
+            ];
+
+            return (
+                <div className="min-h-screen bg-gray-50">
+                    <TopNav />
+                    
+                    <div className="container mx-auto px-4 py-6">
+                        <Header />
+                        
+                        {/* 三个主要维度 */}
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                            <DimensionCard
+                                number="1"
+                                title="流程维度"
+                                icon="fas fa-search"
+                                items={flowDimensions}
+                                activeItem={activeFlow}
+                            />
+                            <DimensionCard
+                                number="2"
+                                title="产品维度"
+                                icon="fas fa-cube"
+                                items={productDimensions}
+                                activeItem={activeProduct}
+                            />
+                            <DimensionCard
+                                number="3"
+                                title="常用功能"
+                                icon="fas fa-star"
+                                items={functionDimensions}
+                                activeItem={activeFunction}
+                            />
+                        </div>
+
+                        {/* 售前阶段 */}
+                        <div className="mb-8">
+                            <StageTitle icon="fas fa-lightbulb" title="售前阶段" />
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                                {preSalesFeatures.map((feature, index) => (
+                                    <FeatureModule
+                                        key={index}
+                                        icon={feature.icon}
+                                        title={feature.title}
+                                        description={feature.description}
+                                        status={feature.status}
+                                    />
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* 售中阶段 */}
+                        <div className="mb-8">
+                            <StageTitle icon="fas fa-handshake" title="售中阶段" />
+                            
+                            <div className="mb-6">
+                                <div className="bg-blue-50 rounded-lg p-4 mb-6">
+                                    <div className="flex items-center">
+                                        <i className="fas fa-users text-blue-600 mr-2"></i>
+                                        <h3 className="text-lg font-medium text-gray-800">实施效能与团队协作</h3>
+                                    </div>
+                                </div>
+                                
+                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+                                    {salesFeatures.slice(1, 6).map((feature, index) => (
+                                        <FeatureModule
+                                            key={index}
+                                            icon={feature.icon}
+                                            title={feature.title}
+                                            description={feature.description}
+                                            status={feature.status}
+                                        />
+                                    ))}
+                                </div>
+                                
+                                <div className="bg-blue-50 rounded-lg p-4 mb-6">
+                                    <div className="flex items-center">
+                                        <i className="fas fa-users text-blue-600 mr-2"></i>
+                                        <h3 className="text-lg font-medium text-gray-800">交付管控与风险治理</h3>
+                                    </div>
+                                </div>
+                                
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    {salesFeatures.slice(6).concat(deliveryFeatures).map((feature, index) => (
+                                        <FeatureModule
+                                            key={index}
+                                            icon={feature.icon}
+                                            title={feature.title}
+                                            description={feature.description}
+                                            status={feature.status}
+                                        />
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* 售后阶段 */}
+                        <div className="mb-8">
+                            <StageTitle icon="fas fa-headset" title="售后阶段" />
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                {postSalesFeatures.map((feature, index) => (
+                                    <FeatureModule
+                                        key={index}
+                                        icon={feature.icon}
+                                        title={feature.title}
+                                        description={feature.description}
+                                        status={feature.status}
+                                    />
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* 项目管理 */}
+                        <div className="mb-8">
+                            <StageTitle icon="fas fa-tasks" title="项目管理" />
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                                {projectFeatures.map((feature, index) => (
+                                    <FeatureModule
+                                        key={index}
+                                        icon={feature.icon}
+                                        title={feature.title}
+                                        description={feature.description}
+                                        status={feature.status}
+                                    />
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+---
+globs: "**/*.kt", "**/*.java", "**/*.xml"
+description: 小天才安卓项目开发规约。当在小天才 Android 项目中编写 Kotlin/Java 代码或 XML 布局时自动激活。
+alwaysApply: false
+---
+
+# 小天才安卓项目开发规约 v1.0
+
+> 适用范围：小天才学习平板 Android 端开发
+> 版本：v1.0 · 2026-03-27
+
+---
+
+## 1. 模块规约
+
+### 1.1 Module 隔离原则
+
+- 每个独立功能创建独立 Module，存放所有相关页面和组件
+- Module 之间**不应互相依赖**，公共能力通过 `common` / `base` 模块提供
+- Module 命名：`module_{feature_name}`，如 `module_review_exams`
+
+### 1.2 入口类规范
+
+- 入口类路径：`com.example.{feature_name}.module_{feature_name}.Module{FeatureName}Module`
+- 提供**单独的 Launcher 入口**，编译后可直接运行显示对应功能首页
+
+---
+
+## 2. 标注换算规约
+
+### 2.1 设计稿基准
+
+- 设计稿按最大分辨率标注
+- 实际显示目标分辨率：**1024 x 768**（平板横屏）
+- 所有 UI 尺寸必须进行等比换算
+
+### 2.2 尺寸引用常量
+
+| 类型 | 常量引用 | 说明 |
+|------|---------|------|
+| 宽高 | `DIMEN_WIDTH_35_DP` | 35dp 宽度基准 |
+| 字体大小 | `DIMEN_TEXT_20_SP` | 20sp 字体基准 |
+| 间距 | `DIMEN_MARGIN_16_DP` | 16dp 间距基准 |
+
+### 2.3 换算规则
+
+```
+实际值 = 设计稿标注值 × (1024 / 设计稿宽度)
+```
+
+- 使用项目统一的 `DimenUtils` 工具类进行换算
+- 禁止硬编码 dp/sp 数值，一律引用常量或使用换算工具
+
+---
+
+## 3. 代码边界规约
+
+### 3.1 修改权限
+
+- **禁止**随意修改其他业务模块的代码
+- 如需修改，必须先与对应模块负责人确认
+- 跨模块通信通过路由（Router）或事件总线（EventBus）
+
+### 3.2 依赖管理
+
+- Module 内依赖本项目公共框架：网络层、数据层、UI 组件库、工具类
+- 不得引入未经审核的第三方库
+- 新增依赖需在 Module 的 `build.gradle` 中声明
+
+---
+
+## 4. UI 组件规约
+
+### 4.1 布局规范
+
+- 使用 ConstraintLayout 或 LinearLayout 为主布局
+- 适配 1024x768 横屏分辨率
+- 字体、间距、圆角等统一切图和样式资源
+
+### 4.2 图片资源
+
+- 切图放置于各科目对应目录：`res/drawable-{subject}/`
+- WebP 格式优先（支持动画则用 WebP Animated）
+- 封面图按科目分类：数学、英语、语文分别独立目录
+
+### 4.3 主题色
+
+- 每个学科独立主题色，体现学科特性：
+  - 数学、语文、英语：各自独立主题色
+  - 其他学科（物理、化学、生物等）：统一主题色
+- 主题色通过 `res/values/colors_{subject}.xml` 管理
+
+---
+
+## 5. 数据层规约
+
+### 5.1 网络请求
+
+- 使用项目统一网络框架
+- API 定义集中在 Module 内的 `api/` 包
+- 数据模型集中在 Module 内的 `model/` 包
+
+### 5.2 本地缓存
+
+- 使用项目统一缓存策略
+- 图片缓存使用 Glide / Coil
+- 数据缓存根据业务需要选择 SharedPreferences / Room / 文件缓存
+
+---
+
+## 6. 代码风格
+
+### 6.1 Kotlin 编码
+
+- 优先使用 Kotlin 协程处理异步任务
+- ViewModel 使用 `viewModelScope`
+- 网络请求统一使用挂起函数
+- 空安全：善用 `?.`、`?:`、`let` 等操作符
+
+### 6.2 命名规范
+
+| 类型 | 命名方式 | 示例 |
+|------|---------|------|
+| Activity | `{Feature}Activity` | `ReviewExamsActivity` |
+| Fragment | `{Feature}Fragment` | `ExamListFragment` |
+| ViewModel | `{Feature}ViewModel` | `ExamListViewModel` |
+| Adapter | `{Feature}Adapter` | `ExamCardAdapter` |
+| 布局文件 | `activity_{feature}.xml` | `activity_review_exams.xml` |

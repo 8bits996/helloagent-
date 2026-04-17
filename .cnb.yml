@@ -1,0 +1,127 @@
+# ============================================
+# CNB 配置 - CodeWiki + TCA 代码分析
+# 文档参考：
+#   - CodeWiki: https://docs.cnb.cool/zh/ai/codewiki.html
+#   - TCA代码分析: https://tca.tencent.com/document/zh/plugins/cnb/plugin_configuration.html
+# 触发规则：https://docs.cnb.cool/zh/build/trigger-rule.html
+# ============================================
+
+# 兜底配置：匹配所有分支
+$:
+  # === Push 时触发代码分析（TCA 快速模式）===
+  push:
+    - services:
+        - docker
+      docker:
+        volumes:
+          - /data/tca_cache/tools:copy-on-write
+      stages:
+        # 获取 git 变更文件列表，供 TCA 增量分析使用
+        - name: git-change-list
+          image: cnbcool/git-change-list:latest
+          settings:
+            changed: changed.txt
+        # TCA 代码分析（快速模式，开箱即用）
+        - name: TCA-CodeAnalysis
+          image: tencentcom/tca-plugin:latest
+          timeout: 30m
+          settings:
+            from_file: changed.txt       # 增量分析：只分析变更文件
+            block: false                  # 不阻塞流水线（测试阶段）
+            comment: true                 # 将结果添加到 PR 评论
+            ignore_paths:                 # 忽略的路径
+              - "*.md"
+              - "*.png"
+              - "*.jpg"
+              - "*.gif"
+              - "generated-images/*"
+              - "ppt-assets/*"
+              - "slides/*"
+              - "slide-deck/*"
+              - "node_modules/*"
+              - ".codebuddy/*"
+
+  # === Tag 推送时生成 Wiki + 完整分析 ===
+  tag_push:
+    - services:
+        - docker
+      docker:
+        volumes:
+          - /data/codewiki/${CNB_REPO_SLUG}:data
+          - /data/tca_cache/tools:copy-on-write
+      stages:
+        # TCA 全量代码分析
+        - name: TCA-FullAnalysis
+          image: tencentcom/tca-plugin:latest
+          timeout: 60m
+          settings:
+            block: true                   # 阻塞流水线确保质量
+            ignore_paths:
+              - "*.md"
+              - "*.png"
+              - "*.jpg"
+              - "*.gif"
+              - "generated-images/*"
+              - "ppt-assets/*"
+              - "slides/*"
+              - "slide-deck/*"
+              - "node_modules/*"
+              - ".codebuddy/*"
+        # 生成 Code Wiki
+        - name: Generate-CodeWiki
+          timeout: 2h
+          image: cnbcool/codewiki:latest
+          settings:
+            git_doc_dir: /data/codewiki/${CNB_REPO_SLUG}
+
+  # 可选：手动触发（用于测试或紧急更新）
+  web_trigger:
+    - services:
+        - docker
+      docker:
+        volumes:
+          - /data/codewiki/${CNB_REPO_SLUG}:data
+          - /data/tca_cache/tools:copy-on-write
+      stages:
+        - name: TCA-Manual-Analysis
+          image: tencentcom/tca-plugin:latest
+          timeout: 30m
+          settings:
+            block: false
+            ignore_paths:
+              - "*.md"
+              - "*.png"
+              - "generated-images/*"
+              - ".codebuddy/*"
+        - name: Generate-CodeWiki-Manual
+          timeout: 2h
+          image: cnbcool/codewiki:latest
+          settings:
+            git_doc_dir: /data/codewiki/${CNB_REPO_SLUG}
+
+# main 分支专属配置（可选）
+main:
+  # PR 合并后自动生成（确保主分支文档最新）
+  pull_request.merged:
+    - services:
+        - docker
+      docker:
+        volumes:
+          - /data/codewiki/${CNB_REPO_SLUG}:data
+          - /data/tca_cache/tools:copy-on-write
+      stages:
+        - name: TCA-Merge-Analysis
+          image: tencentcom/tca-plugin:latest
+          timeout: 45m
+          settings:
+            block: true
+            ignore_paths:
+              - "*.md"
+              - "*.png"
+              - "generated-images/*"
+              - ".codebuddy/*"
+        - name: Generate-CodeWiki-Merged
+          timeout: 2h
+          image: cnbcool/codewiki:latest
+          settings:
+            git_doc_dir: /data/codewiki/${CNB_REPO_SLUG}

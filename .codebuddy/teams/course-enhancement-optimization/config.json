@@ -1,0 +1,38 @@
+{
+  "name": "course-enhancement-optimization",
+  "leadAgentId": "2e178ff171b14d0684b9cc3e14ddf7a4",
+  "workspacePath": "c:/Users/frankechen/CodeBuddy/chrome",
+  "createdAt": "2026-03-20T01:54:10.980Z",
+  "options": {
+    "workspacePath": "c:/Users/frankechen/CodeBuddy/chrome",
+    "isAutoTeam": false
+  },
+  "members": [
+    {
+      "memberId": "team-lead@course-enhancement-optimization",
+      "name": "team-lead",
+      "role": "Team Lead - coordinates the team and interacts with the user"
+    },
+    {
+      "memberId": "file-integrator@course-enhancement-optimization",
+      "name": "file-integrator",
+      "role": "文件整合专员"
+    },
+    {
+      "memberId": "quality-auditor@course-enhancement-optimization",
+      "name": "quality-auditor",
+      "role": "质量审核专员"
+    },
+    {
+      "memberId": "structure-optimizer@course-enhancement-optimization",
+      "name": "structure-optimizer",
+      "role": "结构优化专员"
+    },
+    {
+      "memberId": "content-enhancer@course-enhancement-optimization",
+      "name": "content-enhancer",
+      "role": "内容完善专员"
+    }
+  ],
+  "isAutoTeam": false
+}

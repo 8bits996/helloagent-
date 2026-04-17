@@ -1,0 +1,29 @@
+[
+  {
+    "id": "msg-1773971728378-tqh9fa",
+    "from": "team-lead",
+    "to": "@team",
+    "type": "broadcast",
+    "content": "团队启动成功！请各位专员开始执行任务。\n\n**工作重点**：\n- file-integrator: 优先移动 Harness 相关报告到 l6-harness 目录\n- quality-auditor: 优先检查重复文件（特别是 AI_Agent_Engineering_Levels 报告）\n- structure-optimizer: 优先处理空目录（03-implementation 和 99-archive）\n- content-enhancer: 优先检查 frontier-exploration 目录的完整性\n\n请在完成后发送详细的执行报告。",
+    "timestamp": "2026-03-20T01:55:28.378Z",
+    "read": true
+  },
+  {
+    "id": "msg-1773971769423-00afig",
+    "from": "team-lead",
+    "to": "quality-auditor",
+    "type": "message",
+    "content": "你好，质量审核专员！\n\n请汇报当前进度：\n1. 是否已识别所有重复文件？\n2. 发现了哪些质量问题？\n3. 有什么删除或合并建议？\n\n请提供初步发现。",
+    "timestamp": "2026-03-20T01:56:09.423Z",
+    "read": true
+  },
+  {
+    "id": "msg-1773971946048-nbv1vn",
+    "from": "team-lead",
+    "to": "quality-auditor",
+    "type": "message",
+    "content": "请立即报告质量审核进度：\n1. 已检查了多少个重复文件？\n2. 发现了哪些质量问题？\n3. 是否有需要立即处理的问题？\n4. 完整的审核报告预计何时完成？\n\n请提供当前发现的问题清单。",
+    "timestamp": "2026-03-20T01:59:06.048Z",
+    "read": true
+  }
+]

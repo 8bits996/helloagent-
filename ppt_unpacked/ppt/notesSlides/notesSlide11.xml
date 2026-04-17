@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:notes xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name="">
+          <a:extLst>
+            <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+              <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{FD420171-6200-329D-18B7-6AC81A1FD598}"/>
+            </a:ext>
+          </a:extLst>
+        </p:cNvPr>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="&#24187;&#28783;&#29255;&#22270;&#20687;&#21344;&#20301;&#31526; 1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{C1E0E589-DBB7-3232-7DE9-50E0A18BBACA}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1" noRot="1" noChangeAspect="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldImg"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="&#22791;&#27880;&#21344;&#20301;&#31526; 2">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{2F9D49D8-716C-E8FA-DC3E-587C41DE7AB0}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="body" idx="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【3.4 核心能力：RAG检索增强 - 10分钟】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【RAG核心价值】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>解决大模型的两大痛点：</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>1. 知识截止：模型训练数据有时效性</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>2. 幻觉问题：模型可能&quot;编造&quot;信息</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【RAG三阶段流程详解】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>1. 索引（Indexing）阶段</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   文档解析：PDF、Word、网页等格式支持</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   文本分块：Chunk策略是关键</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   向量化：Embedding模型选择</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   创建索引：向量数据库存储</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>2. 检索（Retrieval）阶段</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   问题向量化：用户Query转向量</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   相似度计算：余弦相似度等</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   Top-K召回：返回最相关文档</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>3. 生成（Generation）阶段</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   上下文组装：构建增强Prompt</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   LLM生成：基于上下文回答</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【架构师重点关注】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>分块策略：大小、重叠、边界处理</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>Embedding选型：多语言、领域适配</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>向量库选型：Milvus、Pinecone、Chroma</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>重排序：Rerank提升精度</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【经典名言】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>&quot;一周出Demo，半年用不好&quot;</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>RAG调优需要持续投入！</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="&#28783;&#29255;&#32534;&#21495;&#21344;&#20301;&#31526; 3">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{6480406B-010A-74EF-ACF3-468316D873D5}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldNum" sz="quarter" idx="5"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:fld id="{99461AAB-3540-4EC5-BC84-936303A0A8C9}" type="slidenum">
+              <a:rPr lang="zh-CN" altLang="en-US" smtClean="0"/>
+              <a:t>17</a:t>
+            </a:fld>
+            <a:endParaRPr lang="zh-CN" altLang="en-US"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="4267600073"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:notes>

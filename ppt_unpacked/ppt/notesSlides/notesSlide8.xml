@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:notes xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="&#24187;&#28783;&#29255;&#22270;&#20687;&#21344;&#20301;&#31526; 1"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1" noRot="1" noChangeAspect="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldImg"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="&#22791;&#27880;&#21344;&#20301;&#31526; 2"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="body" idx="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【第三部分：How - Dify实战 - 开场 - 3分钟】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【Dify四种核心应用类型】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>1. 文本生成型应用</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   场景：翻译、改写、摘要</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   特点：一问一答，表单交互</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   适用：简单的单次任务</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>2. 对话型应用</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   场景：智能客服、辅导助手</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   特点：多轮对话，记忆上下文</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   适用：需要连续交互的场景</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>3. Agent智能助手</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   场景：财务分析、报告撰写</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   特点：任务规划、工具调用</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   适用：需要自主决策的复杂任务</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>4. 工作流应用</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   Chatflow：多步骤对话流程</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   Workflow：批量自动化处理</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>   适用：流程明确的业务场景</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【架构师选型建议】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>简单场景：文本生成/对话型</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>复杂任务：Agent/工作流</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>企业级应用：通常是工作流+Agent组合</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>如何打造AI Agent系统？如何学习AI Agent</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="&#28783;&#29255;&#32534;&#21495;&#21344;&#20301;&#31526; 3"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldNum" sz="quarter" idx="5"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:fld id="{99461AAB-3540-4EC5-BC84-936303A0A8C9}" type="slidenum">
+              <a:rPr lang="zh-CN" altLang="en-US" smtClean="0"/>
+              <a:t>12</a:t>
+            </a:fld>
+            <a:endParaRPr lang="zh-CN" altLang="en-US"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="2598708749"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:notes>

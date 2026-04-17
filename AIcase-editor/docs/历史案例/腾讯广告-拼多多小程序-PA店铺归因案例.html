@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>投放次日订单暴增477%！PA归因助力电动清洁刷快速起量</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 2em;
+            color: #667eea;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-left: 5px solid #667eea;
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 10px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 2px solid #f0f0f0;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.2);
+        }
+
+        .stat-card.highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+        }
+
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin: 10px 0;
+            color: #667eea;
+        }
+
+        .stat-card.highlight .stat-value {
+            color: white;
+        }
+
+        .stat-label {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .stat-card.highlight .stat-label {
+            color: rgba(255,255,255,0.9);
+        }
+
+        .stat-compare {
+            font-size: 0.9em;
+            color: #27ae60;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        .stat-card.highlight .stat-compare {
+            color: #fff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        tbody tr:hover {
+            background: #667eea15;
+        }
+
+        .highlight-row {
+            background: #fff3cd !important;
+            font-weight: 600;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-top: 4px solid #667eea;
+        }
+
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .feature-card ul {
+            list-style: none;
+        }
+
+        .feature-card li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .feature-card li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+
+        .timeline-item {
+            padding: 20px 30px;
+            background: white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-left: 5px solid #667eea;
+        }
+
+        .timeline-date {
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .timeline-stats {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .timeline-stat {
+            font-size: 0.95em;
+        }
+
+        .timeline-stat strong {
+            color: #667eea;
+        }
+
+        .chart-container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin: 30px 0;
+        }
+
+        .bar-chart {
+            display: flex;
+            align-items: flex-end;
+            height: 300px;
+            gap: 40px;
+            padding: 20px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .bar {
+            flex: 1;
+            background: linear-gradient(to top, #667eea 0%, #764ba2 100%);
+            border-radius: 10px 10px 0 0;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            transition: transform 0.3s;
+        }
+
+        .bar:hover {
+            transform: scale(1.05);
+        }
+
+        .bar-value {
+            position: absolute;
+            top: -30px;
+            font-weight: 700;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+
+        .bar-label {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 12px;
+            background: #27ae60;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .badge.fire {
+            background: #e74c3c;
+        }
+
+        .faq-item {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .faq-question {
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .faq-answer {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .cta-section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .cta-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .cta-step {
+            background: rgba(255,255,255,0.15);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .step-number {
+            font-size: 2em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .comparison-table {
+            margin: 30px 0;
+        }
+
+        .success-badge {
+            background: #27ae60;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-size: 0.85em;
+            margin-left: 5px;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .section-title {
+                font-size: 1.5em;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .bar-chart {
+                gap: 20px;
+            }
+        }
+
+        .icon {
+            font-size: 1.2em;
+        }
+
+        .value-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+            border-left: 5px solid #27ae60;
+        }
+
+        .value-card h3 {
+            color: #27ae60;
+            margin-bottom: 15px;
+        }
+
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+
+        .checklist li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .checklist li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #27ae60;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>投放次日订单暴增477%！<br>PA归因助力电动清洁刷快速起量</h1>
+            <p class="subtitle">腾讯广告 × 拼多多小程序 × PA店铺归因 | 精准追踪，效果可见</p>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <!-- 核心亮点 -->
+            <div class="section">
+                <h2 class="section-title"><span class="icon">🔥</span> 核心亮点</h2>
+                <div class="stats-grid">
+                    <div class="stat-card highlight">
+                        <div class="stat-label">次日订单增速</div>
+                        <div class="stat-value">477%</div>
+                        <div class="stat-compare">接近500单</div>
+                    </div>
+                    <div class="stat-card highlight">
+                        <div class="stat-label">下单ROI</div>
+                        <div class="stat-value">2.31</div>
+                        <div class="stat-compare">高于行业7.7%</div>
+                    </div>
+                    <div class="stat-card highlight">
+                        <div class="stat-label">视频完播率</div>
+                        <div class="stat-value">64.94%</div>
+                        <div class="stat-compare">高于行业26%</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">投放周期</div>
+                        <div class="stat-value">4天</div>
+                        <div class="stat-compare">快速验证</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">总投放</div>
+                        <div class="stat-value">3.9万</div>
+                        <div class="stat-compare">归因GMV 9万</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">累计订单</div>
+                        <div class="stat-value">1,010单</div>
+                        <div class="stat-compare">精准转化</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 客户背景 -->
+            <div class="section">
+                <h2 class="section-title"><span class="icon">💼</span> 客户背景</h2>
+                <div class="highlight-box">
+                    <p><strong>客户名称：</strong>天水玉朗忠加商贸有限公司</p>
+                    <p><strong>所属行业：</strong>家居清洁 / 生活家电</p>
+                    <p><strong>主营产品：</strong>电动清洁刷（客单价89元的高频消费品）</p>
+                </div>
+
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>⚠️ 面临的挑战</h3>
+                        <ul>
+                            <li>快速验证需求：新品推广期，需要快速验证投放模型</li>
+                            <li>预算有限：希望用小预算测试效果</li>
+                            <li>效果难衡量：传统方式难以精准追踪订单来源</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🎯 营销目标</h3>
+                        <ul>
+                            <li>快速起量，验证PA归因投放模型</li>
+                            <li>实时追踪投放效果，数据驱动优化</li>
+                            <li>控制成本，确保ROI为正</li>
+                            <li>为后续规模化投放积累经验</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 投放方案 -->
+            <div class="section">
+                <h2 class="section-title"><span class="icon">🚀</span> 投放方案</h2>
+                
+                <div class="chart-container">
+                    <h3 style="text-align: center; color: #667eea; margin-bottom: 20px;">投放链路</h3>
+                    <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%); border-radius: 10px;">
+                        <p style="font-size: 1.1em; line-height: 2;">
+                            <strong>腾讯广告</strong>（微信朋友圈/视频号/公众号等）<br>
+                            ↓ 一键跳转<br>
+                            <strong>拼多多小程序店铺</strong><br>
+                            ↓ 用户下单<br>
+                            <strong>PA店铺归因实时追踪</strong><br>
+                            ↓ 数据回传<br>
+                            <strong>腾讯广告后台优化投放</strong>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>🎯 精准人群定向</h3>
+                        <ul>
+                            <li>基础：25-45岁，一二线城市</li>
+                            <li>兴趣：家居生活、清洁用品</li>
+                            <li>行为：拼多多活跃用户、电商购物人群</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🎨 视频创意素材</h3>
+                        <ul>
+                            <li>短视频广告（产品使用场景）</li>
+                            <li>痛点场景 + 功能演示 + 价格优势</li>
+                            <li>120个创意（精简高效策略）</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card">
+                        <h3>💰 投放预算</h3>
+                        <ul>
+                            <li>总预算：3.9万元</li>
+                            <li>投放周期：4天（1月16-19日）</li>
+                            <li>计费方式：oCPM优化出价</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card">
+                        <h3>📊 PA归因设置</h3>
+                        <ul>
+                            <li>归因窗口：7天点击归因</li>
+                            <li>转化事件：用户支付成功</li>
+                            <li>数据回传：实时回传订单数据</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 投放效果 -->
+            <div class="section">
+                <h2 class="section-title"><span class="icon">📈</span> 投放效果</h2>
+
+                <h3 style="color: #667eea; margin: 30px 0 20px;">逐日数据趋势</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">1月16日（Day 1）</div>
+                        <div class="timeline-stats">
+                            <div class="timeline-stat">消耗：<strong>0.40万元</strong></div>
+                            <div class="timeline-stat">下单次数：<strong>85单</strong></div>
+                            <div class="timeline-stat">ROI：<strong>1.88</strong></div>
+                        </div>
+                        <p style="margin-top: 10px; color: #666;">冷启动阶段，系统学习中</p>
+                    </div>
+                    <div class="timeline-item highlight-row" style="background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%) !important; border-left: 5px solid #e74c3c;">
+                        <div class="timeline-date">1月17日（Day 2）<span class="badge fire">🔥 爆发式增长</span></div>
+                        <div class="timeline-stats">
+                            <div class="timeline-stat">消耗：<strong>1.71万元</strong></div>
+                            <div class="timeline-stat">下单次数：<strong style="color: #e74c3c; font-size: 1.3em;">491单</strong></div>
+                            <div class="timeline-stat">日环比增长：<strong style="color: #e74c3c;">+477%</strong></div>
+                            <div class="timeline-stat">ROI：<strong style="color: #e74c3c;">2.57</strong></div>
+                        </div>
+                        <p style="margin-top: 10px; color: #e74c3c; font-weight: 600;">PA归因快速反馈，系统识别优质流量并放量！</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1月18日（Day 3）</div>
+                        <div class="timeline-stats">
+                            <div class="timeline-stat">消耗：<strong>1.18万元</strong></div>
+                            <div class="timeline-stat">下单次数：<strong>297单</strong></div>
+                            <div class="timeline-stat">ROI：<strong>2.24</strong></div>
+                        </div>
+                        <p style="margin-top: 10px; color: #666;">持续稳定输出</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1月19日（Day 4）</div>
+                        <div class="timeline-stats">
+                            <div class="timeline-stat">消耗：<strong>0.60万元</strong></div>
+                            <div class="timeline-stat">下单次数：<strong>137单</strong></div>
+                            <div class="timeline-stat">ROI：<strong>2.02</strong></div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 style="color: #667eea; margin: 40px 0 20px;">订单量增长趋势</h3>
+                <div class="chart-container">
+                    <div class="bar-chart">
+                        <div class="bar" style="height: 17%;">
+                            <div class="bar-value">85单</div>
+                            <div class="bar-label">Day 1<br>1月16日</div>
+                        </div>
+                        <div class="bar" style="height: 100%; background: linear-gradient(to top, #e74c3c 0%, #c0392b 100%);">
+                            <div class="bar-value" style="color: #e74c3c; font-size: 1.4em;">491单 🔥</div>
+                            <div class="bar-label"><strong style="color: #e74c3c;">Day 2<br>1月17日</strong><br><span style="color: #e74c3c; font-weight: 600;">+477%</span></div>
+                        </div>
+                        <div class="bar" style="height: 60%;">
+                            <div class="bar-value">297单</div>
+                            <div class="bar-label">Day 3<br>1月18日</div>
+                        </div>
+                        <div class="bar" style="height: 28%;">
+                            <div class="bar-value">137单</div>
+                            <div class="bar-label">Day 4<br>1月19日</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 style="color: #667eea; margin: 40px 0 20px;">核心数据表现</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>指标</th>
+                            <th>数据</th>
+                            <th>对比行业</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>投放周期</td>
+                            <td>4天</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>总投放金额</td>
+                            <td>3.9万元</td>
+                            <td>-</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td><strong>次日订单增速</strong></td>
+                            <td><strong style="color: #e74c3c; font-size: 1.2em;">477%（491单）</strong></td>
+                            <td><strong style="color: #e74c3c;">快速起量 🔥</strong></td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td><strong>下单ROI</strong></td>
+                            <td><strong style="color: #667eea; font-size: 1.2em;">2.31</strong></td>
+                            <td><strong style="color: #27ae60;">高7.7% ⭐</strong></td>
+                        </tr>
+                        <tr>
+                            <td>累计下单次数</td>
+                            <td>1,010单</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>归因GMV</td>
+                            <td>约9万元</td>
+                            <td>-</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td><strong>视频3秒完播率</strong></td>
+                            <td><strong style="color: #667eea;">64.94%</strong></td>
+                            <td><strong style="color: #27ae60;">高26% ⭐</strong></td>
+                        </tr>
+                        <tr>
+                            <td>视频10秒完播率</td>
+                            <td>20.47%</td>
+                            <td style="color: #27ae60;">高17.5% ⭐</td>
+                        </tr>
+                        <tr>
+                            <td>商品客单价</td>
+                            <td>89元</td>
+                            <td>高频复购品类</td>
+                        </tr>
+                        <tr>
+                            <td>创意数量</td>
+                            <td>120个</td>
+                            <td>精简高效</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 style="color: #667eea; margin: 40px 0 20px;">效果亮点解读</h3>
+                <div class="feature-grid">
+                    <div class="value-card">
+                        <h3>🔥 亮点1：爆发式增长</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 5px 0;">✓ 投放次日订单量从85单飙升至491单</li>
+                            <li style="padding: 5px 0;">✓ 增速477%，从冷启动到接近500单仅需2天</li>
+                            <li style="padding: 5px 0;">✓ PA归因数据快速反馈，系统迅速识别优质流量</li>
+                        </ul>
+                    </div>
+                    <div class="value-card">
+                        <h3>⭐ 亮点2：ROI跑赢行业</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 5px 0;">✓ 整体ROI达2.31，高于行业均值7.7%</li>
+                            <li style="padding: 5px 0;">✓ 次日ROI峰值达2.57，优化效果显著</li>
+                            <li style="padding: 5px 0;">✓ 每投1元带来2.31元GMV，净收益约5万元</li>
+                        </ul>
+                    </div>
+                    <div class="value-card">
+                        <h3>🎯 亮点3：创意质量优秀</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 5px 0;">✓ 视频3秒完播率64.94%，高出行业26%</li>
+                            <li style="padding: 5px 0;">✓ 视频10秒完播率20.47%，高出行业17.5%</li>
+                            <li style="padding: 5px 0;">✓ 优质素材吸引高意向用户，驱动高效转化</li>
+                        </ul>
+                    </div>
+                    <div class="value-card">
+                        <h3>💡 亮点4：精简素材策略</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 5px 0;">✓ 仅使用120个创意素材（行业平均的10%）</li>
+                            <li style="padding: 5px 0;">✓ 无需海量测试，快速找到优质素材组合</li>
+                            <li style="padding: 5px 0;">✓ 证明精准策略胜过盲目堆量</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 为什么选择这个链路 -->
+            <div class="section">
+                <h2 class="section-title"><span class="icon">✅</span> 为什么选择这个投放链路？</h2>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>1️⃣ 效果可精准衡量</h3>
+                        <ul>
+                            <li>PA归因追踪每笔订单来源</li>
+                            <li>投放效果清晰可见</li>
+                            <li>告别"花了钱不知道效果"的困扰</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card">
+                        <h3>2️⃣ 快速验证，快速起量</h3>
+                        <ul>
+                            <li>次日订单即可暴增477%</li>
+                            <li>2天验证模型有效性</li>
+                            <li>小预算快速测试，成功后可规模化</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card">
+                        <h3>3️⃣ 转化路径最短</h3>
+                        <ul>
+                            <li>一键直达拼多多小程序</li>
+                            <li>微信生态内闭环</li>
+                            <li>用户体验流畅，转化率更高</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card">
+                        <h3>4️⃣ 海量精准流量</h3>
+                        <ul>
+                            <li>覆盖10亿+用户</li>
+                            <li>精准定向能力强</li>
+                            <li>多场景触达：朋友圈、公众号等</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h2>📞 如何开始投放？</h2>
+                <p style="margin: 20px 0; font-size: 1.1em;">7步开启您的高效投放之旅</p>
+                <div class="cta-steps">
+                    <div class="cta-step">
+                        <div class="step-number">1</div>
+                        <p>联系腾讯广告团队</p>
+                    </div>
+                    <div class="cta-step">
+                        <div class="step-number">2</div>
+                        <p>开通广告账户</p>
+                    </div>
+                    <div class="cta-step">
+                        <div class="step-number">3</div>
+                        <p>配置小程序跳转</p>
+                    </div>
+                    <div class="cta-step">
+                        <div class="step-number">4</div>
+                        <p>开通PA归因功能</p>
+                    </div>
+                    <div class="cta-step">
+                        <div class="step-number">5</div>
+                        <p>创建广告计划</p>
+                    </div>
+                    <div class="cta-step">
+                        <div class="step-number">6</div>
+                        <p>设置定向和出价</p>
+                    </div>
+                    <div class="cta-step">
+                        <div class="step-number">7</div>
+                        <p>上线投放监控</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 常见问题 -->
+            <div class="section">
+                <h2 class="section-title"><span class="icon">💬</span> 常见问题解答</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q1：PA店铺归因的数据准确吗？</div>
+                    <div class="faq-answer">A：PA归因基于平台级数据打通，精准追踪用户从广告点击到店铺下单的完整路径，数据准确可靠。本案例中，所有订单数据均通过PA归因实时回传到腾讯广告后台。</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q2：需要额外的技术对接吗？</div>
+                    <div class="faq-answer">A：不需要。腾讯广告与拼多多已完成平台级对接，广告主只需在后台开通PA归因功能，配置好小程序跳转链接即可。</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q3：最低投放预算是多少？</div>
+                    <div class="faq-answer">A：建议日预算500元以上，总预算3万元以上进行测试。本案例3.9万元预算即实现了良好效果，证明小预算也能验证模型。</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q4：多久能看到效果？</div>
+                    <div class="faq-answer">A：本案例投放次日即看到订单暴增477%的效果。一般情况下，投放1-2天即可通过PA归因数据判断投放效果。</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q5：如果效果不好怎么办？</div>
+                    <div class="faq-answer">A：PA归因提供实时数据反馈，可快速调整定向人群、创意素材、出价策略等。建议投放初期密切关注数据，及时优化。</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q6：视频素材需要专业制作吗？</div>
+                    <div class="faq-answer">A：不一定。本案例使用简洁的产品演示视频即达到64.94%的完播率。关键是内容要直击用户痛点，展示产品价值。</div>
+                </div>
+            </div>
+
+            <!-- 适合的广告主 -->
+            <div class="section">
+                <h2 class="section-title"><span class="icon">🤝</span> 适合的广告主类型</h2>
+                <div class="highlight-box">
+                    <h3 style="color: #667eea; margin-bottom: 15px;">这个投放链路特别适合：</h3>
+                    <ul class="checklist">
+                        <li>在拼多多开设店铺的品牌/商家</li>
+                        <li>追求ROI、注重效果转化的广告主</li>
+                        <li>希望快速验证投放模型的广告主</li>
+                        <li>高频复购类产品（如本案例的电动清洁刷）</li>
+                        <li>各类目均适用：美妆、食品、服饰、家居、3C、母婴等</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p><strong>免责声明：</strong>本案例数据真实有效，但实际投放效果受多种因素影响，包括但不限于产品特性、素材质量、市场环境、投放策略等。以上数据仅供参考。</p>
+            <p style="margin-top: 15px;">业务咨询：请联系腾讯广告代理商或直客团队</p>
+        </div>
+    </div>
+</body>
+</html>

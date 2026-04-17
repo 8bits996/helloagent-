@@ -1,0 +1,168 @@
+{
+  "$schema": "案例模板槽位定义规范 v1.0",
+  "version": "1.0.0",
+  
+  "commonSlots": {
+    "title": { 
+      "type": "text", 
+      "label": "主标题",
+      "description": "案例的核心标题，通常包含数字亮点"
+    },
+    "subtitle": { 
+      "type": "text", 
+      "label": "副标题" 
+    },
+    "tag": {
+      "type": "text",
+      "label": "标签",
+      "description": "案例分类标签"
+    },
+    "customer_name": {
+      "type": "text",
+      "label": "客户名称"
+    },
+    "customer_info": { 
+      "type": "richtext", 
+      "label": "客户信息",
+      "description": "客户背景描述"
+    },
+    "painpoints": { 
+      "type": "list", 
+      "label": "痛点列表",
+      "itemType": "text"
+    },
+    "goals": {
+      "type": "list",
+      "label": "营销目标",
+      "itemType": "text"
+    },
+    "strategy_name": {
+      "type": "text",
+      "label": "策略名称"
+    },
+    "strategy_desc": {
+      "type": "richtext",
+      "label": "策略描述"
+    },
+    "roi": { 
+      "type": "number", 
+      "label": "ROI", 
+      "format": "0.00",
+      "highlight": true
+    },
+    "roi_peak": {
+      "type": "number",
+      "label": "ROI峰值",
+      "format": "0.00"
+    },
+    "order_growth": { 
+      "type": "percent", 
+      "label": "订单增长",
+      "highlight": true
+    },
+    "metric_value": {
+      "type": "text",
+      "label": "指标数值"
+    },
+    "metric_name": {
+      "type": "text",
+      "label": "指标名称"
+    },
+    "highlight_title": {
+      "type": "text",
+      "label": "亮点标题"
+    },
+    "highlight_desc": {
+      "type": "richtext",
+      "label": "亮点描述"
+    },
+    "highlight_proof": {
+      "type": "text",
+      "label": "数据支撑"
+    },
+    "why_title": {
+      "type": "text",
+      "label": "优势标题"
+    },
+    "why_desc": {
+      "type": "text",
+      "label": "优势描述"
+    },
+    "step": {
+      "type": "text",
+      "label": "步骤说明"
+    },
+    "contact_email": {
+      "type": "text",
+      "label": "联系邮箱"
+    },
+    "contact_phone": {
+      "type": "text",
+      "label": "联系电话"
+    },
+    "copyright": {
+      "type": "text",
+      "label": "版权信息"
+    },
+    "logo": { 
+      "type": "image", 
+      "label": "Logo",
+      "ratio": "auto"
+    },
+    "qrcode": { 
+      "type": "image", 
+      "label": "二维码",
+      "ratio": "1:1"
+    },
+    "product_image": {
+      "type": "image",
+      "label": "产品图",
+      "ratio": "auto"
+    }
+  },
+  
+  "slotTypes": {
+    "text": { 
+      "editor": "input",
+      "description": "单行文本"
+    },
+    "number": { 
+      "editor": "input", 
+      "inputType": "number",
+      "description": "数字，支持格式化"
+    },
+    "percent": { 
+      "editor": "input", 
+      "suffix": "%",
+      "description": "百分比数值"
+    },
+    "richtext": { 
+      "editor": "markdown", 
+      "allowTags": ["strong", "em", "a", "br"],
+      "description": "富文本，支持加粗、斜体、链接"
+    },
+    "list": { 
+      "editor": "list",
+      "description": "列表项"
+    },
+    "group": { 
+      "editor": "fieldset",
+      "description": "可重复的字段组"
+    },
+    "image": { 
+      "editor": "image-upload",
+      "description": "图片上传"
+    }
+  },
+  
+  "sections": {
+    "header": { "label": "头部区域", "icon": "title" },
+    "background": { "label": "客户背景", "icon": "person" },
+    "strategy": { "label": "投放方案", "icon": "lightbulb" },
+    "result": { "label": "效果数据", "icon": "analytics" },
+    "highlights": { "label": "亮点解读", "icon": "star" },
+    "why": { "label": "为什么选择", "icon": "help" },
+    "cta": { "label": "行动引导", "icon": "call_to_action" },
+    "footer": { "label": "底部信息", "icon": "info" }
+  }
+}

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:notes xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name="">
+          <a:extLst>
+            <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+              <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{2E5856CA-32BB-36B2-A8F6-3200CAADDCC6}"/>
+            </a:ext>
+          </a:extLst>
+        </p:cNvPr>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="&#24187;&#28783;&#29255;&#22270;&#20687;&#21344;&#20301;&#31526; 1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{A3021C7E-1E8E-27CF-E19C-0C90732670BA}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1" noRot="1" noChangeAspect="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldImg"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="&#22791;&#27880;&#21344;&#20301;&#31526; 2">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{E2B0A925-C1FE-D7A3-AEDE-EC1AA23935FD}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="body" idx="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【1.4.2 案例：出海合规助手 - 5分钟】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【业务场景深入】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>出海项目合规复杂度高，涉及：</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>- 区域法规：GDPR、数据本地化、行业特定法规</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>- 产品可售性：不同国家的产品限制和准入</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>- 税务合规：跨境税务优化方案</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>- 流程对接：需要找谁、走什么流程</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【技术方案架构】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>Workflow + RAG知识库 + 智能体的组合：</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>核心流程：</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>1. 意图识别：分类器理解用户查询意图</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>2. 多路召回：从法规库、产品库、案例库检索</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>3. 方案生成：基于检索结果生成合规建议</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【主要挑战（架构师需要关注）】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>1. 意图识别路由不准 → 需要更好的分类器</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>2. 全链路追踪缺失 → 可观测性架构设计</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>3. KM知识获取难 → 知识管道自动化</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>4. 幻觉控制 → 多Agent交叉验证机制</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>【体验链接】</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>http://21.91.168.209/chat/CCuGWgb994eXZJ4Z</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="566189604"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:notes>

@@ -1,0 +1,166 @@
+{
+  "name": "横版16:9演示模板",
+  "type": "16x9",
+  "version": "1.0.0",
+  "description": "适用于PPT演示、会议展示的横版案例模板",
+  "aspectRatio": "16:9",
+  "exportWidths": [1920, 1280, 960],
+  
+  "slots": {
+    "title": {
+      "type": "text",
+      "label": "主标题",
+      "required": true,
+      "maxLength": 40,
+      "placeholder": "核心数字+亮点关键词"
+    },
+    "subtitle": {
+      "type": "text",
+      "label": "英文副标题",
+      "placeholder": "ENGLISH SUBTITLE"
+    },
+    "tag": {
+      "type": "text",
+      "label": "右上角标签",
+      "placeholder": "案例标签"
+    },
+    "customer_info": {
+      "type": "richtext",
+      "label": "客户信息",
+      "placeholder": "客户描述"
+    },
+    "challenge": {
+      "type": "richtext",
+      "label": "面临挑战",
+      "placeholder": "痛点描述"
+    },
+    "metric1_value": {
+      "type": "text",
+      "label": "指标1数值",
+      "highlight": true
+    },
+    "metric1_name": {
+      "type": "text",
+      "label": "指标1名称"
+    },
+    "metric2_value": {
+      "type": "text",
+      "label": "指标2数值",
+      "highlight": true
+    },
+    "metric2_name": {
+      "type": "text",
+      "label": "指标2名称"
+    },
+    "strategy1_title": {
+      "type": "text",
+      "label": "策略1标题"
+    },
+    "strategy1_desc": {
+      "type": "text",
+      "label": "策略1描述"
+    },
+    "strategy2_title": {
+      "type": "text",
+      "label": "策略2标题"
+    },
+    "strategy2_desc": {
+      "type": "text",
+      "label": "策略2描述"
+    },
+    "strategy3_title": {
+      "type": "text",
+      "label": "策略3标题"
+    },
+    "strategy3_desc": {
+      "type": "text",
+      "label": "策略3描述"
+    },
+    "chart_title": {
+      "type": "text",
+      "label": "图表标题"
+    },
+    "chart_value": {
+      "type": "text",
+      "label": "图表数值"
+    },
+    "trend_title": {
+      "type": "text",
+      "label": "趋势标题"
+    },
+    "trend_note": {
+      "type": "text",
+      "label": "趋势说明"
+    },
+    "pill1_name": {
+      "type": "text",
+      "label": "数据药丸1-名称"
+    },
+    "pill1_value": {
+      "type": "text",
+      "label": "数据药丸1-数值",
+      "highlight": true
+    },
+    "pill2_name": {
+      "type": "text",
+      "label": "数据药丸2-名称"
+    },
+    "pill2_value": {
+      "type": "text",
+      "label": "数据药丸2-数值",
+      "highlight": true
+    },
+    "why_desc": {
+      "type": "text",
+      "label": "核心价值描述"
+    },
+    "step1": {
+      "type": "text",
+      "label": "步骤1"
+    },
+    "step2": {
+      "type": "text",
+      "label": "步骤2"
+    },
+    "step3": {
+      "type": "text",
+      "label": "步骤3"
+    },
+    "copyright": {
+      "type": "text",
+      "label": "版权信息"
+    },
+    "contact": {
+      "type": "text",
+      "label": "联系方式"
+    }
+  },
+  
+  "sections": [
+    {
+      "id": "header",
+      "label": "头部区域",
+      "slots": ["title", "subtitle", "tag"]
+    },
+    {
+      "id": "background",
+      "label": "客户背景",
+      "slots": ["customer_info", "challenge", "metric1_value", "metric1_name", "metric2_value", "metric2_name"]
+    },
+    {
+      "id": "strategy",
+      "label": "投放方案",
+      "slots": ["strategy1_title", "strategy1_desc", "strategy2_title", "strategy2_desc", "strategy3_title", "strategy3_desc"]
+    },
+    {
+      "id": "result",
+      "label": "数据表现",
+      "slots": ["chart_title", "chart_value", "trend_title", "trend_note"]
+    },
+    {
+      "id": "footer",
+      "label": "底部区域",
+      "slots": ["pill1_name", "pill1_value", "pill2_name", "pill2_value", "why_desc", "step1", "step2", "step3", "copyright", "contact"]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "product_promotion": {
+    "description": "产品宣传海报",
+    "design_schema": {
+      "intent": "宣传新产品发布，突出产品核心功能和优势",
+      "visual_style": {
+        "style_name": "科技渐变风",
+        "style_prompt": "tech gradient style, dark background, neon light effects, strong tech feel, futuristic, cyberpunk aesthetic, glowing effects, digital art, high contrast, modern technology, sci-fi design, gradient backgrounds, neon colors"
+      },
+      "size": {
+        "aspect_ratio": "16:9",
+        "orientation": "横版",
+        "use_case": "PPT宽屏、官网Banner、社交媒体"
+      },
+      "layout_structure": {
+        "description": "顶部标题通栏 + 中间产品展示区 + 底部功能特点",
+        "ascii_wireframe": "┌─────────────────────────────────────────────────────────────┐\n│ [A] 顶部标题区 (15%) │\n├─────────────────────────────┬───────────────────────────────┤\n│ [B] 左侧产品展示 (45%) │ [C] 右侧功能特点 (45%) │\n│ (60%) │ (60%) │\n├─────────────────────────────┴───────────────────────────────┤\n│ [D] 底部品牌区 (10%) │\n└─────────────────────────────────────────────────────────────┘",
+        "visual_flow": "自上而下 + 左右对称 - 顶部标题吸引注意 → 左右内容并列展示 → 底部品牌收尾",
+        "hierarchy": "第一视觉层（最先注意）：主标题和产品核心视觉；第二视觉层（细节阅读）：产品功能和特点；第三视觉层（品牌印象）：底部品牌标识"
+      },
+      "content_mapping": [
+        {
+          "zone": "A",
+          "zone_name": "主标题区",
+          "position": "顶部居中",
+          "size_ratio": "占画面高度15%",
+          "copy": "全新产品发布 - 革命性技术创新",
+          "visual_elements": {
+            "primary": "大型发光标题文字，霓虹渐变效果，科技感字体",
+            "secondary": "产品标志，发光线条装饰",
+            "style_treatment": "发光效果，渐变色彩，动态光效"
+          },
+          "design_notes": "标题要突出，使用醒目的霓虹色彩"
+        },
+        {
+          "zone": "B",
+          "zone_name": "左侧产品展示区",
+          "position": "左半部分居中",
+          "size_ratio": "占画面宽度45%，高度60%",
+          "copy": "展示产品核心功能和使用场景",
+          "visual_elements": {
+            "primary": "3D产品模型，科技感材质，金属质感，发光边缘",
+            "secondary": "功能图标，数据图表，科技元素装饰",
+            "style_treatment": "3D渲染，高光效果，阴影处理，科技感材质"
+          },
+          "design_notes": "产品展示要清晰，突出产品特点"
+        },
+        {
+          "zone": "C",
+          "zone_name": "右侧功能特点区",
+          "position": "右半部分居中",
+          "size_ratio": "占画面宽度45%，高度60%",
+          "copy": "核心功能：智能分析、高效处理、云端同步、安全保障",
+          "visual_elements": {
+            "primary": "功能图标，简洁文字说明，科技感背景",
+            "secondary": "数据可视化图表，进度条，科技装饰元素",
+            "style_treatment": "扁平化设计，渐变背景，发光效果，现代科技风格"
+          },
+          "design_notes": "功能特点要清晰明了，使用图标增强视觉效果"
+        },
+        {
+          "zone": "D",
+          "zone_name": "底部品牌区",
+          "position": "底部居中",
+          "size_ratio": "占画面高度10%",
+          "copy": "品牌标识 - 科技创新领导者",
+          "visual_elements": {
+            "primary": "品牌LOGO，简洁文字说明",
+            "secondary": "装饰线条，科技元素",
+            "style_treatment": "简洁现代，与整体风格协调"
+          },
+          "design_notes": "品牌标识要清晰，保持简洁"
+        }
+      ]
+    }
+  },
+  "event_poster": {
+    "description": "活动宣传海报",
+    "design_schema": {
+      "intent": "宣传即将举行的技术峰会，吸引参会者",
+      "visual_style": {
+        "style_name": "学术海报风",
+        "style_prompt": "academic poster style, minimalist and rigorous, professional and authoritative, deep color tones, clean layout, scientific, formal, serious, technical illustration, precise, detailed, professional design"
+      },
+      "size": {
+        "aspect_ratio": "3:4",
+        "orientation": "竖版",
+        "use_case": "海报、易拉宝、宣传单页"
+      },
+      "layout_structure": {
+        "description": "顶部标题 + 中间活动信息 + 底部报名信息",
+        "ascii_wireframe": "┌─────────────────────────────────────────────────────────────┐\n│ [A] 顶部标题区 (20%) │\n├─────────────────────────────────────────────────────────────┤\n│ [B] 中间活动信息 (65%) │\n├─────────────────────────────────────────────────────────────┤\n│ [C] 底部报名信息 (15%) │\n└─────────────────────────────────────────────────────────────┘",
+        "visual_flow": "自上而下阅读 - 顶部标题 → 中间活动详情 → 底部报名信息",
+        "hierarchy": "第一视觉层（最先注意）：活动标题；第二视觉层（细节阅读）：时间地点和演讲嘉宾；第三视觉层（行动号召）：报名方式和联系方式"
+      },
+      "content_mapping": [
+        {
+          "zone": "A",
+          "zone_name": "活动标题区",
+          "position": "顶部居中",
+          "size_ratio": "占画面高度20%",
+          "copy": "2026年度技术峰会 - AI与未来",
+          "visual_elements": {
+            "primary": "大型 serif 字体标题，深蓝色调",
+            "secondary": "装饰线条，几何图形",
+            "style_treatment": "专业学术风格，简洁大气"
+          },
+          "design_notes": "标题要突出，使用专业的字体和颜色"
+        },
+        {
+          "zone": "B",
+          "zone_name": "活动信息区",
+          "position": "中间部分",
+          "size_ratio": "占画面高度65%",
+          "copy": "时间：2026年3月15-17日\n地点：北京国际会议中心\n主题：人工智能与数字化转型\n主讲嘉宾：行业专家、技术领袖",
+          "visual_elements": {
+            "primary": "时间地点信息，演讲嘉宾照片（占位图）",
+            "secondary": "装饰元素，分隔线，信息图表",
+            "style_treatment": "清晰布局，层次分明，专业设计"
+          },
+          "design_notes": "信息要清晰有序，使用分隔线增强可读性"
+        },
+        {
+          "zone": "C",
+          "zone_name": "报名信息区",
+          "position": "底部居中",
+          "size_ratio": "占画面高度15%",
+          "copy": "立即报名：www.example.com/register\n联系电话：400-123-4567\n邮箱：info@example.com",
+          "visual_elements": {
+            "primary": "报名二维码，联系方式",
+            "secondary": "装饰元素，品牌标识",
+            "style_treatment": "简洁明了，突出行动号召"
+          },
+          "design_notes": "报名信息要清晰，便于用户获取"
+        }
+      ]
+    }
+  }
+}

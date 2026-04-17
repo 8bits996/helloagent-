@@ -1,0 +1,20 @@
+# Debug Agent 服务端配置文件
+# 远程机器: 我的CVM环境 (21.91.168.209)
+
+server:
+  port: 9999
+  host: "0.0.0.0"  # 监听所有网卡
+
+security:
+  # Token 从环境变量读取
+  token_env: "DEBUG_AGENT_TOKEN"
+
+managed_processes:
+  - name: "myapp"
+    path: "/home/frankechen/debug-agent/workspace/myapp"
+    log_path: "/home/frankechen/debug-agent/logs/myapp.log"
+    working_dir: "/home/frankechen/debug-agent/workspace"
+    auto_restart: false
+
+allowed_paths:
+  - "/home/frankechen/debug-agent/workspace/"

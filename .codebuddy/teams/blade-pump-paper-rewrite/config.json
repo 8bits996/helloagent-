@@ -1,0 +1,53 @@
+{
+  "name": "blade-pump-paper-rewrite",
+  "leadAgentId": "c08ec75f7bb34dbc8e7c72db7f6bd51d",
+  "workspacePath": "c:/Users/frankechen/CodeBuddy/chrome",
+  "createdAt": "2026-03-21T14:16:39.409Z",
+  "options": {
+    "workspacePath": "c:/Users/frankechen/CodeBuddy/chrome",
+    "isAutoTeam": false
+  },
+  "members": [
+    {
+      "memberId": "team-lead@blade-pump-paper-rewrite",
+      "name": "team-lead",
+      "role": "Team Lead - coordinates the team and interacts with the user"
+    },
+    {
+      "memberId": "scope-agent@blade-pump-paper-rewrite",
+      "name": "scope-agent",
+      "role": "A0 ScopeAgent 论文诊断"
+    },
+    {
+      "memberId": "gap-finder@blade-pump-paper-rewrite",
+      "name": "gap-finder",
+      "role": "A1 GapFinder 研究空白审查"
+    },
+    {
+      "memberId": "hypothesis-agent@blade-pump-paper-rewrite",
+      "name": "hypothesis-agent",
+      "role": "A2 HypothesisAgent 假设审查"
+    },
+    {
+      "memberId": "lit-survey@blade-pump-paper-rewrite",
+      "name": "lit-survey",
+      "role": "A4-A5 文献检索策略审查"
+    },
+    {
+      "memberId": "method-reviewer@blade-pump-paper-rewrite",
+      "name": "method-reviewer",
+      "role": "A9-A12 方法论审查"
+    },
+    {
+      "memberId": "result-reviewer@blade-pump-paper-rewrite",
+      "name": "result-reviewer",
+      "role": "A14-A16 结果验证审查"
+    },
+    {
+      "memberId": "argument-reviewer@blade-pump-paper-rewrite",
+      "name": "argument-reviewer",
+      "role": "A17-A20 论证增强审查"
+    }
+  ],
+  "isAutoTeam": false
+}

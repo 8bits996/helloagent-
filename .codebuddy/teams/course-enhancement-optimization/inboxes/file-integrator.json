@@ -1,0 +1,29 @@
+[
+  {
+    "id": "msg-1773971728378-tqh9fa",
+    "from": "team-lead",
+    "to": "@team",
+    "type": "broadcast",
+    "content": "团队启动成功！请各位专员开始执行任务。\n\n**工作重点**：\n- file-integrator: 优先移动 Harness 相关报告到 l6-harness 目录\n- quality-auditor: 优先检查重复文件（特别是 AI_Agent_Engineering_Levels 报告）\n- structure-optimizer: 优先处理空目录（03-implementation 和 99-archive）\n- content-enhancer: 优先检查 frontier-exploration 目录的完整性\n\n请在完成后发送详细的执行报告。",
+    "timestamp": "2026-03-20T01:55:28.378Z",
+    "read": true
+  },
+  {
+    "id": "msg-1773971766817-fimfop",
+    "from": "team-lead",
+    "to": "file-integrator",
+    "type": "message",
+    "content": "你好，文件整合专员！\n\n请汇报当前进度：\n1. 是否已完成 Harness 相关报告的移动？\n2. 遇到什么问题？\n3. 下一步计划？\n\n如果遇到需要决策的问题，请详细说明。",
+    "timestamp": "2026-03-20T01:56:06.817Z",
+    "read": true
+  },
+  {
+    "id": "msg-1773971943158-xiscnt",
+    "from": "team-lead",
+    "to": "file-integrator",
+    "type": "message",
+    "content": "请立即报告你的工作进度：\n1. 已处理了哪些文件？\n2. 遇到了什么问题？\n3. 还有哪些文件需要移动？\n4. 预计何时完成？\n\n根目录文件移动状态：\n- ✅ harness_engineering_extended_report.md\n- ✅ harness_engineering_research_report.md  \n- ✅ control_theory_content.md\n- ✅ ppt_content.md\n\n请提供详细报告。",
+    "timestamp": "2026-03-20T01:59:03.158Z",
+    "read": true
+  }
+]

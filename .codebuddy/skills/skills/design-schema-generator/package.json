@@ -1,0 +1,26 @@
+{
+  "name": "design-schema-generator",
+  "version": "1.0.0",
+  "description": "基于结构化中间态的 AI 设计方案生成器",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/run-tests.js"
+  },
+  "keywords": [
+    "design",
+    "schema",
+    "prompt",
+    "ai",
+    "image-generation",
+    "design-tool"
+  ],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:sldLayout xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" userDrawn="1">
+  <p:cSld name="1_&#22270;&#25991;-&#19977;&#22270;2">
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="15" name="&#25991;&#26412;&#21344;&#20301;&#31526; 14">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{CDF73DF9-07D1-1A4D-927F-7591126EFD7C}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="body" sz="quarter" idx="19" hasCustomPrompt="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="414057" y="3103917"/>
+            <a:ext cx="4341247" cy="722313"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle>
+            <a:lvl1pPr marL="0" indent="0" algn="l">
+              <a:lnSpc>
+                <a:spcPct val="150000"/>
+              </a:lnSpc>
+              <a:buNone/>
+              <a:defRPr sz="1200">
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+                <a:latin typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+                <a:ea typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+              </a:defRPr>
+            </a:lvl1pPr>
+            <a:lvl2pPr marL="317483" indent="0">
+              <a:buNone/>
+              <a:defRPr sz="1200"/>
+            </a:lvl2pPr>
+            <a:lvl3pPr marL="634967" indent="0">
+              <a:buNone/>
+              <a:defRPr sz="1200"/>
+            </a:lvl3pPr>
+            <a:lvl4pPr marL="952452" indent="0">
+              <a:buNone/>
+              <a:defRPr sz="1200"/>
+            </a:lvl4pPr>
+            <a:lvl5pPr marL="1269936" indent="0">
+              <a:buNone/>
+              <a:defRPr sz="1200"/>
+            </a:lvl5pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:pPr algn="l">
+              <a:lnSpc>
+                <a:spcPct val="150000"/>
+              </a:lnSpc>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:schemeClr val="bg2">
+                    <a:lumMod val="10000"/>
+                  </a:schemeClr>
+                </a:solidFill>
+                <a:latin typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+                <a:ea typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+              </a:rPr>
+              <a:t>&#27492;&#22788;&#20026;&#27491;&#25991;&#65292;&#23383;&#20307;&#26041;&#27491;&#20848;&#20141;&#40657;&#65292;&#23383;&#21495;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:schemeClr val="bg2">
+                    <a:lumMod val="10000"/>
+                  </a:schemeClr>
+                </a:solidFill>
+                <a:latin typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+                <a:ea typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+              </a:rPr>
+              <a:t>12</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:schemeClr val="bg2">
+                    <a:lumMod val="10000"/>
+                  </a:schemeClr>
+                </a:solidFill>
+                <a:latin typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+                <a:ea typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+              </a:rPr>
+              <a:t>&#30917;&#65292;&#23383;&#37325;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:schemeClr val="bg2">
+                    <a:lumMod val="10000"/>
+                  </a:schemeClr>
+                </a:solidFill>
+                <a:latin typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+                <a:ea typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+              </a:rPr>
+              <a:t>Regular</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:schemeClr val="bg2">
+                    <a:lumMod val="10000"/>
+                  </a:schemeClr>
+                </a:solidFill>
+                <a:latin typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+                <a:ea typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+              </a:rPr>
+              <a:t>&#65292;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:schemeClr val="bg2">
+                    <a:lumMod val="10000"/>
+                  </a:schemeClr>
+                </a:solidFill>
+                <a:latin typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+                <a:ea typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+              </a:rPr>
+              <a:t>&#34892;&#36317;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:schemeClr val="bg2">
+                    <a:lumMod val="10000"/>
+                  </a:schemeClr>
+                </a:solidFill>
+                <a:latin typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+                <a:ea typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+              </a:rPr>
+              <a:t>1.5</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:schemeClr val="bg2">
+                    <a:lumMod val="10000"/>
+                  </a:schemeClr>
+                </a:solidFill>
+                <a:latin typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+                <a:ea typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+              </a:rPr>
+              <a:t>&#20493;&#65292;&#33394;&#20540;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:schemeClr val="bg2">
+                    <a:lumMod val="10000"/>
+                  </a:schemeClr>
+                </a:solidFill>
+                <a:latin typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+                <a:ea typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+              </a:rPr>
+              <a:t>#000000</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" dirty="0">
+                <a:latin typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+                <a:ea typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+              </a:rPr>
+              <a:t>&#12290;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="11" name="&#25991;&#26412;&#21344;&#20301;&#31526; 10">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{FF54204E-750B-2849-AAF9-F09CE6190D86}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="body" sz="quarter" idx="18" hasCustomPrompt="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="416854" y="2533642"/>
+            <a:ext cx="2521977" cy="434975"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle>
+            <a:lvl1pPr marL="0" indent="0">
+              <a:buNone/>
+              <a:defRPr sz="2400" b="1" i="0">
+                <a:solidFill>
+                  <a:schemeClr val="tx2"/>
+                </a:solidFill>
+                <a:latin typeface="TencentSans W7" panose="020C04030202040F0204" pitchFamily="34" charset="-122"/>
+                <a:ea typeface="TencentSans W7" panose="020C04030202040F0204" pitchFamily="34" charset="-122"/>
+              </a:defRPr>
+            </a:lvl1pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:pPr lvl="0"/>
+            <a:r>
+              <a:rPr kumimoji="1" lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>&#27573;&#33853;&#26631;&#39064; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="1" lang="en-US" altLang="zh-CN" dirty="0"/>
+              <a:t>24</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="1" lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>&#30917;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="&#28783;&#29255;&#32534;&#21495;&#21344;&#20301;&#31526; 1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{19351BEC-F07A-C848-B576-8F3799D3B8AC}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldNum" sz="quarter" idx="10"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="11684580" y="6540502"/>
+            <a:ext cx="238848" cy="225703"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle>
+            <a:lvl1pPr>
+              <a:defRPr sz="800">
+                <a:latin typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+                <a:ea typeface="FZLanTingHei-R-GBK" panose="02000000000000000000" pitchFamily="2" charset="-122"/>
+              </a:defRPr>
+            </a:lvl1pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:fld id="{86CB4B4D-7CA3-9044-876B-883B54F8677D}" type="slidenum">
+              <a:rPr lang="en-US" altLang="zh-CN" smtClean="0"/>
+              <a:pPr/>
+              <a:t>&#8249;#&#8250;</a:t>
+            </a:fld>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="Picture Placeholder 8">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{662A750A-D359-3B42-A0AC-019BB4F2EDF4}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="pic" sz="quarter" idx="14" hasCustomPrompt="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="9133840" y="176066"/>
+            <a:ext cx="2910043" cy="3141913"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0">
+                <a:schemeClr val="tx1">
+                  <a:alpha val="40000"/>
+                </a:schemeClr>
+              </a:gs>
+              <a:gs pos="99000">
+                <a:schemeClr val="tx1">
+                  <a:alpha val="20000"/>
+                </a:schemeClr>
+              </a:gs>
+            </a:gsLst>
+            <a:lin ang="5400000" scaled="1"/>
+          </a:gradFill>
+          <a:ln w="12700">
+            <a:noFill/>
+            <a:miter lim="400000"/>
+          </a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square" lIns="50800" tIns="540000" rIns="50800" bIns="50800" anchor="ctr">
+            <a:noAutofit/>
+          </a:bodyPr>
+          <a:lstStyle>
+            <a:lvl1pPr algn="ctr">
+              <a:buFontTx/>
+              <a:buNone/>
+              <a:defRPr kumimoji="1" lang="en-US" sz="800">
+                <a:solidFill>
+                  <a:schemeClr val="bg1"/>
+                </a:solidFill>
+              </a:defRPr>
+            </a:lvl1pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:pPr marL="0" lvl="0" indent="0" algn="ctr">
+              <a:buNone/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0" err="1"/>
+              <a:t>&#28857;&#20987;&#28155;&#21152;&#22270;&#29255;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="Picture Placeholder 8">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{1F13D3DC-037F-A248-82D1-D9D56D14909E}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="pic" sz="quarter" idx="15" hasCustomPrompt="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="6056725" y="176065"/>
+            <a:ext cx="2910043" cy="6508712"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0">
+                <a:schemeClr val="tx1">
+                  <a:alpha val="40000"/>
+                </a:schemeClr>
+              </a:gs>
+              <a:gs pos="99000">
+                <a:schemeClr val="tx1">
+                  <a:alpha val="20000"/>
+                </a:schemeClr>
+              </a:gs>
+            </a:gsLst>
+            <a:lin ang="5400000" scaled="1"/>
+          </a:gradFill>
+          <a:ln w="12700">
+            <a:noFill/>
+            <a:miter lim="400000"/>
+          </a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square" lIns="50800" tIns="540000" rIns="50800" bIns="50800" anchor="ctr">
+            <a:noAutofit/>
+          </a:bodyPr>
+          <a:lstStyle>
+            <a:lvl1pPr algn="ctr">
+              <a:buFontTx/>
+              <a:buNone/>
+              <a:defRPr kumimoji="1" lang="en-US" sz="800">
+                <a:solidFill>
+                  <a:schemeClr val="bg1"/>
+                </a:solidFill>
+              </a:defRPr>
+            </a:lvl1pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:pPr marL="0" lvl="0" indent="0" algn="ctr">
+              <a:buNone/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0" err="1"/>
+              <a:t>&#28857;&#20987;&#28155;&#21152;&#22270;&#29255;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="7" name="Picture Placeholder 8">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{77FCC6A0-5EA8-234C-BAF4-A5EBC621F099}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="pic" sz="quarter" idx="16" hasCustomPrompt="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="9133840" y="3488363"/>
+            <a:ext cx="2910043" cy="3196414"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0">
+                <a:schemeClr val="tx1">
+                  <a:alpha val="40000"/>
+                </a:schemeClr>
+              </a:gs>
+              <a:gs pos="99000">
+                <a:schemeClr val="tx1">
+                  <a:alpha val="20000"/>
+                </a:schemeClr>
+              </a:gs>
+            </a:gsLst>
+            <a:lin ang="5400000" scaled="1"/>
+          </a:gradFill>
+          <a:ln w="12700">
+            <a:noFill/>
+            <a:miter lim="400000"/>
+          </a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square" lIns="50800" tIns="540000" rIns="50800" bIns="50800" anchor="ctr">
+            <a:noAutofit/>
+          </a:bodyPr>
+          <a:lstStyle>
+            <a:lvl1pPr algn="ctr">
+              <a:buFontTx/>
+              <a:buNone/>
+              <a:defRPr kumimoji="1" lang="en-US" sz="800">
+                <a:solidFill>
+                  <a:schemeClr val="bg1"/>
+                </a:solidFill>
+              </a:defRPr>
+            </a:lvl1pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:pPr marL="0" lvl="0" indent="0" algn="ctr">
+              <a:buNone/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0" err="1"/>
+              <a:t>&#28857;&#20987;&#28155;&#21152;&#22270;&#29255;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="8" name="&#25991;&#26412;&#21344;&#20301;&#31526; 3">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{80D05831-8B5B-BC45-AF62-B5D1277A3763}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="body" sz="quarter" idx="17" hasCustomPrompt="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="416854" y="325417"/>
+            <a:ext cx="5167831" cy="722313"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle>
+            <a:lvl1pPr marL="0" indent="0">
+              <a:buNone/>
+              <a:defRPr sz="3000" b="0" i="0">
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+                <a:latin typeface="TencentSans W7" panose="020C04030202040F0204" pitchFamily="34" charset="-122"/>
+                <a:ea typeface="TencentSans W7" panose="020C04030202040F0204" pitchFamily="34" charset="-122"/>
+              </a:defRPr>
+            </a:lvl1pPr>
+            <a:lvl3pPr marL="634967" indent="0">
+              <a:buNone/>
+              <a:defRPr/>
+            </a:lvl3pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:pPr lvl="0"/>
+            <a:r>
+              <a:rPr kumimoji="1" lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>&#39029;&#38754;&#20027;&#26631;&#39064; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="1" lang="en-US" altLang="zh-CN" dirty="0"/>
+              <a:t>30</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="1" lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>&#30917;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="2242738038"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+  <p:transition spd="med"/>
+</p:sldLayout>

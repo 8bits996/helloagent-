@@ -1,0 +1,23 @@
+{
+  "name": "xiaotian-android",
+  "leadAgentId": "c0e46ddb16784ce68961ccb7f5475d79",
+  "workspacePath": "c:/Users/frankechen/CodeBuddy/chrome",
+  "createdAt": "2026-03-27T08:21:30.065Z",
+  "options": {
+    "workspacePath": "c:/Users/frankechen/CodeBuddy/chrome",
+    "isAutoTeam": false
+  },
+  "members": [
+    {
+      "memberId": "team-lead@xiaotian-android",
+      "name": "team-lead",
+      "role": "Team Lead - coordinates the team and interacts with the user"
+    },
+    {
+      "memberId": "architect@xiaotian-android",
+      "name": "architect",
+      "role": "Phase 0 项目骨架搭建"
+    }
+  ],
+  "isAutoTeam": false
+}

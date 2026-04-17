@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>「饭搭子」— 从一顿饭到真朋友</title>
+<style>
+:root{--p:#FF6B35;--pl:#FF8F5E;--s:#004E89;--a:#FFD166;--a2:#06D6A0;--d:#1A1A2E;--g:#6B7280;--pk:#FF6B9D;--pr:#7C3AED}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;color:var(--d);background:#F8F9FA;line-height:1.8;overflow-x:hidden}
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,255,255,.95);backdrop-filter:blur(20px);border-bottom:1px solid rgba(0,0,0,.06);padding:0 40px;height:60px;display:flex;align-items:center;justify-content:space-between}
+.nav b{font-size:20px;color:var(--p)}.nav-l{display:flex;gap:20px}.nav-l a{text-decoration:none;color:var(--g);font-size:12px;font-weight:500}.nav-l a:hover{color:var(--p)}
+.sec{padding:80px 40px;max-width:1200px;margin:0 auto}
+.tag{display:inline-block;padding:4px 14px;border-radius:16px;font-size:12px;font-weight:600;margin-bottom:10px}
+h2.t{font-size:34px;font-weight:800;line-height:1.3;margin-bottom:12px}
+p.s{font-size:15px;color:var(--g);margin-bottom:36px;max-width:720px}
+.g2{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.g5{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.card{background:#fff;border-radius:18px;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,.05);border:1px solid rgba(0,0,0,.04);transition:all .3s;position:relative;overflow:hidden}
+.card:hover{transform:translateY(-3px);box-shadow:0 4px 16px rgba(0,0,0,.1)}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px}
+.card h3{font-size:16px;font-weight:700;margin-bottom:6px}.card p{font-size:12px;color:var(--g);line-height:1.7}
+.ico{font-size:28px;margin-bottom:12px}
+.pill{padding:3px 10px;border-radius:10px;font-size:10px;font-weight:600;display:inline-block;margin:2px}
+.po{background:#FFF0E8;color:var(--p)}.ppk{background:#FFE8F0;color:var(--pk)}.pg{background:#E8FDF5;color:#059669}.pb{background:#E8F4FD;color:var(--s)}.pp{background:#F0E8FD;color:var(--pr)}.py{background:#FFF8E1;color:#D97706}
+/* dark cards */
+.dk{background:var(--d);padding:80px 40px;color:#fff}.dk-in{max-width:1200px;margin:0 auto}
+.dk h2.t{color:#fff}.dk p.s{color:rgba(255,255,255,.6)}
+.dc{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:24px;transition:all .3s}
+.dc:hover{background:rgba(255,255,255,.1);transform:translateY(-3px)}
+.dc h3{font-size:15px;font-weight:700;margin-bottom:8px;color:#fff}.dc p{font-size:12px;color:rgba(255,255,255,.6);line-height:1.7}
+.hl{color:var(--a);font-weight:600}
+/* table */
+.ct{width:100%;border-collapse:separate;border-spacing:0;margin-top:20px;background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.ct th{background:var(--d);color:#fff;padding:10px 12px;text-align:left;font-size:11px;font-weight:600}
+.ct td{padding:8px 12px;font-size:11px;border-bottom:1px solid #F3F4F6;color:var(--d)}.ct tr:last-child td{border-bottom:none}.ct .ou{color:var(--p);font-weight:600}
+/* hero */
+.hero{min-height:100vh;display:flex;align-items:center;background:linear-gradient(180deg,#FFF5F0,#FFF 40%,#FFE8F0);padding:90px 40px 60px}
+.hero-in{max-width:1200px;width:100%;margin:0 auto;display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center}
+.hero h1{font-size:48px;font-weight:900;line-height:1.2;background:linear-gradient(135deg,#FF6B35,#FF6B9D,#FFD166,#06D6A0);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:14px}
+.hero .sub{font-size:20px;color:var(--d);font-weight:600;margin-bottom:8px}
+.hero .sub2{font-size:14px;color:var(--pk);font-weight:500;margin-bottom:12px}
+.hero .desc{font-size:14px;color:#9CA3AF;margin-bottom:24px}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.badge{padding:4px 12px;border-radius:16px;font-size:11px;font-weight:600}
+/* phone */
+.phone{width:260px;height:520px;background:var(--d);border-radius:32px;padding:8px;box-shadow:0 8px 32px rgba(0,0,0,.15);transform:perspective(1000px) rotateY(-5deg)}
+.ph-in{width:100%;height:100%;background:#fff;border-radius:26px;overflow:hidden;display:flex;flex-direction:column}
+.ph-top{height:36px;background:linear-gradient(135deg,var(--p),var(--pk));display:flex;align-items:center;justify-content:center;color:#fff;font-size:10px;font-weight:600}
+.ph-hd{padding:12px;text-align:center;background:linear-gradient(180deg,var(--pk),var(--pl));color:#fff}.ph-hd h3{font-size:14px}.ph-hd p{font-size:9px;opacity:.8}
+.ph-bd{padding:10px;flex:1;background:#F9FAFB;overflow:hidden}
+.ph-c{background:#fff;border-radius:10px;padding:10px;margin-bottom:7px;box-shadow:0 1px 4px rgba(0,0,0,.04);font-size:10px;color:var(--g)}
+.ph-c b{color:var(--d);font-size:10px}
+.ph-btn{display:block;width:100%;padding:8px;border:none;border-radius:8px;background:linear-gradient(135deg,var(--p),var(--pk));color:#fff;font-size:11px;font-weight:700;text-align:center;margin-top:4px}
+/* pyramid */
+.pyr{display:flex;gap:0;margin-top:36px;position:relative;align-items:stretch}
+.pyr-s{flex:1;position:relative;display:flex;flex-direction:column}
+.pyr-a{display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--p);padding:0 4px;min-width:28px}
+.pyr-c{margin:0 4px;padding:22px 16px;border-radius:18px;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.06);flex:1;text-align:center}
+.pyr-c h4{font-size:15px;font-weight:700;margin:8px 0 4px}.pyr-c .en{font-size:10px;color:var(--g);margin-bottom:8px}
+.pyr-c p{font-size:11px;color:var(--g);line-height:1.6}
+.pyr-c .pico{font-size:36px}
+/* flow */
+.flow{display:flex;gap:0;margin-top:36px;position:relative}
+.flow::before{content:'';position:absolute;top:38px;left:48px;right:48px;height:3px;background:linear-gradient(90deg,var(--p),var(--pk),var(--a),var(--a2),var(--s),var(--pr));border-radius:2px}
+.flow-s{flex:1;text-align:center;position:relative;z-index:1;padding:0 6px}
+.flow-i{width:76px;height:76px;border-radius:50%;background:#fff;box-shadow:0 3px 12px rgba(0,0,0,.08);display:flex;align-items:center;justify-content:center;font-size:30px;margin:0 auto 12px;border:3px solid var(--p)}
+.flow-s:nth-child(2) .flow-i{border-color:var(--pk)}.flow-s:nth-child(3) .flow-i{border-color:var(--a)}.flow-s:nth-child(4) .flow-i{border-color:var(--a2)}.flow-s:nth-child(5) .flow-i{border-color:var(--s)}.flow-s:nth-child(6) .flow-i{border-color:var(--pr)}
+.flow-s h4{font-size:12px;font-weight:700;margin-bottom:3px}.flow-s p{font-size:10px;color:var(--g);line-height:1.4}
+/* feature list */
+.fl{list-style:none;margin-top:10px}.fl li{padding:4px 0;font-size:11px;display:flex;align-items:flex-start;gap:6px}.fl li::before{content:'✓';color:var(--a2);font-weight:700;min-width:14px}
+.hc{grid-column:span 2;background:linear-gradient(135deg,var(--p),var(--pk))!important;color:#fff;border:none!important}.hc p{color:rgba(255,255,255,.85)!important}.hc .fl li::before{color:var(--a)}
+/* metrics */
+.mc{text-align:center;padding:24px 12px;background:#fff;border-radius:16px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.mc .v{font-size:36px;font-weight:900;background:linear-gradient(135deg,var(--p),var(--pk));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.mc .l{font-size:11px;color:var(--g);margin-top:4px}
+/* cta */
+.cta{padding:80px 40px;background:linear-gradient(135deg,var(--p),var(--pk),var(--a));text-align:center;color:#fff}
+.cta h2{font-size:36px;font-weight:900;margin-bottom:12px}.cta p{font-size:14px;opacity:.9;margin-bottom:24px}
+.cta a{display:inline-block;padding:12px 40px;background:#fff;color:var(--p);border-radius:14px;font-size:16px;font-weight:700;text-decoration:none;box-shadow:0 4px 20px rgba(0,0,0,.2)}
+.footer{padding:24px;text-align:center;background:var(--d);color:rgba(255,255,255,.4);font-size:11px}
+/* roadmap */
+.rl{margin-top:32px;position:relative;padding-left:24px}
+.rl::before{content:'';position:absolute;left:6px;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--p),var(--pk),var(--a2),var(--s),var(--pr));border-radius:2px}
+.ri{margin-bottom:28px;position:relative;padding-left:26px}
+.ri::before{content:'';position:absolute;left:-22px;top:6px;width:14px;height:14px;border-radius:50%;background:#fff;border:3px solid var(--p);z-index:1}
+.ri:nth-child(2)::before{border-color:var(--pk)}.ri:nth-child(3)::before{border-color:var(--a2)}.ri:nth-child(4)::before{border-color:var(--s)}.ri:nth-child(5)::before{border-color:var(--pr)}
+.ri .rcd{background:#fff;border-radius:16px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.rp{display:inline-block;padding:3px 10px;border-radius:8px;font-size:11px;font-weight:600;margin-bottom:6px}
+.ri h3{font-size:15px;font-weight:700;margin-bottom:6px}.ri p{font-size:12px;color:var(--g);line-height:1.7}
+/* quote */
+.qt{padding:24px 30px;background:rgba(255,255,255,.04);border-left:4px solid var(--pk);border-radius:0 14px 14px 0;font-size:13px;color:rgba(255,255,255,.7);line-height:1.8;font-style:italic;margin-top:28px}
+.qt strong{color:var(--a);font-style:normal}
+@media(max-width:1024px){.hero-in{grid-template-columns:1fr}.hero-vis{display:none}.hero h1{font-size:32px}.g2,.g3,.g4,.g5{grid-template-columns:1fr}.hc{grid-column:span 1!important}.flow,.pyr{flex-direction:column;gap:16px}.flow::before{display:none}.pyr-a{transform:rotate(90deg)}.nav-l{display:none}}
+</style>
+</head>
+<body>
+<nav class="nav"><b>🍽️ 饭搭子</b><div class="nav-l"><a href="#bg">背景</a><a href="#ref">实践</a><a href="#rel">进阶</a><a href="#sc">场景</a><a href="#ft">功能</a><a href="#fl">旅程</a><a href="#st">故事</a><a href="#risk">治理</a><a href="#psy">心理学</a><a href="#rm">路线</a></div></nav>
+
+<section class="hero"><div class="hero-in"><div>
+<div class="badges"><span class="badge po">线上到线下</span><span class="badge ppk">主打真诚</span><span class="badge pb">跨部门连接</span><span class="badge pg">兴趣搭子</span><span class="badge pp">微信小程序</span></div>
+<h1>饭搭子<br>从一顿饭到真朋友</h1>
+<p class="sub">线上走到线下，主打真诚</p>
+<p class="sub2">盲盒饭局 · 温暖夸夸会 · 兴趣搭子 · 拆书圈 · 剧本杀 · 逛市集</p>
+<p class="desc">受某大型企业「随机午餐伙伴」、Nancy Dixon「随机咖啡伴侣」、「饭之」小程序以及"盲盒饭局""夸夸会"等Z世代线下社交趋势启发。不只是配对吃饭，而是通过七大真诚场景，让同事从陌生人变成真正的朋友。</p>
+</div><div class="hero-vis">
+<div class="phone"><div class="ph-in"><div class="ph-top">饭搭子 · 本周活动</div><div class="ph-hd"><h3>🎁 7 种玩法等你</h3><p>遇见有趣的灵魂</p></div><div class="ph-bd">
+<div class="ph-c"><b>🎲 盲盒饭局 · 6人局</b><br>周四 12:00 坂田G区 · 主题：人生转折点</div>
+<div class="ph-c"><b>🌟 温暖夸夸会 · 周三</b><br>1分钟找到TA身上3个优点</div>
+<div class="ph-c"><b>🎯 兴趣搭子 · 匹配中</b><br>摄影×跑步×桌游 · 跨部门同好</div>
+<div class="ph-btn">🚀 探索本周活动</div>
+</div></div></div>
+</div></div></section>
+
+<section class="sec" id="bg" style="background:linear-gradient(180deg,#FFF,#F0F7FF);max-width:100%;"><div style="max-width:1200px;margin:0 auto">
+<span class="tag po">项目背景</span>
+<h2 class="t">巨大能量沉睡，真诚连接稀缺</h2>
+<p class="s">公司数万人能量巨大，但部门墙让连接停留在浅表。年轻人渴望的不是更多微信好友，而是真诚的、线下的、五感完整的深度连接。</p>
+<div class="g4">
+<div class="card" style="border-top:4px solid var(--p)"><div class="ico">🧱</div><h3>部门墙壁垒</h3><p>同部门观点和思维方式随时间趋同。跨部门交流能产生更大碰撞，但正式场合会被"部门墙""本位主义"阻碍。<strong>通过建立私下连接，交流质量更高。</strong></p></div>
+<div class="card" style="border-top:4px solid var(--s)"><div class="ico">📱</div><h3>线上社交浅表化</h3><p>线上只能传递视觉和听觉，过滤了太多微妙情感信号。年轻人渴望的"真实感"在屏幕后无法安放。"对着屏幕一整天，感觉自己像个孤岛。"</p></div>
+<div class="card" style="border-top:4px solid var(--pk)"><div class="ico">🔥</div><h3>线下社交新浪潮</h3><p>"盲盒饭局""夸夸会""无料交换"——Z世代正在用创新方式重建线下连接。"心理咨询像用软布擦水晶球，我们需要的是<strong>拿扇子轻轻扇去灰</strong>。"</p></div>
+<div class="card" style="border-top:4px solid var(--pr)"><div class="ico">⚡</div><h3>连接—对话—实践</h3><p>知识管理不是文档和搜索引擎。同样的问题，一个完全不认识的人求助vs一个见过面的同事求助，你更愿意帮谁？<strong>人与人之间的私下连接，质量更高、更有价值。</strong>随机午餐是第一个尝试，拆书帮是第二个。</p></div>
+</div></div></section>
+
+<section class="dk" id="ref"><div class="dk-in">
+<span class="tag py">业界实践</span>
+<h2 class="t">四大标杆，从配对工具到真诚社交</h2>
+<p class="s">经典实践 + Z世代线下社交新玩法，验证了这条路径的巨大价值。</p>
+<div class="g4">
+<div class="dc"><span class="pill po" style="margin-bottom:8px">标杆企业 · 随机午餐</span><h3>从idea到遍地开花</h3><p><span class="hl">2014年6月18日</span>Nancy Dixon在东莞松山湖介绍Nesta实践→活动发起人现场访谈验证→<span class="hl">6月20日</span>在供应链社区正式发起→首次<span class="hl">25人</span>报名→被公司知识管理运营小组"收编"为公司级活动→覆盖<span class="hl">多个城市</span>，<span class="hl">2000+人</span>参与。</p></div>
+<div class="dc"><span class="pill pg" style="margin-bottom:8px">Nancy Dixon · 随机咖啡</span><h3>知识管理大师方法论</h3><p><span class="hl">"连接—对话—实践"</span>核心框架。Nesta的Randomized Coffee Trials：让没有交集的人通过一杯咖啡建立连接。温格《实践社区指南》：实践社区不能只关注公共空间，还需关注<span class="hl">私人空间——人与人之间的连接</span>。</p></div>
+<div class="dc"><span class="pill pp" style="margin-bottom:8px">Donut · Slack智能社交</span><h3>产品化最佳实践</h3><p>服务<span class="hl">20,000+</span>团队。AI智能匹配、自动化工作流、场景化模板、游戏化激励（积分/徽章/奖励闭环）。</p></div>
+<div class="dc"><span class="pill ppk" style="margin-bottom:8px">盲盒饭局 · 夸夸会</span><h3>Z世代线下新范式</h3><p><span class="hl">盲盒饭局</span>：6人一桌，饭前不知同桌是谁。<span class="hl">夸夸会</span>：1分钟找出3个优点。饭后约剧本杀/逛市集，<span class="hl">饭搭子→真朋友</span>。</p></div>
+</div>
+<div style="margin-top:28px">
+<h3 style="font-size:16px;font-weight:700;margin-bottom:14px;color:#fff">对标分析</h3>
+<table class="ct"><thead><tr><th>维度</th><th>标杆企业随机午餐</th><th>Donut</th><th>盲盒饭局</th><th class="ou">饭搭子（我们）</th></tr></thead><tbody>
+<tr><td>配对</td><td>Excel 1v1</td><td>AI 1v1</td><td>问卷6人桌</td><td class="ou">智能 · 1v1/多人桌/兴趣圈</td></tr>
+<tr><td>场景</td><td>仅午餐</td><td>灵活</td><td>仅饭局</td><td class="ou">7大场景全覆盖</td></tr>
+<tr><td>关系深度</td><td>一次性</td><td>重复配对</td><td>饭后约局</td><td class="ou">四阶进化：饭搭子→真朋友</td></tr>
+<tr><td>线上/线下</td><td>纯线下</td><td>纯线上</td><td>纯线下</td><td class="ou">线上配对→线下相遇→线上沉淀</td></tr>
+<tr><td>情感温度</td><td>中性</td><td>工具化</td><td>温暖真诚</td><td class="ou">主打真诚 · 夸夸会/故事墙</td></tr>
+<tr><td>信任治理</td><td>无</td><td>无</td><td>3投诉拉黑</td><td class="ou">双向评价+投诉机制+渐进信任</td></tr>
+<tr><td>延伸场景</td><td>新员工融入</td><td>Onboarding</td><td>剧本杀/市集</td><td class="ou">新员工+无料交换+兴趣协会</td></tr>
+</tbody></table>
+</div></div></section>
+
+<section class="sec" id="rel" style="background:linear-gradient(180deg,#FFF,#FFF5F0);max-width:100%"><div style="max-width:1200px;margin:0 auto">
+<span class="tag ppk">关系进阶</span>
+<h2 class="t">从"饭搭子"到"真朋友"的四阶进化</h2>
+<p class="s">不只是一次性午餐，而是设计一条从陌生人到真朋友的完整路径。每一步都有场景承载，让关系自然生长。</p>
+<div class="pyr">
+<div class="pyr-s"><div class="pyr-c" style="border-top:4px solid var(--p)"><div class="pico">🍜</div><h4>Level 1 · 饭搭子</h4><div class="en">Lunch Buddy</div><p>从一顿随机午餐/盲盒饭局打破0→1的陌生壁垒。一顿饭，认识一个新世界。</p><div style="margin-top:8px"><span class="pill po">盲盒饭局</span><span class="pill po">1v1午餐</span></div></div></div>
+<div class="pyr-a">→</div>
+<div class="pyr-s"><div class="pyr-c" style="border-top:4px solid var(--pk)"><div class="pico">🌟</div><h4>Level 2 · 温暖搭子</h4><div class="en">Warm Connection</div><p>通过夸夸会建立信任与温暖。真诚发现彼此闪光点，从表面交流走向情感共鸣，治愈社恐。</p><div style="margin-top:8px"><span class="pill ppk">夸夸会</span><span class="pill ppk">感谢勋章</span></div></div></div>
+<div class="pyr-a">→</div>
+<div class="pyr-s"><div class="pyr-c" style="border-top:4px solid var(--a2)"><div class="pico">🎯</div><h4>Level 3 · 兴趣搭子</h4><div class="en">Interest Buddy</div><p>发现共同兴趣后组成圈子。拆书、摄影、跑步、桌游……从"聊得来"到"玩在一起"。</p><div style="margin-top:8px"><span class="pill pg">兴趣圈</span><span class="pill pg">拆书帮</span><span class="pill pg">协会</span></div></div></div>
+<div class="pyr-a">→</div>
+<div class="pyr-s"><div class="pyr-c" style="border-top:4px solid var(--pr)"><div class="pico">🤝</div><h4>Level 4 · 真朋友</h4><div class="en">Real Friend</div><p>相约剧本杀、逛市集、周末Hiking……从公司同事变成生活中的真朋友。这才是终极目标。</p><div style="margin-top:8px"><span class="pill pp">剧本杀</span><span class="pill pp">逛市集</span><span class="pill pp">真朋友</span></div></div></div>
+</div></div></section>
+
+<section class="sec" id="sc" style="background:linear-gradient(180deg,#F0F7FF,#FFF);max-width:100%"><div style="max-width:1200px;margin:0 auto">
+<span class="tag pb">七大场景</span>
+<h2 class="t">七种真诚社交场景，总有一款适合你</h2>
+<p class="s">不只是吃饭，更是一个完整的线下社交生态。每个场景承载从陌生到真朋友的不同阶段。</p>
+<div class="g3" style="margin-bottom:16px">
+<div class="card" style="border-top:4px solid var(--p)"><div class="ico">🎲</div><h3>盲盒饭局</h3><p style="color:var(--p);font-weight:600;font-size:11px;margin-bottom:6px">6人一桌 · 未知惊喜 · 主题午餐</p><p>填写匹配问卷后被分到6人一桌。饭前不知同桌是谁。有人想"看别人在过怎样的人生"，有人想"听多元观点"，有人只想享受美食和当下。</p><div style="margin-top:8px"><span class="pill po">随机分桌</span><span class="pill po">主题饭局</span></div></div>
+<div class="card" style="border-top:4px solid var(--pk)"><div class="ico">🌟</div><h3>温暖夸夸会</h3><p style="color:var(--pk);font-weight:600;font-size:11px;margin-bottom:6px">1分钟 · 3个优点 · 治愈社恐</p><p>没有竞争与比较，只有真诚赞美。"当你听到陌生人夸你'笑容很有感染力''穿搭很特别'时，心里真的暖暖的。来这里几次，社恐都被治好了。"</p><div style="margin-top:8px"><span class="pill ppk">真诚赞美</span><span class="pill ppk">重新认识自我</span></div></div>
+<div class="card" style="border-top:4px solid var(--a2)"><div class="ico">🎯</div><h3>兴趣搭子配对</h3><p style="color:#059669;font-weight:600;font-size:11px;margin-bottom:6px">找到你的同频伙伴</p><p>选择兴趣标签（摄影/跑步/游戏/旅行/读书……），系统匹配同兴趣的跨部门伙伴。从"原来你也喜欢这个！"的惊喜开始持续关系。</p><div style="margin-top:8px"><span class="pill pg">标签匹配</span><span class="pill pg">同频社交</span></div></div>
+</div>
+<div class="g4">
+<div class="card" style="border-top:4px solid var(--s)"><div class="ico">📚</div><h3>拆书帮</h3><p>3-8人共读圈，每周讨论。笔记沉淀为知识卡片。用圈子力量，让伙伴在对话中成长。</p><div style="margin-top:8px"><span class="pill pb">共读圈</span><span class="pill pb">知识卡片</span></div></div>
+<div class="card" style="border-top:4px solid var(--a)"><div class="ico">🏢</div><h3>兴趣协会</h3><p>兴趣圈达到规模后升级为协会。摄影/跑步/桌游/音乐社，有主页、活动日历和成员体系。</p><div style="margin-top:8px"><span class="pill py">协会主页</span><span class="pill py">自治管理</span></div></div>
+<div class="card" style="border-top:4px solid var(--pr)"><div class="ico">🎭</div><h3>相约剧本杀</h3><p>饭后一键发起"续局"——剧本杀、密室逃脱、桌游夜。在协作中快速建立默契和信任。</p><div style="margin-top:8px"><span class="pill pp">饭后续局</span><span class="pill pp">信任建立</span></div></div>
+<div class="card" style="border-top:4px solid var(--pk)"><div class="ico">🛍️</div><h3>逛市集 & 线下</h3><p>周末逛创意市集、看展、Hiking、Citywalk。当关系从"同事"延伸到"生活"，才是真朋友。</p><div style="margin-top:8px"><span class="pill ppk">走出公司</span><span class="pill ppk">真朋友</span></div></div>
+</div></div></section>
+
+<section class="sec" id="ft">
+<span class="tag pb">核心功能</span>
+<h2 class="t">八大功能模块，从配对到真朋友</h2>
+<p class="s">不只是匹配工具，而是完整的真诚社交生态系统。</p>
+<div class="g2">
+<div class="card hc"><div class="ico">🎰</div><h3>智能配对引擎 · 多模式</h3><p>支持多种社交模式的智能匹配核心。</p><ul class="fl"><li>1v1随机午餐：经典模式，跨部门优先</li><li>6人盲盒饭局：问卷匹配分桌，主题午餐</li><li>兴趣搭子匹配：基于标签精准配对</li><li>新员工Onboarding：新老员工分组配对，加速融入</li><li>地理位置感知+防重复+关系记忆+投诉拉黑</li></ul></div>
+<div class="card" style="border-top:4px solid var(--pk)"><div class="ico">🌟</div><h3>温暖夸夸会系统</h3><ul class="fl"><li>线下夸夸会报名与组织</li><li>"1分钟3优点"计时互动</li><li>匿名夸夸卡：写下TA的闪光点</li><li>夸夸墙沉淀温暖赞美</li></ul></div>
+<div class="card" style="border-top:4px solid var(--a)"><div class="ico">💬</div><h3>破冰话题 & AI对话</h3><ul class="fl"><li>AI根据标签生成个性化话题</li><li>主题话题库：人生转折/超能力/最骄傲的事</li><li>饭局主题设定，优质话题社区沉淀</li></ul></div>
+<div class="card" style="border-top:4px solid var(--p)"><div class="ico">📖</div><h3>故事墙 & 饭后日记</h3><ul class="fl"><li>饭后故事发布（图文/短视频）</li><li>"最有料/最合拍/最巧合/最温暖"标签</li><li>互赠感谢勋章，月度精选最佳故事</li><li>活动结束自动推送问卷，闭环回访感受</li><li>双向评价+匿名安全反馈通道</li></ul></div>
+<div class="card" style="border-top:4px solid var(--a2)"><div class="ico">🎯</div><h3>兴趣圈 & 协会平台</h3><ul class="fl"><li>一键创建/加入兴趣圈</li><li>圈子主页、成员管理、活动日历</li><li>达到阈值自动升级为协会</li></ul></div>
+<div class="card" style="border-top:4px solid var(--pr)"><div class="ico">🎭</div><h3>饭后续局 & 活动组队</h3><ul class="fl"><li>饭后一键发起续局（剧本杀/桌游/密室）</li><li>周末活动推荐（市集/展览/Hiking）</li><li>一键组队，活动回忆录沉淀共同记忆</li></ul></div>
+<div class="card" style="border-top:4px solid var(--s)"><div class="ico">📚</div><h3>拆书帮 · 知识圈</h3><ul class="fl"><li>3-8人共读圈，每周讨论</li><li>笔记沉淀为知识卡片</li><li>优秀圈子获"知识先锋"勋章</li></ul></div>
+<div class="card" style="border-top:4px solid var(--pk)"><div class="ico">📊</div><h3>关系成就 & 连接图谱</h3><ul class="fl"><li>个人连接图谱——跨越了多少部门墙？</li><li>关系进阶成就：饭搭子→真朋友</li><li>组织热力图+知识地图+活动大盘</li></ul></div>
+</div></section>
+
+<section style="background:linear-gradient(180deg,#FFF5F0,#FFF);padding:80px 40px" id="fl"><div style="max-width:1200px;margin:0 auto">
+<span class="tag pg">用户旅程</span>
+<h2 class="t">六步，从陌生人到真朋友</h2>
+<p class="s">极致简洁的体验，让参与门槛最低，连接价值最高。</p>
+<div class="flow">
+<div class="flow-s"><div class="flow-i">📝</div><h4>报名</h4><p>扫码进入<br>完善标签<br>选择场景</p></div>
+<div class="flow-s"><div class="flow-i">🎲</div><h4>配对</h4><p>智能匹配<br>推送通知<br>破冰话题</p></div>
+<div class="flow-s"><div class="flow-i">🍽️</div><h4>线下相遇</h4><p>盲盒饭局<br>夸夸会<br>真诚交流</p></div>
+<div class="flow-s"><div class="flow-i">⭐</div><h4>沉淀回馈</h4><p>故事墙<br>感谢勋章<br>夸夸卡</p></div>
+<div class="flow-s"><div class="flow-i">🎯</div><h4>兴趣延伸</h4><p>加入圈子<br>拆书帮<br>兴趣协会</p></div>
+<div class="flow-s"><div class="flow-i">🤝</div><h4>真朋友</h4><p>剧本杀<br>逛市集<br>生活好友</p></div>
+</div></div></section>
+
+<section class="sec" id="st">
+<span class="tag pp">真实故事 & 预期场景</span>
+<h2 class="t">这些故事，已经或即将在你身边发生</h2>
+<p class="s">来自企业随机午餐伙伴的真实案例 + 盲盒饭局的真实反馈 + 我们的预期场景。</p>
+<div class="g3">
+<div class="card" style="border-top:4px solid var(--p)"><span class="pill po" style="margin-bottom:8px">最有料 · 真实</span><h3>吸取宇宙能量</h3><p style="font-style:italic">"认识了一名从事智真产品开发的软件工程师，公司使用的智真会议和海底捞应用的智真就餐系统都是他们研发的产品。第一次觉得产品研发离我这么近。"——某参与者</p><div style="margin-top:8px;font-size:11px;color:var(--g)">1v1随机午餐 · 跨部门连接</div></div>
+<div class="card" style="border-top:4px solid var(--pk)"><span class="pill ppk" style="margin-bottom:8px">最温暖 · 真实</span><h3>从饭搭子聊到什刹海凌晨</h3><p style="font-style:italic">"那顿饭根本不够聊，转场去另一家餐馆，聊到打烊还不过瘾，散步到什刹海一直聊到凌晨。像是遇到了世界上的另一个自己。"——某参与者</p><div style="margin-top:8px;font-size:11px;color:var(--g)">盲盒饭局 · 6人桌 · 饭搭子→真朋友</div></div>
+<div class="card" style="border-top:4px solid var(--a2)"><span class="pill pg" style="margin-bottom:8px">最合拍 · 真实</span><h3>缺少的营销实践一顿饭补上</h3><p style="font-style:italic">"结识了数字营销部门的同事，碰巧自己的职业生涯缺少营销实践。聊了'病毒传播''游戏传播'等营销知识，不错的随机午餐活动！"——某参与者</p><div style="margin-top:8px;font-size:11px;color:var(--g)">跨部门 · 1v1随机午餐</div></div>
+<div class="card" style="border-top:4px solid var(--pr)"><span class="pill pp" style="margin-bottom:8px">最巧合 · 真实</span><h3>系统太强大了</h3><p style="font-style:italic">"配到的伙伴竟然和我同年同月同日生！都是第一次参加活动，同省老乡，同月入职（相隔6年），住同一个小区，还长得有点像。"——某参与者</p><div style="margin-top:8px;font-size:11px;color:var(--g)">1v1随机午餐 · 缘分的力量</div></div>
+<div class="card" style="border-top:4px solid var(--s)"><span class="pill pb" style="margin-bottom:8px">最治愈 · 真实</span><h3>面包师和老师的故事</h3><p style="font-style:italic">"一位面包师讲述他如何从零学艺，一位老师分享她'不仅是教学，更是育人'的心得……这些真实的故事，是线上永远听不到的。看到这么多人在认真生活，你也会想更积极一点。"——活动组织者</p><div style="margin-top:8px;font-size:11px;color:var(--g)">盲盒饭局 · 线下社交团队</div></div>
+<div class="card" style="border-top:4px solid var(--a)"><span class="pill py" style="margin-bottom:8px">最实用 · 真实</span><h3>新员工融入加速器</h3><p style="font-style:italic">"一个部门主管将新老员工分两组随机配对，每个新员工每周跟1-2个老员工一起午餐并记录心得。一两个月下来，员工之间就熟识了，快速形成了团队战斗力。"——活动发起人</p><div style="margin-top:8px;font-size:11px;color:var(--g)">新员工Onboarding · 随机午餐变体</div></div>
+</div></section>
+
+<section class="sec" id="risk" style="background:linear-gradient(180deg,#FFF,#FFF5F0);max-width:100%"><div style="max-width:1200px;margin:0 auto">
+<span class="tag po">风险与治理</span>
+<h2 class="t">不只惊喜，还要防"惊吓"</h2>
+<p class="s">盲盒社交的迷人之处在于未知，但未知也伴随风险。我们从业界负面案例中总结治理机制，让真诚社交更安全。</p>
+<div class="g3">
+<div class="card" style="border-top:4px solid #EF4444"><div class="ico">⚠️</div><h3>已知风险</h3><p>"遇到了一位滔滔不绝主导全场的饭友，点菜不顾分量与价格，饭后还'私信轰炸'。本来想轻松交个朋友，现在连出门的勇气都少了。"——某参与者的真实体验提醒我们：<strong>不确定性是魅力，也是短板。</strong></p></div>
+<div class="card" style="border-top:4px solid var(--a2)"><div class="ico">🛡️</div><h3>治理机制</h3><ul class="fl"><li>短期内被3人投诉 → 启动"拉黑"程序</li><li>持续收集反馈，动态更新匹配策略</li><li>饭后双向评价 + 匿名安全反馈通道</li><li>活动结束发送调查问卷，回访感受</li><li>设置"不再匹配"名单，尊重个人边界</li></ul></div>
+<div class="card" style="border-top:4px solid var(--s)"><div class="ico">💡</div><h3>设计原则</h3><ul class="fl"><li><strong>民间的、自愿的</strong>：非公司官方行为，社区自愿发起</li><li><strong>安全底线</strong>：6人桌比1v1更安全，群体自我调节</li><li><strong>渐进信任</strong>：先饭局→再兴趣→最后私人活动</li><li><strong>数据最小化</strong>：仅采集匹配必需信息</li></ul></div>
+</div></div></section>
+
+<section class="dk" id="psy"><div class="dk-in">
+<span class="tag ppk">心理学洞察</span>
+<h2 class="t">为什么线下真诚社交如此重要？</h2>
+<p class="s">心理咨询师的深度解读，为"饭搭子"提供了坚实的心理学基础。</p>
+<div class="g3">
+<div class="dc"><h3>👁️ 五感完整性</h3><p>线上只能传递视觉和听觉。线下你不仅能看见、听见，还能<span class="hl">"感受"到对方带来的整体感觉</span>。嗅觉、味觉、触觉——这些被屏幕过滤掉的微妙信号，恰恰是人们渴望的"真实感"。共同吃一顿饭，是五感最完整的社交场景。</p></div>
+<div class="dc"><h3>🎲 即兴与偶然性</h3><p>算法将我们困在"信息茧房"中。而线下社交的迷人之处在于<span class="hl">"即兴"与"偶然"</span>——你会遇到谁、交谈引向何方，都充满未知。从心理学看，即兴意味着灵活、流动与创造性，是<span class="hl">心理健康与个人成长的关键</span>。</p></div>
+<div class="dc"><h3>🤝 回归与过渡</h3><p>从线上走向线下，"总比持续拿着手机要好多了"。搭子文化代表着年轻人<span class="hl">对抗内在疏远感、追寻更真诚互动的重要一步</span>。饭搭子→兴趣搭子→真朋友，这条路径正是从数字连接回归真实人际关系的完整通道。</p></div>
+</div>
+<div class="qt">"人类最基本的五种感官——视觉、听觉、嗅觉、味觉、触觉，线上目前只能传递前两种。在线下，你不仅能看见、听见对方，还能'感受'到对方带来的整体感觉。<strong>线下社交的迷人之处在于其'即兴'与'偶然性'，从心理学角度看，即兴意味着灵活、流动与创造性，是心理健康与个人成长的关键。</strong>"——心理咨询师</div>
+<div class="qt" style="margin-top:16px;border-left-color:var(--a)">"我们想做的，就是<strong>让陌生人坐下来，认真吃一顿饭，聊一次天</strong>。心理咨询像用软布仔细擦拭水晶球，我们需要的或许是拿起扇子，<strong>轻轻扇去水晶球上的灰</strong>。看到这么多人在认真生活，你也会想：我是不是也该更积极一点？"——线下社交活动组织者</div>
+<div class="qt" style="margin-top:16px;border-left-color:var(--a2)">"知识管理的关键词是<strong>'连接—对话—实践'</strong>。同样的问题，一个完全不认识的人求助，跟一个你见过面打过交道的同事求助，你会更愿意帮哪个？因为你认识他，你们之间心理上存在某种'承诺'。<strong>通过建立人与人的私下连接，交流质量会更高。</strong>"——知识管理实践者</div>
+</div></section>
+
+<section class="dk" style="background:#16162A" id="tc"><div class="dk-in">
+<span class="tag pg">技术架构</span>
+<h2 class="t">技术方案概览</h2>
+<div class="g3" style="margin-top:28px">
+<div class="dc"><h3>🖥️ 前端</h3><p>微信小程序原生 · 企业微信SDK · WeUI · Canvas图谱可视化 · 订阅消息 · LBS定位</p></div>
+<div class="dc"><h3>⚙️ 后端</h3><p>Node.js/Go微服务 · 多模式配对算法引擎 · 企业通讯录API · 定时任务调度 · REST+WebSocket</p></div>
+<div class="dc"><h3>💾 数据</h3><p>MySQL用户/配对 · Redis缓存/排行榜 · ES故事搜索 · Graph DB连接图谱 · 对象存储图片视频</p></div>
+</div></div></section>
+
+<section class="sec" id="rm" style="background:linear-gradient(180deg,#FFF,#FFF5F0);max-width:100%"><div style="max-width:1200px;margin:0 auto">
+<span class="tag po">实施路线</span>
+<h2 class="t">五阶段落地，从MVP到全面开花</h2>
+<div class="rl">
+<div class="ri"><div class="rcd"><span class="rp po">Phase 1 · MVP（4周）</span><h3>核心配对 + 盲盒饭局</h3><p>用户注册&标签 → 1v1随机配对 + 6人盲盒饭局 → 破冰话题 → 基础约饭流程 → 反馈问卷。<br><strong>运营SOP（参考业界实践）：</strong>以周为单位，前一周社区发布活动帖→周五中午截止报名→系统随机配对→消息推送通知配对结果→参与者一周内约饭→活动结束发送问卷回访感受。<br><strong>目标：</strong>选取1个园区100-200人，验证核心假设。</p></div></div>
+<div class="ri"><div class="rcd"><span class="rp ppk">Phase 2 · 温暖升级（4周）</span><h3>夸夸会 + 故事墙 + 激励</h3><p>上线温暖夸夸会 → 故事墙&饭后日记 → 感谢勋章&夸夸卡 → 优化匹配（兴趣标签+地理位置）。<br><strong>目标：</strong>参与率60%，故事发布率30%+，"治愈社恐"成为口碑传播点。</p></div></div>
+<div class="ri"><div class="rcd"><span class="rp pg">Phase 3 · 兴趣搭子（6周）</span><h3>兴趣圈 + 拆书帮 + 协会</h3><p>兴趣搭子匹配 → 兴趣圈&协会平台 → 拆书帮圈子 → 个人连接图谱。<br><strong>目标：</strong>覆盖3+园区，用户1000+，孵化10+活跃兴趣圈。</p></div></div>
+<div class="ri"><div class="rcd"><span class="rp pb">Phase 4 · 真朋友（6周）</span><h3>续局系统 + 线下活动 + 市集</h3><p>饭后续局（剧本杀/桌游） → 周末活动推荐&组队 → 市集/展览/Hiking → 活动回忆录。<br><strong>目标：</strong>30%用户完成"饭搭子→真朋友"进阶，线下活动月均20+场。</p></div></div>
+<div class="ri"><div class="rcd"><span class="rp pp">Phase 5 · 规模化（持续）</span><h3>全公司推广 + AI智能化 + 场景延伸</h3><p>AI个性化匹配优化 → 知识地图&专家发现 → 组织洞察大盘 → 关系成就系统 → 生态化运营。<br><strong>新场景延伸：</strong>新员工Onboarding加速（新老员工分组随机配对）、"无料"交换（共同爱好的实物交换）、跨城市连接。正如活动发起人所说："这种演进是有机的"——1v1→多人→兴趣圈（摄影/爬山/拆书帮/英语），让它自然生长。<br><strong>目标：</strong>全公司遍地开花，5000+活跃用户，2000+真实故事，100+活跃兴趣圈/协会。</p></div></div>
+</div></div></section>
+
+<section class="sec">
+<span class="tag pg">预期指标</span>
+<h2 class="t">关键成功指标</h2>
+<div class="g5" style="margin-top:28px">
+<div class="mc"><div class="v">5000+</div><div class="l">首年活跃参与</div></div>
+<div class="mc"><div class="v">85%</div><div class="l">配对完成率</div></div>
+<div class="mc"><div class="v">30%</div><div class="l">饭搭子→真朋友</div></div>
+<div class="mc"><div class="v">100+</div><div class="l">活跃兴趣圈/协会</div></div>
+<div class="mc"><div class="v">4.7/5</div><div class="l">体验满意度</div></div>
+</div></section>
+
+<section class="cta">
+<h2>让每一顿饭，都成为一段真诚友谊的开始</h2>
+<p>公司的能量不在于有多少人，而在于人与人之间有多少真诚的连接。<br>从线上走到线下，从饭搭子到真朋友——主打真诚，释放组织的无限可能。</p>
+<a href="#">🚀 开始第一次配对</a>
+</section>
+
+<footer class="footer">「饭搭子」从一顿饭到真朋友 · 小程序创意与方案 · 2026<br>灵感来源：企业随机午餐伙伴实践 · Nancy Dixon随机咖啡伴侣 · Donut for Slack · 饭之小程序 · 盲盒饭局 · 夸夸会</footer>
+</body></html>

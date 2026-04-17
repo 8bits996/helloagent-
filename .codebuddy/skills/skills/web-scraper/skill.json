@@ -1,0 +1,40 @@
+{
+  "name": "web-scraper",
+  "description": "网页爬取与文档生成技能",
+  "version": "1.0.0",
+  "author": "AI Assistant",
+  "dependencies": {
+    "docx": "^7.0.2",
+    "axios": "^1.5.0",
+    "playwright": "^1.39.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "install": "npm install"
+  },
+  "usage": {
+    "description": "爬取指定网页并生成文档",
+    "examples": [
+      "node index.js https://example.com",
+      "node index.js https://example.com word my-report",
+      "node index.js https://example.com md my-report",
+      "node index.js https://example.com pdf my-report"
+    ],
+    "parameters": {
+      "url": "必需 - 要爬取的网页 URL",
+      "format": "可选 - 输出格式 (word, md, pdf)，默认为 md",
+      "outputFileName": "可选 - 输出文件名，默认为 web-scraper-report"
+    }
+  },
+  "requirements": [
+    "Node.js 环境",
+    "网络连接"
+  ],
+  "notes": [
+    "支持多种网页格式的内容提取",
+    "自动生成目录和格式化内容",
+    "默认输出为 MD 格式",
+    "PDF 功能需要额外的 PDF 生成库"
+  ]
+}

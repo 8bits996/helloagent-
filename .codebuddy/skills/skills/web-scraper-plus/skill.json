@@ -1,0 +1,34 @@
+{
+  "name": "web-scraper-plus",
+  "displayName": "增强网页爬取器",
+  "description": "支持网页爬取、截图和iWiki内容沉淀的技能，能够爬取网页内容生成MD文档，同时提供页面截图功能并将内容上传到iWiki知识库",
+  "category": "web-tools",
+  "version": "1.0.0",
+  "author": "CodeBuddy",
+  "license": "MIT",
+  "entryPoint": "index.js",
+  "dependencies": [
+    "axios",
+    "cheerio",
+    "docx",
+    "@woa/iwiki",
+    "playwright"
+  ],
+  "commands": [
+    {
+      "name": "scrape",
+      "description": "爬取网页并生成文档",
+      "usage": "node index.js <url> [格式: word|md] [文件名] [截图: true|false] [iwiki: true|false]",
+      "examples": [
+        "node index.js https://example.com md report true true",
+        "node index.js https://csig.lexiangla.com/pages/49dbff8abd494c298e7a7d755ead2faf?company_from=csig word report true true"
+      ]
+    }
+  ],
+  "configuration": {
+    "iwiki": {
+      "space": "knowledge",
+      "defaultParentId": null
+    }
+  }
+}

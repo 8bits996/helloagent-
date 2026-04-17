@@ -1,0 +1,1823 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="&#26631;&#39064; 1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{5E43AC79-2B98-6A61-7876-A8840A566615}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="title"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>&#22914;&#20309;&#28145;&#20837;&#36827;&#38454;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" dirty="0"/>
+              <a:t>RAG</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+              <a:t>&#21644;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" dirty="0"/>
+              <a:t>Agent</a:t>
+            </a:r>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="Rectangle 1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{55B9F0B4-C23D-8474-C0A8-AABDF29F6845}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noChangeArrowheads="1"/>
+          </p:cNvSpPr>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr bwMode="auto">
+          <a:xfrm>
+            <a:off x="325783" y="1556929"/>
+            <a:ext cx="3464891" cy="2954655"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:solidFill>
+            <a:srgbClr val="FFFFFF"/>
+          </a:solidFill>
+          <a:ln>
+            <a:noFill/>
+          </a:ln>
+          <a:effectLst/>
+          <a:extLst>
+            <a:ext uri="{91240B29-F687-4F45-9708-019B960494DF}">
+              <a14:hiddenLine xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" w="9525">
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+                <a:miter lim="800000"/>
+                <a:headEnd/>
+                <a:tailEnd/>
+              </a14:hiddenLine>
+            </a:ext>
+            <a:ext uri="{AF507438-7753-43E0-B8FC-AC1667EBCBE1}">
+              <a14:hiddenEffects xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main">
+                <a:effectLst>
+                  <a:outerShdw dist="35921" dir="2700000" algn="ctr" rotWithShape="0">
+                    <a:schemeClr val="bg2"/>
+                  </a:outerShdw>
+                </a:effectLst>
+              </a14:hiddenEffects>
+            </a:ext>
+          </a:extLst>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr vert="horz" wrap="square" lIns="0" tIns="0" rIns="0" bIns="0" numCol="1" anchor="ctr" anchorCtr="0" compatLnSpc="1">
+            <a:prstTxWarp prst="textNoShape">
+              <a:avLst/>
+            </a:prstTxWarp>
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="0" fontAlgn="base" latinLnBrk="0" hangingPunct="0">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPct val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPct val="0"/>
+              </a:spcAft>
+              <a:buClrTx/>
+              <a:buSzTx/>
+              <a:buFontTx/>
+              <a:buNone/>
+              <a:tabLst/>
+            </a:pPr>
+            <a:r>
+              <a:rPr kumimoji="0" lang="en-US" altLang="zh-CN" sz="1200" b="1" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="en-US" sz="1200" b="1" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#22522;&#30784; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1200" b="1" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#31532;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="en-US" sz="1200" b="1" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#19968;&#38454;&#27573;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1200" b="1" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t> &#183; &#19978;&#25163;&#20307;&#39564;&#65288;&#24863;&#30693;AI Agent&#33021;&#21147;&#65289;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1200" b="1" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#8203;</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="0" fontAlgn="base" latinLnBrk="0" hangingPunct="0">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPct val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPct val="0"/>
+              </a:spcAft>
+              <a:buClrTx/>
+              <a:buSzTx/>
+              <a:buFontTx/>
+              <a:buChar char="&#8226;"/>
+              <a:tabLst/>
+            </a:pPr>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1200" b="1" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#30446;&#26631;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1200" b="0" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#65306;&#30452;&#35266;&#20102;&#35299;AI Agent&#30340;&#26680;&#24515;&#24212;&#29992;&#65288;&#24037;&#20316;&#27969;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1000" b="0" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial Unicode MS"/>
+                <a:ea typeface="ui-monospace"/>
+              </a:rPr>
+              <a:t>workflow</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1200" b="0" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#65289;</a:t>
+            </a:r>
+            <a:endParaRPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1200" b="0" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+              <a:ln>
+                <a:noFill/>
+              </a:ln>
+              <a:solidFill>
+                <a:srgbClr val="000000"/>
+              </a:solidFill>
+              <a:effectLst/>
+              <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:ea typeface="-apple-system"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="0" fontAlgn="base" latinLnBrk="0" hangingPunct="0">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPct val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPct val="0"/>
+              </a:spcAft>
+              <a:buClrTx/>
+              <a:buSzTx/>
+              <a:buFontTx/>
+              <a:buChar char="&#8226;"/>
+              <a:tabLst/>
+            </a:pPr>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1200" b="1" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#34892;&#21160;&#24314;&#35758;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1200" b="0" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#65306;&#29992;&#24037;&#20855;&#23454;&#25805;&#65292;&#24555;&#36895;&#24314;&#31435;&#35748;&#30693;</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="0" fontAlgn="base" latinLnBrk="0" hangingPunct="0">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPct val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPct val="0"/>
+              </a:spcAft>
+              <a:buClrTx/>
+              <a:buSzTx/>
+              <a:buFontTx/>
+              <a:buChar char="&#8226;"/>
+              <a:tabLst/>
+            </a:pPr>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1200" b="1" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#25512;&#33616;&#24037;&#20855;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1200" b="0" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#65306;</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="457200" marR="0" lvl="1" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="0" fontAlgn="base" latinLnBrk="0" hangingPunct="0">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPct val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPct val="0"/>
+              </a:spcAft>
+              <a:buClrTx/>
+              <a:buSzTx/>
+              <a:tabLst/>
+            </a:pPr>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1200" b="0" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>Dify&#65306;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr kumimoji="0" lang="zh-CN" altLang="zh-CN" sz="1100" b="0" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:srgbClr val="4D6099"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+                <a:hlinkClick r:id="rId2"/>
+              </a:rPr>
+              <a:t>https://docs.dify.ai/v/zh-hans</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="zh-CN" sz="1200" dirty="0">
+              <a:solidFill>
+                <a:srgbClr val="000000"/>
+              </a:solidFill>
+              <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:ea typeface="inherit"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr marL="457200" marR="0" lvl="1" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="0" fontAlgn="base" latinLnBrk="0" hangingPunct="0">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPct val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPct val="0"/>
+              </a:spcAft>
+              <a:buClrTx/>
+              <a:buSzTx/>
+              <a:tabLst/>
+            </a:pPr>
+            <a:r>
+              <a:rPr kumimoji="0" lang="en-US" altLang="zh-CN" sz="1200" b="0" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>ADP</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>: </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+                <a:hlinkClick r:id="rId3"/>
+              </a:rPr>
+              <a:t>https://adp.cloud.tencent.com</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="zh-CN" sz="1200" dirty="0">
+              <a:solidFill>
+                <a:srgbClr val="000000"/>
+              </a:solidFill>
+              <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:ea typeface="-apple-system"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="1" eaLnBrk="0" fontAlgn="base" hangingPunct="0">
+              <a:spcBef>
+                <a:spcPct val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPct val="0"/>
+              </a:spcAft>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" b="1" dirty="0">
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#31532;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" b="1" dirty="0">
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#20108;&#38454;&#27573;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" b="1" dirty="0">
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t> &#183; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" b="1" dirty="0">
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#21160;&#25163;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" b="1" dirty="0">
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#65288;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" b="1" dirty="0">
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#21021;&#27493;&#21033;&#29992;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" b="1" dirty="0">
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>AI Agent&#33021;&#21147;&#65289;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="zh-CN" sz="1200" dirty="0">
+              <a:solidFill>
+                <a:srgbClr val="000000"/>
+              </a:solidFill>
+              <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:ea typeface="-apple-system"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="0" eaLnBrk="0" fontAlgn="base" hangingPunct="0">
+              <a:spcBef>
+                <a:spcPct val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPct val="0"/>
+              </a:spcAft>
+            </a:pPr>
+            <a:endParaRPr lang="en-US" altLang="zh-CN" sz="1200" b="1" dirty="0">
+              <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:ea typeface="inherit"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="0" eaLnBrk="0" fontAlgn="base" hangingPunct="0">
+              <a:spcBef>
+                <a:spcPct val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPct val="0"/>
+              </a:spcAft>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" b="1" dirty="0">
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#25366;&#25496;&#26412;&#36136;&#65288;&#28145;&#25366;&#25216;&#26415;&#36923;&#36753;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" b="1" dirty="0">
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#21644;&#21407;&#29702;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" b="1" dirty="0">
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#65289;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" b="1" dirty="0">
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#8203;</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="0" eaLnBrk="0" fontAlgn="base" hangingPunct="0">
+              <a:spcBef>
+                <a:spcPct val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPct val="0"/>
+              </a:spcAft>
+              <a:buFontTx/>
+              <a:buChar char="&#8226;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" b="1" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#38454;&#27573;&#23450;&#20301;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#65306;&#21021;&#27493;&#19978;&#25163;&#21518;&#65292;&#28145;&#20837;&#23398;&#20064;Agent</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#21644;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>RAG</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#30340;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#24213;&#23618;&#30693;&#35782;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#65292;&#31532;&#19968;&#20108;&#38454;&#27573;&#36935;&#21040;&#29942;&#39048;&#65292;&#23547;&#27714;&#20934;&#30830;&#24230;&#21644;&#24615;&#33021;&#20248;&#21270;</a:t>
+            </a:r>
+            <a:endParaRPr lang="zh-CN" altLang="zh-CN" sz="1200" dirty="0">
+              <a:solidFill>
+                <a:srgbClr val="000000"/>
+              </a:solidFill>
+              <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:ea typeface="-apple-system"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="0" eaLnBrk="0" fontAlgn="base" hangingPunct="0">
+              <a:spcBef>
+                <a:spcPct val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPct val="0"/>
+              </a:spcAft>
+              <a:buFontTx/>
+              <a:buChar char="&#8226;"/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" b="1" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#37325;&#28857;&#25216;&#26415;&#25299;&#23637;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#65306;&#36890;&#36807;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" b="1" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="inherit"/>
+              </a:rPr>
+              <a:t>&#25991;&#31456;/&#35770;&#25991;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+                <a:ea typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#23398;&#20064;&#20851;&#38190;&#25216;&#26415;&#65306;RAG&#12289;Rerank&#12289;COT/TOT/GOT&#12289;ReAct&#12289;Reflection</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:graphicFrame>
+        <p:nvGraphicFramePr>
+          <p:cNvPr id="8" name="&#34920;&#26684; 7">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{1247CE7B-BFA0-2B84-E467-6399AE95C30C}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvGraphicFramePr>
+            <a:graphicFrameLocks noGrp="1"/>
+          </p:cNvGraphicFramePr>
+          <p:nvPr>
+            <p:extLst>
+              <p:ext uri="{D42A27DB-BD31-4B8C-83A1-F6EECF244321}">
+                <p14:modId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="1494920459"/>
+              </p:ext>
+            </p:extLst>
+          </p:nvPr>
+        </p:nvGraphicFramePr>
+        <p:xfrm>
+          <a:off x="3916017" y="1602318"/>
+          <a:ext cx="8055664" cy="4495800"/>
+        </p:xfrm>
+        <a:graphic>
+          <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/table">
+            <a:tbl>
+              <a:tblPr firstRow="1" bandRow="1">
+                <a:tableStyleId>{B301B821-A1FF-4177-AEE7-76D212191A09}</a:tableStyleId>
+              </a:tblPr>
+              <a:tblGrid>
+                <a:gridCol w="1071043">
+                  <a:extLst>
+                    <a:ext uri="{9D8B030D-6E8A-4147-A177-3AD203B41FA5}">
+                      <a16:colId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="492328995"/>
+                    </a:ext>
+                  </a:extLst>
+                </a:gridCol>
+                <a:gridCol w="1104037">
+                  <a:extLst>
+                    <a:ext uri="{9D8B030D-6E8A-4147-A177-3AD203B41FA5}">
+                      <a16:colId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="3507347668"/>
+                    </a:ext>
+                  </a:extLst>
+                </a:gridCol>
+                <a:gridCol w="2558321">
+                  <a:extLst>
+                    <a:ext uri="{9D8B030D-6E8A-4147-A177-3AD203B41FA5}">
+                      <a16:colId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="2858786845"/>
+                    </a:ext>
+                  </a:extLst>
+                </a:gridCol>
+                <a:gridCol w="1145914">
+                  <a:extLst>
+                    <a:ext uri="{9D8B030D-6E8A-4147-A177-3AD203B41FA5}">
+                      <a16:colId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="3281597788"/>
+                    </a:ext>
+                  </a:extLst>
+                </a:gridCol>
+                <a:gridCol w="2176349">
+                  <a:extLst>
+                    <a:ext uri="{9D8B030D-6E8A-4147-A177-3AD203B41FA5}">
+                      <a16:colId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="2495266067"/>
+                    </a:ext>
+                  </a:extLst>
+                </a:gridCol>
+              </a:tblGrid>
+              <a:tr h="250650">
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="1" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#25216;&#26415;&#38454;&#27573;&#8203;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="1" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="1">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#38754;&#21521;&#20154;&#32676;&#8203;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="1">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="1">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#25216;&#26415;&#31215;&#32047;&#8203;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="1">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="1">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#24212;&#29992;&#22330;&#26223;&#8203;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="1">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="1" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#29305;&#24449;&#24635;&#32467;&#8203;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="1" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:extLst>
+                  <a:ext uri="{0D108BD9-81ED-4DB2-BD59-A6C34878D82A}">
+                    <a16:rowId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="3424164931"/>
+                  </a:ext>
+                </a:extLst>
+              </a:tr>
+              <a:tr h="642973">
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" fontAlgn="ctr" latinLnBrk="0" hangingPunct="1">
+                        <a:lnSpc>
+                          <a:spcPct val="100000"/>
+                        </a:lnSpc>
+                        <a:spcBef>
+                          <a:spcPts val="0"/>
+                        </a:spcBef>
+                        <a:spcAft>
+                          <a:spcPts val="0"/>
+                        </a:spcAft>
+                        <a:buClrTx/>
+                        <a:buSzTx/>
+                        <a:buFontTx/>
+                        <a:buNone/>
+                        <a:tabLst/>
+                        <a:defRPr/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#25552;&#31034;&#24037;&#31243; </a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" altLang="zh-CN" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>Prompt Engineering</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="zh-CN" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#32456;&#31471;&#29992;&#25143;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#23545;</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" altLang="zh-CN" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>ChatGPT</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#31561;&#24212;&#29992;&#30340;&#25552;&#31034;&#35789;&#26377;</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="1" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#22522;&#30784;&#30340;</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#20102;&#35299;&#21644;&#20351;&#29992;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+                        <a:t>&#25991;&#26412;&#29983;&#25104;&#12289;&#26426;&#22120;&#32763;&#35793;&#31561;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" sz="1800" b="0" kern="1200" dirty="0">
+                          <a:solidFill>
+                            <a:schemeClr val="tx1"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#38376;&#27099;&#20302;&#65292;&#26131;&#20110;&#19978;&#25163;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:extLst>
+                  <a:ext uri="{0D108BD9-81ED-4DB2-BD59-A6C34878D82A}">
+                    <a16:rowId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="3963428589"/>
+                  </a:ext>
+                </a:extLst>
+              </a:tr>
+              <a:tr h="446812">
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" fontAlgn="ctr" latinLnBrk="0" hangingPunct="1">
+                        <a:lnSpc>
+                          <a:spcPct val="100000"/>
+                        </a:lnSpc>
+                        <a:spcBef>
+                          <a:spcPts val="0"/>
+                        </a:spcBef>
+                        <a:spcAft>
+                          <a:spcPts val="0"/>
+                        </a:spcAft>
+                        <a:buClrTx/>
+                        <a:buSzTx/>
+                        <a:buFontTx/>
+                        <a:buNone/>
+                        <a:tabLst/>
+                        <a:defRPr/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>AI</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#26234;&#33021;&#20307;</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" altLang="zh-CN" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>Agents</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="zh-CN" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#22823;&#27169;&#22411;&#24212;&#29992;&#24320;&#21457;&#20154;&#21592;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#20102;&#35299;&#22823;&#27169;&#22411;&#22522;&#30784;&#21407;&#29702;&#21644;&#29702;&#35770;&#65292;</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+                        <a:t>&#29087;&#24713;&#29305;&#23450;&#39046;&#22495;&#30340;&#19994;&#21153;&#36923;&#36753;&#21644;&#27969;&#31243;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="zh-CN" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+                        <a:t>&#26234;&#33021;&#23458;&#26381;&#12289;&#34394;&#25311;&#21161;&#25163;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" sz="1800" b="0" kern="1200" dirty="0">
+                          <a:solidFill>
+                            <a:schemeClr val="tx1"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#20391;&#37325;&#20132;&#20114;&#24615;&#21644;&#29992;&#25143;&#20307;&#39564;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="zh-CN" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:extLst>
+                  <a:ext uri="{0D108BD9-81ED-4DB2-BD59-A6C34878D82A}">
+                    <a16:rowId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="1629544885"/>
+                  </a:ext>
+                </a:extLst>
+              </a:tr>
+              <a:tr h="642973">
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" fontAlgn="ctr" latinLnBrk="0" hangingPunct="1">
+                        <a:lnSpc>
+                          <a:spcPct val="100000"/>
+                        </a:lnSpc>
+                        <a:spcBef>
+                          <a:spcPts val="0"/>
+                        </a:spcBef>
+                        <a:spcAft>
+                          <a:spcPts val="0"/>
+                        </a:spcAft>
+                        <a:buClrTx/>
+                        <a:buSzTx/>
+                        <a:buFontTx/>
+                        <a:buNone/>
+                        <a:tabLst/>
+                        <a:defRPr/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#22823;&#27169;&#22411;&#24494;&#35843;</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" altLang="zh-CN" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>Fine - tuning</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="zh-CN" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#39046;&#22495;&#27169;&#22411;&#30740;&#21457;&#12289;&#31169;&#26377;&#21270;&#22242;&#38431;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#25484;&#25569;&#31070;&#32463;&#32593;&#32476;&#21644;&#26426;&#22120;&#23398;&#20064;</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="1">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#27010;&#24565;</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#65292;&#26377;&#25968;&#25454;&#22788;&#29702;&#21644;&#27169;&#22411;&#35757;&#32451;&#32463;&#39564;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+                        <a:t>&#35821;&#20041;&#29702;&#35299;&#12289;&#39046;&#22495;&#30693;&#35782;&#23398;&#20064;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" sz="1800" b="0" kern="1200" dirty="0">
+                          <a:solidFill>
+                            <a:schemeClr val="tx1"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#36890;&#29992;&#24615;&#24378;&#12289;&#25216;&#26415;&#38376;&#27099;&#12289;&#24615;&#20215;&#27604;&#39640;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:extLst>
+                  <a:ext uri="{0D108BD9-81ED-4DB2-BD59-A6C34878D82A}">
+                    <a16:rowId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="1651374617"/>
+                  </a:ext>
+                </a:extLst>
+              </a:tr>
+              <a:tr h="642973">
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" fontAlgn="ctr" latinLnBrk="0" hangingPunct="1">
+                        <a:lnSpc>
+                          <a:spcPct val="100000"/>
+                        </a:lnSpc>
+                        <a:spcBef>
+                          <a:spcPts val="0"/>
+                        </a:spcBef>
+                        <a:spcAft>
+                          <a:spcPts val="0"/>
+                        </a:spcAft>
+                        <a:buClrTx/>
+                        <a:buSzTx/>
+                        <a:buFontTx/>
+                        <a:buNone/>
+                        <a:tabLst/>
+                        <a:defRPr/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#39044;&#35757;&#32451;&#25216;&#26415;</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" altLang="zh-CN" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>Pre - training</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="zh-CN" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#22823;&#27169;&#22411;&#30740;&#31350;&#20154;&#21592;&#12289;&#25968;&#25454;&#31185;&#23398;&#23478;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#29087;&#24713;&#28145;&#24230;&#23398;&#20064;&#21407;&#29702;&#21644;&#32593;&#32476;</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="1" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#26550;&#26500;</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                          <a:solidFill>
+                            <a:srgbClr val="000000"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#65292;&#26377;&#22823;&#35268;&#27169;&#25968;&#25454;&#22788;&#29702;&#21644;&#27169;&#22411;&#35757;&#32451;&#32463;&#39564;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" dirty="0"/>
+                        <a:t>&#22810;&#27169;&#24577;&#23398;&#20064;&#12289;&#35821;&#35328;&#27169;&#22411;&#39044;&#35757;&#32451;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr algn="l" fontAlgn="ctr"/>
+                      <a:r>
+                        <a:rPr lang="zh-CN" altLang="en-US" sz="1800" b="0" kern="1200" dirty="0">
+                          <a:solidFill>
+                            <a:schemeClr val="tx1"/>
+                          </a:solidFill>
+                          <a:effectLst/>
+                        </a:rPr>
+                        <a:t>&#21069;&#26399;&#25237;&#20837;&#22823;&#12289;&#25928;&#26524;&#26174;&#33879;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="zh-CN" altLang="en-US" b="0" dirty="0">
+                        <a:solidFill>
+                          <a:srgbClr val="000000"/>
+                        </a:solidFill>
+                        <a:effectLst/>
+                        <a:latin typeface="-apple-system"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marR="45720" marT="38100" marB="38100" anchor="ctr"/>
+                </a:tc>
+                <a:extLst>
+                  <a:ext uri="{0D108BD9-81ED-4DB2-BD59-A6C34878D82A}">
+                    <a16:rowId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="1927204967"/>
+                  </a:ext>
+                </a:extLst>
+              </a:tr>
+            </a:tbl>
+          </a:graphicData>
+        </a:graphic>
+      </p:graphicFrame>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="6" name="&#25991;&#26412;&#26694; 5">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{1D58596C-5E75-83CF-847A-4A165E1EE4A3}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="220317" y="4818350"/>
+            <a:ext cx="4284870" cy="874663"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="457200" marR="0" lvl="1" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="0" fontAlgn="base" latinLnBrk="0" hangingPunct="0">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPct val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPct val="0"/>
+              </a:spcAft>
+              <a:buClrTx/>
+              <a:buSzTx/>
+              <a:tabLst/>
+            </a:pPr>
+            <a:endParaRPr kumimoji="0" lang="en-US" altLang="zh-CN" sz="1200" b="0" i="0" u="none" strike="noStrike" cap="none" normalizeH="0" baseline="0" dirty="0">
+              <a:ln>
+                <a:noFill/>
+              </a:ln>
+              <a:solidFill>
+                <a:srgbClr val="000000"/>
+              </a:solidFill>
+              <a:effectLst/>
+              <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:ea typeface="-apple-system"/>
+            </a:endParaRPr>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:lnSpc>
+                <a:spcPts val="1800"/>
+              </a:lnSpc>
+              <a:spcAft>
+                <a:spcPts val="1200"/>
+              </a:spcAft>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="4D4D4D"/>
+                </a:solidFill>
+                <a:latin typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#23448;&#32593;&#25991;&#26723;&#65306;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="4D4D4D"/>
+                </a:solidFill>
+                <a:latin typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>https://docs.dify.ai/zh-hans/introduction</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr>
+              <a:lnSpc>
+                <a:spcPts val="1800"/>
+              </a:lnSpc>
+              <a:spcAft>
+                <a:spcPts val="1200"/>
+              </a:spcAft>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" sz="1200" dirty="0" err="1">
+                <a:solidFill>
+                  <a:srgbClr val="4EA1DB"/>
+                </a:solidFill>
+                <a:latin typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>Github</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="4D4D4D"/>
+                </a:solidFill>
+                <a:latin typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>&#22320;&#22336;&#65306;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" sz="1200" dirty="0">
+                <a:solidFill>
+                  <a:srgbClr val="4D4D4D"/>
+                </a:solidFill>
+                <a:latin typeface="-apple-system"/>
+              </a:rPr>
+              <a:t>https://github.com/langgenius/dify</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="zh-CN" sz="1200" b="1" dirty="0">
+              <a:latin typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:ea typeface="inherit"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="1356463576"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:sld>

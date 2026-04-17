@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>【替换】案例标题 - 16:9演示版</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    primary: "#00f2ff",
+                    secondary: "#7000ff",
+                    accent: "#facc15",
+                    "background-dark": "#020617",
+                },
+                aspectRatio: {
+                    '16/9': '16 / 9',
+                },
+            },
+        },
+    };
+</script>
+<style type="text/tailwindcss">
+    @layer base {
+        body { @apply bg-background-dark text-slate-100 font-['Inter',_'Noto_Sans_SC',_sans-serif] overflow-hidden; }
+    }
+    .glass-card {
+        background: rgba(15, 23, 42, 0.4);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(0, 242, 255, 0.15);
+    }
+    .gradient-text {
+        background: linear-gradient(135deg, #00f2ff 0%, #7000ff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .glow-pill {
+        box-shadow: 0 0 15px rgba(0, 242, 255, 0.2);
+        border: 1px solid rgba(0, 242, 255, 0.3);
+    }
+    .presentation-container {
+        aspect-ratio: 16 / 9;
+        max-height: 100vh;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    [data-slot]:hover {
+        outline: 2px dashed rgba(0, 242, 255, 0.5);
+        outline-offset: 2px;
+    }
+</style>
+</head>
+<body class="dark flex items-center justify-center min-h-screen bg-black">
+
+<div class="presentation-container bg-background-dark p-8 flex flex-col" data-template="16x9">
+    <!-- 背景光晕 -->
+    <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary opacity-10 blur-[120px] rounded-full pointer-events-none"></div>
+    <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-secondary opacity-10 blur-[120px] rounded-full pointer-events-none"></div>
+    
+    <!-- 头部 -->
+    <header class="relative z-10 flex justify-between items-start mb-6" data-section="header">
+        <iframe src="tencentadslogo.html" style="border:none; width: 140px; height: 36px;" scrolling="no"></iframe>
+        <div class="text-center absolute left-1/2 -translate-x-1/2">
+            <h1 class="text-4xl font-black italic tracking-tighter mb-1">
+                <span data-slot="title" data-type="text">【替换】核心数字</span><span class="gradient-text" data-slot="title_highlight" data-type="text">亮点关键词</span>
+            </h1>
+            <p class="text-slate-400 text-sm tracking-[0.2em] uppercase" data-slot="subtitle" data-type="text">【替换】英文副标题</p>
+        </div>
+        <div class="flex items-center space-x-2 bg-slate-800/50 px-3 py-1 rounded-full border border-slate-700">
+            <span class="material-symbols-outlined text-primary text-sm">bolt</span>
+            <span class="text-[10px] font-bold tracking-wider opacity-80" data-slot="tag" data-type="text">【替换】标签</span>
+        </div>
+    </header>
+    
+    <!-- 主体内容：三列布局 -->
+    <main class="relative z-10 grid grid-cols-3 gap-6 flex-grow mb-6">
+        
+        <!-- 左列：客户背景 -->
+        <div class="glass-card rounded-2xl p-5 flex flex-col" data-section="background">
+            <h2 class="text-lg font-bold mb-4 flex items-center gap-2">
+                <span class="w-1.5 h-6 bg-primary rounded-full"></span>
+                客户背景与痛点
+            </h2>
+            <div class="space-y-3 mb-6">
+                <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
+                    <h3 class="font-bold text-primary text-xs mb-1">客户信息</h3>
+                    <p class="text-[11px] opacity-70 leading-relaxed" data-slot="customer_info" data-type="richtext">【替换】客户描述</p>
+                </div>
+                <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
+                    <h3 class="font-bold text-primary text-xs mb-1">面临挑战</h3>
+                    <p class="text-[11px] opacity-70 leading-relaxed" data-slot="challenge" data-type="richtext">【替换】痛点描述</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-3 mt-auto">
+                <div class="glass-card rounded-xl p-3 flex flex-col items-center justify-center text-center border-white/5">
+                    <span class="material-symbols-outlined text-2xl text-accent mb-1">trending_up</span>
+                    <span class="text-xl font-black text-accent" data-slot="metric1_value" data-type="text">【替换】</span>
+                    <span class="text-[9px] opacity-50" data-slot="metric1_name" data-type="text">【替换】指标</span>
+                </div>
+                <div class="glass-card rounded-xl p-3 flex flex-col items-center justify-center text-center border-white/5">
+                    <span class="material-symbols-outlined text-2xl text-primary mb-1">emoji_events</span>
+                    <span class="text-xl font-black text-primary" data-slot="metric2_value" data-type="text">【替换】</span>
+                    <span class="text-[9px] opacity-50" data-slot="metric2_name" data-type="text">【替换】指标</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 中列：投放方案 -->
+        <div class="glass-card rounded-2xl p-5 flex flex-col" data-section="strategy">
+            <h2 class="text-lg font-bold mb-4 flex items-center gap-2">
+                <span class="w-1.5 h-6 bg-secondary rounded-full"></span>
+                投放方案
+            </h2>
+            <div class="space-y-3 flex-grow">
+                <div class="glass-card rounded-xl p-4 border-l-4 border-l-primary relative">
+                    <span class="absolute top-2 right-3 text-xs font-black opacity-20 pointer-events-none">01</span>
+                    <h3 class="text-sm font-bold italic mb-1" data-slot="strategy1_title" data-type="text">【替换】策略1</h3>
+                    <p class="text-[11px] opacity-60" data-slot="strategy1_desc" data-type="text">【替换】策略1描述</p>
+                </div>
+                <div class="glass-card rounded-xl p-4 border-l-4 border-l-secondary relative">
+                    <span class="absolute top-2 right-3 text-xs font-black opacity-20 pointer-events-none">02</span>
+                    <h3 class="text-sm font-bold italic mb-1" data-slot="strategy2_title" data-type="text">【替换】策略2</h3>
+                    <p class="text-[11px] opacity-60" data-slot="strategy2_desc" data-type="text">【替换】策略2描述</p>
+                </div>
+                <div class="glass-card rounded-xl p-4 border-l-4 border-l-accent relative">
+                    <span class="absolute top-2 right-3 text-xs font-black opacity-20 pointer-events-none">03</span>
+                    <h3 class="text-sm font-bold italic mb-1" data-slot="strategy3_title" data-type="text">【替换】策略3</h3>
+                    <p class="text-[11px] opacity-60" data-slot="strategy3_desc" data-type="text">【替换】策略3描述</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 右列：数据表现 -->
+        <div class="glass-card rounded-2xl p-5 flex flex-col" data-section="result">
+            <h2 class="text-lg font-bold mb-4 flex items-center gap-2">
+                <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+                核心数据表现
+            </h2>
+            <div class="space-y-4 flex-grow">
+                <div class="bg-slate-900/40 rounded-xl p-3 border border-slate-800">
+                    <div class="flex justify-between items-center mb-3">
+                        <span class="text-[10px] text-slate-400" data-slot="chart_title" data-type="text">【替换】图表标题</span>
+                    </div>
+                    <div class="h-16 flex items-end justify-around gap-6 px-4">
+                        <div class="w-8 bg-slate-800 rounded-t h-[30%]"></div>
+                        <div class="w-8 bg-primary rounded-t h-[90%] relative">
+                            <div class="absolute -top-5 left-1/2 -translate-x-1/2 text-[9px] font-bold text-primary" data-slot="chart_value" data-type="text">【替换】</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-900/40 rounded-xl p-3 border border-slate-800">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-[10px] text-slate-400" data-slot="trend_title" data-type="text">【替换】趋势标题</span>
+                    </div>
+                    <div class="h-16 relative">
+                        <svg class="w-full h-full" preserveAspectRatio="none" viewBox="0 0 400 120">
+                            <path d="M0 100 Q50 95 80 110 T150 80 T230 40 T300 90 T400 80" fill="none" stroke="#334155" stroke-width="3"></path>
+                            <path d="M0 110 Q60 100 100 90 T180 60 T250 15 T320 75 T400 50" fill="none" stroke="#00f2ff" stroke-width="3"></path>
+                        </svg>
+                    </div>
+                    <p class="text-[9px] text-primary mt-2 flex items-center gap-1">
+                        <span class="material-symbols-outlined text-[10px]">check_circle</span>
+                        <span data-slot="trend_note" data-type="text">【替换】图表说明</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- 底部：核心数据+联系方式 -->
+    <footer class="relative z-10 grid grid-cols-4 gap-6 mt-auto border-t border-slate-800 pt-6" data-section="footer">
+        <!-- 核心数据药丸 -->
+        <div class="col-span-2 flex gap-4 items-center">
+            <div class="flex-1 bg-gradient-to-r from-secondary/40 to-primary/40 p-[1px] rounded-full glow-pill">
+                <div class="bg-slate-950/90 rounded-full px-5 py-3 flex items-center justify-between">
+                    <span class="text-[11px] font-bold" data-slot="pill1_name" data-type="text">【替换】指标</span>
+                    <span class="text-accent text-2xl font-black italic" data-slot="pill1_value" data-type="text">【替换】数值</span>
+                </div>
+            </div>
+            <div class="flex-1 bg-gradient-to-r from-blue-600/40 to-primary/40 p-[1px] rounded-full glow-pill">
+                <div class="bg-slate-950/90 rounded-full px-5 py-3 flex items-center justify-between">
+                    <span class="text-[11px] font-bold" data-slot="pill2_name" data-type="text">【替换】指标</span>
+                    <span class="text-accent text-2xl font-black italic" data-slot="pill2_value" data-type="text">【替换】数值</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 为什么选择 -->
+        <div class="col-span-1 flex flex-col justify-center border-l border-slate-800 pl-6">
+            <div class="flex items-center gap-2 mb-1">
+                <span class="material-symbols-outlined text-primary text-lg">psychology</span>
+                <span class="text-xs font-bold uppercase tracking-tighter">Why Choose</span>
+            </div>
+            <p class="text-[10px] opacity-50 leading-tight" data-slot="why_desc" data-type="text">【替换】核心价值描述</p>
+        </div>
+        
+        <!-- 联系方式 -->
+        <div class="col-span-1 flex items-center justify-between border-l border-slate-800 pl-6">
+            <div class="space-y-1">
+                <div class="flex items-center gap-2">
+                    <span class="w-4 h-4 bg-primary text-black rounded-full flex items-center justify-center text-[9px] font-bold">1</span>
+                    <span class="text-[10px] font-bold" data-slot="step1" data-type="text">【替换】步骤1</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="w-4 h-4 bg-primary text-black rounded-full flex items-center justify-center text-[9px] font-bold">2</span>
+                    <span class="text-[10px] font-bold" data-slot="step2" data-type="text">【替换】步骤2</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="w-4 h-4 bg-primary text-black rounded-full flex items-center justify-center text-[9px] font-bold">3</span>
+                    <span class="text-[10px] font-bold" data-slot="step3" data-type="text">【替换】步骤3</span>
+                </div>
+            </div>
+            <div data-slot="qrcode" data-type="image" class="bg-white p-1 rounded-md ml-4 shrink-0">
+                <div class="w-14 h-14 bg-slate-100 flex items-center justify-center text-slate-400">
+                    <span class="material-symbols-outlined text-2xl">qr_code_2</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- 版权信息 -->
+    <div class="mt-4 flex justify-between items-center opacity-30 text-[9px] tracking-[0.2em] uppercase">
+        <span data-slot="copyright" data-type="text">© 2024 【替换】版权信息</span>
+        <div class="flex gap-4">
+            <span data-slot="contact" data-type="text">【替换】联系方式</span>
+        </div>
+    </div>
+</div>
+
+<script>
+    const logoIframe = document.querySelector('iframe[src*="tencentadslogo.html"]');
+    const syncLogoTheme = () => {
+        if (!logoIframe || !logoIframe.contentDocument) return;
+        const isDark = document.documentElement.classList.contains('dark');
+        logoIframe.contentDocument.documentElement.classList.toggle('dark', isDark);
+    };
+    if (logoIframe) {
+        logoIframe.addEventListener('load', syncLogoTheme);
+        const observer = new MutationObserver(syncLogoTheme);
+        observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+        syncLogoTheme();
+    }
+</script>
+
+</body></html>
